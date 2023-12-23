@@ -10,13 +10,13 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav>
-        <div className="  max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="">
+        <div className="  max-w-7xl py-2 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <a href="/" className="">
-                  <img src="../assets/logo.jpg" />
+                  <Image src={"/logo.jpg"} width={150} height={30} alt="Logo" />
                 </a>
               </div>
             </div>
@@ -94,6 +94,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
+        <hr />
       </nav>
     </>
   );

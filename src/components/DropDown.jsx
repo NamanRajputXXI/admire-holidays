@@ -32,16 +32,29 @@ const DropDown = () => {
         {isDomesticHovered && (
           <div className="dropdown-content font-light absolute z-50  bg-white p-2 top-12 ">
             <ul className="">
+              <Link href="/domestic/himachal">Himachal</Link>
+
               <li>
-                <Link href="/himachal">Himachal</Link>
+                <Link href="/domestic/goa">Goa</Link>
               </li>
-              <li>Goa</li>
-              <li>Andaman</li>
-              <li>Uttarakhand</li>
-              <li>Kashmir</li>
-              <li>Kerala</li>
-              <li>Rajasthan</li>
-              <li>West Bengal</li>
+              <li>
+                <Link href="/domestic/andaman">Andaman</Link>
+              </li>
+              <li>
+                <Link href="/domestic/uttarakhand">Uttarakhand</Link>
+              </li>
+              <li>
+                <Link href="/domestic/kashmir">Kashmir</Link>
+              </li>
+              <li>
+                <Link href="/domestic/rajasthan">Rajasthan</Link>
+              </li>
+              <li>
+                <Link href="/domestic/west-bengal">West Bengal</Link>
+              </li>
+              <li>
+                <Link href="/domestic/kerala">Kerala</Link>
+              </li>
             </ul>
           </div>
         )}
@@ -56,15 +69,34 @@ const DropDown = () => {
         {isInternationalHovered && (
           <div className="font-light bg-white p-2 dropdown-content absolute top-12 ">
             <ul>
-              <li>Switzerland</li>
-              <li>Mauritious</li>
-              <li>Thailand</li>
-              <li>Bhutan</li>
-              <li>Nepal</li>
-              <li>Bangladesh</li>
-              <li>Dubai</li>
-              <li>Singapur</li>
-              <li>Malasia</li>
+              <li>
+                <Link href="/international/switzerland">Switzerland</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/international/mauritious">Mauritious</Link>
+              </li>
+              <li>
+                <Link href="/international/thailand">Thailand</Link>
+              </li>
+              <li>
+                <Link href="/international/bhutan">Bhutan</Link>
+              </li>
+              <li>
+                <Link href="/international/nepal">Nepal</Link>
+              </li>
+              <li>
+                <Link href="/international/bagladesh">Bangladesh</Link>
+              </li>
+              <li>
+                <Link href="/international/dubai">Dubai</Link>
+              </li>
+              <li>
+                <Link href="/international/singapur">Singapur</Link>
+              </li>
+              <li>
+                <Link href="/international/malasia">Malasia</Link>
+              </li>
             </ul>
           </div>
         )}

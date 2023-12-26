@@ -4,7 +4,7 @@ const Button = ({ display }) => {
   return (
     <button
       type="button"
-      className={`${display}  text-red-600  focus:ring-4 border-2 border-red-600 font-medium rounded-lg text-xl px-5 py-3 items-center gap-4 me-2 mb-2    `}
+      className={`${display}  text-red-600  focus:ring-4 border-[1px] border-red-600 font-medium rounded-lg text-xl px-5 py-3 items-center gap-4 me-2 mb-2    `}
     >
       <IoCallOutline size={24} /> 1800-121-0140
     </button>

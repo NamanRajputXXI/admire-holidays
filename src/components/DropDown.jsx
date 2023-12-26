@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
@@ -31,7 +32,9 @@ const DropDown = () => {
         {isDomesticHovered && (
           <div className="dropdown-content font-light absolute z-50  bg-white p-2 top-12 ">
             <ul className="">
-              <li>Himachal</li>
+              <li>
+                <Link href="/himachal">Himachal</Link>
+              </li>
               <li>Goa</li>
               <li>Andaman</li>
               <li>Uttarakhand</li>

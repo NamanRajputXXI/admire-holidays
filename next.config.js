@@ -2,8 +2,3 @@
 const nextConfig = {};
 
 module.exports = nextConfig;
-module.exports = {
-  images: {
-    domains: ["plus.unsplash.com"],
-  },
-};

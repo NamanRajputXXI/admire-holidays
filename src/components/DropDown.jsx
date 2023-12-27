@@ -30,9 +30,11 @@ const DropDown = () => {
         Domestic
         <RiArrowDropDownLine size={40} />
         {isDomesticHovered && (
-          <div className="dropdown-content font-light absolute z-50  bg-white p-2 top-12 ">
+          <div className="dropdown-content font-light absolute z-50  bg-white p-8 top-12 ">
             <ul className="">
-              <Link href="/domestic/himachal">Himachal</Link>
+              <li>
+                <Link href="/domestic/himachal">Himachal</Link>
+              </li>
 
               <li>
                 <Link href="/domestic/goa">Goa</Link>
@@ -67,13 +69,12 @@ const DropDown = () => {
         International
         <RiArrowDropDownLine size={40} />
         {isInternationalHovered && (
-          <div className="font-light bg-white p-2 dropdown-content absolute top-12 ">
+          <div className="font-light bg-white p-8 dropdown-content absolute top-12 ">
             <ul>
               <li>
                 <Link href="/international/switzerland">Switzerland</Link>
               </li>
               <li>
-                {" "}
                 <Link href="/international/mauritious">Mauritious</Link>
               </li>
               <li>

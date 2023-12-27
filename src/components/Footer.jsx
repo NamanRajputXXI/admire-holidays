@@ -68,7 +68,7 @@ const Footer = () => {
           </ul>
         </div>
       </footer>
-      <p className="text-center">
+      <p className="text-center py-10">
         © 2023 Admire Holidays, All Rights Reserved.
       </p>
     </div>

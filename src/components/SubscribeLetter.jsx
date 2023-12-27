@@ -5,13 +5,12 @@ const SubscribeLetter = () => {
   return (
     <div className="md:px-10 px-5">
       <div className="max-w-7xl  flex justify-around items-center mx-auto rounded-xl bg-gray-100 my-20 h-72 px-2  md:px-8 py-5">
-        <Image
+        <img
           src="https://admireholidays.com/wp-content/uploads/2022/07/people-bg-mc4wp-form.png"
           alt="News Letter"
-          height={400}
-          width={300}
-          className="md:static hidden"
+          className="lg:w-[300px] lg:h-[200px] w-[0px] h-[0px]"
         />
+
         <div className="flex flex-col px-2 gap-5">
           <p className="md:text-xl text-md w-[99%] text-center font-medium">
             Subscribe To Be The First To Receive New Offers, Discounts And More.

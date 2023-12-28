@@ -60,9 +60,9 @@ const InternationalDestinationCarousel = () => {
                         <img
                           src={item.imageUrl}
                           alt={item.title}
-                          className="object-cover object-center h-96 w-96"
+                          className="object-cover rounded-2xl object-center h-96 w-96"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full p-6">
                           <div className="flex h-full items-end pb-6">
                             <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
                               {item.title}
@@ -145,9 +145,9 @@ const InternationalDestinationCarousel = () => {
                         <img
                           src={item.imageUrl}
                           alt={item.title}
-                          className="object-cover object-center h-96 w-96"
+                          className="object-cover rounded-2xl object-center h-96 w-96"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full p-6">
                           <div className="flex h-full items-end pb-6">
                             <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
                               {item.title}
@@ -229,9 +229,9 @@ const InternationalDestinationCarousel = () => {
                         <img
                           src={items.imageUrl}
                           alt={items.title}
-                          className="object-cover object-center w-full"
+                          className="object-cover rounded-2xl object-center w-full"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full p-6">
                           <div className="flex h-full items-end pb-6">
                             <h3 className="text-2xl lg:text-2xl font-semibold leading-1 lg:leading-6 text-white">
                               {items.title}

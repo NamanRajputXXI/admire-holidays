@@ -8,8 +8,8 @@ import YoutubeBanner from "@/components/YoutubeBanner";
 import DomesticDestinationCarousel from "@/components/carousels/DomesticDestinationCarousel";
 import InternationalDestinationCarousel from "@/components/carousels/InternationalDestinationCarousel";
 import PopularDestinationCarousel from "@/components/carousels/PopularDestinationCarousel";
-import HomePageBlogSection from "@/components/homePageBlogSection/HomePageBlogSection";
-import WeekendTrip from "@/components/weekendTrip/WeekendTrip";
+import HomePageBlogSection from "@/components/HomePageBlogSection";
+import WeekendTrip from "@/components/WeekendTrip";
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import WeekendTripCard from "./WeekendTripCard";
+import WeekendTripCard from "./cards/WeekendTripCard";
 import weekendTripData from "@/data/weekendTrip";
 const WeekendTrip = () => {
   return (

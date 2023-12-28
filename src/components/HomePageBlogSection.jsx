@@ -1,6 +1,6 @@
 import homePageBlogData from "@/data/blogSectionHomepage";
 import React from "react";
-import HomePageBlogCard from "./HomePageBlogCard";
+import HomePageBlogCard from "./cards/HomePageBlogCard";
 
 const HomePageBlogSection = () => {
   return (

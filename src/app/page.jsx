@@ -12,6 +12,7 @@ import HomePageBlogSection from "@/components/HomePageBlogSection";
 import WeekendTrip from "@/components/WeekendTrip";
 import CompanyStatsSection from "@/components/CompanyStatsSection";
 import LatestUpdatesSection from "@/components/LatestUpdatesSection";
+import TravelGuideline from "@/components/TravelGuideline";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <QuestioningCardsLayout />
       <WeekendTrip />
       <YoutubeBanner />
+      <TravelGuideline />
       <LatestUpdatesSection />
       <CompanyStatsSection />
       <Testimonial />

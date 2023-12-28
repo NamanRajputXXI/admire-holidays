@@ -59,11 +59,11 @@ const Footer = () => {
             </li>
 
             <li className="flex items-center mt-10  gap-4">
-              <FaFacebook color="	#1877F2" size={50} />
-              <FaSquareXTwitter size={50} color="#14171A" />
-              <FaLinkedin size={50} color=" #0077b5 " />
-              <FaSquareInstagram size={50} color="#4c68d7" />
-              <FaYoutube size={50} color="#FF0000" />
+              <FaFacebook color="	#1877F2" size={40} />
+              <FaSquareXTwitter size={40} color="#14171A" />
+              <FaLinkedin size={40} color=" #0077b5 " />
+              <FaSquareInstagram size={40} color="#4c68d7" />
+              <FaYoutube size={40} color="#FF0000" />
             </li>
           </ul>
         </div>

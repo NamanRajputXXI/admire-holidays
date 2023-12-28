@@ -3,10 +3,12 @@ import Navbar from "@/components/Navbar";
 import QuestioningCard from "@/components/QuestioningCard";
 import QuestioningCardsLayout from "@/components/QuestioningCardsLayout";
 import SubscribeLetter from "@/components/SubscribeLetter";
+import Testimonial from "@/components/Testimonial";
 import YoutubeBanner from "@/components/YoutubeBanner";
 import DomesticDestinationCarousel from "@/components/carousels/DomesticDestinationCarousel";
 import InternationalDestinationCarousel from "@/components/carousels/InternationalDestinationCarousel";
 import PopularDestinationCarousel from "@/components/carousels/PopularDestinationCarousel";
+import HomePageBlogSection from "@/components/homePageBlogSection/HomePageBlogSection";
 import WeekendTrip from "@/components/weekendTrip/WeekendTrip";
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
       <QuestioningCardsLayout />
       <WeekendTrip />
       <YoutubeBanner />
+      <Testimonial />
+      <HomePageBlogSection />
       <SubscribeLetter />
       <Footer />
     </>

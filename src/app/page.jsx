@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import QuestioningCard from "@/components/QuestioningCard";
+import QuestioningCard from "@/components/cards/QuestioningCard";
 import QuestioningCardsLayout from "@/components/QuestioningCardsLayout";
 import SubscribeLetter from "@/components/SubscribeLetter";
 import Testimonial from "@/components/Testimonial";

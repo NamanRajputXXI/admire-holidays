@@ -10,7 +10,7 @@ import {
 import internationalDestinations from "@/data/internationalDestination";
 const InternationalDestinationCarousel = () => {
   return (
-    <div className="container max-w-7xl my-20  mx-auto">
+    <section className="container max-w-7xl my-20  mx-auto">
       <h1 className="text-center md:text-5xl text-3xl  font-bold">
         International Destination
       </h1>
@@ -269,7 +269,7 @@ const InternationalDestinationCarousel = () => {
           </div>
         </CarouselProvider>
       </div>
-    </div>
+    </section>
   );
 };
 

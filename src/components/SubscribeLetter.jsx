@@ -3,7 +3,7 @@ import React from "react";
 
 const SubscribeLetter = () => {
   return (
-    <div className="md:px-10 px-5">
+    <section className="md:px-10 px-5">
       <div className="max-w-7xl  flex justify-around items-center mx-auto rounded-xl bg-gray-100 my-20 h-72 px-2  md:px-8 py-5">
         <img
           src="https://admireholidays.com/wp-content/uploads/2022/07/people-bg-mc4wp-form.png"
@@ -27,7 +27,7 @@ const SubscribeLetter = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

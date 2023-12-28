@@ -2,7 +2,7 @@ import React from "react";
 
 const YoutubeBanner = () => {
   return (
-    <div
+    <section
       className=" max-w-screen flex justify-center items-center p-10 bg-cover h-[600px]"
       style={{
         backgroundImage:
@@ -18,7 +18,7 @@ const YoutubeBanner = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    </div>
+    </section>
   );
 };
 

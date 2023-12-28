@@ -3,7 +3,7 @@ import React from "react";
 
 const CompanyStatsSection = () => {
   return (
-    <div
+    <section
       className="bg-[#00BB98] h-fit py-20"
       style={{
         backgroundImage:
@@ -26,7 +26,7 @@ const CompanyStatsSection = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

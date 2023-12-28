@@ -4,7 +4,7 @@ import HomePageBlogCard from "./cards/HomePageBlogCard";
 
 const HomePageBlogSection = () => {
   return (
-    <div className="mt-32">
+    <section className="mt-32">
       <h1 className="text-center md:text-5xl text-3xl  font-bold">
         Travel Tips and Advice
       </h1>
@@ -17,7 +17,7 @@ const HomePageBlogSection = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

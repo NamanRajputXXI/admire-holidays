@@ -10,6 +10,7 @@ import InternationalDestinationCarousel from "@/components/carousels/Internation
 import PopularDestinationCarousel from "@/components/carousels/PopularDestinationCarousel";
 import HomePageBlogSection from "@/components/HomePageBlogSection";
 import WeekendTrip from "@/components/WeekendTrip";
+import CompanyStatsSection from "@/components/CompanyStatsSection";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <QuestioningCardsLayout />
       <WeekendTrip />
       <YoutubeBanner />
+      <CompanyStatsSection />
       <Testimonial />
       <HomePageBlogSection />
       <SubscribeLetter />

@@ -11,6 +11,7 @@ import PopularDestinationCarousel from "@/components/carousels/PopularDestinatio
 import HomePageBlogSection from "@/components/HomePageBlogSection";
 import WeekendTrip from "@/components/WeekendTrip";
 import CompanyStatsSection from "@/components/CompanyStatsSection";
+import LatestUpdatesSection from "@/components/LatestUpdatesSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <QuestioningCardsLayout />
       <WeekendTrip />
       <YoutubeBanner />
+      <LatestUpdatesSection />
       <CompanyStatsSection />
       <Testimonial />
       <HomePageBlogSection />

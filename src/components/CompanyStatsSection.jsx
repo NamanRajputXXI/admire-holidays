@@ -4,7 +4,7 @@ import React from "react";
 const CompanyStatsSection = () => {
   return (
     <section
-      className="bg-[#00BB98] h-fit py-20"
+      className="bg-[#00BB98] bg-cover  h-fit py-20"
       style={{
         backgroundImage:
           "url('https://admireholidays.com/wp-content/uploads/2023/04/background-testimonial-home-6.png')",

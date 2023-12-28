@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="my-20 h-fit bg-[#def5ff] bg-cover">
-      <div className="flex items-center gap-4 md:flex-row flex-col justify-between py-20 max-w-7xl mx-auto px-5">
+      <div className="flex items-center md:gap-4 gap-10 md:flex-row flex-col justify-between py-20 max-w-7xl mx-auto px-5">
         <div className="flex flex-col gap-10">
           <p className="text-green-600 text-xl italic ">
             Travel Around The World

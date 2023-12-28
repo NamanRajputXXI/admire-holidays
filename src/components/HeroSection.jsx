@@ -1,0 +1,30 @@
+import React from "react";
+
+const HeroSection = () => {
+  return (
+    <section className="my-20 h-fit bg-[#def5ff] bg-cover">
+      <div className="flex items-center gap-4 md:flex-row flex-col justify-between py-20 max-w-7xl mx-auto px-5">
+        <div className="flex flex-col gap-10">
+          <p className="text-green-600 text-xl italic ">
+            Travel Around The World
+          </p>
+          <h1 className="lg:text-7xl md:text-5xl text-4xl font-extrabold">
+            Discover the <br /> most engaging <br /> places
+          </h1>
+          <p className="text-xl font-light">
+            Less planning 50,000 trips are ready for you.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://admireholidays.com/wp-content/uploads/elementor/thumbs/image-banner-home1-01-q5n4xxh0icn4b1qy2pkk231mteu3gkb26q6xncsweu.jpg"
+            className="lg:h-[450px] lg:w-[600px] rounded-full md:h-[300px] md:w-[400px] "
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;

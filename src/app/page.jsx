@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import QuestioningCard from "@/components/cards/QuestioningCard";
 import QuestioningCardsLayout from "@/components/QuestioningCardsLayout";
 import SubscribeLetter from "@/components/SubscribeLetter";
 import Testimonial from "@/components/Testimonial";
@@ -13,11 +12,13 @@ import WeekendTrip from "@/components/WeekendTrip";
 import CompanyStatsSection from "@/components/CompanyStatsSection";
 import LatestUpdatesSection from "@/components/LatestUpdatesSection";
 import TravelGuideline from "@/components/TravelGuideline";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
     <>
       <Navbar />
+      <HeroSection />
       <PopularDestinationCarousel />
       <DomesticDestinationCarousel />
       <InternationalDestinationCarousel />

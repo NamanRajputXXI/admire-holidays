@@ -1,0 +1,26 @@
+
+/* for LatestUpatesSection component */
+
+.grid-layout-latestUpdate{
+    grid-template-areas:
+     "I1 I1 I2 I2"
+     "I1 I1 I3 I4"    
+}
+@media (max-width: 1024px) {
+   .grid-layout-latestUpdate{
+       grid-template-areas: 
+       "I1 I1 I2 I2"
+       "I3 I3 I4 I4"
+   }
+   
+}
+@media (max-width: 786px) {
+   .grid-layout-latestUpdate{
+       grid-template-areas: 
+       "I1 I1 I1 I1"
+       "I2 I2 I2 I2"
+       "I3 I3 I3 I3"
+       "I4 I4 I4 I4"
+   }
+   
+}

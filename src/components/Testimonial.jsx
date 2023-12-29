@@ -58,7 +58,7 @@ const Testimonial = () => {
                 className="h-[450px] flex  items-center w-full justify-center transition ease-out duration-700"
               >
                 {testimonialData.map((item, i) => (
-                  <Slide>
+                  <Slide key={i}>
                     <section className="relative  overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
                       <div className="absolute inset-0 -z-10 opacity-20" />
                       <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />

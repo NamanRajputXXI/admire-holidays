@@ -62,9 +62,9 @@ const DomesticDestinationCarousel = () => {
                           alt={item.title}
                           className="object-cover rounded-2xl object-center h-96 w-96"
                         />
-                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full p-6">
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
+                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full py-6">
+                          <div className="flex h-full items-end  relative pb-6">
+                            <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
                               {item.title}
                             </h3>
                           </div>
@@ -147,9 +147,9 @@ const DomesticDestinationCarousel = () => {
                           alt={item.title}
                           className="object-cover rounded-2xl object-center h-96 w-96"
                         />
-                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full p-6">
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
+                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full py-6">
+                          <div className="flex h-full items-end  relative pb-6">
+                            <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
                               {item.title}
                             </h3>
                           </div>
@@ -231,9 +231,9 @@ const DomesticDestinationCarousel = () => {
                           alt={items.title}
                           className="object-cover rounded-2xl object-center w-full"
                         />
-                        <div className="bg-gray-800 rounded-2xl  bg-opacity-30 absolute w-full h-full p-6">
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-2xl lg:text-2xl font-semibold leading-1 lg:leading-6 text-white">
+                        <div className="bg-gray-800 rounded-2xl bg-opacity-30 absolute w-full h-full py-6">
+                          <div className="flex h-full items-end  relative pb-6">
+                            <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
                               {items.title}
                             </h3>
                           </div>

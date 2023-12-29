@@ -44,7 +44,9 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-5  sm:items-start items-center  ">
-          <h5 className="font-semibold">Contact us</h5>
+          <h5 className="font-semibold sm:text-start text-center w-full">
+            Contact us
+          </h5>
           <ul className="font-light flex sm:items-start  flex-col gap-4">
             <li className="flex   gap-4">
               <IoCallOutline color="red" size={30} /> +18001210140

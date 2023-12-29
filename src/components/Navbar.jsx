@@ -14,27 +14,36 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed z-20  bg-white  top-0 w-screen">
-        <div className=" py-2 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className=" py-4 max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <a href="/" className="">
-                  <Image src={"/logo.jpg"} width={150} height={30} alt="Logo" />
+                  <Image src={"/logo.jpg"} width={200} height={60} alt="Logo" />
                 </a>
               </div>
             </div>
             <div className="hidden lg:flex items-center justify-center space-x-4">
-              <Link href="" className="font-semibold rounded-lg p-2">
+              <Link href="" className="font-medium md:text-lg rounded-lg p-2">
                 Home
               </Link>
               <DropDown />
-              <Link href="/about" className="font-semibold rounded-lg p-2">
+              <Link
+                href="/about"
+                className="font-medium  md:text-lg  rounded-lg p-2"
+              >
                 About
               </Link>
-              <Link href="/blog" className="font-semibold rounded-lg p-2">
+              <Link
+                href="/blog"
+                className="font-medium  md:text-lg   rounded-lg p-2"
+              >
                 Blog
               </Link>
-              <Link href="/contact" className="font-semibold rounded-lg p-2">
+              <Link
+                href="/contact"
+                className="font-medium  md:text-lg  rounded-lg p-2"
+              >
                 Contact
               </Link>
             </div>
@@ -80,26 +89,29 @@ const Navbar = () => {
           {isClick && (
             <div className="lg:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link href="/" className=" font-semibold block rounded-lg p-2">
+                <Link
+                  href="/"
+                  className=" md:text-lg font-medium block rounded-lg p-2"
+                >
                   Home
                 </Link>
 
                 <DropDown />
                 <Link
                   href="/about"
-                  className="font-semibold block rounded-lg p-2"
+                  className="font-medium  md:text-lg block rounded-lg p-2"
                 >
                   About
                 </Link>
                 <Link
                   href="/blog"
-                  className="font-semibold block rounded-lg p-2"
+                  className="font-medium  md:text-lg block rounded-lg p-2"
                 >
                   Blog
                 </Link>
                 <Link
                   href="/contact"
-                  className="font-semibold block rounded-lg p-2"
+                  className="font-medium  md:text-lg block rounded-lg p-2"
                 >
                   Contact
                 </Link>

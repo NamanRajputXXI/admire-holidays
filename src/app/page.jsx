@@ -14,7 +14,7 @@ import LatestUpdatesSection from "@/components/LatestUpdatesSection";
 import TravelGuideline from "@/components/TravelGuideline";
 import HeroSection from "@/components/HeroSection";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -34,4 +34,5 @@ export default function Home() {
       <Footer />
     </>
   );
-}
+};
+export default Home;

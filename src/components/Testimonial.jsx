@@ -1,47 +1,119 @@
+"use client";
 import React from "react";
-// import { CarouselProvider } from "pure-react-carousel";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+import testimonialData from "@/data/testimonialData";
+
 const Testimonial = () => {
   return (
-    <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
-      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
-      <div className="mx-auto max-w-2xl lg:max-w-4xl">
-        <img
-          className="mx-auto h-12"
-          src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
-          alt=""
-        />
-        <div className="mt-10">
-          <div className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            <p>
-              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
-              in laborum sed rerum et corporis.”
-            </p>
-          </div>
-          <div className="mt-10">
-            <img
-              className="mx-auto h-10 w-10 rounded-full"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
-            />
-            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-gray-900">Judith Black</div>
-              <svg
-                viewBox="0 0 2 2"
-                width={3}
-                height={3}
-                aria-hidden="true"
-                className="fill-gray-900"
+    <div className="my-20">
+      <p className="text-center text-xl font-medium text-[#00BB98] my-4 italic">
+        Testimonials
+      </p>
+      <h1 className="text-center md:text-5xl  text-3xl  font-bold">
+        What Our Happy Clients Say
+      </h1>
+      {/* Carousel for desktop and large size devices */}
+      <CarouselProvider
+        className="block  "
+        naturalSlideWidth={100}
+        isIntrinsicHeight={true}
+        totalSlides={4}
+        visibleSlides={1}
+        step={1}
+        infinite={true}
+      >
+        <div className="w-full relative flex items-center justify-center">
+          <ButtonBack
+            role="button"
+            aria-label="slide backward"
+            className="absolute z-30  left-0 ml-8  cursor-pointer"
+            id="prev"
+          >
+            <svg
+              width={30}
+              height={30}
+              viewBox="0 0 8 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 1L1 7L7 13"
+                stroke="black"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </ButtonBack>
+          <div className="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
+            <Slider>
+              <div
+                id="slider"
+                className="h-[450px] flex  items-center w-full justify-center transition ease-out duration-700"
               >
-                <circle cx={1} cy={1} r={1} />
-              </svg>
-              <div className="text-gray-600">CEO of Workcation</div>
-            </div>
+                {testimonialData.map((item, i) => (
+                  <Slide>
+                    <section className="relative  overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
+                      <div className="absolute inset-0 -z-10 opacity-20" />
+                      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+                      <div className="mx-auto max-w-2xl lg:max-w-4xl">
+                        <div className="mt-10">
+                          <div className="text-center text-sm md:px-0 px-10 font-medium  text-gray-900 md:text-2xl">
+                            <p className="text-wrap text-center w-full">
+                              {item.thoughts}
+                            </p>
+                          </div>
+                          <div className="mt-10">
+                            <img
+                              className="mx-auto h-10 w-10 rounded-full"
+                              src={item.imageUrl}
+                              alt=""
+                            />
+                            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                              <div className="font-semibold text-gray-900">
+                                {item.userName}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </Slide>
+                ))}
+              </div>
+            </Slider>
           </div>
+          <ButtonNext
+            role="button"
+            aria-label="slide forward"
+            className="absolute z-30 right-0 mr-8 "
+            id="next"
+          >
+            <svg
+              width={30}
+              height={30}
+              viewBox="0 0 8 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L7 7L1 13"
+                stroke="black"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </ButtonNext>
         </div>
-      </div>
-    </section>
+      </CarouselProvider>
+    </div>
   );
 };
 

@@ -10,6 +10,7 @@ import {
   FaYoutube,
   FaLocationDot,
 } from "react-icons/fa6";
+import Link from "next/link";
 const Footer = () => {
   return (
     <div>
@@ -29,7 +30,9 @@ const Footer = () => {
             <li>About Us</li>
             <li>Contact</li>
             <li>Contact Channels</li>
-            <li>Privacy Policy </li>
+            <Link href="/privacy-policy" className="">
+              Privacy Policy
+            </Link>
             <li>Terms</li>
           </ul>
         </div>

@@ -7,24 +7,24 @@ import { FaRegCommentDots } from "react-icons/fa";
 const BlogLayout = () => {
   return (
     <section className="max-w-7xl flex items-center justify-center mx-auto px-5 my-20">
-      <div className="flex w-full justify-between gap-10 ">
-        <div className="w-[70%] flex flex-col gap-20 ">
+      <div className="flex w-full md:flex-row flex-col justify-between gap-10 ">
+        <div className=" md:w-[70%] w-full flex flex-col gap-20 ">
           {blogPagedata.map((item, i) => (
             <div className="w-[100%] flex flex-col gap-10  " key={i}>
               <img src={item.imageUrl} className="w-[100%]" alt="" />
               <h1 className=" md:text-3xl text-xl  font-semibold">
                 {item.title}
               </h1>
-              <div className="flex  gap-10 items-center">
-                <div className="flex items-center gap-3">
+              <div className="flex text-xs sm:text-base gap-10 items-center">
+                <div className="flex items-center   sm:flex-row flex-col  gap-3">
                   <CiCalendarDate size={30} color="#ef4444" />
-                  <p className="text-gray-600 "></p>
+                  <p className="text-gray-600 ">{item.date}</p>
                 </div>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 sm:flex-row flex-col ">
                   <FaRegFolderOpen size={30} color="#ef4444" />
                   <p className="text-gray-600 ">Travel</p>
                 </div>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 sm:flex-row flex-col ">
                   <FaRegCommentDots size={30} color="#ef4444" />
                   <p className="text-gray-600 ">{item.comment}</p>
                 </div>
@@ -39,7 +39,7 @@ const BlogLayout = () => {
             </div>
           ))}
         </div>
-        <div className="w-[30%] flex flex-col gap-5">
+        <div className="md:w-[30%] w-full flex flex-col gap-5">
           <div className="flex flex-col gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">
             <h5 className="text-lg font-medium">Recent Post</h5>
             <hr />

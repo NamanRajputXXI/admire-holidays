@@ -45,7 +45,7 @@ const ContactUsForm = () => {
               </div>
             </div>
 
-            <div className="p-10 border-[1px] gap-8 flex flex-col border-gray-500 rounded-xl">
+            <div className="p-10 border-[1px] gap-8 flex flex-col border-gray-300 rounded-xl">
               <div className="flex gap-5 items-center ">
                 <div className="flex justify-center items-center  rounded-xl">
                   <img
@@ -59,7 +59,7 @@ const ContactUsForm = () => {
                   <p className="text-base text-gray-500">+18001210140</p>
                 </div>
               </div>
-              <div className="w-[100%] mx-auto h-[1px] bg-gray-500"></div>
+              <div className="w-[100%] mx-auto h-[1px] bg-gray-300"></div>
               <button className="border-red-500 flex gap-2 mx-auto items-center justify-center rounded-lg text-red-500 border-[1px] w-[100%] h-14">
                 <MdChat /> Chat with us
               </button>
@@ -72,24 +72,24 @@ const ContactUsForm = () => {
                 <input
                   type="text"
                   placeholder="Name *"
-                  className="border-[1px] w-[50%] border-gray-500 rounded-lg py-3 px-4"
+                  className="border-[1px] w-[50%] border-gray-300 rounded-lg py-3 px-4"
                 />
                 <input
                   type="email"
                   placeholder="Email *"
-                  className="border-[1px] w-[50%] border-gray-500 rounded-lg py-3 px-4"
+                  className="border-[1px] w-[50%] border-gray-300 rounded-lg py-3 px-4"
                 />
               </div>
               <input
                 type="text"
                 placeholder="Subject *"
-                className="border-[1px]  border-gray-500 rounded-lg py-3 px-4"
+                className="border-[1px]  border-gray-300 rounded-lg py-3 px-4"
               />
               <textarea
                 placeholder="Textarea *"
                 cols="30"
                 rows="10"
-                className="border-[1px]  border-gray-500 rounded-lg py-3 px-4"
+                className="border-[1px]  border-gray-300 rounded-lg py-3 px-4"
               ></textarea>
               <button className=" text-white bg-red-500 rounded-lg w-64 md:p-10 p-4">
                 Submit

@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
+import BlogLayout from "@/components/blog/BlogLayout";
 import React from "react";
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
     <main>
       <Navbar />
       <PageBanner heading={"Blog"} text={"Home - Blog"} />
+      <BlogLayout />
       <Footer />
     </main>
   );

@@ -24,7 +24,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="hidden lg:flex items-center justify-center space-x-4">
-              <Link href="" className="font-medium md:text-lg rounded-lg p-2">
+              <Link href="/" className="font-medium md:text-lg rounded-lg p-2">
                 Home
               </Link>
               <DropDown />

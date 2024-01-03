@@ -7,7 +7,7 @@ const WeekendTripCard = ({ imageUrl, location, about }) => {
       <img src={imageUrl} className="h-72 rounded-xl" alt={location} />
       <h5 className="px-5 text-xl font-medium">{location}</h5>
       <div className="flex pb-4  px-3 text-gray-500 items-center gap-2">
-        <FaLocationDot color="#0F9898" size={30} />
+        <FaLocationDot color="#0F9898" size={18} />
         <p>{about}</p>
       </div>
     </div>

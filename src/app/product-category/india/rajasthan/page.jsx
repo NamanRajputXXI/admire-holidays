@@ -9,13 +9,13 @@ const page = () => {
     <>
       <Navbar />
       <PageBanner
-        heading={"Catergory : Uttarakhand"}
-        text={"Home > India > Uttarakhand"}
+        heading={"Catergory : Rajasthan"}
+        text={"Home > India > Rajasthan"}
       />
 
-      <div className="max-w-7xl mx-auto my-20 sm:items-start items-center  px-5 flex flex-col gap-10">
+      <div className="max-w-7xl mx-auto my-20 justify-center items-center  px-5 flex flex-col gap-10">
         <p className=" text-gray-600">Showing the single result</p>
-        <div className="grid lg:grid-cols-4 sm:items-start items-center sm:justify-start md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
+        <div className="grid lg:grid-cols-4  items-center justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
           <ProductCategoryCard
             url="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
             days="7 Days"

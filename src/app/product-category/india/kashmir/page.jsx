@@ -8,9 +8,13 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <PageBanner heading={"Catergory : Goa"} text={"Home > India > Goa"} />
+      <PageBanner
+        heading={"Catergory : Kashmir"}
+        text={"Home > India > Kashmir"}
+      />
       <EmptyProductCategory />
-      <Footerr />
+
+      <Footer />
     </>
   );
 };

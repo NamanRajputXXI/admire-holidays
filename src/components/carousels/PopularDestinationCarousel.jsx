@@ -29,7 +29,7 @@ const PopularDestinationCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="absolute z-30  left-0 ml-8  cursor-pointer"
+              className="absolute  bg-black p-3 bg-opacity-50 z-30  left-0 ml-8  cursor-pointer"
               id="prev"
             >
               <svg
@@ -78,7 +78,7 @@ const PopularDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute z-30 right-0 mr-8 "
+              className="absolute  bg-black p-3 bg-opacity-50 z-30 right-0 mr-8 "
               id="next"
             >
               <svg
@@ -114,7 +114,7 @@ const PopularDestinationCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
+              className="absolute z-30  bg-black p-3 bg-opacity-50 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
               id="prev"
             >
               <svg
@@ -163,7 +163,7 @@ const PopularDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute z-30 right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+              className="absolute  bg-black p-3 bg-opacity-50 z-30 right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
               id="next"
             >
               <svg
@@ -198,7 +198,7 @@ const PopularDestinationCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="absolute z-30 left-0 ml-8  cursor-pointer"
+              className="absolute  bg-black p-3 bg-opacity-50 z-30 left-0 ml-8  cursor-pointer"
               id="prev"
             >
               <svg
@@ -247,7 +247,7 @@ const PopularDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute z-30 right-0 mr-8 "
+              className="absolute  bg-black p-3 bg-opacity-50 z-30 right-0 mr-8 "
               id="next"
             >
               <svg

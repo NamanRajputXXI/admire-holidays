@@ -1,12 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=La+Belle+Aurore&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.font-LaBelle {
-    font-family: 'La Belle Aurore', cursive;
-  }
+
 
  

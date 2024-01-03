@@ -16,7 +16,7 @@ const LatestUpdatesSection = () => {
       <div className="grid  grid-layout-latestUpdate gap-5 max-w-7xl mx-auto py-10 px-5">
         <div class="relative" style={{ gridArea: "I1" }}>
           <img
-            className="w-full h-full rounded-2xl  "
+            className="w-full h-full rounded-xl  "
             src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV1cm9wZXxlbnwwfHwwfHx8MA%3D%3D"
             alt=""
           />
@@ -26,7 +26,7 @@ const LatestUpdatesSection = () => {
         </div>
         <div className="relative" style={{ gridArea: "I2" }}>
           <img
-            className="w-full h-full rounded-2xl"
+            className="w-full h-full rounded-xl"
             src="https://images.unsplash.com/photo-1589983846997-04788035bc83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtlcmFsYXxlbnwwfHwwfHx8MA%3D%3D"
             alt=""
           />
@@ -36,7 +36,7 @@ const LatestUpdatesSection = () => {
         </div>
         <div className=" relative" style={{ gridArea: "I3" }}>
           <img
-            className="w-full h-full rounded-2xl"
+            className="w-full h-full rounded-xl"
             src="https://images.unsplash.com/photo-1633984904221-29bb70dffef8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGVhc3QlMjBhc2lhfGVufDB8fDB8fHww"
             alt=""
           />
@@ -46,7 +46,7 @@ const LatestUpdatesSection = () => {
         </div>
         <div className=" relative" style={{ gridArea: "I4" }}>
           <img
-            className="w-full h-full rounded-2xl"
+            className="w-full h-full rounded-xl"
             src="https://images.unsplash.com/photo-1570804485046-b5b8d795dc5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHV0dGFyYWtoYW5kfGVufDB8fDB8fHww"
             alt=""
           />

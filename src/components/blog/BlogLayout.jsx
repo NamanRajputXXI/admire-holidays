@@ -4,39 +4,21 @@ import { CiCalendarDate } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { FaRegFolderOpen } from "react-icons/fa";
 import { FaRegCommentDots } from "react-icons/fa";
+import BlogPageCard from "../cards/BlogPageCard";
 const BlogLayout = () => {
   return (
     <section className="max-w-7xl flex items-center justify-center mx-auto px-5 my-20">
       <div className="flex w-full md:flex-row flex-col justify-between gap-10 ">
         <div className=" md:w-[70%] w-full flex flex-col gap-20 ">
           {blogPagedata.map((item, i) => (
-            <div className="w-[100%] flex flex-col gap-10  " key={i}>
-              <img src={item.imageUrl} className="w-[100%]" alt="" />
-              <h1 className=" md:text-3xl text-xl  font-semibold">
-                {item.title}
-              </h1>
-              <div className="flex text-xs sm:text-base gap-10 items-center">
-                <div className="flex items-center   sm:flex-row flex-col  gap-3">
-                  <CiCalendarDate size={30} color="#ef4444" />
-                  <p className="text-gray-600 ">{item.date}</p>
-                </div>
-                <div className="flex items-center gap-3 sm:flex-row flex-col ">
-                  <FaRegFolderOpen size={30} color="#ef4444" />
-                  <p className="text-gray-600 ">Travel</p>
-                </div>
-                <div className="flex items-center gap-3 sm:flex-row flex-col ">
-                  <FaRegCommentDots size={30} color="#ef4444" />
-                  <p className="text-gray-600 ">{item.comment}</p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-1">
-                <p>Introduction :</p>
-                <p>{item.detail}</p>
-              </div>
-              <button className="w-fit px-5 h-16 rounded-xl text-white bg-[#ef4444]">
-                Read More
-              </button>
-            </div>
+            <BlogPageCard
+              imageUrl={item.imageUrl}
+              key={i}
+              title={item.title}
+              detail={item.detail}
+              comment={item.comment}
+              date={item.date}
+            />
           ))}
         </div>
         <div className="md:w-[30%] w-full flex flex-col gap-5">

@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="flex flex-col gap-5    items-center  ">
           <h5 className="font-semibold sm:ml-[-80px] ml-0 ">About</h5>
           <ul className="font-light sm:items-start items-center flex   flex-col gap-4">
-            <li>Customer Support</li>
+            <Link href="/tour-faq">Customer Support</Link>
             <li>About Us</li>
             <li>Contact</li>
             <li>Contact Channels</li>

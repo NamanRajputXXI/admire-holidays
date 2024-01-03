@@ -33,29 +33,35 @@ const DropDown = () => {
           <div className="dropdown-content font-light text-base absolute z-50  bg-white p-8 top-12 ">
             <ul className="flex flex-col gap-4">
               <li>
-                <Link href="/domestic/himachal">Himachal</Link>
+                <Link href="/product-category/india/himachal-pradesh">
+                  Himachal
+                </Link>
               </li>
 
               <li>
-                <Link href="/domestic/goa">Goa</Link>
+                <Link href="/product-category/india/goa">Goa</Link>
               </li>
               <li>
-                <Link href="/domestic/andaman">Andaman</Link>
+                <Link href="/product-category/india/andaman">Andaman</Link>
               </li>
               <li>
-                <Link href="/domestic/uttarakhand">Uttarakhand</Link>
+                <Link href="/product-category/india/uttarakhand">
+                  Uttarakhand
+                </Link>
               </li>
               <li>
-                <Link href="/domestic/kashmir">Kashmir</Link>
+                <Link href="/product-category/india/kashmir">Kashmir</Link>
               </li>
               <li>
-                <Link href="/domestic/rajasthan">Rajasthan</Link>
+                <Link href="/product-category/india/rajasthan">Rajasthan</Link>
               </li>
               <li>
-                <Link href="/domestic/west-bengal">West Bengal</Link>
+                <Link href="/product-category/india/west-bengal">
+                  West Bengal
+                </Link>
               </li>
               <li>
-                <Link href="/domestic/kerala">Kerala</Link>
+                <Link href="/product-category/india/kerala">Kerala</Link>
               </li>
             </ul>
           </div>

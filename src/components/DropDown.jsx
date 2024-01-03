@@ -78,31 +78,45 @@ const DropDown = () => {
           <div className="font-light bg-white text-base p-8 dropdown-content absolute top-12 ">
             <ul className="flex flex-col gap-4">
               <li>
-                <Link href="/international/switzerland">Switzerland</Link>
+                <Link href="/product-category/international/switzerland">
+                  Switzerland
+                </Link>
               </li>
               <li>
-                <Link href="/international/mauritious">Mauritious</Link>
+                <Link href="/product-category/international/mauritious">
+                  Mauritious
+                </Link>
               </li>
               <li>
-                <Link href="/international/thailand">Thailand</Link>
+                <Link href="/product-category/international/thailand">
+                  Thailand
+                </Link>
               </li>
               <li>
-                <Link href="/international/bhutan">Bhutan</Link>
+                <Link href="/product-category/international/bhutan">
+                  Bhutan
+                </Link>
               </li>
               <li>
-                <Link href="/international/nepal">Nepal</Link>
+                <Link href="/product-category/international/nepal">Nepal</Link>
               </li>
               <li>
-                <Link href="/international/bagladesh">Bangladesh</Link>
+                <Link href="/product-category/international/bangladesh">
+                  Bangladesh
+                </Link>
               </li>
               <li>
-                <Link href="/international/dubai">Dubai</Link>
+                <Link href="/product-category/international/dubai">Dubai</Link>
               </li>
               <li>
-                <Link href="/international/singapur">Singapur</Link>
+                <Link href="/product-category/international/singapore">
+                  Singapore
+                </Link>
               </li>
               <li>
-                <Link href="/international/malasia">Malasia</Link>
+                <Link href="/product-category/international/malasia">
+                  Malasia
+                </Link>
               </li>
             </ul>
           </div>

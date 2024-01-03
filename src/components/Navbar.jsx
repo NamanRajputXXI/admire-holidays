@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <a href="/" className="">
-                  <Image src={"/logo.jpg"} width={200} height={60} alt="Logo" />
+                  <Image src={"/logo.jpg"} width={140} height={50} alt="Logo" />
                 </a>
               </div>
             </div>

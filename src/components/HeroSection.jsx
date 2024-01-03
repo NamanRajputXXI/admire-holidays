@@ -27,7 +27,6 @@ const HeroSection = () => {
         </div>
       </div>
       {/* <DestinationMaker /> */}
-      <DestinationMaker />
     </section>
   );
 };

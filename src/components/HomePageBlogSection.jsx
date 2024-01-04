@@ -5,6 +5,9 @@ import HomePageBlogCard from "./cards/HomePageBlogCard";
 const HomePageBlogSection = () => {
   return (
     <section className="mt-32">
+      <p class="text-[#00BB98] my-3 text-center text-xl  font-LaBelle  ">
+        Travel Tips and Advice
+      </p>
       <h1 className="text-center md:text-5xl text-3xl  font-bold">
         Travel Tips and Advice
       </h1>

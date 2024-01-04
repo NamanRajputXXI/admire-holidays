@@ -10,10 +10,10 @@ const HeroSection = () => {
           <p className="text-green-600 text-xl  font-LaBelle  ">
             Travel Around The World
           </p>
-          <h1 className="lg:text-7xl md:text-5xl text-4xl font-extrabold">
+          <h1 className="lg:text-7xl md:text-5xl text-4xl font-bold">
             Discover the <br /> most engaging <br /> places
           </h1>
-          <p className="text-xl font-light">
+          <p className="text-xl font-normal">
             Less planning 50,000 trips are ready for you.
           </p>
           <DestinationMaker />

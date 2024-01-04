@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         LaBelle: ["La Belle Aurore", "cursive"],
+        Aboreto: ["Aboreto", "cursive"],
       },
     },
   },

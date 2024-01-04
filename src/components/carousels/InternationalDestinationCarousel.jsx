@@ -11,8 +11,8 @@ import internationalDestinations from "@/data/internationalDestination";
 const InternationalDestinationCarousel = () => {
   return (
     <section className="container max-w-7xl my-20  mx-auto">
-      <h1 className="text-center md:text-5xl text-2xl  font-bold">
-        International Destination
+      <h1 className="text-center font-Aboreto  md:text-5xl text-2xl  ">
+        International Destinations
       </h1>
       <div className="flex items-center justify-center w-full   h-full lg:py-20 py-12 px-4">
         {/* Carousel for desktop and large size devices */}

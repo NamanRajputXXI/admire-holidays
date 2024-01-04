@@ -29,7 +29,7 @@ const InternationalDestinationCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-50  z-30  left-0 ml-8  cursor-pointer"
+              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-50  z-30  left-0 ml-[-10px]  cursor-pointer"
               id="prev"
             >
               <svg
@@ -78,7 +78,7 @@ const InternationalDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 right-0 mr-8 "
+              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 right-[-30px] mr-8 "
               id="next"
             >
               <svg
@@ -114,7 +114,7 @@ const InternationalDestinationCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-60  z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
+              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-60  z-30 left-0 ml-[-10px] focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
               id="prev"
             >
               <svg
@@ -163,7 +163,7 @@ const InternationalDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 right-0 mr-[-10px] focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
               id="next"
             >
               <svg
@@ -198,7 +198,7 @@ const InternationalDestinationCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 left-0 ml-8  cursor-pointer"
+              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 left-0 ml-[-10px]  cursor-pointer"
               id="prev"
             >
               <svg
@@ -247,7 +247,7 @@ const InternationalDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 right-0 mr-8 "
+              className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 right-0 mr-[-10px] "
               id="next"
             >
               <svg

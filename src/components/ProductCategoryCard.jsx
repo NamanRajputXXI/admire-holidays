@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { CiClock2 } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
@@ -21,9 +22,12 @@ const ProductCategoryCard = ({ url, days, destination, details }) => {
           <CiLocationOn size={20} color="#00BB98" />
           <p className="font-light">{details}</p>
         </div>
-        <button className="text-white bg-[#DC2626] w-[200px] font-medium px-6 py-2 rounded-lg">
+        <Link
+          className="text-white bg-[#DC2626] w-[200px] font-medium px-6 py-2 rounded-lg"
+          href="/product/jaipur"
+        >
           Explore
-        </button>
+        </Link>
       </div>
     </div>
   );

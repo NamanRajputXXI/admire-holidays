@@ -78,7 +78,7 @@ const PopularDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 right-0 mr-[-10px] "
+              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 right-0  "
               id="next"
             >
               <svg

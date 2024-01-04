@@ -5,8 +5,8 @@ import { IoMdPerson } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
 const DestinationMaker = () => {
   return (
-    <div className="p-4 bg-white md:gap-6 gap-10   md:grid-cols-4 sm:grid-cols-2 grid-cols-1   rounded-2xl  grid lg:grid-cols-4 items-center justify-center">
-      <div className="flex-col items-center justify-center px-2 flex gap-5">
+    <div className="p-4 bg-white md:gap-6 gap-10  w-full  md:grid-cols-4 sm:grid-cols-2 grid-cols-1   rounded-2xl  grid lg:grid-cols-4 items-center justify-center">
+      <div className="flex-col items-center justify-center w-full px-2 flex gap-4">
         <div className="flex items-center gap-4">
           <CiLocationOn color="red" size={30} />
           <p className="text-sm"> Destination</p>

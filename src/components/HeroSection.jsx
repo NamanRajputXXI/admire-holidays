@@ -4,9 +4,9 @@ import React from "react";
 import DestinationMaker from "./DestinationMaker";
 const HeroSection = () => {
   return (
-    <section className="my-20 pb-10 h-fit  bg-[#def5ff] bg-cover">
-      <div className="flex items-center md:gap-4 gap-10 md:flex-row flex-col justify-between py-20 max-w-7xl mx-auto px-5">
-        <div className="flex flex-col gap-10">
+    <section className="my-20  h-fit  bg-[#def5ff] bg-cover">
+      <div className="flex items-center lg:gap-4 gap-10 lg:flex-row flex-col justify-between  ">
+        <div className="flex flex-col gap-10 py-10 lg:pl-32 px-5">
           <p className="text-green-600 text-xl  font-LaBelle  ">
             Travel Around The World
           </p>
@@ -18,11 +18,24 @@ const HeroSection = () => {
           </p>
           <DestinationMaker />
         </div>
-        <div>
+        {/* <div>
           <img
             src="https://admireholidays.com/wp-content/uploads/elementor/thumbs/image-banner-home1-01-q5n4xxh0icn4b1qy2pkk231mteu3gkb26q6xncsweu.jpg"
             className="lg:h-[450px] lg:w-[600px] rounded-full md:h-[300px] md:w-[400px] "
             alt=""
+            
+          />
+        </div> */}
+        <div>
+          <img
+            src="https://admireholidays.com/wp-content/uploads/elementor/thumbs/image-banner-home1-01-q5n4xxh0icn4b1qy2pkk231mteu3gkb26q6xncsweu.jpg"
+            className="lg:h-[700px] lg:w-[750px] w-full"
+            alt=""
+            style={{
+              clipPath:
+                "polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0 48%, 25% 0%)",
+              borderRadius: "20px",
+            }}
           />
         </div>
       </div>

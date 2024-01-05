@@ -23,7 +23,7 @@ const ProductCategoryCard = ({ url, days, destination, details }) => {
           <p className="font-light">{details}</p>
         </div>
         <Link
-          className="text-white bg-[#DC2626] w-[200px] font-medium px-6 py-2 rounded-lg"
+          className="text-white bg-[#DC2626] hover:bg-white border-[1px] border-red-500 hover:text-red-600 flex justify-center items-center w-[100px] font-medium py-2 rounded-lg"
           href="/product/jaipur"
         >
           Explore

@@ -16,8 +16,8 @@ const ProductCarousel = () => {
         className="lg:block hidden"
         naturalSlideWidth={0}
         isIntrinsicHeight={true}
-        totalSlides={6}
-        visibleSlides={4}
+        totalSlides={4}
+        visibleSlides={2}
         step={1}
         infinite={true}
       >
@@ -25,7 +25,7 @@ const ProductCarousel = () => {
           <ButtonBack
             role="button"
             aria-label="slide backward"
-            className="absolute rounded-md bg-black py-3 px-2 bg-opacity-60 z-30  left-0 ml-[-10px]  cursor-pointer"
+            className="absolute  bg-white  hover:text-white rounded-full p-4 flex justify-center items-center  z-30  left-10   cursor-pointer"
             id="prev"
           >
             <svg
@@ -37,7 +37,7 @@ const ProductCarousel = () => {
             >
               <path
                 d="M7 1L1 7L7 13"
-                stroke="white"
+                stroke="#00BB98 "
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -50,31 +50,85 @@ const ProductCarousel = () => {
                 id="slider"
                 className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
               >
-                {domesticDestinations.map((item, index) => (
-                  <Slide index={index} key={index}>
-                    <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
-                      <img
-                        src={item.imageUrl}
-                        alt={item.title}
-                        className="object-cover rounded-xl object-center h-96 w-96"
-                      />
-                      <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                        <div className="flex h-full items-end  relative pb-6">
-                          <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                            {item.title}
-                          </h3>
-                        </div>
-                      </div>
+                <Slide>
+                  <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      alt="img"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
                     </div>
-                  </Slide>
-                ))}
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Netherlands-636x426.jpg"
+                      alt="img"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/tour-gallery-05-636x426.jpg"
+                      alt="img"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/07/tour-2-636x426.jpg"
+                      alt="img"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      alt="img"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/07/tour-2-636x426.jpg"
+                      alt="img"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
               </div>
             </Slider>
           </div>
           <ButtonNext
             role="button"
             aria-label="slide forward"
-            className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 right-[-30px] mr-8 "
+            className="absolute    bg-white rounded-full p-4 flex justify-center items-center z-30 right-10  "
             id="next"
           >
             <svg
@@ -86,7 +140,7 @@ const ProductCarousel = () => {
             >
               <path
                 d="M1 1L7 7L1 13"
-                stroke="white"
+                stroke="#00BB98"
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -110,19 +164,19 @@ const ProductCarousel = () => {
           <ButtonBack
             role="button"
             aria-label="slide backward"
-            className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 left-0 ml-[-10px] focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
+            className="absolute  bg-white  hover:text-white rounded-full p-3 flex justify-center items-center  z-30  left-10   cursor-pointer"
             id="prev"
           >
             <svg
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M7 1L1 7L7 13"
-                stroke="white"
+                stroke="#00BB98 "
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -135,43 +189,97 @@ const ProductCarousel = () => {
                 id="slider"
                 className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
               >
-                {domesticDestinations.map((item, index) => (
-                  <Slide index={index} key={index}>
-                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                      <img
-                        src={item.imageUrl}
-                        alt={item.title}
-                        className="object-cover rounded-xl object-center h-96 w-96"
-                      />
-                      <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                        <div className="flex h-full items-end  relative pb-6">
-                          <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                            {item.title}
-                          </h3>
-                        </div>
-                      </div>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
                     </div>
-                  </Slide>
-                ))}
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Netherlands-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/tour-gallery-05-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/07/tour-2-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center "
+                    />
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
               </div>
             </Slider>
           </div>
           <ButtonNext
             role="button"
             aria-label="slide forward"
-            className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-60  z-30 right-[-40px] mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+            className="absolute    bg-white rounded-full p-3 flex justify-center items-center z-30 right-10  "
             id="next"
           >
             <svg
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M1 1L7 7L1 13"
-                stroke="white"
+                stroke="#00BB98"
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -194,19 +302,19 @@ const ProductCarousel = () => {
           <ButtonBack
             role="button"
             aria-label="slide backward"
-            className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 left-0 ml-[-10px]  cursor-pointer"
+            className="absolute  bg-white  hover:text-white rounded-full p-3 flex justify-center items-center  z-30  left-5   cursor-pointer"
             id="prev"
           >
             <svg
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M7 1L1 7L7 13"
-                stroke="white"
+                stroke="#00BB98 "
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -219,43 +327,97 @@ const ProductCarousel = () => {
                 id="slider"
                 className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
               >
-                {domesticDestinations.map((items, index) => (
-                  <Slide index={index} key={index}>
-                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
-                      <img
-                        src={items.imageUrl}
-                        alt={items.title}
-                        className="object-cover rounded-xl object-center w-full"
-                      />
-                      <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                        <div className="flex h-full items-end  relative pb-6">
-                          <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                            {items.title}
-                          </h3>
-                        </div>
-                      </div>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center w-full"
+                    />
+                    <div className="rounded-xl absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
                     </div>
-                  </Slide>
-                ))}
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Netherlands-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center w-full"
+                    />
+                    <div className="rounded-xl absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center w-full"
+                    />
+                    <div className="rounded-xl absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/tour-gallery-05-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center w-full"
+                    />
+                    <div className="rounded-xl absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/07/tour-2-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center w-full"
+                    />
+                    <div className="rounded-xl absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
+                <Slide>
+                  <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                    <img
+                      src="https://admireholidays.com/wp-content/uploads/2022/08/Netherlands-636x426.jpg"
+                      alt="image"
+                      className="object-cover rounded-xl object-center w-full"
+                    />
+                    <div className="rounded-xl absolute w-full h-full py-6">
+                      <div className="flex h-full items-end  relative pb-6"></div>
+                    </div>
+                  </div>
+                </Slide>
               </div>
             </Slider>
           </div>
           <ButtonNext
             role="button"
             aria-label="slide forward"
-            className="absolute  rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 right-[-40px] mr-8 "
+            className="absolute    bg-white rounded-full p-3 flex justify-center items-center z-30 right-5  "
             id="next"
           >
             <svg
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M1 1L7 7L1 13"
-                stroke="white"
+                stroke="#00BB98"
                 strokeWidth={2}
                 strokeLinecap="round"
                 strokeLinejoin="round"

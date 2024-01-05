@@ -7,7 +7,6 @@ import {
   ButtonBack,
   ButtonNext,
 } from "pure-react-carousel";
-import domesticDestinations from "@/data/domesticDestination";
 const ProductCarousel = () => {
   return (
     <div className="flex items-center justify-center w-full   h-full  px-4">

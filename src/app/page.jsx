@@ -12,8 +12,8 @@ import CompanyStatsSection from "@/components/CompanyStatsSection";
 import LatestUpdatesSection from "@/components/LatestUpdatesSection";
 import TravelGuideline from "@/components/TravelGuideline";
 import HeroSection from "@/components/HeroSection";
-import Testimonials from "@/components/Testimonial";
 import reviews from "@/data/testimonialData";
+import Testimonial from "@/components/Testimonial";
 const Home = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const Home = () => {
       <TravelGuideline />
       <LatestUpdatesSection />
       <CompanyStatsSection />
-      <Testimonials reviews={reviews} />
+      <Testimonial />
       <HomePageBlogSection />
       <SubscribeLetter />
       <Footer />

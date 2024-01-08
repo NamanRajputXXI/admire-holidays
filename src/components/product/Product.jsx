@@ -6,9 +6,11 @@ import { CiShare2 } from "react-icons/ci";
 import { GoPeople } from "react-icons/go";
 import { IoPersonOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
+import { MdOutlinePhoto } from "react-icons/md";
 import ProductCarousel from "../carousels/ProductCarousel";
 import ProductRightPricing from "./ProductRightPricing";
 import ProductDetailLeft from "./ProductDetailLeft";
+import ProductBottomCarousel from "./ProductBottomCarousel";
 const Product = () => {
   return (
     <section className="bg-[#f8f8f8]">
@@ -30,8 +32,8 @@ const Product = () => {
               <p className="text-sm hover:text-white">View Video</p>
             </div>
             <div className="flex p-2 border-[1px] transition-all duration-500 ease-in-out  text-[#FD4A4C] bg-white hover:text-white  hover:bg-[#FD4C5C] hover:border-[#FD4A4C border-gray-300 rounded-lg sm:gap-3 gap-1  items-center">
-              <CiHeart size={20} />
-              <p className="text-sm hover:text-white">View Video</p>
+              <MdOutlinePhoto size={20} />
+              <p className="text-sm hover:text-white">4 Photo</p>
             </div>
             <div className="flex p-2 border-[1px] transition-all duration-500 ease-in-out hover:text-white  bg-white hover:bg-[#FD4C5C] hover:border-[#FD4A4C] text-[#FD4C5C] border-gray-300 rounded-lg gap-3 items-center">
               <CiShare2 size={20} />
@@ -76,6 +78,7 @@ const Product = () => {
         <ProductDetailLeft />
         <ProductRightPricing />
       </div>
+      <ProductBottomCarousel />
     </section>
   );
 };

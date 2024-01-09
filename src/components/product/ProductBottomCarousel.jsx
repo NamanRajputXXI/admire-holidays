@@ -1,7 +1,6 @@
 "use client";
 import productCarouselBottom from "@/data/ProductBottomCarousel";
-import domesticDestinations from "@/data/domesticDestination";
-import Link from "next/link";
+
 import {
   ButtonBack,
   CarouselProvider,
@@ -35,8 +34,8 @@ const ProductBottomCarousel = () => {
             id="prev"
           >
             <svg
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +53,7 @@ const ProductBottomCarousel = () => {
             <Slider>
               <div
                 id="slider"
-                className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
+                className="h-full flex lg:gap-8 md:gap-6 gap-14  justify-start transition ease-out duration-700"
               >
                 {productCarouselBottom.map((item, i) => (
                   <Slide key={i}>
@@ -100,8 +99,8 @@ const ProductBottomCarousel = () => {
             id="next"
           >
             <svg
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -134,8 +133,8 @@ const ProductBottomCarousel = () => {
             id="prev"
           >
             <svg
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -199,8 +198,8 @@ const ProductBottomCarousel = () => {
             id="next"
           >
             <svg
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -233,8 +232,8 @@ const ProductBottomCarousel = () => {
             id="prev"
           >
             <svg
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -298,8 +297,8 @@ const ProductBottomCarousel = () => {
             id="next"
           >
             <svg
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               viewBox="0 0 8 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

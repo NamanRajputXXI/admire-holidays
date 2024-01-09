@@ -17,7 +17,7 @@ const Product = () => {
       <div className="mt-20 bg-[#F2FBFA]">
         <div className="max-w-7xl flex sm:justify-between gap-5 justify-start sm:flex-row flex-col sm:items-center sm:mx-auto py-20 px-5">
           <div className="flex flex-col gap-5">
-            <h5 className="text-4xl font-semibold">Jaipur</h5>
+            <h5 className="md:text-4xl text-2xl font-semibold">Jaipur</h5>
             <div className="flex justify-between">
               <div className="flex gap-2 items-center ">
                 <CiLocationOn size={25} color="#00bb98" />
@@ -74,7 +74,7 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="flex max-w-7xl gap-10 px-5 mx-auto">
+      <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">
         <ProductDetailLeft />
         <ProductRightPricing />
       </div>

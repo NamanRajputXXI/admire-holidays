@@ -16,7 +16,7 @@ import { IoMdHeartEmpty } from "react-icons/io";
 const ProductBottomCarousel = () => {
   return (
     <div className="max-w-7xl mx-auto flex flex-col gap-5 px-5 py-20">
-      <h1 className="font-semibold text-4xl mb-10">You May Like</h1>
+      <h1 className="font-semibold md:text-4xl text-2xl mb-10">You May Like</h1>
 
       <CarouselProvider
         className="lg:block hidden"
@@ -153,7 +153,7 @@ const ProductBottomCarousel = () => {
             <Slider>
               <div
                 id="slider"
-                className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
+                className="h-full flex lg:gap-8 md:gap-6 gap-5 items-center justify-start transition ease-out duration-700"
               >
                 {productCarouselBottom.map((item, i) => (
                   <Slide key={i}>
@@ -252,7 +252,7 @@ const ProductBottomCarousel = () => {
             <Slider>
               <div
                 id="slider"
-                className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
+                className="h-full flex lg:gap-8 md:gap-6 gap-4 items-center justify-start transition ease-out duration-700"
               >
                 {productCarouselBottom.map((item, i) => (
                   <Slide key={i}>

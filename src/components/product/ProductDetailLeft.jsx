@@ -21,8 +21,8 @@ const ProductDetailLeft = () => {
     setDayThreeOpen((prev) => !prev);
   };
   return (
-    <div className="flex my-10 w-[65%] flex-col gap-6">
-      <h5 className="text-3xl font-bold">Overview</h5>
+    <div className="flex my-10 lg:w-[65%] w-full flex-col gap-6">
+      <h5 className="md:text-3xl text-xl font-bold">Overview</h5>
       <p className="text-base text-gray-700">
         Jaipur is the capital of India’s Rajasthan state. It evokes the royal
         family that once ruled the region and that, in 1727, founded what is now
@@ -33,7 +33,7 @@ const ProductDetailLeft = () => {
       </p>
       <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
       <div className="flex flex-col gap-10">
-        <h1 className="font-bold  text-4xl">Tour Plan</h1>
+        <h1 className="font-bold  text-2xl md:text-4xl">Tour Plan</h1>
         <Accordian
           day={"Day 1"}
           heading={"Departure"}
@@ -62,26 +62,30 @@ const ProductDetailLeft = () => {
           clickFunction={dayThreeClick}
         />
         <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
-        <h1 className="font-bold  text-4xl">Included/Excluded</h1>
-        <div className="flex gap-5 ">
+        <h1 className="font-bold text-2xl  md:text-4xl">Included/Excluded</h1>
+        <div className="flex sm:flex-row flex-col gap-5 ">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-3">
               <TiTick color="#00BB98" size={30} />
-              <p className="font-light">Specialized bilingual guide</p>
-            </div>
-            <div className="flex items-center gap-3">
-              <TiTick color="#00BB98" size={30} />
-              <p className="font-light">Private Transport</p>
-            </div>
-            <div className="flex items-center gap-3">
-              <TiTick color="#00BB98" size={30} />
-              <p className="font-light">
-                Entrance fees (Cable and car and Moon Valley)
+              <p className="font-light text-sm sm:text-base">
+                Specialized bilingual guide
               </p>
             </div>
             <div className="flex items-center gap-3">
               <TiTick color="#00BB98" size={30} />
-              <p className="font-light">
+              <p className="font-light text-sm sm:text-base">
+                Private Transport
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <TiTick color="#00BB98" size={30} />
+              <p className="font-light text-sm sm:text-base">
+                Entrance fees (Cable, car and Moon Valley)
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <TiTick color="#00BB98" size={30} />
+              <p className="font-light text-sm sm:text-base">
                 Box lunch water, banana apple and chocolate
               </p>
             </div>
@@ -106,20 +110,22 @@ const ProductDetailLeft = () => {
           </div>
         </div>
         <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
-        <h1 className="font-bold  text-4xl">Tour Map</h1>
+        <h1 className="font-bold  text-2xl md:text-4xl">Tour Map</h1>
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45872.534320582!2d75.76503740618563!3d26.922470930222502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1704695586865!5m2!1sen!2sin"
-            className="w-[700px] h-[450px]"
+            className="lg:w-[700px] lg:h-[450px] sm:w-96 sm:h-96 w-72 h-72"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
         <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
-        <h1 className="font-medium  text-2xl">2 Reviews for Jaipur</h1>
-        <div className="flex gap-5">
-          <div className="bg-white flex-col flex justify-center gap-5 items-center h-[400px] w-1/2">
+        <h1 className="font-medium text-xl md:text-2xl">
+          2 Reviews for Jaipur
+        </h1>
+        <div className="flex  sm:flex-row flex-col gap-5">
+          <div className="bg-white flex-col flex justify-center gap-5 items-center h-[400px] w-full sm:w-1/2">
             <div className="flex gap-5">
               <p className="text-gray-400">/5 </p>
               <p>Based On 0 ratings</p>
@@ -132,7 +138,7 @@ const ProductDetailLeft = () => {
               <CiStar size={30} color="#fcb900" />
             </div>
           </div>
-          <div className="bg-white flex gap-4  flex-col justify-center items-center px-5 h-[400px] w-1/2">
+          <div className="bg-white flex gap-4  flex-col justify-center items-center px-5 h-[400px] w-full sm:w-1/2">
             <div className="flex flex-col gap-3 w-full">
               <p>5 Star</p>
               <div className="bg-gray-300 text-sm text-white px-5 rounded-lg">
@@ -171,7 +177,10 @@ const ProductDetailLeft = () => {
 
         <div className="bg-gray-200 rounded-lg py-5 gap-10 pt-3 flex px-5">
           <div className="flex items-center flex-col justify-center gap-3">
-            <FaUserCircle size={100} color="gray" />
+            <FaUserCircle
+              className=" sm:text-[100px] text-[40px]"
+              color="gray"
+            />
             <p className="font-medium">Mohak</p>
           </div>
           <div className="flex flex-col gap-3">
@@ -182,7 +191,7 @@ const ProductDetailLeft = () => {
               <CiStar size={25} color="#fcb900" />
               <CiStar size={25} color="#fcb900" />
             </div>
-            <p className="text-sm">
+            <p className="sm:text-sm text-xs">
               prednisone 40mg oral{" "}
               <span className="text-[#FD4A4C]">
                 order prednisone 5mg generic
@@ -196,7 +205,10 @@ const ProductDetailLeft = () => {
         </div>
         <div className="bg-gray-200 rounded-lg py-5 gap-10 pt-3 flex px-5">
           <div className="flex items-center flex-col justify-center gap-3">
-            <FaUserCircle size={100} color="gray" />
+            <FaUserCircle
+              className=" sm:text-[100px] text-[40px]"
+              color="gray"
+            />
             <p className="font-medium">Vimal</p>
           </div>
           <div className="flex flex-col gap-3">
@@ -207,7 +219,7 @@ const ProductDetailLeft = () => {
               <CiStar size={25} color="#fcb900" />
               <CiStar size={25} color="#fcb900" />
             </div>
-            <p className="text-sm">
+            <p className="sm:text-sm text-xs">
               best off counter seasonal allergy{" "}
               <span className="text-[#FD4A4C]">
                 best allergy pill for itching

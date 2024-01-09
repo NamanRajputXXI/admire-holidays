@@ -14,8 +14,8 @@ const ProductRightPricing = () => {
     setIsBookingFormOpen(false);
   };
   return (
-    <div className="flex flex-col gap-10">
-      <div className="p-10 min-w-[35%] flex flex-col gap-4 h-fit  my-5 bg-white">
+    <div className="flex lg:min-w-[35%] w-full flex-col gap-10">
+      <div className="p-10  flex flex-col gap-4 h-fit  my-5 bg-white">
         <div className="flex text-lg font-medium gap-3 items-center">
           <CiShoppingTag size={30} color="#FD4A4C" /> From
         </div>
@@ -156,20 +156,20 @@ const ProductRightPricing = () => {
                 <div className="flex py-6 flex-col gap-3">
                   <p>Deposit Option 50% Per item</p>
                   <div className="flex">
-                    <div className="w-1/2 py-3 flex justify-center items-center bg-[#00BB98] text-white">
+                    <div className="w-1/2 sm:text-base text-sm py-3 flex justify-center items-center bg-[#00BB98] text-white">
                       Full Payment
                     </div>
-                    <div className="w-1/2 py-3 bg-gray-200 flex justify-center items-center text-black">
+                    <div className="w-1/2 py-3 sm:text-base text-sm bg-gray-200 flex justify-center items-center text-black">
                       Pay Deposit
                     </div>
                   </div>
                   <div className="flex  justify-between items-center">
-                    <p className="text-lg">Available : </p>
-                    <p className="text-2xl">200</p>
+                    <p className="sm:text-lg text-sm ">Available : </p>
+                    <p className="sm:text-2xl text-xl ">200</p>
                   </div>
                   <div className="flex  justify-between items-center">
-                    <p className="text-lg">Total : </p>
-                    <p className="text-2xl">₹344.99</p>
+                    <p className="sm:text-lg text-sm ">Total : </p>
+                    <p className="sm:text-2xl text-xl">₹344.99</p>
                   </div>
                   <button className="py-5 bg-[#FD4A4C] mt-4 text-sm text-white rounded-lg  flex justify-center items-center">
                     Booking Now
@@ -366,34 +366,40 @@ const ProductRightPricing = () => {
           )}
         </div>
       </div>
-      <div className="p-10 min-w-[35%]  flex bg-white  flex-col gap-4 h-fit  m ">
+      <div className="lg:p-10 p-4 lg:min-w-[35%] w-full  flex bg-white  flex-col gap-4 h-fit  m ">
         <div className="flex flex-col gap-3 ">
           <h5 className="text-xl font-semibold">Global Discount</h5>
           <div>
             <div className="flex items-center font-light text-sm py-5  text-white bg-[#00BB98] justify-around">
-              <p>Min - Max</p>
-              <p>Adult Price</p>
-              <p>Children Price</p>
-              <p>Baby Price</p>
+              <p className="text-center">Min - Max</p>
+              <p className="text-center">Adult Price</p>
+              <p className="text-center">Children Price</p>
+              <p className="text-center">Baby Price</p>
             </div>
             <div className="flex items-center py-2 text-sm font-light  bg-gray-200 justify-around">
-              <p>20 - 50 </p>
-              <p>₹350.00 </p>
-              <p>₹280.00 </p>
-              <p>₹0.00</p>
+              <p className="text-center">20 - 50 </p>
+              <p className="text-center">₹350.00 </p>
+              <p className="text-center">₹280.00 </p>
+              <p className="text-center">₹0.00</p>
             </div>
           </div>
         </div>
         <div className="flex flex-col gap-3 ">
           <h5 className="text-xl font-semibold">Special Time</h5>
-          <div className="w-fit overflow-x-hidden">
-            <table className="min-w-full bg-white border border-gray-300">
+          <div className="w-full overflow-x-hidden">
+            <table className="min-w-full bg-white border overflow-auto  border-gray-300">
               <thead className=" bg-[#00BB98]">
-                <tr className="text-sm  text-white">
-                  <th className="py-2 font-light  px-2 border-b">Start Date</th>
-                  <th className="py-2 font-light px-2 border-b">End Date</th>
-                  <th className="py-2 font-light px-2 border-b">Adult Price</th>
-                  <th className="py-2 font-light px-2 border-b">
+                <tr className="text-sm  text-white ">
+                  <th className="py-2 font-light text-center px-2 border-b">
+                    Start Date
+                  </th>
+                  <th className="py-2 font-light text-center px-2 border-b">
+                    End Date
+                  </th>
+                  <th className="py-2 font-light text-center px-2 border-b">
+                    Adult Price
+                  </th>
+                  <th className="py-2 font-light text-center  px-2 border-b">
                     Children Price
                   </th>
                   <th className="py-2 font-light px-2 border-b">Baby Price</th>

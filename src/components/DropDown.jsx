@@ -23,14 +23,14 @@ const DropDown = () => {
   return (
     <>
       <div
-        className="font-medium  items-center md:text-lg flex rounded-lg p-2 relative"
+        className="font-medium cursor-pointer  items-center md:text-lg flex rounded-lg p-2 relative"
         onMouseEnter={handleDomesticHover}
         onMouseLeave={handleMouseLeave}
       >
         Domestic
         <RiArrowDropDownLine size={30} />
         {isDomesticHovered && (
-          <div className="dropdown-content font-light text-base absolute z-50  bg-white p-8 top-12 ">
+          <div className="dropdown-content  font-light text-base absolute z-50  bg-white p-8 top-12 ">
             <ul className="flex flex-col gap-4">
               <li>
                 <Link href="/product-category/india/himachal-pradesh">
@@ -68,7 +68,7 @@ const DropDown = () => {
         )}
       </div>
       <div
-        className="font-medium  items-center  md:text-lg flex rounded-lg p-2 relative"
+        className="font-medium  cursor-pointer items-center  md:text-lg flex rounded-lg p-2 relative"
         onMouseEnter={handleInternationalHover}
         onMouseLeave={handleMouseLeave}
       >

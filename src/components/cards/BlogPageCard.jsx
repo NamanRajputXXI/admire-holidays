@@ -25,7 +25,7 @@ const BlogPageCard = ({ imageUrl, title, date, comment, detail, i }) => {
         <p>Introduction :</p>
         <p>{detail}</p>
       </div>
-      <button className="w-fit px-5 h-16 rounded-xl text-white bg-[#ef4444]">
+      <button className="w-fit px-5 h-11 rounded-xl text-white bg-[#ef4444]">
         Read More
       </button>
     </div>

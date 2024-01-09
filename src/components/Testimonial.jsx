@@ -60,9 +60,9 @@ const Testimonial = () => {
                 {testimonialData.map((item, i) => (
                   <Slide key={i} className="bg-white">
                     <section className="relative  overflow-hidden bg-[#F2FBFA]  px-6 py-24 sm:py-32 lg:px-8">
-                      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+                      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white   ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
                       <div className="mx-auto max-w-2xl lg:max-w-4xl">
-                        <div className="mt-10 border-[1px] bg-white max-w-2xl mx-auto  shadow-lg rounded-xl flex items-center justify-center flex-col gap-3 py-10 px-5">
+                        <div className="mt-10 border-[1px] bg-white max-w-2xl mx-auto   rounded-xl flex items-center justify-center flex-col gap-3 py-10 px-5">
                           <div className="text-center flex justify-center items-center text-sm md:px-0 sm:px-10 px-4 font-medium  text-gray-900 md:text-base">
                             <p className="text-wrap text-center sm:w-[80%] w-full">
                               {item.thoughts}

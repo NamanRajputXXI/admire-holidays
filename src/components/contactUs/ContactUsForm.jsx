@@ -91,7 +91,7 @@ const ContactUsForm = () => {
                 rows="10"
                 className="border-[1px]  border-gray-300 rounded-lg py-3 px-4"
               ></textarea>
-              <button className=" text-white bg-red-500 rounded-lg w-64 md:p-10 p-4">
+              <button className=" text-white bg-red-500 rounded-lg w-28 h-10 flex justify-center items-center md:p-7 ">
                 Submit
               </button>
             </form>

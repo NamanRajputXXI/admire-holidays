@@ -27,15 +27,15 @@ const Product = () => {
             </div>
           </div>
           <div className="flex sm:gap-3 gap-1  items-center">
-            <div className="flex p-2 transition-all duration-500 ease-in-out  text-[#FD4A4C] border-[1px] hover:bg-[#FD4C5C] hover:border-[#FD4A4C] hover:text-white bg-white border-gray-300 rounded-lg sm:gap-3 gap-1 items-center">
+            <div className="flex p-2 transition-all duration-500 ease-in-out  text-red-500 border-[1px] hover:bg-red-500 hover:border-red-500 hover:text-white bg-white border-gray-300 rounded-lg sm:gap-3 gap-1 items-center">
               <CiVideoOn size={20} />
               <p className="text-sm hover:text-white">View Video</p>
             </div>
-            <div className="flex p-2 border-[1px] transition-all duration-500 ease-in-out  text-[#FD4A4C] bg-white hover:text-white  hover:bg-[#FD4C5C] hover:border-[#FD4A4C border-gray-300 rounded-lg sm:gap-3 gap-1  items-center">
+            <div className="flex p-2 border-[1px] transition-all duration-500 ease-in-out  text-red-500  bg-white hover:text-white  hover:bg-red-500  hover:border-[#FD4A4C border-gray-300 rounded-lg sm:gap-3 gap-1  items-center">
               <MdOutlinePhoto size={20} />
               <p className="text-sm hover:text-white">4 Photo</p>
             </div>
-            <div className="flex p-2 border-[1px] transition-all duration-500 ease-in-out hover:text-white  bg-white hover:bg-[#FD4C5C] hover:border-[#FD4A4C] text-[#FD4C5C] border-gray-300 rounded-lg gap-3 items-center">
+            <div className="flex p-2 border-[1px] transition-all duration-500 ease-in-out hover:text-white  bg-white hover:bg-red-500  hover:border-red-500  text-red-500  border-gray-300 rounded-lg gap-3 items-center">
               <CiShare2 size={20} />
             </div>
           </div>

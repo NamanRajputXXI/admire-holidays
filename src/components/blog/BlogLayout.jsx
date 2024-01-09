@@ -1,9 +1,7 @@
 import blogPagedata from "@/data/blogPageData";
 import React from "react";
-import { CiCalendarDate } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { FaRegFolderOpen } from "react-icons/fa";
-import { FaRegCommentDots } from "react-icons/fa";
 import BlogPageCard from "../cards/BlogPageCard";
 const BlogLayout = () => {
   return (
@@ -50,7 +48,11 @@ const BlogLayout = () => {
               placeholder="search..."
               className="min-w-[100%] rounded-xl  p-3 border-[1px] border-gray-300"
             />
-            <CiSearch size={40} className="absolute right-2" color="gray" />
+            <CiSearch
+              size={40}
+              className="absolute cursor-pointer right-2"
+              color="gray"
+            />
           </div>
           <div className="flex flex-col gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">
             <h5 className="text-lg font-medium">Blog Categories</h5>
@@ -59,65 +61,75 @@ const BlogLayout = () => {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Food</p>
+                  <p className="font-light text-base cursor-pointer">Food</p>
                 </div>
                 <p className="font-light text-base">(1)</p>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Imrove Life</p>
+                  <p className="font-light text-base cursor-pointer">
+                    Imrove Life
+                  </p>
                 </div>
-                <p className="font-light text-base">(8)</p>
+                <p className="font-light text-base cursor-pointer">(8)</p>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Life</p>
+                  <p className="font-light text-base cursor-pointer">Life</p>
                 </div>
-                <p className="font-light text-base">(2)</p>
+                <p className="font-light text-base cursor-pointer">(2)</p>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Off topic </p>
-                </div>
-                <p className="font-light text-base">(2)</p>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Productivity</p>
+                  <p className="font-light text-base cursor-pointer">
+                    Off topic{" "}
+                  </p>
                 </div>
                 <p className="font-light text-base">(2)</p>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Self Decipline</p>
+                  <p className="font-light text-base cursor-pointer">
+                    Productivity
+                  </p>
+                </div>
+                <p className="font-light text-base">(2)</p>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <FaRegFolderOpen size={20} color="#6b7280" />
+                  <p className="font-light text-base cursor-pointer">
+                    Self Decipline
+                  </p>
+                </div>
+                <p className="font-light text-base cursor-pointer">(1)</p>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <FaRegFolderOpen size={20} color="#6b7280" />
+                  <p className="font-light text-base cursor-pointer">Sport</p>
                 </div>
                 <p className="font-light text-base">(1)</p>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Sport</p>
-                </div>
-                <p className="font-light text-base">(1)</p>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Tips and Tricks</p>
+                  <p className="font-light text-base cursor-pointer">
+                    Tips and Tricks
+                  </p>
                 </div>
                 <p className="font-light text-base">(7)</p>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <FaRegFolderOpen size={20} color="#6b7280" />
-                  <p className="font-light text-base">Travel</p>
+                  <p className="font-light text-base cursor-pointer">Travel</p>
                 </div>
-                <p className="font-light text-base">(11)</p>
+                <p className="font-light text-base cursor-pointer">(11)</p>
               </div>
             </div>
           </div>
@@ -146,18 +158,18 @@ const BlogLayout = () => {
             <hr />
             <div className="flex flex-col  gap-5">
               <div className="flex  gap-2">
-                <div className="px-4 py-3 font-light w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
                   Backpacking Clothes
                 </div>
-                <div className="px-4 py-3 font-light w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
                   Place
                 </div>
               </div>
               <div className="flex gap-2">
-                <div className="px-4 py-3 font-light w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
                   Story
                 </div>
-                <div className="px-4 py-3 font-light w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
                   Travel
                 </div>
               </div>

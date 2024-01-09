@@ -27,8 +27,8 @@ const Footer = () => {
           <h5 className="font-semibold sm:ml-[-80px] ml-0 ">About</h5>
           <ul className="font-light sm:items-start items-center flex   flex-col gap-4">
             <Link href="/tour-faq">Customer Support</Link>
-            <li>About Us</li>
-            <li>Contact</li>
+            <Link href="/about">About us</Link>
+            <Link href="/contact">Contact</Link>
             <li>Contact Channels</li>
             <Link href="/privacy-policy" className="">
               Privacy Policy
@@ -52,23 +52,40 @@ const Footer = () => {
           </h5>
           <ul className="font-light flex sm:items-start  flex-col gap-4">
             <li className="flex   gap-4">
-              <IoCallOutline color="red" size={30} /> +18001210140
+              <IoCallOutline color="#FD4A4C" size={30} /> +18001210140
             </li>
             <li className="flex  gap-4">
-              <MdOutlineMessage color="red" size={30} />
+              <MdOutlineMessage color="#FD4A4C" size={30} />
               info@admireholidays.com
             </li>
             <li className="flex   gap-4">
-              <FaLocationDot size={50} color="red" /> 34,Sewak park(1st floor),
-              Dwarka more metro,Near metro piller no-772 New Delhi-110059.
+              <FaLocationDot size={50} color="#FD4A4C" /> 34,Sewak park(1st
+              floor), Dwarka more metro,Near metro piller no-772 New
+              Delhi-110059.
             </li>
 
             <li className="flex items-center mt-10  gap-4">
-              <FaFacebook color="	#1877F2" size={40} />
-              <FaSquareXTwitter size={40} color="#14171A" />
-              <FaLinkedin size={40} color=" #0077b5 " />
-              <FaSquareInstagram size={40} color="#4c68d7" />
-              <FaYoutube size={40} color="#FF0000" />
+              <FaFacebook
+                color="	#1877F2"
+                size={40}
+                className="cursor-pointer"
+              />
+              <FaSquareXTwitter
+                size={40}
+                color="#14171A"
+                className="cursor-pointer"
+              />
+              <FaLinkedin
+                size={40}
+                color=" #0077b5 "
+                className="cursor-pointer"
+              />
+              <FaSquareInstagram
+                size={40}
+                color="#4c68d7"
+                className="cursor-pointer"
+              />
+              <FaYoutube size={40} color="#FF0000" className="cursor-pointer" />
             </li>
           </ul>
         </div>

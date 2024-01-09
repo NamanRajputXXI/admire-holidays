@@ -8,7 +8,7 @@ const ProductCategoryCard = ({ url, days, destination, details }) => {
     <div className="flex flex-col gap-5">
       <img src={url} alt="" className="w-[300px] rounded-lg h-[280px]" />
       <div className="absolute flex flex-col justify-between h-[280px]   my-5 px-3 ">
-        <button className="text-white bg-[#DC2626] font-medium px-6 py-3 rounded-lg">
+        <button className="text-white bg-red-500  p-2 rounded-lg">
           Featured
         </button>
         <div className="bg-white gap-2 flex text-[#00BB98] border-[#00BB98] border-2 rounded-lg px-3 py-2 ">
@@ -23,7 +23,7 @@ const ProductCategoryCard = ({ url, days, destination, details }) => {
           <p className="font-light">{details}</p>
         </div>
         <Link
-          className="text-white bg-[#DC2626] hover:bg-white border-[1px] border-red-500 hover:text-red-600 flex justify-center items-center w-[100px] font-medium py-2 rounded-lg"
+          className="text-white bg-red-500 hover:bg-white border-[1px] border-red-500 hover:text-red-600 flex justify-center items-center w-[100px] font-medium py-2 rounded-lg"
           href="/product/jaipur"
         >
           Explore

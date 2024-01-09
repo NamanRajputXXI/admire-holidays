@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="my-20  h-fit  bg-[#def5ff] bg-cover">
       <div className="flex items-center lg:gap-4 gap-10 lg:flex-row flex-col justify-between  ">
         <div className="flex flex-col gap-10 py-10 lg:pl-32 px-5">
-          <p className="text-green-600 text-xl  font-LaBelle  ">
+          <p className="text-[#00BB98] text-xl  font-LaBelle  ">
             Travel Around The World
           </p>
           <h1 className="lg:text-7xl md:text-5xl text-4xl font-bold">
@@ -18,14 +18,7 @@ const HeroSection = () => {
           </p>
           <DestinationMaker />
         </div>
-        {/* <div>
-          <img
-            src="https://admireholidays.com/wp-content/uploads/elementor/thumbs/image-banner-home1-01-q5n4xxh0icn4b1qy2pkk231mteu3gkb26q6xncsweu.jpg"
-            className="lg:h-[450px] lg:w-[600px] rounded-full md:h-[300px] md:w-[400px] "
-            alt=""
-            
-          />
-        </div> */}
+
         <div>
           <img
             src="https://admireholidays.com/wp-content/uploads/elementor/thumbs/image-banner-home1-01-q5n4xxh0icn4b1qy2pkk231mteu3gkb26q6xncsweu.jpg"
@@ -39,7 +32,6 @@ const HeroSection = () => {
           />
         </div>
       </div>
-      {/* <DestinationMaker /> */}
     </section>
   );
 };

@@ -22,7 +22,7 @@ const QuestioningCardsLayout = () => {
     >
       <QuestioningCard
         data-aos="fade-up"
-        iconName={<SiIcomoon color="#cf2e2e" size={100} />}
+        iconName={<SiIcomoon color="#FD4A4C" size={100} />}
         text={"Tell us what you want to do"}
       />
       <QuestioningCard

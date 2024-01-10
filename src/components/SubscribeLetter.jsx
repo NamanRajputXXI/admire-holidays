@@ -6,7 +6,7 @@ const SubscribeLetter = () => {
     <section className="md:px-10 px-5">
       <div className="max-w-7xl  flex justify-around items-center mx-auto rounded-xl bg-gray-100 my-20 h-72 px-2  md:px-8 py-5">
         <img
-          src="https://admireholidays.com/wp-content/uploads/2022/07/people-bg-mc4wp-form.png"
+          src="deliveryBoy.png"
           alt="News Letter"
           className="lg:w-[300px] lg:h-[200px] w-[0px] h-[0px]"
         />

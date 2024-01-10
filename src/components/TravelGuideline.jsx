@@ -5,17 +5,12 @@ const TravelGuideline = () => {
     <section
       className="py-10  bg-cover mb-10"
       style={{
-        backgroundImage:
-          "url('https://demo.ovatheme.com/tripgo/wp-content/uploads/2022/07/Mask-group-home-1.png')",
+        backgroundImage: "url('overlayTheme1.png')",
       }}
     >
       <div className="max-w-7xl md:flex-row flex-col flex gap-10 justify-between items-center px-5 mx-auto py-20  ">
         <div className="flex flex-col gap-5 ">
-          <img
-            src="https://admireholidays.com/wp-content/uploads/2022/07/dial.png"
-            alt=""
-            className="h-32 w-24"
-          />
+          <img src="dial.png" alt="" className="h-32 w-24" />
           <p className="font-light">Take a Hour</p>
           <h5 className="lg:text-4xl text-2xl font-bold">
             Discover Our Travel <br /> Guideline With
@@ -37,14 +32,14 @@ const TravelGuideline = () => {
         <div className="flex  items-center md:flex-row flex-col md:gap-0 gap-10 relative">
           <div className="flex md:absolute static lg:left-[-300px] md:left-[-100px] border-[2px] justify-center items-center h-fit w-fit border-white md:rounded-[190px]  rounded-[80px]">
             <img
-              src="https://demo.ovatheme.com/tripgo/wp-content/uploads/2022/07/destination-03.jpg"
+              src="destination-03-306x306.jpg"
               alt=""
               className="md:rounded-[180px] rounded-[80px] h-full w-full  lg:w-[360px] md:w-[200px] md:h-[300px] lg:h-[470px]"
             />
           </div>
           <div className="border-[10px] h-fit w-fit border-white md:rounded-[190px] rounded-[80px]">
             <img
-              src="https://admireholidays.com/wp-content/uploads/elementor/thumbs/Rectangle-219a-q5n4x3dzcezyokmgwfc43wucrmm4cek5si5u96jtag.jpg"
+              src="destination-02-306x306.jpg"
               alt=""
               className="md:rounded-[180px] rounded-[70px] lg:w-[450px] lg:h-[650px] md:w-[350px] h-full w-full md:h-[480px]"
             />

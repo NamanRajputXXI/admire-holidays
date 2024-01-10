@@ -6,8 +6,7 @@ const CompanyStatsSection = () => {
     <section
       className="bg-[#00BB98] bg-cover  h-fit py-20"
       style={{
-        backgroundImage:
-          "url('https://admireholidays.com/wp-content/uploads/2023/04/background-testimonial-home-6.png')",
+        backgroundImage: "url('background-testimonial-home-6.png')",
       }}
     >
       <div className="max-w-7xl  mx-auto grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center gap-10 px-5 ">

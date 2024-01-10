@@ -5,8 +5,7 @@ const LatestUpdatesSection = () => {
     <section
       className="h-fit py-20 bg-cover bg-[#1B1B3F] "
       style={{
-        backgroundImage:
-          "url('https://admireholidays.com/wp-content/uploads/2023/04/background-testimonial-home-6.png')",
+        backgroundImage: "url('background-testimonial-home-6.png')",
       }}
     >
       <p class="text-[#00BB98] my-3 ml-[30%] text-xl  font-LaBelle  ">
@@ -21,7 +20,7 @@ const LatestUpdatesSection = () => {
           <div className="absolute w-full h-full bg-black bg-opacity-35"></div>
           <img
             className="w-full h-full rounded-xl  "
-            src="https://admireholidays.com/wp-content/uploads/2022/07/destination-01.jpg"
+            src="destination-01.jpg"
             alt=""
           />
           <h1 className="md:text-4xl text-2xl text-white font-bold bottom-10 left-10 absolute">
@@ -32,7 +31,7 @@ const LatestUpdatesSection = () => {
           <div className="absolute w-full h-full bg-black bg-opacity-35"></div>
           <img
             className="w-full h-full rounded-xl"
-            src="https://admireholidays.com/wp-content/uploads/2022/07/destination-03-636x306.jpg"
+            src="destination-03-636x306.jpg"
             alt=""
           />
           <h1 className="md:text-4xl text-2xl text-white font-bold bottom-10 left-10 absolute">
@@ -44,7 +43,7 @@ const LatestUpdatesSection = () => {
 
           <img
             className="w-full h-full rounded-xl"
-            src="https://admireholidays.com/wp-content/uploads/2022/07/destination-03-306x306.jpg"
+            src="destination-03-636x306.jpg"
             alt=""
           />
           <h1 className="md:text-4xl text-2xl text-white font-bold bottom-10 left-10 absolute">
@@ -56,7 +55,7 @@ const LatestUpdatesSection = () => {
 
           <img
             className="w-full h-full rounded-xl"
-            src="https://admireholidays.com/wp-content/uploads/2022/07/destination-02-306x306.jpg"
+            src="destination-02-306x306.jpg"
             alt=""
           />
           <h1 className="md:text-4xl text-2xl text-white font-bold bottom-10 left-10 absolute">

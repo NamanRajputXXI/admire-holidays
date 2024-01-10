@@ -2,6 +2,7 @@
 import React from "react";
 
 import DestinationMaker from "./DestinationMaker";
+import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="my-20  h-fit  bg-[#def5ff] bg-cover">
@@ -20,10 +21,22 @@ const HeroSection = () => {
         </div>
 
         <div>
-          <img
+          {/* <img
             src="https://admireholidays.com/wp-content/uploads/elementor/thumbs/image-banner-home1-01-q5n4xxh0icn4b1qy2pkk231mteu3gkb26q6xncsweu.jpg"
             className="lg:h-[700px] lg:w-[750px] w-full"
             alt=""
+            style={{
+              clipPath:
+                "polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0 48%, 25% 0%)",
+              borderRadius: "20px",
+            }}
+          /> */}
+          <Image
+            src={"/heroSectionBanner.jpg"}
+            className="lg:h-[700px] lg:w-[750px] w-full"
+            width={300}
+            height={300}
+            alt="Logo"
             style={{
               clipPath:
                 "polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0 48%, 25% 0%)",

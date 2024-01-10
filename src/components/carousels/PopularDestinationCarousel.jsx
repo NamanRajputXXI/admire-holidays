@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import {
   CarouselProvider,
   Slider,
@@ -9,6 +9,20 @@ import {
 } from "pure-react-carousel";
 import popularDestinations from "@/data/popularDestination";
 const PopularDestinationCarousel = () => {
+  useEffect(() => {
+    const wheelHandler = (e) => {
+      e.preventDefault();
+      // Your existing wheel event handling logic
+    };
+
+    // Add the event listener
+    document.addEventListener("wheel", wheelHandler, { passive: false });
+
+    // Clean up the event listener on component unmount
+    return () => {
+      document.removeEventListener("wheel", wheelHandler);
+    };
+  }, []);
   return (
     <section className="container max-w-7xl my-20  mx-auto">
       <h1 className="text-center font-Aboreto md:text-5xl text-2xl  ">
@@ -62,6 +76,7 @@ const PopularDestinationCarousel = () => {
                           alt={item.title}
                           className="object-cover rounded-xl object-center h-96 w-96"
                         />
+
                         <div className="bg-black rounded-xl bg-opacity-5 absolute w-full h-full py-6">
                           <div className="flex h-full items-end relative   pb-6">
                             <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">

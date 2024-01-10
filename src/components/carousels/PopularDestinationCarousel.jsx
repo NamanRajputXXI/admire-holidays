@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import {
   CarouselProvider,
   Slider,
@@ -9,20 +9,6 @@ import {
 } from "pure-react-carousel";
 import popularDestinations from "@/data/popularDestination";
 const PopularDestinationCarousel = () => {
-  useEffect(() => {
-    const wheelHandler = (e) => {
-      e.preventDefault();
-      // Your existing wheel event handling logic
-    };
-
-    // Add the event listener
-    document.addEventListener("wheel", wheelHandler, { passive: false });
-
-    // Clean up the event listener on component unmount
-    return () => {
-      document.removeEventListener("wheel", wheelHandler);
-    };
-  }, []);
   return (
     <section className="container max-w-7xl my-20  mx-auto">
       <h1 className="text-center font-Aboreto md:text-5xl text-2xl  ">

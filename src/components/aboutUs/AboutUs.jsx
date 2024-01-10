@@ -46,18 +46,10 @@ const AboutUs = () => {
             money.
           </p>
         </div>
-        <img
-          src="https://admireholidays.com/wp-content/uploads/2023/08/2-2-plane-png-clipart-scaled-e1691893367783-1024x601.jpeg"
-          className="lg:w-[500px] md:w-[350px]"
-          alt=""
-        />
+        <img src="mission.jpeg" className="lg:w-[500px] md:w-[350px]" alt="" />
       </div>
       <div className="flex justify-center md:flex-row flex-col-reverse items-center gap-8">
-        <img
-          src="https://admireholidays.com/wp-content/uploads/2023/08/top-viewthe-business-team-shows-its-unity_252847-33933-removebg-preview.png"
-          className="lg:w-[500px] md:w-[350px]"
-          alt=""
-        />
+        <img src="vision.png" className="lg:w-[500px] md:w-[350px]" alt="" />
         <div className="flex flex-col gap-8">
           <h1 className="md:text-4xl text-2xl text-red-700 font-bold">
             Vision

@@ -6,7 +6,7 @@ const PageBanner = ({ heading, text }) => {
       className="h-96 mt-20 relative bg-cover bg-center"
       style={{
         backgroundImage: `url(
-          "https://demo.ovatheme.com/tripgo/wp-content/uploads/2022/07/header-banner-tour-list.jpg"
+          "/productCategoryBanner.jpg"
         )`,
       }}
     >

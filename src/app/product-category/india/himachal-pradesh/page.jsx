@@ -17,9 +17,7 @@ const page = () => {
         <p className=" text-gray-600">Showing the single result</p>
         <div className="grid lg:col-span-4 md:col-span-3 sm:col-span-2 col-span-1">
           <ProductCategoryCard
-            url={
-              "https://admireholidays.com/wp-content/uploads/2023/06/tiger-falls_p-636x426.jpg"
-            }
+            url={"/himachalProductCateoryImage1.jpg"}
             days={"4 Days"}
             destination={"Himachal Pradesh"}
             details={"Kasauli Town in Himachal Pradesh"}

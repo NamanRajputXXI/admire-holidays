@@ -10,7 +10,7 @@ import { MdOutlinePhoto } from "react-icons/md";
 import ProductCarousel from "../carousels/ProductCarousel";
 import ProductRightPricing from "./ProductRightPricing";
 import ProductDetailLeft from "./ProductDetailLeft";
-import ProductBottomCarousel from "./ProductBottomCarousel";
+import ProductBottomCarousel from "../carousels/ProductBottomCarousel";
 const Product = () => {
   return (
     <section className="bg-[#f8f8f8]">

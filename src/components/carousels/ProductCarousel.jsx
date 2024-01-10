@@ -52,7 +52,7 @@ const ProductCarousel = () => {
                 <Slide>
                   <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
                     <img
-                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      src="/productJaipur1.jpg"
                       alt="img"
                       className="object-cover rounded-xl object-center "
                     />
@@ -64,7 +64,7 @@ const ProductCarousel = () => {
                 <Slide>
                   <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
                     <img
-                      src="https://admireholidays.com/wp-content/uploads/2022/08/Netherlands-636x426.jpg"
+                      src=" /productJaipur2.jpg"
                       alt="img"
                       className="object-cover rounded-xl object-center "
                     />
@@ -76,7 +76,7 @@ const ProductCarousel = () => {
                 <Slide>
                   <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
                     <img
-                      src="https://admireholidays.com/wp-content/uploads/2022/08/tour-gallery-05-636x426.jpg"
+                      src=" /productJaipur3.jpg"
                       alt="img"
                       className="object-cover rounded-xl object-center "
                     />
@@ -88,7 +88,7 @@ const ProductCarousel = () => {
                 <Slide>
                   <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
                     <img
-                      src="https://admireholidays.com/wp-content/uploads/2022/07/tour-2-636x426.jpg"
+                      src="/productJaipur4.jpg"
                       alt="img"
                       className="object-cover rounded-xl object-center "
                     />
@@ -100,7 +100,7 @@ const ProductCarousel = () => {
                 <Slide>
                   <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
                     <img
-                      src="https://admireholidays.com/wp-content/uploads/2022/08/Copenhagen-636x426.jpg"
+                      src="/productJaipur1.jpg"
                       alt="img"
                       className="object-cover rounded-xl object-center "
                     />
@@ -112,7 +112,7 @@ const ProductCarousel = () => {
                 <Slide>
                   <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
                     <img
-                      src="https://admireholidays.com/wp-content/uploads/2022/07/tour-2-636x426.jpg"
+                      src="/productJaipur2.jpg"
                       alt="img"
                       className="object-cover rounded-xl object-center "
                     />

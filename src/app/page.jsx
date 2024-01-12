@@ -14,11 +14,13 @@ import TravelGuideline from "@/components/TravelGuideline";
 import HeroSection from "@/components/HeroSection";
 import reviews from "@/data/testimonialData";
 import Testimonial from "@/components/Testimonial";
+import TestServer from "@/components/TestServer";
 const Home = () => {
   return (
     <>
       <Navbar />
       <HeroSection />
+      <TestServer />
       <PopularDestinationCarousel />
       <DomesticDestinationCarousel />
       <InternationalDestinationCarousel />

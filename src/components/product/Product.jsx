@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { CiHeart } from "react-icons/ci";
 import { CiVideoOn } from "react-icons/ci";
 import { MdDateRange } from "react-icons/md";
@@ -12,12 +14,26 @@ import ProductRightPricing from "./ProductRightPricing";
 import ProductDetailLeft from "./ProductDetailLeft";
 import ProductBottomCarousel from "../carousels/ProductBottomCarousel";
 const Product = () => {
+  const [destinations, setDestinations] = useState([]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/getRajasthanData")
+      .then((destinations) => setDestinations(destinations.data))
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
   return (
     <section className="bg-[#f8f8f8]">
       <div className="mt-20 bg-[#F2FBFA]">
         <div className="max-w-7xl flex sm:justify-between gap-5 justify-start sm:flex-row flex-col sm:items-center sm:mx-auto py-20 px-5">
           <div className="flex flex-col gap-5">
-            <h5 className="md:text-4xl text-2xl font-semibold">Jaipur</h5>
+            <h5 className="md:text-4xl text-2xl font-semibold">
+              {destinations.map((destination) => (
+                <h1>{destination.heading}helll000</h1>
+              ))}
+            </h5>
             <div className="flex justify-between">
               <div className="flex gap-2 items-center ">
                 <CiLocationOn size={25} color="#00bb98" />

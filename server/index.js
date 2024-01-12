@@ -1,39 +1,40 @@
-require("dotenv").config();
+// server.js
 // const express = require("express");
-// const mongoose = require("mongoose");
-// const cors = require("cors");
-// const app = express();
-// app.use(cors());
-// app.use(express.json());
+// const connectDB = require("./db");
+// const JaipurModel = require("./models/Jaipur");
 
-// mongoose.connect(process.env.MONGODB_URI);
-// app.listen(3001, () => {
-//   console.log(`server is running on ${3001}`);
+// const app = express();
+// const PORT = process.env.PORT || 3001;
+
+// connectDB();
+
+// app.get("/api/jaipur", async (req, res) => {
+//   try {
+//     const jaipurData = await JaipurModel.findOne({ heading: "Jaipur" });
+//     res.json(jaipurData);
+//   } catch (error) {
+//     console.error("Error fetching Jaipur data:", error);
+//     res.status(500).json({ error: "Internal Server Error" });
+//   }
 // });
 
+// app.listen(PORT, () => {
+//   console.log(`Server is running on http://localhost:${PORT}`);
+// });
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const RajasthanModel = require("./models/Jaipur");
 const app = express();
-const UserModel = require("./models/userModel");
 app.use(cors());
 app.use(express.json());
 
-const mongoURI = process.env.MONGODB_URI;
-console.log(mongoURI);
-app.get("/getUsers", (req, res) => {
-  UserModel.find()
-    .then((users) => res.json(users))
+mongoose.connect("mongodb://localhost:27017/productsData/Rajasthan");
+app.get("/getRajastahnData", (req, res) => {
+  RajasthanModel.find()
+    .then((destination) => res.json(destination))
     .catch((err) => res.json(err));
 });
-mongoose
-  .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => {
-    console.log("Connected to MongoDB");
-    app.listen(3001, () => {
-      console.log(`Server is running on ${3001}`);
-    });
-  })
-  .catch((error) => {
-    console.error("Error connecting to MongoDB:", error);
-  });
+app.listen(3001, () => {
+  console.log("server is running");
+});

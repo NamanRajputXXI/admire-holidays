@@ -16,11 +16,12 @@ import ProductBottomCarousel from "../carousels/ProductBottomCarousel";
 const Product = () => {
   const [destinations, setDestinations] = useState([]);
   useEffect(() => {
+    console.log("Fetching data...");
     axios
       .get("http://localhost:3001/getRajasthanData")
       .then((response) => {
+        console.log("Data received:", response.data);
         setDestinations(response.data);
-        console.log(response.data);
       })
       .catch((err) => {
         console.error("Error fetching data:", err);
@@ -35,7 +36,7 @@ const Product = () => {
             <h5 className="md:text-4xl text-2xl font-semibold">
               {destinations.length > 0 ? (
                 destinations.map((destination) => (
-                  <h1 key={destination._id}>{destination.heading}helll000</h1>
+                  <h1 key={destination._id}>{destination.heading}</h1>
                 ))
               ) : (
                 <p>No data available</p>

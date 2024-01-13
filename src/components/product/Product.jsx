@@ -18,9 +18,12 @@ const Product = () => {
   useEffect(() => {
     axios
       .get("http://localhost:3001/getRajasthanData")
-      .then((destinations) => setDestinations(destinations.data))
+      .then((response) => {
+        setDestinations(response.data);
+        console.log(response.data);
+      })
       .catch((err) => {
-        console.log(err);
+        console.error("Error fetching data:", err);
       });
   }, []);
 
@@ -30,9 +33,13 @@ const Product = () => {
         <div className="max-w-7xl flex sm:justify-between gap-5 justify-start sm:flex-row flex-col sm:items-center sm:mx-auto py-20 px-5">
           <div className="flex flex-col gap-5">
             <h5 className="md:text-4xl text-2xl font-semibold">
-              {destinations.map((destination) => (
-                <h1>{destination.heading}helll000</h1>
-              ))}
+              {destinations.length > 0 ? (
+                destinations.map((destination) => (
+                  <h1 key={destination._id}>{destination.heading}helll000</h1>
+                ))
+              ) : (
+                <p>No data available</p>
+              )}
             </h5>
             <div className="flex justify-between">
               <div className="flex gap-2 items-center ">

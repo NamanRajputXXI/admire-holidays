@@ -7,10 +7,6 @@ const errorHandlerMiddleware = require("./middleware/errorhandler");
 require("dotenv").config();
 const cors = require("cors");
 app.use(cors());
-// password: uAUpD8hsIBoCd4yT
-// username: rathiabhishek53
-// 49.37.45.241/32 - ip access list, my ip address
-// mongodb+srv://rathiabhishek53:uAUpD8hsIBoCd4yT@cluster0.sweu8ev.mongodb.net/?retryWrites=true&w=majority
 
 app.use(express.json());
 app.use("/", data);

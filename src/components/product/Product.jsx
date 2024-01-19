@@ -18,10 +18,10 @@ const Product = () => {
   useEffect(() => {
     console.log("Fetching data...");
     axios
-      .get("http://localhost:3001/getRajasthanData")
+      .get("http://localhost:8000/getRajasthanData")
       .then((response) => {
-        console.log("Data received:", response.data);
-        setDestinations(response.data);
+        console.log("Data received:", response.data.data);
+        setDestinations(response.data.data);
       })
       .catch((err) => {
         console.error("Error fetching data:", err);
@@ -34,13 +34,10 @@ const Product = () => {
         <div className="max-w-7xl flex sm:justify-between gap-5 justify-start sm:flex-row flex-col sm:items-center sm:mx-auto py-20 px-5">
           <div className="flex flex-col gap-5">
             <h5 className="md:text-4xl text-2xl font-semibold">
-              {destinations.length > 0 ? (
+              {Array.isArray(destinations) &&
                 destinations.map((destination) => (
                   <h1 key={destination._id}>{destination.heading}</h1>
-                ))
-              ) : (
-                <p>No data available</p>
-              )}
+                ))}
             </h5>
             <div className="flex justify-between">
               <div className="flex gap-2 items-center ">

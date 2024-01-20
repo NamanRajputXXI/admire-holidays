@@ -18,7 +18,7 @@ const Product = () => {
   useEffect(() => {
     console.log("Fetching data...");
     axios
-      .get("http://localhost:8000/getRajasthanData")
+      .get("https://server-deploy-gamma.vercel.app/getRajasthanData")
       .then((response) => {
         console.log("Data received:", response.data.data);
         setDestinations(response.data.data);

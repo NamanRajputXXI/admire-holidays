@@ -2,7 +2,20 @@
 import React, { useState } from "react";
 import { CiShoppingTag } from "react-icons/ci";
 import { IoIosAirplane } from "react-icons/io";
-const ProductRightPricing = () => {
+const ProductRightPricing = ({
+  price,
+  previousPrice,
+  homePickupAdultPrice,
+  homePickupBabyPrice,
+  homePickupChildPrice,
+  adultPrice,
+  childPrice,
+  babyPrice,
+  discount,
+  startDate,
+  endDate,
+  minMax,
+}) => {
   const [isBookingFormOpen, setIsBookingFormOpen] = useState(true);
   const [isEnquiryFormOpen, setIsEnquiryFormOpen] = useState(false);
   const openBookingForm = () => {
@@ -20,8 +33,8 @@ const ProductRightPricing = () => {
           <CiShoppingTag size={30} color="#FD4A4C" /> From
         </div>
         <div className="flex items-baseline gap-2">
-          <p className="text-[#00BB98] text-2xl font-bold">₹399.00</p>
-          <p className="text-gray-500 line-through">₹390.00</p>
+          <p className="text-[#00BB98] text-2xl font-bold">₹{price}</p>
+          <p className="text-gray-500 line-through">₹{previousPrice}</p>
         </div>
         <div className="flex justify-center gap-1 items-center relative">
           <div className="bg-[#FD4A4C] h-[1px] z-10 w-[50%]"></div>
@@ -112,20 +125,22 @@ const ProductRightPricing = () => {
                     <div className="flex  justify-between items-center">
                       <p className="text-gray-400">Adult : </p>
                       <p>
-                        ₹10.00{" "}
+                        {homePickupAdultPrice}
                         <span className="text-gray-400">/per person</span>
                       </p>
                     </div>
                     <div className="flex  justify-between items-center">
                       <p className="text-gray-400">Child : </p>
                       <p>
-                        ₹3.00 <span className="text-gray-400">/per person</span>
+                        {homePickupChildPrice}{" "}
+                        <span className="text-gray-400">/per person</span>
                       </p>
                     </div>
                     <div className="flex  justify-between items-center">
                       <p className="text-gray-400">Baby : </p>
                       <p>
-                        ₹0.00 <span className="text-gray-400">/per person</span>
+                        {homePickupBabyPrice}
+                        <span className="text-gray-400">/per person</span>
                       </p>
                     </div>
                   </div>
@@ -154,7 +169,7 @@ const ProductRightPricing = () => {
                   </option>
                 </select>
                 <div className="flex py-6 flex-col gap-3">
-                  <p>Deposit Option 50% Per item</p>
+                  <p>Deposit Option {discount} Per item</p>
                   <div className="flex">
                     <div className="w-1/2 sm:text-base text-sm py-3 flex justify-center items-center bg-[#00BB98] text-white">
                       Full Payment
@@ -305,21 +320,21 @@ const ProductRightPricing = () => {
                       <div className="flex  justify-between items-center">
                         <p className="text-gray-400">Adult : </p>
                         <p>
-                          ₹10.00{" "}
+                          {homePickupAdultPrice}
                           <span className="text-gray-400">/per person</span>
                         </p>
                       </div>
                       <div className="flex  justify-between items-center">
                         <p className="text-gray-400">Child : </p>
                         <p>
-                          ₹3.00{" "}
+                          {homePickupChildPrice}
                           <span className="text-gray-400">/per person</span>
                         </p>
                       </div>
                       <div className="flex  justify-between items-center">
                         <p className="text-gray-400">Baby : </p>
                         <p>
-                          ₹0.00{" "}
+                          {homePickupBabyPrice}
                           <span className="text-gray-400">/per person</span>
                         </p>
                       </div>
@@ -371,16 +386,16 @@ const ProductRightPricing = () => {
           <h5 className="text-xl font-semibold">Global Discount</h5>
           <div>
             <div className="flex items-center font-light text-sm py-5  text-white bg-[#00BB98] justify-around">
-              <p className="text-center">Min - Max</p>
-              <p className="text-center">Adult Price</p>
-              <p className="text-center">Children Price</p>
-              <p className="text-center">Baby Price</p>
+              <p className="text-center font-bold">Min - Max</p>
+              <p className="text-center font-bold">Adult Price</p>
+              <p className="text-center font-bold">Child Price</p>
+              <p className="text-center font-bold ">Baby Price</p>
             </div>
             <div className="flex items-center py-2 text-sm font-light  bg-gray-200 justify-around">
               <p className="text-center">20 - 50 </p>
-              <p className="text-center">₹350.00 </p>
-              <p className="text-center">₹280.00 </p>
-              <p className="text-center">₹0.00</p>
+              <p className="text-center">₹{adultPrice} </p>
+              <p className="text-center">₹{childPrice} </p>
+              <p className="text-center">₹{babyPrice}</p>
             </div>
           </div>
         </div>
@@ -390,31 +405,31 @@ const ProductRightPricing = () => {
             <table className="min-w-full bg-white border overflow-auto  border-gray-300">
               <thead className=" bg-[#00BB98]">
                 <tr className="text-sm  text-white ">
-                  <th className="py-2 font-light text-center px-2 border-b">
+                  <th className="py-2 font-bold  text-center px-2 border-b">
                     Start Date
                   </th>
-                  <th className="py-2 font-light text-center px-2 border-b">
+                  <th className="py-2 font-bold text-center px-2 border-b">
                     End Date
                   </th>
-                  <th className="py-2 font-light text-center px-2 border-b">
+                  <th className="py-2 font-bold text-center px-2 border-b">
                     Adult Price
                   </th>
-                  <th className="py-2 font-light text-center  px-2 border-b">
+                  <th className="py-2 font-bold text-center  px-2 border-b">
                     Children Price
                   </th>
-                  <th className="py-2 font-light px-2 border-b">Baby Price</th>
-                  <th className="py-2 font-light px-2 border-b">
+                  <th className="py-2  font-bold px-2 border-b">Baby Price</th>
+                  <th className="py-2 font-bold px-2 border-b">
                     Special Discount
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="text-sm font-light bg-gray-200">
-                  <td className="py-2  text-center border-b">18-08-2022</td>
-                  <td className="py-2  text-center border-b">24-08-2022</td>
-                  <td className="py-2  text-center  border-b">₹330.00</td>
-                  <td className="py-2   text-center border-b">₹290.00</td>
-                  <td className="py-2   text-center border-b">₹0.00</td>
+                  <td className="py-2  text-center border-b">{startDate}</td>
+                  <td className="py-2  text-center border-b">{endDate}</td>
+                  <td className="py-2  text-center  border-b">{adultPrice}</td>
+                  <td className="py-2   text-center border-b">{childPrice}</td>
+                  <td className="py-2   text-center border-b">{babyPrice}</td>
                   <td className="py-2  text-center  border-b">View Discount</td>
                 </tr>
               </tbody>

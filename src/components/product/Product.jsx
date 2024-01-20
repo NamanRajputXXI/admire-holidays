@@ -14,7 +14,7 @@ import ProductRightPricing from "./ProductRightPricing";
 import ProductDetailLeft from "./ProductDetailLeft";
 import ProductBottomCarousel from "../carousels/ProductBottomCarousel";
 const Product = () => {
-  const [destinations, setDestinations] = useState([]);
+  const [destinations, setDestinations] = useState(null);
   useEffect(() => {
     console.log("Fetching data...");
     axios
@@ -39,7 +39,6 @@ const Product = () => {
                   <h1 className="md:text-4xl text-2xl font-semibold">
                     {destination.heading}
                   </h1>
-
                   <div className="flex justify-between">
                     <div className="flex gap-2 items-center ">
                       <CiLocationOn size={25} color="#00bb98" />

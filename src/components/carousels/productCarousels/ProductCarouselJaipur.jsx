@@ -19,6 +19,8 @@ const ProductCarousel = () => {
         visibleSlides={2}
         step={1}
         infinite={true}
+        isPlaying={true} // Set isPlaying to true for autoplay
+        interval={2000} // Set the interval in milliseconds (e.g., 3000 for 3 seconds)
       >
         <div className="w-full relative flex items-center justify-center">
           <ButtonBack

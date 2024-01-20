@@ -1,7 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { CiShoppingTag } from "react-icons/ci";
 import { IoIosAirplane } from "react-icons/io";
+import BookingForm from "./BookingForm";
+import EnquiryForm from "./EnquiryForm";
 const ProductRightPricing = ({
   price,
   previousPrice,
@@ -26,6 +28,40 @@ const ProductRightPricing = ({
     setIsEnquiryFormOpen(true);
     setIsBookingFormOpen(false);
   };
+
+  const [selectedTime, setSelectedTime] = useState("option1");
+  const [checkinDate, setCheckinDate] = useState("");
+  const [checkoutDate, setCheckoutDate] = useState("");
+
+  useEffect(() => {
+    // Get current date
+    const currentDate = new Date();
+    const currentDateString = formatDate(currentDate);
+
+    // Calculate check-out date based on the selected time range
+    const checkoutDate = new Date(currentDate);
+    checkoutDate.setDate(checkoutDate.getDate() + 6); // Assuming 7 days duration
+
+    // Format dates
+    const checkinDateString = formatDate(currentDate);
+    const checkoutDateString = formatDate(checkoutDate);
+
+    // Set the values in the state
+    setCheckinDate(checkinDateString);
+    setCheckoutDate(checkoutDateString);
+  }, [selectedTime]);
+
+  const handleTimeChange = (event) => {
+    setSelectedTime(event.target.value);
+  };
+
+  const formatDate = (date) => {
+    const day = date.getDate().toString().padStart(2, "0");
+    const month = (date.getMonth() + 1).toString().padStart(2, "0");
+    const year = date.getFullYear();
+    return `${day}-${month}-${year}`;
+  };
+
   return (
     <div className="flex lg:min-w-[35%] w-full flex-col gap-10">
       <div className="p-10  flex flex-col gap-4 h-fit  my-5 bg-white">
@@ -46,7 +82,7 @@ const ProductRightPricing = ({
         <div>
           <div className="flex text-gray-500  gap-10 justify-center items-center">
             <p
-              className={`text-center pb-3 w-1/2  ${
+              className={`text-center cursor-pointer pb-3 w-1/2  ${
                 isBookingFormOpen === true ? "border-[#00BB98]  border-b-2" : ""
               } `}
               onClick={openBookingForm}
@@ -54,7 +90,7 @@ const ProductRightPricing = ({
               Booking Form
             </p>
             <p
-              className={`text-center pb-3 w-1/2  ${
+              className={`text-center pb-3 cursor-pointer w-1/2  ${
                 isEnquiryFormOpen === true ? "border-[#00BB98]  border-b-2" : ""
               } `}
               onClick={openEnquiryForm}
@@ -64,319 +100,21 @@ const ProductRightPricing = ({
           </div>
 
           {isBookingFormOpen === true && (
-            <div>
-              <div className="mt-8">
-                <label
-                  className="flex mt-4 text-gray-700   mb-2"
-                  htmlFor="mySelect"
-                >
-                  Choose Time
-                </label>
-                <select
-                  id="mySelect"
-                  name="mySelect"
-                  className="flex w-full gap-5 border border-gray-300 px-4 py-2 rounded-md"
-                >
-                  <option value="option1" className="py-2">
-                    From 01-10-2024 - 07-10-2024
-                  </option>
-                  <option value="option2" className="py-2">
-                    From 22-10-2024 - 28-10-2024
-                  </option>
-                  <option value="option3" className="py-2">
-                    From 15-10-2025 - 21-10-2025
-                  </option>
-                </select>
-                <label
-                  className="flex mt-6 text-gray-700   mb-2"
-                  htmlFor="checkinDate"
-                >
-                  Check in
-                </label>
-                <div className="w-full px-5 py-3 text-gray-600 rounded-md bg-gray-300">
-                  01-10-2024
-                </div>
-                <label
-                  className="flex mt-6 text-gray-700   mb-2"
-                  htmlFor="checkinDate"
-                >
-                  Check out
-                </label>
-                <div className="w-full px-5 py-3 text-gray-600 rounded-md bg-gray-300">
-                  07-10-2024
-                </div>
-                <label
-                  className="flex mt-6 text-gray-700   mb-2"
-                  htmlFor="checkinDate"
-                >
-                  Guests
-                </label>
-                <div className="w-full px-5 py-3 border-[1px] border-gray-400 text-gray-600 rounded-md ">
-                  1
-                </div>
-                <div className="py-6 flex flex-col gap-3 ">
-                  <p>Extra Service</p>
-                  <div className="flex gap-3 flex-col ">
-                    <div className="flex items-center gap-5">
-                      <div className="bg-gray-400 hover:bg-[#00BB98] rounded-full w-10 h-10"></div>
-                      <p>Home Pickup</p>
-                    </div>
-
-                    <div className="flex  justify-between items-center">
-                      <p className="text-gray-400">Adult : </p>
-                      <p>
-                        {homePickupAdultPrice}
-                        <span className="text-gray-400">/per person</span>
-                      </p>
-                    </div>
-                    <div className="flex  justify-between items-center">
-                      <p className="text-gray-400">Child : </p>
-                      <p>
-                        {homePickupChildPrice}{" "}
-                        <span className="text-gray-400">/per person</span>
-                      </p>
-                    </div>
-                    <div className="flex  justify-between items-center">
-                      <p className="text-gray-400">Baby : </p>
-                      <p>
-                        {homePickupBabyPrice}
-                        <span className="text-gray-400">/per person</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <label
-                  className="flex mt-4 text-gray-700   mb-2"
-                  htmlFor="mySelect"
-                >
-                  Services
-                </label>
-                <select
-                  id="mySelect"
-                  name="mySelect"
-                  className="flex w-full gap-3 border border-gray-300 px-4 py-2 rounded-md"
-                >
-                  <option value="option1" className="py-2 ">
-                    Select Healthcare
-                  </option>
-                  <option value="option2" className="py-2">
-                    Massage (Adult : ₹10/per person - Children : ₹5/per - person
-                    - Baby: ₹0/per - person )
-                  </option>
-                  <option value="option3" className="py-2">
-                    Night Food (Adult : ₹5/per person - Children : ₹2/per -
-                    person - Baby: ₹0/per - person )
-                  </option>
-                </select>
-                <div className="flex py-6 flex-col gap-3">
-                  <p>Deposit Option {discount} Per item</p>
-                  <div className="flex">
-                    <div className="w-1/2 sm:text-base text-sm py-3 flex justify-center items-center bg-[#00BB98] text-white">
-                      Full Payment
-                    </div>
-                    <div className="w-1/2 py-3 sm:text-base text-sm bg-gray-200 flex justify-center items-center text-black">
-                      Pay Deposit
-                    </div>
-                  </div>
-                  <div className="flex  justify-between items-center">
-                    <p className="sm:text-lg text-sm ">Available : </p>
-                    <p className="sm:text-2xl text-xl ">200</p>
-                  </div>
-                  <div className="flex  justify-between items-center">
-                    <p className="sm:text-lg text-sm ">Total : </p>
-                    <p className="sm:text-2xl text-xl">₹344.99</p>
-                  </div>
-                  <button className="py-5 bg-[#FD4A4C] mt-4 text-sm text-white rounded-lg  flex justify-center items-center">
-                    Booking Now
-                  </button>
-                </div>
-              </div>
-            </div>
+            <BookingForm
+              discount={discount}
+              price={price}
+              homePickupAdultPrice={homePickupAdultPrice}
+              homePickupBabyPrice={homePickupBabyPrice}
+              homePickupChildPrice={homePickupChildPrice}
+            />
           )}
           {isEnquiryFormOpen === true && (
             <div>
-              <div className="mt-8">
-                <form action="">
-                  <div className="mb-4">
-                    <label
-                      htmlFor="name"
-                      className=" font-medium text-gray-700"
-                    >
-                      Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      placeholder=" Your Name"
-                      className="mt-2 py-2  px-5 w-full border rounded-md"
-                      required
-                    />
-                  </div>
-
-                  <div className="mb-4">
-                    <label
-                      htmlFor="email"
-                      className=" font-medium text-gray-700"
-                    >
-                      Email *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      placeholder="example@gmail.com"
-                      className="mt-2 py-2  px-5 w-full border rounded-md"
-                      required
-                    />
-                  </div>
-
-                  <div className="mb-4">
-                    <label
-                      htmlFor="phone"
-                      className=" font-medium text-gray-700"
-                    >
-                      Phone *
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      placeholder="(229)555 - 2872"
-                      className="mt-2 py-2  px-5 w-full border rounded-md"
-                      required
-                    />
-                  </div>
-
-                  <div className="mb-4">
-                    <label
-                      htmlFor="address"
-                      className=" font-medium text-gray-700"
-                    >
-                      Address *
-                    </label>
-                    <textarea
-                      id="address"
-                      name="address"
-                      className="mt-2 py-2  px-5 w-full border rounded-md"
-                      rows="2"
-                      required
-                    ></textarea>
-                  </div>
-
-                  <label
-                    className="flex mt-4 text-gray-700   mb-2"
-                    htmlFor="mySelect"
-                  >
-                    Choose Time
-                  </label>
-                  <select
-                    id="mySelect"
-                    name="mySelect"
-                    className="flex w-full gap-5 border border-gray-300 px-4 py-2 rounded-md"
-                  >
-                    <option value="option1" className="py-2">
-                      From 01-10-2024 - 07-10-2024
-                    </option>
-                    <option value="option2" className="py-2">
-                      From 22-10-2024 - 28-10-2024
-                    </option>
-                    <option value="option3" className="py-2">
-                      From 15-10-2025 - 21-10-2025
-                    </option>
-                  </select>
-                  <label
-                    className="flex mt-6 text-gray-700   mb-2"
-                    htmlFor="checkinDate"
-                  >
-                    Check in
-                  </label>
-                  <div className="w-full px-5 py-3 text-gray-600 rounded-md bg-gray-300">
-                    01-10-2024
-                  </div>
-                  <label
-                    className="flex mt-6 text-gray-700   mb-2"
-                    htmlFor="checkinDate"
-                  >
-                    Check out
-                  </label>
-                  <div className="w-full px-5 py-3 text-gray-600 rounded-md bg-gray-300">
-                    07-10-2024
-                  </div>
-                  <label
-                    className="flex mt-6 text-gray-700   mb-2"
-                    htmlFor="checkinDate"
-                  >
-                    Guests
-                  </label>
-                  <div className="w-full px-5 py-3 border-[1px] border-gray-400 text-gray-600 rounded-md ">
-                    1
-                  </div>
-                  <div className="py-6 flex flex-col gap-3 ">
-                    <p>Extra Service</p>
-                    <div className="flex gap-3 flex-col ">
-                      <div className="flex items-center gap-5">
-                        <div className="bg-gray-400 hover:bg-[#00BB98] rounded-full w-10 h-10"></div>
-                        <p>Home Pickup</p>
-                      </div>
-
-                      <div className="flex  justify-between items-center">
-                        <p className="text-gray-400">Adult : </p>
-                        <p>
-                          {homePickupAdultPrice}
-                          <span className="text-gray-400">/per person</span>
-                        </p>
-                      </div>
-                      <div className="flex  justify-between items-center">
-                        <p className="text-gray-400">Child : </p>
-                        <p>
-                          {homePickupChildPrice}
-                          <span className="text-gray-400">/per person</span>
-                        </p>
-                      </div>
-                      <div className="flex  justify-between items-center">
-                        <p className="text-gray-400">Baby : </p>
-                        <p>
-                          {homePickupBabyPrice}
-                          <span className="text-gray-400">/per person</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <label
-                    className="flex mt-4 text-gray-700   mb-2"
-                    htmlFor="mySelect"
-                  >
-                    Services
-                  </label>
-                  <select
-                    id="mySelect"
-                    name="mySelect"
-                    className="flex w-full gap-3 border border-gray-300 px-4 py-2 rounded-md"
-                  >
-                    <option value="option1" className="py-2 ">
-                      Select Healthcare
-                    </option>
-                    <option value="option2" className="py-2">
-                      Massage (Adult : ₹10/per person - Children : ₹5/per -
-                      person - Baby: ₹0/per - person )
-                    </option>
-                    <option value="option3" className="py-2">
-                      Night Food (Adult : ₹5/per person - Children : ₹2/per -
-                      person - Baby: ₹0/per - person )
-                    </option>
-                  </select>
-                  <div className="flex py-6 flex-col gap-3">
-                    <textarea
-                      id="address"
-                      name="address"
-                      className="mt-2 py-2  px-5 w-full border rounded-md"
-                      rows="4"
-                      required
-                    ></textarea>
-                    <button className="py-5 bg-[#FD4A4C] mt-4 text-sm text-white rounded-lg  flex justify-center items-center">
-                      Send Now
-                    </button>
-                  </div>
-                </form>
-              </div>
+              <EnquiryForm
+                homePickupAdultPrice={homePickupAdultPrice}
+                homePickupBabyPrice={homePickupBabyPrice}
+                homePickupChildPrice={homePickupChildPrice}
+              />
             </div>
           )}
         </div>
@@ -392,7 +130,7 @@ const ProductRightPricing = ({
               <p className="text-center font-bold ">Baby Price</p>
             </div>
             <div className="flex items-center py-2 text-sm font-light  bg-gray-200 justify-around">
-              <p className="text-center">20 - 50 </p>
+              <p className="text-center">{minMax} </p>
               <p className="text-center">₹{adultPrice} </p>
               <p className="text-center">₹{childPrice} </p>
               <p className="text-center">₹{babyPrice}</p>

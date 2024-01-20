@@ -386,10 +386,10 @@ const ProductRightPricing = ({
           <h5 className="text-xl font-semibold">Global Discount</h5>
           <div>
             <div className="flex items-center font-light text-sm py-5  text-white bg-[#00BB98] justify-around">
-              <p className="text-center">{minMax}</p>
-              <p className="text-center">{adultPrice}</p>
-              <p className="text-center">{childPrice}</p>
-              <p className="text-center">{babyPrice}</p>
+              <p className="text-center font-bold">Min - Max</p>
+              <p className="text-center font-bold">Adult Price</p>
+              <p className="text-center font-bold">Child Price</p>
+              <p className="text-center font-bold ">Baby Price</p>
             </div>
             <div className="flex items-center py-2 text-sm font-light  bg-gray-200 justify-around">
               <p className="text-center">20 - 50 </p>
@@ -405,20 +405,20 @@ const ProductRightPricing = ({
             <table className="min-w-full bg-white border overflow-auto  border-gray-300">
               <thead className=" bg-[#00BB98]">
                 <tr className="text-sm  text-white ">
-                  <th className="py-2 font-light text-center px-2 border-b">
+                  <th className="py-2 font-bold  text-center px-2 border-b">
                     Start Date
                   </th>
-                  <th className="py-2 font-light text-center px-2 border-b">
+                  <th className="py-2 font-bold text-center px-2 border-b">
                     End Date
                   </th>
-                  <th className="py-2 font-light text-center px-2 border-b">
+                  <th className="py-2 font-bold text-center px-2 border-b">
                     Adult Price
                   </th>
-                  <th className="py-2 font-light text-center  px-2 border-b">
+                  <th className="py-2 font-bold text-center  px-2 border-b">
                     Children Price
                   </th>
-                  <th className="py-2 font-light px-2 border-b">Baby Price</th>
-                  <th className="py-2 font-light px-2 border-b">
+                  <th className="py-2  font-bold px-2 border-b">Baby Price</th>
+                  <th className="py-2 font-bold px-2 border-b">
                     Special Discount
                   </th>
                 </tr>

@@ -6,9 +6,10 @@ import { RxCross1 } from "react-icons/rx";
 import { CiStar } from "react-icons/ci";
 import { FaCarSide, FaHome, FaPlane, FaUserCircle } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
-import { MdConnectingAirports, MdDateRange } from "react-icons/md";
+import { MdDateRange } from "react-icons/md";
 import { IoFastFoodSharp } from "react-icons/io5";
 import { BsFillEmojiSunglassesFill } from "react-icons/bs";
+
 const ProductDetailLeft = ({
   overview,
   day1Heading,
@@ -41,6 +42,13 @@ const ProductDetailLeft = ({
   const dayThreeClick = () => {
     setDayThreeOpen((prev) => !prev);
   };
+
+  const [activeLink, setActiveLink] = useState("#itinerary");
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   return (
     <div className="flex my-10 lg:w-[65%] w-full flex-col gap-6">
       <h5 className="md:text-3xl text-xl font-bold">Overview</h5>
@@ -72,7 +80,74 @@ const ProductDetailLeft = ({
       <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
 
       <div className="flex flex-col gap-10">
-        <h1 className="font-bold  text-2xl md:text-4xl">Tour Plan</h1>
+        {/* <h1 className="font-bold  text-2xl md:text-4xl">Tour Plan</h1> */}
+        <div className="grid grid-cols-5  py-4 w-full px-4 g text-xl font-semibold items-center justify-center">
+          <div
+            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#itinerary"
+                ? "border-b-[1px] border-b-red-500"
+                : "border-b-gray-400 border-b-[1px]"
+            }`}
+          >
+            <a
+              id="itinerary"
+              href="#itinerary"
+              onClick={() => handleLinkClick("#itinerary")}
+            >
+              Itinerary
+            </a>
+          </div>
+          <div
+            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#map"
+                ? "border-b-[1px] border-b-red-500"
+                : "border-b-gray-400 border-b-[1px]"
+            }`}
+          >
+            <a href="#map" onClick={() => handleLinkClick("#map")}>
+              Map
+            </a>
+          </div>
+          <div
+            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#reviews"
+                ? "border-b-[1px] border-b-red-500"
+                : "border-b-gray-400 border-b-[1px]"
+            }`}
+          >
+            <a href="#reviews" onClick={() => handleLinkClick("#reviews")}>
+              Reviews
+            </a>
+          </div>
+          <div
+            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#inclusions"
+                ? "border-b-[1px] border-b-red-500"
+                : "border-b-gray-400 border-b-[1px]"
+            }`}
+          >
+            <a
+              href="#inclusions"
+              onClick={() => handleLinkClick("#inclusions")}
+            >
+              Inclusions
+            </a>
+          </div>
+          <div
+            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#exclusions"
+                ? "border-b-[1px] border-b-red-500"
+                : "border-b-gray-400 border-b-[1px]"
+            }`}
+          >
+            <a
+              href="#exclusions"
+              onClick={() => handleLinkClick("#exclusions")}
+            >
+              Exclusions
+            </a>
+          </div>
+        </div>
         <Accordian
           day={"Day 1"}
           heading={day1Heading}
@@ -94,7 +169,7 @@ const ProductDetailLeft = ({
           isOpen={dayThreeOpen}
           clickFunction={dayThreeClick}
         />
-        <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
+        <div className="h-[1px] my-8 bg-gray-300 w-full" id="inclusions"></div>
         <h1 className="font-bold text-2xl  md:text-4xl">Included</h1>
         <div className="flex  flex-col  gap-10 ">
           <div className="flex flex-col gap-2">
@@ -104,7 +179,9 @@ const ProductDetailLeft = ({
             </div>
             <div className="flex items-center gap-3">
               <TiTick color="#00BB98" size={30} />
-              <p className="font-light text-sm sm:text-base">{inclusion2}</p>
+              <p className="font-light text-sm sm:text-base" id="exclusions">
+                {inclusion2}
+              </p>
             </div>
             <div className="flex items-center gap-3">
               <TiTick color="#00BB98" size={30} />
@@ -137,7 +214,7 @@ const ProductDetailLeft = ({
           </div>
         </div>
 
-        <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
+        <div className="h-[1px] my-8 bg-gray-300 w-full" id="map"></div>
         <h1 className="font-bold  text-2xl md:text-4xl">Tour Map</h1>
         <div>
           <iframe
@@ -191,7 +268,10 @@ const ProductDetailLeft = ({
             </div>
             <div className="flex flex-col gap-3 w-full">
               <p>1 Star</p>
-              <div className="bg-gray-300  text-sm text-white px-5 rounded-lg">
+              <div
+                className="bg-gray-300  text-sm text-white px-5 rounded-lg"
+                id="reviews"
+              >
                 0 %
               </div>
             </div>

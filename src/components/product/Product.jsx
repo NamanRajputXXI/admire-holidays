@@ -88,7 +88,7 @@ const Product = () => {
           </div>
           <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">
             <ProductDetailLeft
-              overview={destinations.overview}
+              overview={destinations[0].overview}
               day1Heading={destinations[0].day1Heading}
               day1Overview={destinations[0].day1Overview}
               day2Heading={destinations[0].day2Heading}

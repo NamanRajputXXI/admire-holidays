@@ -3,18 +3,18 @@ import { FaAngleDown } from "react-icons/fa";
 
 const Accordian = ({ day, heading, isOpen, text, clickFunction }) => {
   return (
-    <div className="flex flex-col gap-5 border-[1px] border-gray-300 rounded-lg">
+    <div className="flex flex-col gap-5  rounded-lg" id="itinerary">
       <div
-        className="w-full flex justify-between px-3 bg-gray-200 py-3 rounded-lg items-center"
+        className="w-full flex gap-10 px-3  py-3 rounded-lg items-center"
         onClick={clickFunction}
       >
         <div className="flex items-center gap-5">
-          <button className="px-6 flex items-center  sm:text-base text-sm justify-center py-2 text-white bg-[#FD4A4C] rounded-lg">
+          <button className="px-6 flex items-center font-semibold  sm:text-base text-sm justify-center py-2 border-[1px] border-gray-400  rounded-lg">
             {day}
           </button>
-          <p className="font-medium   sm:text-base text-sm">{heading}</p>
+          <p className=" font-semibold  sm:text-base text-sm">{heading}</p>
         </div>
-        <FaAngleDown size={20} />
+        <FaAngleDown size={20} color="#ef4444" />
       </div>
       {isOpen === true && (
         <div className="flex justify-center items-center px-5 py-3">

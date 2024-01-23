@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Accordian from "./Accordian";
 import { TiTick } from "react-icons/ti";
 import { RxCross1 } from "react-icons/rx";
@@ -12,12 +12,7 @@ import { BsFillEmojiSunglassesFill } from "react-icons/bs";
 
 const ProductDetailLeft = ({
   overview,
-  day1Heading,
-  day1Overview,
-  day2Heading,
-  day2Overview,
-  day3Heading,
-  day3Overview,
+  itinerary,
   inclusion1,
   inclusion2,
   inclusion3,
@@ -48,6 +43,9 @@ const ProductDetailLeft = ({
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
+  useEffect(() => {
+    console.log(itinerary[0].day2Overview);
+  }, []);
 
   return (
     <div className="flex my-10 lg:w-[65%] w-full flex-col gap-6">
@@ -80,7 +78,6 @@ const ProductDetailLeft = ({
       <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
 
       <div className="flex flex-col gap-10">
-        {/* <h1 className="font-bold  text-2xl md:text-4xl">Tour Plan</h1> */}
         <div className="grid grid-cols-5  py-4 w-full px-4 g text-xl font-semibold items-center justify-center">
           <div
             className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
@@ -149,26 +146,27 @@ const ProductDetailLeft = ({
           </div>
         </div>
         <Accordian
-          day={"Day 1"}
-          heading={day1Heading}
-          text={day1Overview}
+          day={itinerary[0].day}
+          heading={itinerary[0].day1Heading}
           isOpen={dayOneOpen}
+          dayOverview={itinerary[0].day1Overview}
           clickFunction={dayOneClick}
         />
         <Accordian
-          day={"Day 2"}
-          heading={day2Heading}
-          text={day2Overview}
+          day={itinerary[1].day}
+          heading={itinerary[1].day2Heading}
           isOpen={dayTwoOpen}
+          dayOverview={itinerary[1].day2Overview}
           clickFunction={dayTwoClick}
         />
         <Accordian
-          day={"Day 3"}
-          heading={day3Heading}
-          text={day3Overview}
+          day={itinerary[2].day}
+          heading={itinerary[2].day3Heading}
           isOpen={dayThreeOpen}
+          dayOverview={itinerary[2].day3Overview}
           clickFunction={dayThreeClick}
         />
+
         <div className="h-[1px] my-8 bg-gray-300 w-full" id="inclusions"></div>
         <h1 className="font-bold text-2xl  md:text-4xl">Included</h1>
         <div className="flex  flex-col  gap-10 ">

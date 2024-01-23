@@ -89,12 +89,6 @@ const Product = () => {
           <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">
             <ProductDetailLeft
               overview={destinations[0].overview}
-              day1Heading={destinations[0].day1Heading}
-              day1Overview={destinations[0].day1Overview}
-              day2Heading={destinations[0].day2Heading}
-              day2Overview={destinations[0].day2Overview}
-              day3Heading={destinations[0].day3Heading}
-              day3Overview={destinations[0].day3Overview}
               inclusion1={destinations[0].inclusion1}
               inclusion2={destinations[0].inclusion2}
               inclusion3={destinations[0].inclusion3}
@@ -106,6 +100,7 @@ const Product = () => {
               mapSrc={destinations[0].mapSrc}
               reviewHeading={destinations[0].reviewHeading}
               reviews={destinations[0].reviews}
+              itinerary={destinations[0].itinerary}
             />
             <ProductRightPricing
               price={destinations.price}

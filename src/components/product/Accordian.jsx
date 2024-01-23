@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
 
-const Accordian = ({ day, heading, isOpen, text, clickFunction }) => {
+const Accordian = ({ day, heading, isOpen, clickFunction, dayOverview }) => {
   return (
     <div className="flex flex-col gap-5  rounded-lg" id="itinerary">
       <div
@@ -18,7 +18,7 @@ const Accordian = ({ day, heading, isOpen, text, clickFunction }) => {
       </div>
       {isOpen === true && (
         <div className="flex justify-center items-center px-5 py-3">
-          <p className="tracking-wider sm:text-base text-sm">{text}</p>
+          <p className="tracking-wider sm:text-base text-sm">{dayOverview}</p>
         </div>
       )}
     </div>

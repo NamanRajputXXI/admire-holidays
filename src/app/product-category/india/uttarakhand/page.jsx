@@ -21,36 +21,42 @@ const page = () => {
             days="4 Days"
             destination="Mussoorie"
             details="Mussoorie, Uttarakhand"
+            productLink={"/product/pushkar"}
           />
           <ProductCategoryCard
             url="/haridwar2.jpg"
             days="4 Days"
             destination="Haridwar"
             details="Haridwar City in Uttarakhand"
+            productLink={"/product/pushkar"}
           />
           <ProductCategoryCard
             url="/kanantal.jpg"
             days="1 Day"
             destination="Kanantal"
             details="KanatalKaudia Range, Uttarakhand"
+            productLink={"/product/pushkar"}
           />
           <ProductCategoryCard
             url="/corbett.jpg"
             days="1 Day"
             destination="Corbett National Park"
             details="National park in Uttarakhanddos"
+            productLink={"/product/pushkar"}
           />
           <ProductCategoryCard
             url="/mussoorie2.jpg"
             days="4 Days"
             destination="Mussoorie"
             details="Mussoorie, Uttarakhand"
+            productLink={"/product/pushkar"}
           />
           <ProductCategoryCard
             url="/nainital.jpg"
             days="7 Days"
             destination="Nainital"
             details="Nainital City in Uttarakhand"
+            productLink={"/product/pushkar"}
           />
         </div>
       </div>

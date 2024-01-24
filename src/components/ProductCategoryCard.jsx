@@ -3,7 +3,13 @@ import React from "react";
 import { CiClock2 } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
 
-const ProductCategoryCard = ({ url, days, destination, details }) => {
+const ProductCategoryCard = ({
+  url,
+  days,
+  destination,
+  details,
+  productLink,
+}) => {
   return (
     <div className="flex flex-col gap-5">
       <img src={url} alt="" className="w-[300px] rounded-lg h-[280px]" />
@@ -24,7 +30,7 @@ const ProductCategoryCard = ({ url, days, destination, details }) => {
         </div>
         <Link
           className="text-white bg-red-500 hover:bg-white border-[1px] border-red-500 hover:text-red-600 flex justify-center items-center w-[100px] font-medium py-2 rounded-lg"
-          href="/product/jaipur"
+          href={productLink}
         >
           Explore
         </Link>

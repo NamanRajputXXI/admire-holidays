@@ -1,86 +1,135 @@
 {
-    "_id":{
-       "$oid":"65aa274accb345f5628c46dd"
+   "_id":{
+      "$oid":"65aa274accb345f5628c46dd"
+   },
+   "carouselImageUrl":[
+"/productPushkar1.jpg",
+"/productPushkar2.jpg",
+"/productPushkar3.jpg",
+"/productPushkar4.jpg",
+"/productPushkar1.jpg",
+"/productPushkar2.jpg"
+
+   ],
+   "heading":"Pushkar",
+   "subHeading":"Pushkar City in Rajasthan",
+   "duration":"4 Days",
+   "maxPeople":{
+      "$numberInt":"20"
+   },
+   "minAge":"16+",
+   "pickup":"Motobike",
+   "overview":"Pushkar is a city, near Ajmer City and headquarters of Pushkar tehsil in the Ajmer district in the Indian state of Rajasthan. It is situated about 10 km northwest of Ajmer and about 150 kilometres southwest of Jaipur. It is a pilgrimage site for Hindus and Sikhs. Pushkar has many temples",
+   "exclusion1":"Departure Taxes",
+   "exclusion2":"Entry Fees",
+   "exclusion3":"5 Star Accommodation",
+   "exclusion4":"Airport Transfers",
+   "inclusion1":"Specialized bilingual guide",
+   "inclusion2":"Private Transport",
+   "inclusion3":"Entrance fees (Cable and car and Moon Valley)",
+   "inclusion4":"Box lunch water, banana apple and chocolate",
+   "mapSrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28567.72997820352!2d74.53340696604005!3d26.48903159969892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396bdd22e5572a2f%3A0xb8733d912fcdf2ea!2sPushkar%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1706079711112!5m2!1sen!2sin" ,
+   "reviewHeading":"14 reviews for Pushkar",
+   "reviews": [
+    {
+      "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
+      "name": "Aarav",
+      "date": "7th February 2023"
     },
-    "heading":"Jaipur",
-    "subHeading":"Jaipur, Rajasthan, India",
-    "numberOfPhotos":{
-       "$numberInt":"4"
+    {
+      "review": "Spectacular sights and smooth travel. Heartfelt thanks to admire holidays for an unforgettable trip!",
+      "name": "Ishita",
+      "date": "12th March 2023"
     },
-    "duration":"7 Days",
-    "maxPeople":{
-       "$numberInt":"50"
+    {
+      "review": "Unparalleled memories created by the exceptional services of admire holidays.",
+      "name": "Kavya",
+      "date": "18th April 2023"
     },
-    "minAge":"10+",
-    "pickup":"Airport",
-    "overview":"Jaipur is the capital of India’s Rajasthan state. It evokes the royal\n        family that once ruled the region and that, in 1727, founded what is now\n        called the Old City, or “Pink City” for its trademark building color. At\n        the center of its stately street grid (notable in India) stands the\n        opulent, colonnaded City Palace complex. With gardens, courtyards and\n        museums, part of it is still a royal residence",
-    "exclusion1":"Departure Taxes",
-    "exclusion2":"Entry Fees",
-    "exclusion3":"5 Star Accommodation",
-    "exclusion4":"Airport Transfers",
-    "inclusion1":"Specialized bilingual guide",
-    "inclusion2":"Private Transport",
-    "inclusion3":"Entrance fees (Cable and car and Moon Valley)",
-    "inclusion4":"Box lunch water, banana apple and chocolate",
-    "mapSrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45872.534320582!2d75.76503740618563!3d26.922470930222502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1704695586865!5m2!1sen!2sin",
-    "reviewHeading":"2 reviews for Jaipur",
-    "reviews":[
-       {
-          "review":"Very good service by admire holidays",
-          "name":"Naman",
-          "date":"19th January 2024"
-       },
-       {
-          "review":"Excellent arrangements and a memorable experience.",
-          "name":"Vimal",
-          "date":"17th December 2023"
-       }
-    ],
-    "adultPrice":"350.00",
-    "babyPrice":"0",
-    "childPrice":"280",
-    "discount":"50",
-    "endDate":"22-01-2024",
-    "homePickupAdultPrice":"10",
-    "homePickupBabyPrice":"0",
-    "homePickupChildPrice":"3",
-    "previousPrice":"390",
-    "price":"339",
-    "startDate":"18-01-2024",
-    "minMax":"20-30",
-    "itinerary":[
-       {
-          "day":"Day 1",
-          "day1Heading":"Jaipur Day 1: Unveiling the City's Charm",
-          "\"bulletPoints":[
-             "Discover Jaipur's vibrant local markets, offering a variety of handicrafts, jewelry, fabrics, and carpets.",
-             "Check into your chosen hotel for a comfortable and pleasant stay.",
-             "Enjoy leisure time, taking advantage of the hotel's recreational facilities or simply unwinding.",
-             "Immerse yourself in a shopping extravaganza, exploring Jaipur's unique and exquisite offerings.",
-             "Conclude the day with a peaceful overnight stay, ready for more adventures in Jaipur."
-          ]
-       },
-       {
-          "day":"Day 2",
-          "day2Heading":"Jaipur Day Tour: Historical Wonders Unveiled",
-          "bulletPoints":[
-             "Explore the majestic Amber Fort, ascending its hilltop location in an open jeep. Built by Raja Man Singh, it boasts Hindu artistic elements, large ramparts, and cobbled paths overlooking the serene Maota Lake.",
-             "Dive into Jaipur's rich history with visits to the City Palace, Jantar Mantar Observatory, and Ram Niwas Gardens. Each site offers a unique perspective on the city's cultural and architectural heritage.",
-             "Drive past the iconic Hawa Mahal and Jaigarh Fort, witnessing the city's historical and architectural treasures."
-              "Explore Jaipur, founded by King Sawai Jai Singh, and named the Pink City in 1853. The entire walled city is adorned with buildings painted in the same distinctive pink hue made from sand.",
-             "Conclude your day with a late evening drive back to the hotel, reflecting on the historical wonders witnessed throughout the day. Enjoy a peaceful overnight stay, ready to uncover more of Jaipur's charm on the following day."
-          ]
-       },
-       {
-          "day":"Day 3",
-          "day3Heading":"Jaipur to Delhi Journey: Homeward Bound",
-          "bulletPoints":[
-             "Jaipur to Delhi Journey: Homeward Bound",
-             "Embark on a scenic drive covering a distance of 260 kilometers, approximately 5 hours.",
-             "Take in the landscapes along the way as you head back to the bustling capital.",
-             "Reflect on the memories and experiences gathered during your time in Jaipur.",
-             "Arrive in Delhi, concluding the trip with the satisfaction of exploring the vibrant Pink City."
-          ]
-       }
-    ]
- }
+    {
+      "review": "Outstanding arrangements and a flawless Pushkar experience. Highly recommended!",
+      "name": "Aryan",
+      "date": "25th May 2023"
+    },
+    {
+      "review": "An amazing journey, meticulously planned itinerary, and exceptional customer service by admire holidays.",
+      "name": "Ishaan",
+      "date": "8th June 2023"
+    },
+    {
+      "review": "A magical trip filled with wonder and joy. Great job, admire holidays!",
+      "name": "Sanya",
+      "date": "15th July 2023"
+    },
+    {
+      "review": "Incredible experiences and fantastic arrangements. Kudos to admire holidays!",
+      "name": "Veer",
+      "date": "21st August 2023"
+    },
+    {
+      "review": "Memorable moments and top-notch services. Thank you, admire holidays, for a fantastic journey!",
+      "name": "Avni",
+      "date": "4th September 2023"
+    },
+    {
+      "review": "Breathtaking views and impeccable planning. A big thanks to admire holidays!",
+      "name": "Aahana",
+      "date": "12th October 2023"
+    },
+    {
+      "review": "An enchanting adventure with flawless execution. admire holidays exceeded expectations!",
+      "name": "Vihaan",
+      "date": "19th November 2023"
+    },
+    {
+      "review": "A journey filled with beauty and culture. Great job, admire holidays!",
+      "name": "Advait",
+      "date": "26th December 2023"
+    },
+    {
+      "review": "Exceptional services and a memorable trip. Kudos to admire holidays!",
+      "name": "Saanvi",
+      "date": "2nd January 2023"
+    },
+    {
+      "review": "Unforgettable moments and a seamless experience. Thank you, admire holidays!",
+      "name": "Aryan",
+      "date": "10th February 2023"
+    },
+    {
+      "review": "A fantastic journey with excellent planning. Hats off to admire holidays!",
+      "name": "Ishani",
+      "date": "18th March 2023"
+    }
+  ]
+,  
+   "adultPrice":"60",
+   "babyPrice":"0",
+   "childPrice":"0",
+   "discount":"50",
+   "homePickupAdultPrice":"100",
+   "homePickupBabyPrice":"0",
+   "homePickupChildPrice":"50",
+   "previousPrice":"53,999",
+   "price":"50,000",
+   "minMax":"20-30",
+   "itinerary": [
+    {
+      "day": "Day 1",
+      "day1Heading": "Pushkar Day 1: Arrival and Spiritual Exploration",
+      "day1Overview": "Embark on a soul-enriching journey as you drive to Pushkar. Upon arrival, immerse yourself in the sacred vibes of this mystical town. Check-in at the hotel and let the spirituality of Pushkar captivate you. Take a stroll around the holy Pushkar Lake, a place revered by pilgrims for centuries. Visit the renowned Brahma Temple, the only temple dedicated to Lord Brahma in the world. Feel the divine energy and serenity that surrounds this spiritual haven. The day is free for your own spiritual exploration and leisure activities. In the evening, witness the mesmerizing Aarti at Pushkar Lake, a soul-soothing experience. Dinner & overnight stay at the hotel."
+    },
+    {
+      "day": "Day 2",
+      "day2Heading": "Pushkar Day 2: Camel Fair Extravaganza",
+      "day2Overview": "After a hearty breakfast, delve into the vibrant atmosphere of the Pushkar Camel Fair. Marvel at the spectacle of thousands of camels, adorned in colorful attire, creating a kaleidoscope of tradition and culture. Immerse yourself in the unique cultural events, from camel races to traditional performances. Explore the lively markets offering a myriad of handicrafts, textiles, and local delights. In the evening, find solace by the Pushkar Lake, where the tranquil surroundings provide a perfect backdrop for reflection. Dinner & overnight stay at the hotel."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "Pushkar to Jaipur Journey: Departure",
+      "day3Overview": "Bid farewell to the enchanting town of Pushkar after a delightful breakfast. As you drive towards Jaipur (145 Kms / 3 Hrs), relish the memories of the unique experiences and cultural richness Pushkar has offered. Reach Jaipur and conclude your memorable journey, carrying with you the essence of spirituality and the vibrant spirit of Pushkar."
+    }
+  ]
+  
+    
+}

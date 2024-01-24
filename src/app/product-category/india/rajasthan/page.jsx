@@ -21,6 +21,7 @@ const page = () => {
             days="7 Days"
             destination="Jaipur"
             details="Jaipur,Rajasthan, India"
+            productLink={"/product/jaipur"}
           />
           <ProductCategoryCard
             url="/bharatpur.jpg"
@@ -28,6 +29,7 @@ const page = () => {
             destination="Bharatpur
             "
             details="Bharatpur, india"
+            productLink={"/product/bharatpur"}
           />
           <ProductCategoryCard
             url="/pushkar.jpg"
@@ -35,6 +37,7 @@ const page = () => {
             destination="Pushkar"
             details="Pushkar City in Rajasthan
             "
+            productLink={"/product/pushkar"}
           />
         </div>
       </div>

@@ -21,7 +21,7 @@ const page = () => {
             days={"4 Days"}
             destination={"Himachal Pradesh"}
             details={"Kasauli Town in Himachal Pradesh"}
-            productLink={"/product/pushkar"}
+            productLink={"/product/kasauli"}
           />
         </div>
       </div>

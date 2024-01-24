@@ -10,7 +10,7 @@ import {
 const ProductCarousel = ({ carouselImageUrl }) => {
   console.log(carouselImageUrl);
   return (
-    <div className="flex items-center justify-center w-full   h-full  px-4">
+    <div className="flex items-center py-10 justify-center w-full   h-full  px-4">
       {/* Carousel for desktop and large size devices */}
       <CarouselProvider
         className="lg:block hidden"

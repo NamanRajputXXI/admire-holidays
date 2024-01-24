@@ -25,6 +25,7 @@ const ProductDetailLeft = ({
   reviewHeading,
   reviews,
 }) => {
+  const [allOpen, setAllOpen] = useState(false);
   const [dayOneOpen, setDayOneOpen] = useState(false);
   const [dayTwoOpen, setDayTwoOpen] = useState(false);
   const [dayThreeOpen, setDayThreeOpen] = useState(false);
@@ -36,6 +37,13 @@ const ProductDetailLeft = ({
   };
   const dayThreeClick = () => {
     setDayThreeOpen((prev) => !prev);
+  };
+
+  const expandAll = () => {
+    setAllOpen(!allOpen);
+    setDayOneOpen(!allOpen);
+    setDayTwoOpen(!allOpen);
+    setDayThreeOpen(!allOpen);
   };
 
   const [activeLink, setActiveLink] = useState("#itinerary");
@@ -53,34 +61,34 @@ const ProductDetailLeft = ({
       <p className="text-base text-gray-700">{overview}</p>
 
       <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
-      <div className="grid sm:gap-5 gap-10 pb-10 sm:grid-cols-5 grid-cols-2 items-center justify-center">
+      <div className="grid sm:gap-5 gap-10  sm:grid-cols-5 grid-cols-2 items-center justify-center">
         <div className="flex text-xs text-gray-800 flex-col items-center justify-center gap-2">
-          <FaCarSide size={40} color="#f0901f" />
+          <FaCarSide size={40} color="#3a2f5b" />
           Transport Included
         </div>
         <div className="flex text-xs text-gray-800 flex-col items-center justify-center gap-2">
-          <IoFastFoodSharp size={40} color="#f0901f" />
+          <IoFastFoodSharp size={40} color="#3a2f5b" />
           Meals Included
         </div>
         <div className="flex text-xs text-gray-800 flex-col items-center justify-center gap-2">
-          <FaHome size={40} color="#f0901f" />
+          <FaHome size={40} color="#3a2f5b" />
           Stay Included
         </div>
         <div className="flex text-xs text-gray-800 flex-col items-center justify-center gap-2">
-          <FaPlane size={40} color="#f0901f" />
+          <FaPlane size={40} color="#3a2f5b" />
           Airport Transfers
         </div>
         <div className="flex text-xs text-gray-800 flex-col items-center justify-center gap-2">
-          <BsFillEmojiSunglassesFill size={40} color="#f0901f" />
+          <BsFillEmojiSunglassesFill size={40} color="#3a2f5b" />
           Sightseeing
         </div>
       </div>
       <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
 
-      <div className="flex flex-col gap-10">
-        <div className="grid grid-cols-5  py-4 w-full px-4 g text-xl font-semibold items-center justify-center">
+      <div className="flex flex-col gap-10 bg-white px-4 py-2">
+        <div className="grid sm:grid-cols-5 grid-cols-2 sm:gap-0 gap-3  py-2 w-full  text-xs text-gray-700 sm:text-base  items-center justify-center">
           <div
-            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2  px-2 justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#itinerary"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -95,7 +103,7 @@ const ProductDetailLeft = ({
             </a>
           </div>
           <div
-            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2 px-2 justify-center border-l-[0.5px]  border-l-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#map"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -106,7 +114,7 @@ const ProductDetailLeft = ({
             </a>
           </div>
           <div
-            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2 px-2 justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#reviews"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -117,7 +125,7 @@ const ProductDetailLeft = ({
             </a>
           </div>
           <div
-            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2 px-2 justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#inclusions"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -131,7 +139,7 @@ const ProductDetailLeft = ({
             </a>
           </div>
           <div
-            className={`flex items-center py-4 px-2 justify-center border-x-[1px]  border-x-gray-400 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2 px-2 justify-center border-x-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#exclusions"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -145,27 +153,38 @@ const ProductDetailLeft = ({
             </a>
           </div>
         </div>
-        <Accordian
-          day={itinerary[0].day}
-          heading={itinerary[0].day1Heading}
-          isOpen={dayOneOpen}
-          dayOverview={itinerary[0].day1Overview}
-          clickFunction={dayOneClick}
-        />
-        <Accordian
-          day={itinerary[1].day}
-          heading={itinerary[1].day2Heading}
-          isOpen={dayTwoOpen}
-          dayOverview={itinerary[1].day2Overview}
-          clickFunction={dayTwoClick}
-        />
-        <Accordian
-          day={itinerary[2].day}
-          heading={itinerary[2].day3Heading}
-          isOpen={dayThreeOpen}
-          dayOverview={itinerary[2].day3Overview}
-          clickFunction={dayThreeClick}
-        />
+
+        <div className="flex flex-col gap-10 relative">
+          <button
+            className="flex items-center text-sm absolute right-0 top-[-30px] sm:right-4 sm:top-4 justify-center px-4 py-1 border-[1px] border-red-500 text-red-500  rounded-lg cursor-pointer"
+            style={{ minWidth: "100px" }} // Set a fixed width for the button
+            onClick={expandAll}
+          >
+            Expand all
+          </button>
+          <Accordian
+            day={itinerary[0].day}
+            heading={itinerary[0].day1Heading}
+            isOpen={dayOneOpen}
+            dayOverview={itinerary[0].day1Overview}
+            clickFunction={dayOneClick}
+          />
+
+          <Accordian
+            day={itinerary[1].day}
+            heading={itinerary[1].day2Heading}
+            isOpen={dayTwoOpen}
+            dayOverview={itinerary[1].day2Overview}
+            clickFunction={dayTwoClick}
+          />
+          <Accordian
+            day={itinerary[2].day}
+            heading={itinerary[2].day3Heading}
+            isOpen={dayThreeOpen}
+            dayOverview={itinerary[2].day3Overview}
+            clickFunction={dayThreeClick}
+          />
+        </div>
 
         <div className="h-[1px] my-8 bg-gray-300 w-full" id="inclusions"></div>
         <h1 className="font-bold text-2xl  md:text-4xl">Included</h1>
@@ -217,7 +236,7 @@ const ProductDetailLeft = ({
         <div>
           <iframe
             src={mapSrc}
-            className="lg:w-[700px] lg:h-[450px] sm:w-96 sm:h-96 w-72 h-72"
+            className="lg:w-[700px] lg:h-[450px] sm:w-96 sm:h-96 w-64 h-64"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"

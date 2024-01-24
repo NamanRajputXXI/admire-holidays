@@ -14,6 +14,7 @@ import TravelGuideline from "@/components/TravelGuideline";
 import HeroSection from "@/components/HeroSection";
 import reviews from "@/data/testimonialData";
 import Testimonial from "@/components/Testimonial";
+import FormModal from "@/components/FormModal";
 const Home = () => {
   return (
     <>

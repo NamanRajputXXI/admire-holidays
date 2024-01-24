@@ -4,6 +4,7 @@ const EnquiryForm = ({
   homePickupAdultPrice,
   homePickupBabyPrice,
   homePickupChildPrice,
+  openModalFunc,
 }) => {
   const [selectedTime, setSelectedTime] = useState("");
   const [checkinDate, setCheckinDate] = useState("");
@@ -65,8 +66,8 @@ const EnquiryForm = ({
     return `${day}-${month}-${year}`;
   };
   return (
-    <div className="mt-8">
-      <form action="">
+    <div className="mt-8 w-full">
+      <form action="" className="w-full">
         <div className="mb-4">
           <label htmlFor="name" className=" font-medium text-gray-700">
             Name *
@@ -75,19 +76,6 @@ const EnquiryForm = ({
             type="text"
             id="name"
             placeholder=" Your Name"
-            className="mt-2 py-2  px-5 w-full border rounded-md"
-            required
-          />
-        </div>
-
-        <div className="mb-4">
-          <label htmlFor="email" className=" font-medium text-gray-700">
-            Email *
-          </label>
-          <input
-            type="email"
-            id="email"
-            placeholder="example@gmail.com"
             className="mt-2 py-2  px-5 w-full border rounded-md"
             required
           />
@@ -105,8 +93,20 @@ const EnquiryForm = ({
             required
           />
         </div>
-
         <div className="mb-4">
+          <label htmlFor="destination" className=" font-medium text-gray-700">
+            Destination *
+          </label>
+          <input
+            type="text"
+            id="destination"
+            placeholder="Enter Destination"
+            className="mt-2 py-2  px-5 w-full border rounded-md"
+            required
+          />
+        </div>
+
+        {/* <div className="mb-4">
           <label htmlFor="address" className=" font-medium text-gray-700">
             Address *
           </label>
@@ -117,9 +117,9 @@ const EnquiryForm = ({
             rows="2"
             required
           ></textarea>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <label className="flex mt-4 text-gray-700 mb-2" htmlFor="mySelect">
             Choose Time
           </label>
@@ -140,14 +140,14 @@ const EnquiryForm = ({
             Check in
           </label>
           <div className="w-full px-5 py-3 text-gray-600 rounded-md bg-gray-300">
-            {/* Display Check-in date */}
+        
             {checkinDate}
           </div>
           <label className="flex mt-6 text-gray-700 mb-2" htmlFor="checkinDate">
             Check out
           </label>
           <div className="w-full px-5 py-3 text-gray-600 rounded-md bg-gray-300">
-            {/* Display Check-out date */}
+            
             {checkoutDate}
           </div>
           <label className="flex mt-6 text-gray-700 mb-2" htmlFor="guests">
@@ -161,8 +161,8 @@ const EnquiryForm = ({
             value={guests}
             onChange={handleGuestsChange}
           />
-        </div>
-        <div className="py-6 flex flex-col gap-3 ">
+        </div> */}
+        {/* <div className="py-6 flex flex-col gap-3 ">
           <p>Extra Service</p>
           <div className="flex gap-3 flex-col ">
             <div className="flex items-center gap-5">
@@ -224,7 +224,23 @@ const EnquiryForm = ({
           <button className="py-5 bg-[#FD4A4C] mt-4 text-sm text-white rounded-lg  flex justify-center items-center">
             Send Now
           </button>
-        </div>
+        </div> */}
+        <button className="py-4 bg-[#FD4A4C] mt-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center">
+          Send Enquiry
+        </button>
+        <p className="text-center text-gray-700 text-sm mt-4">Or</p>
+
+        <button className="py-4 bg-[#3a2f5b] mt-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center">
+          Add to Cart
+        </button>
+        <p className="text-center text-gray-700 text-sm mt-4">Or</p>
+
+        <p
+          className="tex-sm text-red-600 mt-4 cursor-pointer hover:text-[#3a2f5b] text-center"
+          onClick={openModalFunc}
+        >
+          Download as pdf
+        </p>
       </form>
     </div>
   );

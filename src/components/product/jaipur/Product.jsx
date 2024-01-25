@@ -12,6 +12,7 @@ import ProductDetailLeft from "../ProductDetailLeft";
 import ProductBottomCarousel from "../../carousels/ProductBottomCarousel";
 import FormModal from "@/components/FormModal";
 import Loader from "../Loader";
+import SwiperProductCarousel from "@/components/carousels/productCarousels/SwiperProductCarousel";
 const Product = () => {
   const [destinations, setDestinations] = useState(null);
   const [loading, setLoading] = useState(true); // New loading state
@@ -55,9 +56,15 @@ const Product = () => {
         {!loading && (
           <div>
             {Array.isArray(destinations) && destinations.length > 0 && (
-              <section className="bg-[#f8f8f8]" key={destinations[0]._id}>
-                <div className="mt-20 bg-[#F2FBFA]">
-                  <ProductCarousel
+              <section
+                className="bg-[rgb(248,248,248)]"
+                key={destinations[0]._id}
+              >
+                <div className="mt-20 px-5 py-16 bg-[#F2FBFA]">
+                  {/* <ProductCarousel
+                    carouselImageUrl={destinations[0].carouselImageUrl}
+                  /> */}
+                  <SwiperProductCarousel
                     carouselImageUrl={destinations[0].carouselImageUrl}
                   />
                   <div className="max-w-7xl md:flex-row flex-col mx-auto grid  items-center grid-cols-1 md:grid-cols-2 gap-10">

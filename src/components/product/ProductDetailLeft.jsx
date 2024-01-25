@@ -210,19 +210,19 @@ const ProductDetailLeft = ({
           <h1 className="font-bold text-2xl mt-10  md:text-4xl">Excluded</h1>
 
           <div className="flex flex-col mb-10 gap-4">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-5">
               <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion1}</p>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-5">
               <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion2}</p>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-5">
               <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion3}</p>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-5">
               <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion4}</p>
             </div>

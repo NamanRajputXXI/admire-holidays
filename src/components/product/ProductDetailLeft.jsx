@@ -185,7 +185,9 @@ const ProductDetailLeft = ({
           />
         </div>
 
-        <h1 className="font-bold text-2xl  mt-10 md:text-4xl">Included</h1>
+        <h1 className="font-bold text-2xl  mt-10 md:text-4xl" id="inclusions">
+          Included
+        </h1>
         <div className="flex  flex-col mb-10 gap-10 ">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-3">
@@ -229,7 +231,9 @@ const ProductDetailLeft = ({
           </div>
         </div>
 
-        <h1 className="font-bold  text-2xl md:text-4xl">Tour Map</h1>
+        <h1 className="font-bold  text-2xl md:text-4xl" id="map">
+          Tour Map
+        </h1>
         <div>
           <iframe
             src={mapSrc}
@@ -239,7 +243,6 @@ const ProductDetailLeft = ({
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
         <h1 className="font-medium text-xl md:text-2xl">{reviewHeading}</h1>
         <div className="flex  sm:flex-row flex-col gap-5">
           <div className="bg-white flex-col flex sm:justify-center justify-start  gap-5 sm:items-center sm:h-[400px] h-fit w-full sm:w-1/2">

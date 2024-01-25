@@ -9,7 +9,7 @@ const Accordian = ({ day, heading, isOpen, clickFunction, dayOverview }) => {
         onClick={clickFunction}
       >
         <div className="flex items-center sm:gap-5 gap-2">
-          <button className="sm:px-6 px-2 flex items-center sm:font-semibold  sm:text-base text-sm justify-center py-2 border-[1px] border-gray-400  rounded-lg">
+          <button className="sm:px-6 px-2 flex items-center sm:font-semibold  sm:text-base text-sm justify-center py-2 border-[1px] border-gray-300  rounded-lg">
             {day}
           </button>
           <p className=" sm:font-semibold  sm:text-base text-sm">{heading}</p>

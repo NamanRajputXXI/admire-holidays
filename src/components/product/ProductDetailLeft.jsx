@@ -245,7 +245,7 @@ const ProductDetailLeft = ({
         <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
         <h1 className="font-medium text-xl md:text-2xl">{reviewHeading}</h1>
         <div className="flex  sm:flex-row flex-col gap-5">
-          <div className="bg-white flex-col flex justify-center gap-5 items-center h-[400px] w-full sm:w-1/2">
+          <div className="bg-white flex-col flex sm:justify-center justify-start  gap-5 sm:items-center sm:h-[400px] h-fit w-full sm:w-1/2">
             <div className="flex gap-5">
               <p className="text-gray-400">/5 </p>
               <p>Based On 0 ratings</p>
@@ -311,12 +311,12 @@ const ProductDetailLeft = ({
               <p className="font-medium">{review.name}</p>
             </div>
             <div className="flex flex-col gap-3">
-              <div className="flex items-center gap-2">
-                <CiStar size={25} color="#fcb900" />
-                <CiStar size={25} color="#fcb900" />
-                <CiStar size={25} color="#fcb900" />
-                <CiStar size={25} color="#fcb900" />
-                <CiStar size={25} color="#fcb900" />
+              <div className="flex items-center sm:gap-2 gap-1">
+                <CiStar size={20} color="#fcb900" />
+                <CiStar size={20} color="#fcb900" />
+                <CiStar size={20} color="#fcb900" />
+                <CiStar size={20} color="#fcb900" />
+                <CiStar size={20} color="#fcb900" />
               </div>
               <p className="sm:text-sm text-xs">{review.review}</p>
               <div className="flex text-gray-500 gap-3 items-center">

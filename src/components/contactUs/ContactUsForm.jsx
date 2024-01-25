@@ -30,7 +30,7 @@ const ContactUsForm = () => {
               </div>
               <div className="flex flex-col gap-4 ">
                 <p className="text-base">Phone Number</p>
-                <p className="text-base text-gray-500">+18001210140</p>
+                <p className="text-base text-gray-500">+91-1140612834</p>
               </div>
             </div>
             <div className="flex gap-5 items-center ">
@@ -56,7 +56,7 @@ const ContactUsForm = () => {
                 </div>
                 <div className="flex flex-col gap-4 ">
                   <p className="text-base">Need help?</p>
-                  <p className="text-base text-gray-500">+18001210140</p>
+                  <p className="text-base text-gray-500">+91-1140612834</p>
                 </div>
               </div>
               <div className="w-[100%] mx-auto h-[1px] bg-gray-300"></div>

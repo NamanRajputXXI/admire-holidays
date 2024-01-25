@@ -66,7 +66,7 @@ const ProductRightPricing = ({
 
   return (
     <div className="flex lg:min-w-[35%] w-full flex-col gap-10">
-      <div className="p-10  flex flex-col gap-4 h-fit  my-5 bg-white">
+      <div className="p-10  flex flex-col gap-4 h-fit rounded-lg  my-5 bg-white">
         <div className="flex text-lg font-medium gap-3 items-center">
           <CiShoppingTag size={30} color="#FD4A4C" /> Starting from
         </div>
@@ -92,78 +92,20 @@ const ProductRightPricing = ({
           />
         </div>
       </div>
-      <div className="lg:p-10 p-4 lg:min-w-[35%]  w-full   flex bg-white  flex-col gap-4 h-fit  m ">
-        <div className="flex flex-col gap-3 ">
-          <h5 className="text-xl font-semibold">Global Discount</h5>
-          <div>
-            <div className="flex items-center font-light text-sm py-5  text-white bg-[#00BB98] justify-around">
-              <p className="text-center font-bold">Min - Max</p>
-              <p className="text-center font-bold">Adult Price</p>
-              <p className="text-center font-bold">Child Price</p>
-              <p className="text-center font-bold ">Baby Price</p>
-            </div>
-            <div className="flex items-center py-2 text-sm font-light  bg-gray-200 justify-around">
-              <p className="text-center">{minMax} </p>
-              <p className="text-center">₹{adultPrice} </p>
-              <p className="text-center">₹{childPrice} </p>
-              <p className="text-center">₹{babyPrice}</p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-3 ">
-          <h5 className="text-xl font-semibold">Special Time</h5>
-          <div className="w-full overflow-x-hidden">
-            <table className="min-w-full bg-white border overflow-auto  border-gray-300">
-              <thead className=" bg-[#00BB98]">
-                <tr className="text-sm  text-white ">
-                  <th className="py-2 font-bold  text-center px-2 border-b">
-                    Start Date
-                  </th>
-                  <th className="py-2 font-bold text-center px-2 border-b">
-                    End Date
-                  </th>
-                  <th className="py-2 font-bold text-center px-2 border-b">
-                    Adult Price
-                  </th>
-                  <th className="py-2 font-bold text-center  px-2 border-b">
-                    Children Price
-                  </th>
-                  <th className="py-2  font-bold px-2 border-b">Baby Price</th>
-                  <th className="py-2 font-bold px-2 border-b">
-                    Special Discount
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="text-sm font-light bg-gray-200">
-                  <td className="py-2  text-center border-b">{startDate}</td>
-                  <td className="py-2  text-center border-b">{endDate}</td>
-                  <td className="py-2  text-center  border-b">{adultPrice}</td>
-                  <td className="py-2   text-center border-b">{childPrice}</td>
-                  <td className="py-2   text-center border-b">{babyPrice}</td>
-                  <td className="py-2  text-center  border-b">View Discount</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col gap-10  bg-white justify-center  ">
-        <div className="w-full  px-5 py-3 bg-[#3a2f5b] text-white ">
+
+      <div className="flex flex-col gap-10 rounded-lg  bg-white justify-center  ">
+        <div className="w-full  px-5 py-3  rounded-t-lg bg-[#3a2f5b] text-white ">
           <p className="sm:text-xl text-base text-center font-medium">
-            Why Admire Holidays
+            Why book Trip to Admire Holidays?
           </p>
         </div>
-        <div className="px-5 flex flex-col gap-10 pb-5">
+        <div className="px-5 flex flex-col gap-3 pb-5">
           <div className="flex  items-center gap-5">
             <div className="w-fit h-fit flex items-center justify-center">
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="font-medium  text-lg">Verified Reviews</p>
-              <p className="sm:text-base text-sm font-normal  text-gray-700">
-                25000+ Pictures and Reviews on the platform.
-              </p>
+              <p className="  text-lg">Wide range of exclusive</p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -171,11 +113,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="font-medium text-lg">10000+ Tours and Activities</p>
-              <p className="sm:text-base text-sm  font-normal text-gray-700">
-                We have activities across 17 countries, across every category so
-                that you never miss best things to do anywhere.{" "}
-              </p>
+              <p className="text-lg">deals with resorts.</p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -183,11 +121,47 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="font-medium text-lg">Customer Delight</p>
-              <p className="sm:text-base text-sm  font-normal text-gray-700">
-                We are always able to support you so that you have a hassle free
-                experience.
-              </p>
+              <p className="text-lg">24*7 help line</p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <TiTick size={30} color="#00BB98" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className=" text-lg">Detail information about </p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <TiTick size={30} color="#00BB98" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className=" text-lg">package information clearly.</p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <TiTick size={30} color="#00BB98" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className=" text-lg">Local support</p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <TiTick size={30} color="#00BB98" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className=" text-lg">Deals on flights booking</p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <TiTick size={30} color="#00BB98" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className=" text-lg">Quick book</p>
             </div>
           </div>
         </div>

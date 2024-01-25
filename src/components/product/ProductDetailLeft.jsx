@@ -9,6 +9,7 @@ import { FaStar } from "react-icons/fa";
 import { MdDateRange } from "react-icons/md";
 import { IoFastFoodSharp } from "react-icons/io5";
 import { BsFillEmojiSunglassesFill } from "react-icons/bs";
+import { ImCross } from "react-icons/im";
 
 const ProductDetailLeft = ({
   overview,
@@ -60,8 +61,7 @@ const ProductDetailLeft = ({
       <h5 className="md:text-3xl text-xl font-bold">Overview</h5>
       <p className="text-base text-gray-700">{overview}</p>
 
-      <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
-      <div className="grid sm:gap-5 gap-10  sm:grid-cols-5 grid-cols-2 items-center justify-center">
+      <div className="grid sm:gap-5 gap-10  my-10 sm:grid-cols-5 grid-cols-2 items-center justify-center">
         <div className="flex text-xs text-gray-800 flex-col items-center justify-center gap-2">
           <FaCarSide size={40} color="#3a2f5b" />
           Transport Included
@@ -83,7 +83,6 @@ const ProductDetailLeft = ({
           Sightseeing
         </div>
       </div>
-      <div className="h-[1px] my-8 bg-gray-300 w-full"></div>
 
       <div className="flex flex-col gap-10 bg-white px-4 py-2">
         <div className="grid sm:grid-cols-5 grid-cols-2 sm:gap-0 gap-3  py-2 w-full  text-xs text-gray-700 sm:text-base  items-center justify-center">
@@ -186,9 +185,8 @@ const ProductDetailLeft = ({
           />
         </div>
 
-        <div className="h-[1px] my-8 bg-gray-300 w-full" id="inclusions"></div>
-        <h1 className="font-bold text-2xl  md:text-4xl">Included</h1>
-        <div className="flex  flex-col  gap-10 ">
+        <h1 className="font-bold text-2xl  mt-10 md:text-4xl">Included</h1>
+        <div className="flex  flex-col mb-10 gap-10 ">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-3">
               <TiTick color="#00BB98" size={30} />
@@ -209,29 +207,28 @@ const ProductDetailLeft = ({
               <p className="font-light text-sm sm:text-base">{inclusion4}</p>
             </div>
           </div>
-          <h1 className="font-bold text-2xl  md:text-4xl">Excluded</h1>
+          <h1 className="font-bold text-2xl mt-10  md:text-4xl">Excluded</h1>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col mb-10 gap-4">
             <div className="flex items-center gap-3">
-              <RxCross1 color="#FD4A4C" size={20} />
+              <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion1}</p>
             </div>
             <div className="flex items-center gap-3">
-              <RxCross1 color="#FD4A4C" size={20} />
+              <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion2}</p>
             </div>
             <div className="flex items-center gap-3">
-              <RxCross1 color="#FD4A4C" size={20} />
+              <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion3}</p>
             </div>
             <div className="flex items-center gap-3">
-              <RxCross1 color="#FD4A4C" size={20} />
+              <ImCross color="#FD4A4C" size={20} />
               <p className="font-light">{exclusion4}</p>
             </div>
           </div>
         </div>
 
-        <div className="h-[1px] my-8 bg-gray-300 w-full" id="map"></div>
         <h1 className="font-bold  text-2xl md:text-4xl">Tour Map</h1>
         <div>
           <iframe

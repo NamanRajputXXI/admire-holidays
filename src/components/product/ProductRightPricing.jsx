@@ -82,46 +82,8 @@ const ProductRightPricing = ({
 
         {/* Tabs */}
         <div>
-          <div className="flex text-gray-500  gap-10 justify-center items-center">
-            {/* <p
-              className={`text-center cursor-pointer pb-3 w-1/2  ${
-                isBookingFormOpen === true
-                  ? "border-[#00BB98]  border-b-2"
-                  : "none"
-              } `}
-              onClick={openBookingForm}
-            >
-              Booking Form
-            </p>
-            <p
-              className={`text-center pb-3 cursor-pointer w-1/2  ${
-                isEnquiryFormOpen === true ? "border-[#00BB98]  border-b-2" : ""
-              } `}
-              onClick={openEnquiryForm}
-            >
-              Enquiry Form
-            </p> */}
-          </div>
+          <div className="flex text-gray-500  gap-10 justify-center items-center"></div>
 
-          {/* {isBookingFormOpen === true && (
-            <BookingForm
-              discount={discount}
-              price={price}
-              homePickupAdultPrice={homePickupAdultPrice}
-              homePickupBabyPrice={homePickupBabyPrice}
-              homePickupChildPrice={homePickupChildPrice}
-            />
-          )}
-          {isEnquiryFormOpen === true && (
-            <div>
-              <EnquiryForm
-                homePickupAdultPrice={homePickupAdultPrice}
-                homePickupBabyPrice={homePickupBabyPrice}
-                homePickupChildPrice={homePickupChildPrice}
-              />
-            </div>
-          )} */}
-          {/* <p className="text-center cursor-pointer pb-3 ">Enquiry Form</p> */}
           <EnquiryForm
             homePickupAdultPrice={homePickupAdultPrice}
             homePickupBabyPrice={homePickupBabyPrice}

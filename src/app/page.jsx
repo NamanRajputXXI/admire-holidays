@@ -1,20 +1,18 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import QuestioningCardsLayout from "@/components/QuestioningCardsLayout";
-import SubscribeLetter from "@/components/SubscribeLetter";
-import YoutubeBanner from "@/components/YoutubeBanner";
+import QuestioningCardsLayout from "@/components/homePageComponents/QuestioningCardsLayout";
+import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
+import YoutubeBanner from "@/components/homePageComponents/YoutubeBanner";
 import DomesticDestinationCarousel from "@/components/carousels/DomesticDestinationCarousel";
 import InternationalDestinationCarousel from "@/components/carousels/InternationalDestinationCarousel";
 import PopularDestinationCarousel from "@/components/carousels/PopularDestinationCarousel";
-import HomePageBlogSection from "@/components/HomePageBlogSection";
-import WeekendTrip from "@/components/WeekendTrip";
-import CompanyStatsSection from "@/components/CompanyStatsSection";
-import LatestUpdatesSection from "@/components/LatestUpdatesSection";
-import TravelGuideline from "@/components/TravelGuideline";
-import HeroSection from "@/components/HeroSection";
-import reviews from "@/data/testimonialData";
-import Testimonial from "@/components/Testimonial";
-import FormModal from "@/components/FormModal";
+import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
+import WeekendTrip from "@/components/homePageComponents/WeekendTrip";
+import CompanyStatsSection from "@/components/homePageComponents/CompanyStatsSection";
+import LatestUpdatesSection from "@/components/homePageComponents/LatestUpdatesSection";
+import TravelGuideline from "@/components/homePageComponents/TravelGuideline";
+import HeroSection from "@/components/homePageComponents/HeroSection";
+import Testimonial from "@/components/homePageComponents/Testimonial";
 const Home = () => {
   return (
     <>

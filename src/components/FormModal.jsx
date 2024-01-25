@@ -1,10 +1,19 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { RxCross1 } from "react-icons/rx";
-const FormModal = ({ closeModalFunc }) => {
+const FormModal = ({
+  closeModalFunc,
+  openModal,
+  setOpenModal,
+  openModalFunc,
+}) => {
   return (
-    <div className="fixed z-[9999] top-0 px-4 h-full w-full flex items-center justify-center bg-gray-700 bg-opacity-90 ">
-      <div className=" text-white  text-7xl absolute right-4 top-4">
+    <div
+      className={`fixed z-[9999] top-0 px-4 h-full w-full items-center justify-center bg-gray-700 bg-opacity-90 ${
+        openModal === true ? "flex" : "hidden"
+      } `}
+    >
+      <div className=" text-white cursor-pointer  text-7xl absolute right-4 top-4">
         <RxCross1 color="white" size={30} onClick={closeModalFunc} />
       </div>
       <div className="bg-white sm:p-8 p-4 rounded-xl gap-8 flex flex-col items-center justify-center">

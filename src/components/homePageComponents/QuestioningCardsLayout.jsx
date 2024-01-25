@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import QuestioningCard from "./cards/QuestioningCard";
+import QuestioningCard from "../cards/QuestioningCard";
 import { SiIcomoon } from "react-icons/si";
 import { FaCar } from "react-icons/fa";
 import { BsStars } from "react-icons/bs";

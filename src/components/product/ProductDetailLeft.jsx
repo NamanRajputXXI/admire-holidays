@@ -57,7 +57,7 @@ const ProductDetailLeft = ({
   }, []);
 
   return (
-    <div className="flex my-10 lg:w-[65%] w-full flex-col gap-6">
+    <div className="flex my-10 lg:w-[65%] rounded-lg w-full flex-col gap-6">
       <h5 className="md:text-3xl text-xl font-bold">Overview</h5>
       <p className="text-base text-gray-700">{overview}</p>
 
@@ -84,7 +84,7 @@ const ProductDetailLeft = ({
         </div>
       </div>
 
-      <div className="flex flex-col gap-10 bg-white px-4 py-2">
+      <div className="flex flex-col gap-10 bg-white rounded-lg px-4 py-4">
         <div className="grid sm:grid-cols-5 grid-cols-2 sm:gap-0 gap-3  py-2 w-full  text-xs text-gray-700 sm:text-base  items-center justify-center">
           <div
             className={`flex items-center py-2  px-2 justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${

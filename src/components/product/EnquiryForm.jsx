@@ -110,12 +110,12 @@ const EnquiryForm = ({
           Send Enquiry
         </button>
       </form>
-      <button className="py-4  bg-[#3a2f5b] my-10 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center">
+      <button className="py-4  bg-[#3a2f5b] mt-10 mb-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center">
         Add to Cart
       </button>
-
+      <p className="text-center text-lg text-gray-600">or</p>
       <p
-        className="tex-sm text-red-600  cursor-pointer hover:text-[#3a2f5b] text-center"
+        className="tex-sm text-red-600 mt-5  cursor-pointer hover:text-[#3a2f5b] text-center"
         onClick={openModalFunc}
       >
         Download as pdf

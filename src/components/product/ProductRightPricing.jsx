@@ -96,7 +96,7 @@ const ProductRightPricing = ({
       <div className="flex flex-col gap-10 rounded-lg  bg-white justify-center  ">
         <div className="w-full  px-5 py-3  rounded-t-lg bg-[#3a2f5b] text-white ">
           <p className="sm:text-xl text-base text-center font-medium">
-            Why book Trip to Admire Holidays?
+            Why book Admire Holidays?
           </p>
         </div>
         <div className="px-5 flex flex-col gap-3 pb-5">

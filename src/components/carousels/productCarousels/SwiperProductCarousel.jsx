@@ -24,10 +24,10 @@ const SwiperProductCarousel = ({ carouselImageUrl }) => {
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           autoplay={{ delay: 3000 }} // added
           loop={true}
-          spaceBetween={50}
+          spaceBetween={20}
           slidesPerView={3}
           navigation
-          pagination={{ clickable: true }}
+          pagination={false}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
@@ -61,7 +61,7 @@ const SwiperProductCarousel = ({ carouselImageUrl }) => {
           spaceBetween={50}
           slidesPerView={2}
           navigation
-          pagination={{ clickable: true }}
+          pagination={false}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
@@ -95,7 +95,7 @@ const SwiperProductCarousel = ({ carouselImageUrl }) => {
           spaceBetween={50}
           slidesPerView={1}
           navigation
-          pagination={{ clickable: true }}
+          pagination={false}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >

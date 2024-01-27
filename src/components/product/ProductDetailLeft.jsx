@@ -51,6 +51,13 @@ const ProductDetailLeft = ({
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
+    const targetElement = document.getElementById(link.substring(1));
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
   };
   useEffect(() => {
     console.log(itinerary[0].day2Overview);

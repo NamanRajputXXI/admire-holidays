@@ -6,7 +6,6 @@ import { MdDateRange } from "react-icons/md";
 import { GoPeople } from "react-icons/go";
 import { IoPersonOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
-import ProductCarousel from "../../carousels/productCarousels/ProductCarousel";
 import ProductRightPricing from "../ProductRightPricing";
 import ProductDetailLeft from "../ProductDetailLeft";
 import ProductBottomCarousel from "../../carousels/ProductBottomCarousel";
@@ -127,32 +126,16 @@ const Product = () => {
                 <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">
                   <ProductDetailLeft
                     overview={destinations[0].overview}
-                    inclusion1={destinations[0].inclusion1}
-                    inclusion2={destinations[0].inclusion2}
-                    inclusion3={destinations[0].inclusion3}
-                    inclusion4={destinations[0].inclusion4}
-                    exclusion1={destinations[0].exclusion1}
-                    exclusion2={destinations[0].exclusion2}
-                    exclusion3={destinations[0].exclusion3}
-                    exclusion4={destinations[0].exclusion4}
                     mapSrc={destinations[0].mapSrc}
                     reviewHeading={destinations[0].reviewHeading}
                     reviews={destinations[0].reviews}
                     itinerary={destinations[0].itinerary}
+                    exclusions={destinations[0].exclusions}
+                    inclusions={destinations[0].inclusions}
                   />
                   <ProductRightPricing
                     price={destinations[0].price}
                     previousPrice={destinations[0].previousPrice}
-                    homePickupAdultPrice={destinations[0].homePickupAdultPrice}
-                    homePickupBabyPrice={destinations[0].homePickupBabyPrice}
-                    homePickupChildPrice={destinations[0].homePickupChildPrice}
-                    adultPrice={destinations[0].adultPrice}
-                    childPrice={destinations[0].childPrice}
-                    babyPrice={destinations[0].babyPrice}
-                    discount={destinations[0].discount}
-                    startDate={destinations[0].startDate}
-                    endDate={destinations[0].endDate}
-                    minMax={destinations[0].minMax}
                     openModalFunc={openModalFunc}
                   />
                 </div>

@@ -14,17 +14,11 @@ import { ImCross } from "react-icons/im";
 const ProductDetailLeft = ({
   overview,
   itinerary,
-  inclusion1,
-  inclusion2,
-  inclusion3,
-  inclusion4,
-  exclusion1,
-  exclusion2,
-  exclusion3,
-  exclusion4,
+  inclusions,
   mapSrc,
   reviewHeading,
   reviews,
+  exclusions,
 }) => {
   const [allOpen, setAllOpen] = useState(false);
   const [dayOneOpen, setDayOneOpen] = useState(false);
@@ -196,180 +190,154 @@ const ProductDetailLeft = ({
           Included
         </h1>
         <div className="flex  flex-col mb-10 gap-10 ">
-          <div className="flex flex-col gap-2">
+          {inclusions.map((inclusion, i) => (
             <div className="flex items-center gap-3">
               <TiTick color="#00BB98" size={30} />
-              <p className="font-light text-sm sm:text-base">{inclusion1}</p>
+              <p className="font-light text-sm sm:text-base">{inclusion}</p>
             </div>
-            <div className="flex items-center gap-3">
-              <TiTick color="#00BB98" size={30} />
-              <p className="font-light text-sm sm:text-base" id="exclusions">
-                {inclusion2}
-              </p>
+          ))}
+        </div>
+        <h1 className="font-bold text-2xl mt-10  md:text-4xl">Excluded</h1>
+
+        <div className="flex flex-col mb-10 gap-4">
+          {exclusions.map((exclusion, i) => (
+            <div className="flex items-center gap-5" key={i}>
+              <ImCross color="#FD4A4C" size={20} />
+              <p className="font-light">{exclusion}</p>
             </div>
-            <div className="flex items-center gap-3">
-              <TiTick color="#00BB98" size={30} />
-              <p className="font-light text-sm sm:text-base">{inclusion3}</p>
-            </div>
-            <div className="flex items-center gap-3">
-              <TiTick color="#00BB98" size={30} />
-              <p className="font-light text-sm sm:text-base">{inclusion4}</p>
+          ))}
+        </div>
+      </div>
+
+      <h1 className="font-bold  text-2xl md:text-4xl" id="map">
+        Tour Map
+      </h1>
+      <div>
+        <iframe
+          src={mapSrc}
+          className="lg:w-[700px] lg:h-[450px] sm:w-96 sm:h-96 w-64 h-64"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <h1 className="font-medium text-xl md:text-2xl">{reviewHeading}</h1>
+      <div className="flex  sm:flex-row flex-col gap-5">
+        <div className="bg-white flex-col flex sm:justify-center justify-start  gap-5 sm:items-center sm:h-[400px] h-fit w-full sm:w-1/2">
+          <div className="flex gap-5">
+            <p className="text-gray-400">/5 </p>
+            <p>Based On 0 ratings</p>
+          </div>
+          <div className="flex gap-2 ">
+            <CiStar size={30} color="#fcb900" />
+            <CiStar size={30} color="#fcb900" />
+            <CiStar size={30} color="#fcb900" />
+            <CiStar size={30} color="#fcb900" />
+            <CiStar size={30} color="#fcb900" />
+          </div>
+        </div>
+        <div className="bg-white flex gap-4  flex-col justify-center items-center px-5 h-[400px] w-full sm:w-1/2">
+          <div className="flex flex-col gap-3 w-full">
+            <p>5 Star</p>
+            <div className="bg-gray-300 text-sm text-white px-5 rounded-lg">
+              0 %
             </div>
           </div>
-          <h1 className="font-bold text-2xl mt-10  md:text-4xl">Excluded</h1>
-
-          <div className="flex flex-col mb-10 gap-4">
-            <div className="flex items-center gap-5">
-              <ImCross color="#FD4A4C" size={20} />
-              <p className="font-light">{exclusion1}</p>
+          <div className="flex flex-col gap-3 w-full">
+            <p>4 Star</p>
+            <div className="bg-gray-300 text-sm   text-white px-5 rounded-lg">
+              0 %
             </div>
-            <div className="flex items-center gap-5">
-              <ImCross color="#FD4A4C" size={20} />
-              <p className="font-light">{exclusion2}</p>
+          </div>
+          <div className="flex flex-col gap-3 w-full">
+            <p>3 Star</p>
+            <div className="bg-gray-300 text-sm   text-white px-5 rounded-lg">
+              0 %
             </div>
-            <div className="flex items-center gap-5">
-              <ImCross color="#FD4A4C" size={20} />
-              <p className="font-light">{exclusion3}</p>
+          </div>
+          <div className="flex flex-col gap-3 w-full">
+            <p>2 Star</p>
+            <div className="bg-gray-300  text-sm text-white px-5 rounded-lg">
+              0 %
             </div>
-            <div className="flex items-center gap-5">
-              <ImCross color="#FD4A4C" size={20} />
-              <p className="font-light">{exclusion4}</p>
+          </div>
+          <div className="flex flex-col gap-3 w-full">
+            <p>1 Star</p>
+            <div
+              className="bg-gray-300  text-sm text-white px-5 rounded-lg"
+              id="reviews"
+            >
+              0 %
             </div>
           </div>
         </div>
+      </div>
+      <div className="bg-gray-200 rounded-lg py-2 text-gray-600 px-5">
+        Reviewed by 02 customer(s)
+      </div>
 
-        <h1 className="font-bold  text-2xl md:text-4xl" id="map">
-          Tour Map
-        </h1>
-        <div>
-          <iframe
-            src={mapSrc}
-            className="lg:w-[700px] lg:h-[450px] sm:w-96 sm:h-96 w-64 h-64"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <h1 className="font-medium text-xl md:text-2xl">{reviewHeading}</h1>
-        <div className="flex  sm:flex-row flex-col gap-5">
-          <div className="bg-white flex-col flex sm:justify-center justify-start  gap-5 sm:items-center sm:h-[400px] h-fit w-full sm:w-1/2">
-            <div className="flex gap-5">
-              <p className="text-gray-400">/5 </p>
-              <p>Based On 0 ratings</p>
-            </div>
-            <div className="flex gap-2 ">
-              <CiStar size={30} color="#fcb900" />
-              <CiStar size={30} color="#fcb900" />
-              <CiStar size={30} color="#fcb900" />
-              <CiStar size={30} color="#fcb900" />
-              <CiStar size={30} color="#fcb900" />
-            </div>
-          </div>
-          <div className="bg-white flex gap-4  flex-col justify-center items-center px-5 h-[400px] w-full sm:w-1/2">
-            <div className="flex flex-col gap-3 w-full">
-              <p>5 Star</p>
-              <div className="bg-gray-300 text-sm text-white px-5 rounded-lg">
-                0 %
-              </div>
-            </div>
-            <div className="flex flex-col gap-3 w-full">
-              <p>4 Star</p>
-              <div className="bg-gray-300 text-sm   text-white px-5 rounded-lg">
-                0 %
-              </div>
-            </div>
-            <div className="flex flex-col gap-3 w-full">
-              <p>3 Star</p>
-              <div className="bg-gray-300 text-sm   text-white px-5 rounded-lg">
-                0 %
-              </div>
-            </div>
-            <div className="flex flex-col gap-3 w-full">
-              <p>2 Star</p>
-              <div className="bg-gray-300  text-sm text-white px-5 rounded-lg">
-                0 %
-              </div>
-            </div>
-            <div className="flex flex-col gap-3 w-full">
-              <p>1 Star</p>
-              <div
-                className="bg-gray-300  text-sm text-white px-5 rounded-lg"
-                id="reviews"
-              >
-                0 %
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="bg-gray-200 rounded-lg py-2 text-gray-600 px-5">
-          Reviewed by 02 customer(s)
-        </div>
-
-        {reviews.map((review, index) => (
-          <div
-            className="bg-gray-200 rounded-lg py-5 gap-10 pt-3 flex px-5"
-            key={index}
-          >
-            <div className="flex items-center flex-col justify-center gap-3">
-              <FaUserCircle
-                className=" sm:text-[100px] text-[40px]"
-                color="gray"
-              />
-              <p className="font-medium">{review.name}</p>
-            </div>
-            <div className="flex flex-col gap-3">
-              <div className="flex items-center sm:gap-2 gap-1">
-                <CiStar size={20} color="#fcb900" />
-                <CiStar size={20} color="#fcb900" />
-                <CiStar size={20} color="#fcb900" />
-                <CiStar size={20} color="#fcb900" />
-                <CiStar size={20} color="#fcb900" />
-              </div>
-              <p className="sm:text-sm text-xs">{review.review}</p>
-              <div className="flex text-gray-500 gap-3 items-center">
-                <MdDateRange size={20} />
-                {review.date}
-              </div>
-            </div>
-          </div>
-        ))}
-
-        <div className="flex flex-col gap-5 bg-[#F2FBFA] rounded-lg px-5 py-3">
-          <h5 className="text-xl">LEAVE FEEDBACK ABOUT THIS</h5>
-          <p className="font-light">
-            Your email address will not be published.
-          </p>
-          <div className="flex gap-2 items-center">
-            <FaStar size={20} color="#fcb900" />
-            <FaStar size={20} color="#fcb900" />
-            <FaStar size={20} color="#fcb900" />
-            <FaStar size={20} color="#fcb900" />
-            <FaStar size={20} color="#fcb900" />
-          </div>
-          <form action="" className="flex flex-col gap-5">
-            <input
-              type="text"
-              placeholder="Name"
-              className="h-10 px-5 rounded-lg"
+      {reviews.map((review, index) => (
+        <div
+          className="bg-gray-200 rounded-lg py-5 gap-10 pt-3 flex px-5"
+          key={index}
+        >
+          <div className="flex items-center flex-col justify-center gap-3">
+            <FaUserCircle
+              className=" sm:text-[100px] text-[40px]"
+              color="gray"
             />
-            <input
-              type="email "
-              placeholder="Email"
-              className="h-10 px-5 rounded-lg"
-            />
-            <textarea
-              name=""
-              id=""
-              className="rounded-lg px-5 py-3"
-              cols="30"
-              rows="10"
-              placeholder="Describe your review"
-            ></textarea>
-            <button className="bg-[#FD4A4C] text-white py-3 px-3 w-44">
-              Submit Review
-            </button>
-          </form>
+            <p className="font-medium">{review.name}</p>
+          </div>
+          <div className="flex flex-col gap-3">
+            <div className="flex items-center sm:gap-2 gap-1">
+              <CiStar size={20} color="#fcb900" />
+              <CiStar size={20} color="#fcb900" />
+              <CiStar size={20} color="#fcb900" />
+              <CiStar size={20} color="#fcb900" />
+              <CiStar size={20} color="#fcb900" />
+            </div>
+            <p className="sm:text-sm text-xs">{review.review}</p>
+            <div className="flex text-gray-500 gap-3 items-center">
+              <MdDateRange size={20} />
+              {review.date}
+            </div>
+          </div>
         </div>
+      ))}
+
+      <div className="flex flex-col gap-5 bg-[#F2FBFA] rounded-lg px-5 py-3">
+        <h5 className="text-xl">LEAVE FEEDBACK ABOUT THIS</h5>
+        <p className="font-light">Your email address will not be published.</p>
+        <div className="flex gap-2 items-center">
+          <FaStar size={20} color="#fcb900" />
+          <FaStar size={20} color="#fcb900" />
+          <FaStar size={20} color="#fcb900" />
+          <FaStar size={20} color="#fcb900" />
+          <FaStar size={20} color="#fcb900" />
+        </div>
+        <form action="" className="flex flex-col gap-5">
+          <input
+            type="text"
+            placeholder="Name"
+            className="h-10 px-5 rounded-lg"
+          />
+          <input
+            type="email "
+            placeholder="Email"
+            className="h-10 px-5 rounded-lg"
+          />
+          <textarea
+            name=""
+            id=""
+            className="rounded-lg px-5 py-3"
+            cols="30"
+            rows="10"
+            placeholder="Describe your review"
+          ></textarea>
+          <button className="bg-[#FD4A4C] text-white py-3 px-3 w-44">
+            Submit Review
+          </button>
+        </form>
       </div>
     </div>
   );

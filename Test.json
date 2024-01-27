@@ -1,119 +1,58 @@
 {
-  "_id":{
-     "$oid":"65aa274accb345f5628c46dd"
+  "_id": {
+    "$oid": "65aa274accb345f5628c46dd"
   },
-  "heading":"Kasauli",
-  "subHeading":"Kasauli Town in Himachal Pradesh",
-  "duration":"4 Days",
-  "maxPeople":{
-     "$numberInt":"20"
+  "heading": "Jaipur",
+  "subHeading": "Jaipur, Rajasthan, India",
+  "duration": "7 Days",
+  "maxPeople": {
+    "$numberInt": "50"
   },
-  "minAge":"16+",
-  "pickup":"Motobike",
-  "overview":"Kasauli is a small hill town in the north Indian state of Himachal Pradesh. It’s home to gabled colonial-era houses, orchards and green-roofed Christ Church, dating from the mid-19th century. At the southern edge of town, Monkey Point overlooks forests of horse chestnut and Himalayan oak. A small temple also sits atop the hill. Nearby, the Gilbert Nature Trail winds through lush green countryside rich in birdlife.",
-  "exclusion1":"Departure Taxes",
-  "exclusion2":"Entry Fees",
-  "exclusion3":"5 Star Accommodation",
-  "exclusion4":"Airport Transfers",
-  "inclusion1":"Specialized bilingual guide",
-  "inclusion2":"Private Transport",
-  "inclusion3":"Entrance fees (Cable and car and Moon Valley)",
-  "inclusion4":"Box lunch water, banana apple and chocolate",
-  "mapSrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24579.05058056217!2d76.95373191447658!3d30.90128817181559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f88e0ddfe0b27%3A0x2cf1b6ec9befd181!2sKasauli%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1706085199382!5m2!1sen!2sin",
+  "minAge": "10+",
+  "pickup": "Airport",
+  "overview": "Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now\n        called the Old City, or “Pink City” for its trademark building color. At\n        the center of its stately street grid (notable in India) stands the\n        opulent, colonnaded City Palace complex. With gardens, courtyards and\n        museums, part of it is still a royal residence",
+  "exclusions":["exclusion1", "Departure Taxes","Entry Fees","5 Star Accommodation","Airport Transfers"],
+ "inclusions":["Specialized bilingual guide","Private Transport","Entrance fees (Cable and car and Moon Valley)", "Box lunch water, banana apple and chocolate"],
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45872.534320582!2d75.76503740618563!3d26.922470930222502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1704695586865!5m2!1sen!2sin",
+  "reviewHeading": "2 reviews for Jaipur",
   "reviews": [
     {
-      "review": "Amazing trip, the scenic beauty of Kasauli is unparalleled.",
-      "name": "Aarav",
-      "date": "8th March 2023"
+      "review": "Very good service by admire holidays",
+      "name": "Naman",
+      "date": "19th January 2024"
     },
     {
-      "review": "Admire Holidays made our Kasauli visit extraordinary. Kudos!",
-      "name": "Isha",
-      "date": "12th April 2023"
-    },
-    {
-      "review": "Well-organized trip, every detail was taken care of. Thanks, Admire Holidays!",
-      "name": "Arjun",
-      "date": "5th June 2023"
-    },
-    {
-      "review": "Hospitality at its best. I'll cherish the memories from Kasauli forever.",
-      "name": "Ananya",
-      "date": "21st July 2023"
-    },
-    {
-      "review": "Kasauli is a gem, and Admire Holidays polished it perfectly for us.",
-      "name": "Veer",
-      "date": "9th September 2023"
-    },
-    {
-      "review": "Memorable experience, from sunrise to sunset. Thanks, Admire Holidays!",
-      "name": "Sanvi",
-      "date": "14th October 2023"
-    },
-    {
-      "review": "Exquisite views and impeccable service. Couldn't have asked for more.",
-      "name": "Advait",
-      "date": "3rd November 2023"
-    },
-    {
-      "review": "Perfect blend of relaxation and adventure. Admire Holidays nailed it!",
-      "name": "Khushi",
-      "date": "18th December 2023"
-    },
-    {
-      "review": "Incredible trip, the tranquility of Kasauli is a balm for the soul.",
-      "name": "Reyansh",
-      "date": "26th December 2023"
-    },
-    {
-      "review": "Admire Holidays exceeded expectations. Kasauli was a dream come true.",
-      "name": "Aanya",
-      "date": "5th January 2023"
-    },
-    {
-      "review": "Highly recommend Admire Holidays for an enchanting Kasauli experience.",
-      "name": "Vihaan",
-      "date": "15th February 2023"
+      "review": "Excellent arrangements and a memorable experience.",
+      "name": "Vimal",
+      "date": "17th December 2023"
     }
   ],
   
-  "adultPrice":"60.00",
-  "babyPrice":"0",
-  "childPrice":"0",
-  "discount":"10",
-  "endDate":"22-01-2024",
-  "homePickupAdultPrice":"100",
-  "homePickupBabyPrice":"0",
-  "homePickupChildPrice":"50",
-  "previousPrice":"53,999",
-  "price":"50,000",
-  "startDate":"18-01-2024",
-  "minMax":"20-30",
+  "previousPrice": "390",
+  "price": "339",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Mussoorie Day 1: Enchanting Journey to the Queen of the Hills",
-      "day1Overview": "Morning drive to Mussoorie, En-route visit Dehradun. On arrival in Mussoorie check in at hotel. Day free at leisure or for own activities or can stroll at Mall road. Dinner & Overnight stay at hotel.\n\nMussoorie is a hill station and a municipal board in the Dehradun District of the northern Indian state of Uttarakhand. It is located about 35 km from the state capital of Dehradun and 290 km north from the national capital of New Delhi. This hill station, situated in the foothills of the Garhwal Himalayan ranges, is also known as the Queen of the Hills. The adjoining town of Landour, which includes a military cantonment, is considered part of ‘greater Mussoorie’, as are the townships of Barlowganj and Jharipani."
+      "day1Heading": "Jaipur Day 1: Unveiling the City's Charm",
+      "day1Overview": "Morning drive to Jaipur, On arrival at Jaipur check-in at hotel. Rest of the day free at leisure\nor you can enjoy the recreational facilities offered by hotel, In the evening visit local market\nof Jaipur for shopping. Jaipur is a shoppers’ paradise. You can find different kinds of\nhandicrafts, jewelry, fabrics and carpets here.\nOvernight stay at hotel."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Mussoorie Day 2: Exploring the Charm of the Queen",
-      "day2Overview": "Morning after breakfast proceed to half day Sightseeing In Mussoorie visit Kempty Fall, afternoon visit Gun Hill, Lal Tibba, Company garden and Camel back. Dinner & overnight stay at the hotel."
+      "day2Heading": "Jaipur Day Tour: Historical Wonders Unveiled",
+      "day2Overview": "Morning after breakfast we take you for full day sightseeing tour of Jaipur which starts from\nAmber Fort, Ascend the Fort in open jeep and experience the best of fort. It is one of the\nprincipal tourist attractions in the Jaipur area, located high on a hill. Amer Fort was built by\nRaja Man Singh, it is known for its artistic style of Hindu elements. With its large ramparts,\nseries of gates and cobbled paths, the fort overlooks the Maota Lake at its forefront.\nIn the afternoon visit City Palace, Jantar Mantar Observatory, and Ram Niwas Gardens.\nDrive past Hawa Mahal & Jaigarh Fort.\n\nJaipur is named after the King Sawai Jai Singh, the founder of the city and the city was built\nin four years, to complete in November of 1731. Jaipur is also known as the Pink City. In\n1853, when the Prince of Wales visited the city, all buildings were painted with the colour\nmade from sand. All the buildings in the walled city have been painted with the same colour\nsince then.\nLate evening drive back to the hotel. Overnight stay at hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Mussoorie to Delhi Journey: Homeward Bound",
-      "day3Overview": "After Breakfast drive back to Delhi (295 Kms)."
+      "day3Heading": "Jaipur to Delhi Journey: Homeward Bound",
+      "day3Overview": "Jaipur- Delhi Departure (260 Kms / 05 hours drive)\nMorning after breakfast, drive back to Delhi."
     }
   ],
-  
-  "carouselImageUrl":[
-     "/productKasauli1.jpg",
-     "/productKasauli2.jpg",
-     "/productKasauli3.jpg",
-     "/productKasauli4.jpg",
-     "/productKasauli1.jpg",
-     "/productKasauli2.jpg"
+  "carouselImageUrl": [
+    "/productJaipur1.jpg",
+    "/productJaipur2.jpg",
+    "/productJaipur3.jpg",
+    "/productJaipur4.jpg",
+    "/productJaipur1.jpg",
+    "/productJaipur2.jpg"
   ]
 }

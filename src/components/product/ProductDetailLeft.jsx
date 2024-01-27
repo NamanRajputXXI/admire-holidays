@@ -189,9 +189,9 @@ const ProductDetailLeft = ({
         <h1 className="font-bold text-2xl  mt-10 md:text-4xl" id="inclusions">
           Included
         </h1>
-        <div className="flex  flex-col mb-10 gap-10 ">
+        <div className="flex  flex-col mb-10 gap-3 ">
           {inclusions.map((inclusion, i) => (
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3" key={i}>
               <TiTick color="#00BB98" size={30} />
               <p className="font-light text-sm sm:text-base">{inclusion}</p>
             </div>

@@ -1,58 +1,77 @@
+
+
+
+ 
 {
   "_id": {
-    "$oid": "65aa274accb345f5628c46dd"
+    "$oid": "65b0b8803eaeb402c22ab45f"
   },
-  "heading": "Jaipur",
-  "subHeading": "Jaipur, Rajasthan, India",
-  "duration": "7 Days",
+  "carouselImageUrl": [
+    "/productPushkar1.jpg",
+    "/productPushkar2.jpg",
+    "/productPushkar3.jpg",
+    "/productPushkar4.jpg",
+    "/productPushkar1.jpg",
+    "/productPushkar2.jpg"
+  ],
+  "heading": "Pushkar",
+  "subHeading": "Pushkar City in Rajasthan",
+  "duration": "4 Days",
   "maxPeople": {
-    "$numberInt": "50"
+    "$numberInt": "20"
   },
-  "minAge": "10+",
-  "pickup": "Airport",
-  "overview": "Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now\n        called the Old City, or “Pink City” for its trademark building color. At\n        the center of its stately street grid (notable in India) stands the\n        opulent, colonnaded City Palace complex. With gardens, courtyards and\n        museums, part of it is still a royal residence",
-  "exclusions":["exclusion1", "Departure Taxes","Entry Fees","5 Star Accommodation","Airport Transfers"],
- "inclusions":["Specialized bilingual guide","Private Transport","Entrance fees (Cable and car and Moon Valley)", "Box lunch water, banana apple and chocolate"],
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45872.534320582!2d75.76503740618563!3d26.922470930222502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1704695586865!5m2!1sen!2sin",
-  "reviewHeading": "2 reviews for Jaipur",
+  "minAge": "16+",
+  "pickup": "Motobike",
+  "overview": "Pushkar is a city, near Ajmer City and headquarters of Pushkar tehsil in the Ajmer district in the Indian state of Rajasthan. It is situated about 10 km northwest of Ajmer and about 150 kilometres southwest of Jaipur. It is a pilgrimage site for Hindus and Sikhs. Pushkar has many temples",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28567.72997820352!2d74.53340696604005!3d26.48903159969892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396bdd22e5572a2f%3A0xb8733d912fcdf2ea!2sPushkar%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1706079711112!5m2!1sen!2sin",
+  "reviewHeading": "5 reviews for Pushkar",
   "reviews": [
     {
-      "review": "Very good service by admire holidays",
-      "name": "Naman",
-      "date": "19th January 2024"
+      "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
+      "name": "Aarav",
+      "date": "7th February 2023"
     },
     {
-      "review": "Excellent arrangements and a memorable experience.",
-      "name": "Vimal",
-      "date": "17th December 2023"
+      "review": "Spectacular sights and smooth travel. Heartfelt thanks to admire holidays for an unforgettable trip!",
+      "name": "Ishita",
+      "date": "12th March 2023"
+    },
+    {
+      "review": "Unparalleled memories created by the exceptional services of admire holidays.",
+      "name": "Kavya",
+      "date": "18th April 2023"
+    },
+    {
+      "review": "Outstanding arrangements and a flawless Pushkar experience. Highly recommended!",
+      "name": "Aryan",
+      "date": "25th May 2023"
+    },
+    {
+      "review": "An amazing journey, meticulously planned itinerary, and exceptional customer service by admire holidays.",
+      "name": "Ishaan",
+      "date": "8th June 2023"
     }
   ],
-  
-  "previousPrice": "390",
-  "price": "339",
+ 
+  "previousPrice": "53,999",
+  "price": "50,000",
+ 
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Jaipur Day 1: Unveiling the City's Charm",
-      "day1Overview": "Morning drive to Jaipur, On arrival at Jaipur check-in at hotel. Rest of the day free at leisure\nor you can enjoy the recreational facilities offered by hotel, In the evening visit local market\nof Jaipur for shopping. Jaipur is a shoppers’ paradise. You can find different kinds of\nhandicrafts, jewelry, fabrics and carpets here.\nOvernight stay at hotel."
+      "day1Heading": "Pushkar Day 1: Arrival and Spiritual Exploration",
+      "day1Overview": "Embark on a soul-enriching journey as you drive to Pushkar. Upon arrival, immerse yourself in the sacred vibes of this mystical town. Check-in at the hotel and let the spirituality of Pushkar captivate you. Take a stroll around the holy Pushkar Lake, a place revered by pilgrims for centuries. Visit the renowned Brahma Temple, the only temple dedicated to Lord Brahma in the world. Feel the divine energy and serenity that surrounds this spiritual haven. The day is free for your own spiritual exploration and leisure activities. In the evening, witness the mesmerizing Aarti at Pushkar Lake, a soul-soothing experience. Dinner & overnight stay at the hotel."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Jaipur Day Tour: Historical Wonders Unveiled",
-      "day2Overview": "Morning after breakfast we take you for full day sightseeing tour of Jaipur which starts from\nAmber Fort, Ascend the Fort in open jeep and experience the best of fort. It is one of the\nprincipal tourist attractions in the Jaipur area, located high on a hill. Amer Fort was built by\nRaja Man Singh, it is known for its artistic style of Hindu elements. With its large ramparts,\nseries of gates and cobbled paths, the fort overlooks the Maota Lake at its forefront.\nIn the afternoon visit City Palace, Jantar Mantar Observatory, and Ram Niwas Gardens.\nDrive past Hawa Mahal & Jaigarh Fort.\n\nJaipur is named after the King Sawai Jai Singh, the founder of the city and the city was built\nin four years, to complete in November of 1731. Jaipur is also known as the Pink City. In\n1853, when the Prince of Wales visited the city, all buildings were painted with the colour\nmade from sand. All the buildings in the walled city have been painted with the same colour\nsince then.\nLate evening drive back to the hotel. Overnight stay at hotel."
+      "day2Heading": "Pushkar Day 2: Camel Fair Extravaganza",
+      "day2Overview": "After a hearty breakfast, delve into the vibrant atmosphere of the Pushkar Camel Fair. Marvel at the spectacle of thousands of camels, adorned in colorful attire, creating a kaleidoscope of tradition and culture. Immerse yourself in the unique cultural events, from camel races to traditional performances. Explore the lively markets offering a myriad of handicrafts, textiles, and local delights. In the evening, find solace by the Pushkar Lake, where the tranquil surroundings provide a perfect backdrop for reflection. Dinner & overnight stay at the hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Jaipur to Delhi Journey: Homeward Bound",
-      "day3Overview": "Jaipur- Delhi Departure (260 Kms / 05 hours drive)\nMorning after breakfast, drive back to Delhi."
+      "day3Heading": "Pushkar to Jaipur Journey: Departure",
+      "day3Overview": "Bid farewell to the enchanting town of Pushkar after a delightful breakfast. As you drive towards Jaipur (145 Kms / 3 Hrs), relish the memories of the unique experiences and cultural richness Pushkar has offered. Reach Jaipur and conclude your memorable journey, carrying with you the essence of spirituality and the vibrant spirit of Pushkar."
     }
-  ],
-  "carouselImageUrl": [
-    "/productJaipur1.jpg",
-    "/productJaipur2.jpg",
-    "/productJaipur3.jpg",
-    "/productJaipur4.jpg",
-    "/productJaipur1.jpg",
-    "/productJaipur2.jpg"
   ]
+  
 }

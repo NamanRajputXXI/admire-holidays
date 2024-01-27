@@ -12,14 +12,15 @@ import ProductBottomCarousel from "../../carousels/ProductBottomCarousel";
 import FormModal from "@/components/FormModal";
 import Loader from "../Loader";
 import SwiperProductCarousel from "@/components/carousels/productCarousels/SwiperProductCarousel";
-const KasauliProduct = () => {
+
+const MussoorieProduct = () => {
   const [destinations, setDestinations] = useState(null);
   const [loading, setLoading] = useState(true); // New loading state
 
   useEffect(() => {
     console.log("Fetching data...");
     axios
-      .get("https://server-deploy-gamma.vercel.app/getHimachalData")
+      .get("https://server-deploy-gamma.vercel.app/getUttarakhandData")
       .then((response) => {
         console.log("Data received:", response.data.data);
         setDestinations(response.data.data);
@@ -61,8 +62,8 @@ const KasauliProduct = () => {
               >
                 <div className="mt-20 px-5 py-16 bg-[#F2FBFA]">
                   {/* <ProductCarousel
-                    carouselImageUrl={destinations[0].carouselImageUrl}
-                  /> */}
+                      carouselImageUrl={destinations[0].carouselImageUrl}
+                    /> */}
                   <SwiperProductCarousel
                     carouselImageUrl={destinations[0].carouselImageUrl}
                   />
@@ -149,4 +150,4 @@ const KasauliProduct = () => {
   );
 };
 
-export default KasauliProduct;
+export default MussoorieProduct;

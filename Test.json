@@ -1,40 +1,32 @@
 {
   "_id": {
-    "$oid": "65b4b21362fcec5e69ffe5e4"
+    "$oid": "65aa274accb345f5628c46dd"
   },
-  "carouselImageUrl": [
-    "/productPushkar1.jpg",
-    "/productPushkar2.jpg",
-    "/productPushkar3.jpg",
-    "/productPushkar4.jpg",
-    "/productPushkar1.jpg",
-    "/productPushkar2.jpg"
-  ],
-  "heading": "Pushkar",
-  "subHeading": "Pushkar City in Rajasthan",
+  "heading": "Haridwar",
+  "subHeading": "Haridwar City in Uttarakhand",
   "duration": "4 Days",
   "maxPeople": {
     "$numberInt": "20"
   },
   "minAge": "16+",
   "pickup": "Motobike",
-  "overview": "Pushkar is a city, near Ajmer City and headquarters of Pushkar tehsil in the Ajmer district in the Indian state of Rajasthan. It is situated about 10 km northwest of Ajmer and about 150 kilometres southwest of Jaipur. It is a pilgrimage site for Hindus and Sikhs. Pushkar has many temples",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28567.72997820352!2d74.53340696604005!3d26.48903159969892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396bdd22e5572a2f%3A0xb8733d912fcdf2ea!2sPushkar%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1706079711112!5m2!1sen!2sin",
-  "reviewHeading": "5 reviews for Pushkar",
+  "overview": "Haridwar is an ancient city and important Hindu pilgrimage site in North India’s Uttarakhand state, where the River Ganges exits the Himalayan foothills. The largest of several sacred ghats (bathing steps), Har Ki Pauri hosts a nightly Ganga Aarti (river-worshipping ceremony) in which tiny flickering lamps are floated off the steps. Worshipers fill the city during major festivals including the annual Kanwar Mela",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110621.80693388333!2d78.11592575!3d29.95264985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909470eb8ee57c9%3A0x4e449176a640f5f3!2sHaridwar%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1706357682841!5m2!1sen!2sin",
+  "reviewHeading": "5 reviews for Haridwar",
   "reviews": [
     {
       "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
       "name": "Aarav",
-      "date": "7th February 2023"
+      "date": "19th January 2023"
     },
     {
       "review": "Spectacular sights and smooth travel. Heartfelt thanks to admire holidays for an unforgettable trip!",
       "name": "Ishita",
-      "date": "12th March 2023"
+      "date": "17th December 2023"
     },
     {
       "review": "Unparalleled memories created by the exceptional services of admire holidays.",
-      "name": "Kavya",
+      "name": "Kajal",
       "date": "18th April 2023"
     },
     {
@@ -48,35 +40,44 @@
       "date": "8th June 2023"
     }
   ],
-  "previousPrice": "53,999",
-  "price": "50,000",
+  "previousPrice": "6000",
+  "price": "4000",
+  
   "itinerary": [
     {
-      "day": "Day 1",
-      "day1Heading": "Pushkar Day 1: Arrival and Spiritual Exploration",
-      "day1Overview": "Embark on a soul-enriching journey as you drive to Pushkar. Upon arrival, immerse yourself in the sacred vibes of this mystical town. Check-in at the hotel and let the spirituality of Pushkar captivate you. Take a stroll around the holy Pushkar Lake, a place revered by pilgrims for centuries. Visit the renowned Brahma Temple, the only temple dedicated to Lord Brahma in the world. Feel the divine energy and serenity that surrounds this spiritual haven. The day is free for your own spiritual exploration and leisure activities. In the evening, witness the mesmerizing Aarti at Pushkar Lake, a soul-soothing experience. Dinner & overnight stay at the hotel."
+        "day": "Day 1",
+        "day1Heading": "Delhi to Haridwar: Spiritual Exploration",
+        "day1Overview": "Morning drive to Haridwar, en-route visit Dehradun. On arrival in Haridwar, check-in at the hotel. Explore the spiritual essence of Haridwar, take a dip in the holy Ganges, and witness the famous Ganga Aarti in the evening. Dinner & overnight stay at the hotel.\n\nHaridwar, located in Uttarakhand, is one of the seven holiest places in Hinduism. It is situated on the banks of the Ganges River and is famous for the Ganga Aarti that takes place every evening, attracting pilgrims and tourists alike."
     },
     {
-      "day": "Day 2",
-      "day2Heading": "Pushkar Day 2: Camel Fair Extravaganza",
-      "day2Overview": "After a hearty breakfast, delve into the vibrant atmosphere of the Pushkar Camel Fair. Marvel at the spectacle of thousands of camels, adorned in colorful attire, creating a kaleidoscope of tradition and culture. Immerse yourself in the unique cultural events, from camel races to traditional performances. Explore the lively markets offering a myriad of handicrafts, textiles, and local delights. In the evening, find solace by the Pushkar Lake, where the tranquil surroundings provide a perfect backdrop for reflection. Dinner & overnight stay at the hotel."
+        "day": "Day 2",
+        "day2Heading": "Haridwar to Mussoorie: Hill Station Retreat",
+        "day2Overview": "Morning after breakfast, drive to Mussoorie. En-route, visit Kempty Fall and explore Gun Hill, Lal Tibba, Company Garden, and Camel Back in Mussoorie. On arrival, check-in at the hotel. Enjoy the scenic beauty and relax in the serene ambiance. Dinner & overnight stay at the hotel."
     },
     {
-      "day": "Day 3",
-      "day3Heading": "Pushkar to Jaipur Journey: Departure",
-      "day3Overview": "Bid farewell to the enchanting town of Pushkar after a delightful breakfast. As you drive towards Jaipur (145 Kms / 3 Hrs), relish the memories of the unique experiences and cultural richness Pushkar has offered. Reach Jaipur and conclude your memorable journey, carrying with you the essence of spirituality and the vibrant spirit of Pushkar."
+        "day": "Day 3",
+        "day3Heading": "Mussoorie to Delhi: Homeward Journey",
+        "day3Overview": "Mussoorie – Delhi (Approx. 295 Kms)\nAfter breakfast, drive back to Delhi. Reflect on the memorable moments of your short yet enriching trip to Haridwar and the enchanting hills of Mussoorie."
     }
+]
+
+,  
+  
+  "carouselImageUrl": [
+    "/productKasauli1.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli3.jpg",
+    "/productKasauli4.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli1.jpg"
   ],
   "exclusions": [
     "Departure Taxes",
-    "Entry Fees",
-    "5 Star Accommodation",
-    "Airport Transfers"
+    "Entry Fees"
   ],
   "inclusions": [
     "Specialized bilingual guide",
     "Private Transport",
-    "Entrance fees (Cable and car and Moon Valley)",
     "Box lunch water, banana apple and chocolate"
   ]
 }

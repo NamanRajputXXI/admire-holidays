@@ -7,7 +7,7 @@ import {
   Autoplay,
   A11y,
 } from "swiper/modules";
-
+import "../../../styles/custom.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

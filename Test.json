@@ -1,10 +1,6 @@
-
-
-
- 
 {
   "_id": {
-    "$oid": "65b0b8803eaeb402c22ab45f"
+    "$oid": "65b4b21362fcec5e69ffe5e4"
   },
   "carouselImageUrl": [
     "/productPushkar1.jpg",
@@ -52,10 +48,8 @@
       "date": "8th June 2023"
     }
   ],
- 
   "previousPrice": "53,999",
   "price": "50,000",
- 
   "itinerary": [
     {
       "day": "Day 1",
@@ -72,6 +66,17 @@
       "day3Heading": "Pushkar to Jaipur Journey: Departure",
       "day3Overview": "Bid farewell to the enchanting town of Pushkar after a delightful breakfast. As you drive towards Jaipur (145 Kms / 3 Hrs), relish the memories of the unique experiences and cultural richness Pushkar has offered. Reach Jaipur and conclude your memorable journey, carrying with you the essence of spirituality and the vibrant spirit of Pushkar."
     }
+  ],
+  "exclusions": [
+    "Departure Taxes",
+    "Entry Fees",
+    "5 Star Accommodation",
+    "Airport Transfers"
+  ],
+  "inclusions": [
+    "Specialized bilingual guide",
+    "Private Transport",
+    "Entrance fees (Cable and car and Moon Valley)",
+    "Box lunch water, banana apple and chocolate"
   ]
-  
 }

@@ -65,7 +65,7 @@ const PushkarProduct = () => {
                     carouselImageUrl={destinations[0].carouselImageUrl}
                   /> */}
                   <SwiperProductCarousel
-                    carouselImageUrl={destinations[0].carouselImageUrl}
+                    carouselImageUrl={destinations[2].carouselImageUrl}
                   />
                   <div className="max-w-7xl md:flex-row flex-col mx-auto grid  items-center grid-cols-1 md:grid-cols-2 gap-10">
                     <div className=" flex sm:justify-between gap-5 justify-start sm:flex-row flex-col sm:items-center   px-5">

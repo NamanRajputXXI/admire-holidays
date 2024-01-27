@@ -105,7 +105,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="  text-lg">Wide range of exclusive</p>
+              <p className="text-sm  md:text-lg">Wide range of exclusive</p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -113,7 +113,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="text-lg">deals with resorts.</p>
+              <p className="text-sm  md:text-lg">deals with resorts.</p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -121,7 +121,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="text-lg">24*7 help line</p>
+              <p className="text-sm  md:text-lg">24*7 help line</p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -129,7 +129,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className=" text-lg">Detail information about </p>
+              <p className=" text-sm  md:text-lg">Detail information about </p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -137,7 +137,9 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className=" text-lg">package information clearly.</p>
+              <p className=" text-sm  md:text-lg">
+                package information clearly.
+              </p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -145,7 +147,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className=" text-lg">Local support</p>
+              <p className=" text-sm  md:text-lg">Local support</p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -153,7 +155,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className=" text-lg">Deals on flights booking</p>
+              <p className="text-sm  md:text-lg ">Deals on flights booking</p>
             </div>
           </div>
           <div className="flex  items-center gap-5">
@@ -161,7 +163,7 @@ const ProductRightPricing = ({
               <TiTick size={30} color="#00BB98" />
             </div>
             <div className="flex flex-col gap-2">
-              <p className=" text-lg">Quick book</p>
+              <p className=" text-sm  md:text-lg">Quick book</p>
             </div>
           </div>
         </div>

@@ -5,3 +5,8 @@ const page = () => {
 };
 
 export default page;
+export function generateMetadata({ param }) {
+  return {
+    title: "Product | Nainital",
+  };
+}

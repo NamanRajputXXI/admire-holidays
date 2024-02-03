@@ -162,28 +162,35 @@ const ProductDetailLeft = ({
           >
             Expand all
           </button>
-          <Accordian
-            day={itinerary[0].day}
-            heading={itinerary[0].day1Heading}
-            isOpen={dayOneOpen}
-            dayOverview={itinerary[0].day1Overview}
-            clickFunction={dayOneClick}
-          />
+          {itinerary[0] && itinerary[0].day && (
+            <Accordian
+              day={itinerary[0].day}
+              heading={itinerary[0].day1Heading}
+              isOpen={dayOneOpen}
+              dayOverview={itinerary[0].day1Overview}
+              clickFunction={dayOneClick}
+            />
+          )}
 
-          <Accordian
-            day={itinerary[1].day}
-            heading={itinerary[1].day2Heading}
-            isOpen={dayTwoOpen}
-            dayOverview={itinerary[1].day2Overview}
-            clickFunction={dayTwoClick}
-          />
-          <Accordian
-            day={itinerary[2].day}
-            heading={itinerary[2].day3Heading}
-            isOpen={dayThreeOpen}
-            dayOverview={itinerary[2].day3Overview}
-            clickFunction={dayThreeClick}
-          />
+          {itinerary[1] && itinerary[1].day && (
+            <Accordian
+              day={itinerary[1].day}
+              heading={itinerary[1].day2Heading}
+              isOpen={dayTwoOpen}
+              dayOverview={itinerary[1].day2Overview}
+              clickFunction={dayTwoClick}
+            />
+          )}
+
+          {itinerary[2] && itinerary[2].day && (
+            <Accordian
+              day={itinerary[2].day}
+              heading={itinerary[2].day3Heading}
+              isOpen={dayThreeOpen}
+              dayOverview={itinerary[2].day3Overview}
+              clickFunction={dayThreeClick}
+            />
+          )}
         </div>
 
         <h1 className="font-bold text-2xl  mt-10 md:text-4xl" id="inclusions">

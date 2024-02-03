@@ -1,18 +1,17 @@
 {
   "_id": {
-    "$oid": "65aa274accb345f5628c46dd"
+    "$oid": "65b4f53a92169ec6d70eeb48"
   },
-  "heading": "Haridwar",
-  "subHeading": "Haridwar City in Uttarakhand",
-  "duration": "4 Days",
+  "heading": "Corbett National Park",
+  "subHeading": "National park in Uttarakhand",
+  "duration": "1 Days",
   "maxPeople": {
-    "$numberInt": "20"
+    "$numberInt": "15"
   },
-  "minAge": "16+",
+  "minAge": "12+",
   "pickup": "Motobike",
-  "overview": "Haridwar is an ancient city and important Hindu pilgrimage site in North India’s Uttarakhand state, where the River Ganges exits the Himalayan foothills. The largest of several sacred ghats (bathing steps), Har Ki Pauri hosts a nightly Ganga Aarti (river-worshipping ceremony) in which tiny flickering lamps are floated off the steps. Worshipers fill the city during major festivals including the annual Kanwar Mela",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110621.80693388333!2d78.11592575!3d29.95264985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909470eb8ee57c9%3A0x4e449176a640f5f3!2sHaridwar%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1706357682841!5m2!1sen!2sin",
-  "reviewHeading": "5 reviews for Haridwar",
+  "overview": "Jim Corbett National Park is a forested wildlife sanctuary in northern India’s Uttarakhand State. Rich in flora and fauna, it’s known for its Bengal tigers. Animals, including tigers, leopards and wild elephants, roam the Dhikala zone. On the banks of the Ramganga Reservoir, the Sonanadi zone is home to elephants and leopards, along with hundreds of species of birds",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.90184662656935!2d78.7744718333082!3d29.530041139157188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a24ffffffffff%3A0x3017b72d3d253fd7!2sJim%20Corbett%20National%20Park!5e0!3m2!1sen!2sin!4v1706938038163!5m2!1sen!2sin",
   "reviews": [
     {
       "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
@@ -40,29 +39,16 @@
       "date": "8th June 2023"
     }
   ],
-  "previousPrice": "6000",
-  "price": "4000",
-  
+  "previousPrice": "13999",
+  "price": "16000",
   "itinerary": [
     {
         "day": "Day 1",
-        "day1Heading": "Delhi to Haridwar: Spiritual Exploration",
-        "day1Overview": "Morning drive to Haridwar, en-route visit Dehradun. On arrival in Haridwar, check-in at the hotel. Explore the spiritual essence of Haridwar, take a dip in the holy Ganges, and witness the famous Ganga Aarti in the evening. Dinner & overnight stay at the hotel.\n\nHaridwar, located in Uttarakhand, is one of the seven holiest places in Hinduism. It is situated on the banks of the Ganges River and is famous for the Ganga Aarti that takes place every evening, attracting pilgrims and tourists alike."
-    },
-    {
-        "day": "Day 2",
-        "day2Heading": "Haridwar to Mussoorie: Hill Station Retreat",
-        "day2Overview": "Morning after breakfast, drive to Mussoorie. En-route, visit Kempty Fall and explore Gun Hill, Lal Tibba, Company Garden, and Camel Back in Mussoorie. On arrival, check-in at the hotel. Enjoy the scenic beauty and relax in the serene ambiance. Dinner & overnight stay at the hotel."
-    },
-    {
-        "day": "Day 3",
-        "day3Heading": "Mussoorie to Delhi: Homeward Journey",
-        "day3Overview": "Mussoorie – Delhi (Approx. 295 Kms)\nAfter breakfast, drive back to Delhi. Reflect on the memorable moments of your short yet enriching trip to Haridwar and the enchanting hills of Mussoorie."
-    }
+        "day1Heading": "Departure",
+        "day1Overview": " Embarking on a one-day adventure in Corbett National Park, nature's symphony unfolds. The day commences with a sunrise safari, where the golden hues cast a magical glow on the diverse flora and fauna. Crossing dense sal forests and riverbanks, glimpses of majestic elephants and elusive tigers captivate the senses. A midday pause at Dhikala offers panoramic views of the Ramganga River and an opportunity to savor local cuisine. Afternoon jeep safaris reveal the park's biodiversity, from spotted deer to vibrant birdlife. As the sun sets over the wilderness, a sense of awe lingers, leaving indelible memories of Corbett's untamed beauty."
+    }  
 ]
-
-,  
-  
+,
   "carouselImageUrl": [
     "/productKasauli1.jpg",
     "/productKasauli2.jpg",

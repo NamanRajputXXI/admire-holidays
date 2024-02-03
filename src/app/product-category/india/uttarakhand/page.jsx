@@ -34,15 +34,15 @@ const page = () => {
             url="/kanantal.jpg"
             days="1 Day"
             destination="Kanantal"
-            details="KanatalKaudia Range, Uttarakhand"
-            productLink={"/product/mussoorie"}
+            details="Kanatal Range, Uttarakhand"
+            productLink={"/product/kanatal"}
           />
           <ProductCategoryCard
             url="/corbett.jpg"
             days="1 Day"
             destination="Corbett National Park"
-            details="National park in Uttarakhanddos"
-            productLink={"/product/mussoorie"}
+            details="National park  Uttarakhand"
+            productLink={"/product/corbett-national-park"}
           />
           <ProductCategoryCard
             url="/mussoorie2.jpg"

@@ -8,6 +8,7 @@ const page = () => {
   return (
     <>
       <FormModal />
+      <FormModal />
       <Navbar />
       <PushkarProduct />
       <Footer />

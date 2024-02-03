@@ -200,7 +200,9 @@ const ProductDetailLeft = ({
           {inclusions.map((inclusion, i) => (
             <div className="flex items-center gap-3" key={i}>
               <TiTick color="#00BB98" size={30} />
-              <p className="font-light text-sm sm:text-base">{inclusion}</p>
+              <p className="font-light text-sm sm:text-base" id="exclusions">
+                {inclusion}
+              </p>
             </div>
           ))}
         </div>

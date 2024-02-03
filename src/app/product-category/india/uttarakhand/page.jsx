@@ -45,17 +45,17 @@ const page = () => {
             productLink={"/product/corbett-national-park"}
           />
           <ProductCategoryCard
-            url="/mussoorie2.jpg"
-            days="4 Days"
-            destination="Mussoorie"
-            details="Mussoorie, Uttarakhand"
-            productLink={"/product/mussoorie"}
-          />
-          <ProductCategoryCard
             url="/nainital.jpg"
             days="7 Days"
             destination="Nainital"
             details="Nainital City in Uttarakhand"
+            productLink={"/product/nainital"}
+          />
+          <ProductCategoryCard
+            url="/mussoorie2.jpg"
+            days="4 Days"
+            destination="Mussoorie"
+            details="Mussoorie, Uttarakhand"
             productLink={"/product/mussoorie"}
           />
         </div>

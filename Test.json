@@ -2,16 +2,16 @@
   "_id": {
     "$oid": "65b4f53a92169ec6d70eeb48"
   },
-  "heading": "Corbett National Park",
-  "subHeading": "National park in Uttarakhand",
-  "duration": "1 Days",
+  "heading": "Nainital",
+  "subHeading": "Nainital City in Uttarakhand",
+  "duration": "7 Days",
   "maxPeople": {
-    "$numberInt": "15"
+    "$numberInt": "50"
   },
-  "minAge": "12+",
-  "pickup": "Motobike",
-  "overview": "Jim Corbett National Park is a forested wildlife sanctuary in northern India’s Uttarakhand State. Rich in flora and fauna, it’s known for its Bengal tigers. Animals, including tigers, leopards and wild elephants, roam the Dhikala zone. On the banks of the Ramganga Reservoir, the Sonanadi zone is home to elephants and leopards, along with hundreds of species of birds",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.90184662656935!2d78.7744718333082!3d29.530041139157188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a24ffffffffff%3A0x3017b72d3d253fd7!2sJim%20Corbett%20National%20Park!5e0!3m2!1sen!2sin!4v1706938038163!5m2!1sen!2sin",
+  "minAge": "10+",
+  "pickup": "Airport",
+  "overview": "Nainital is a Himalayan resort town in the Kumaon region of India’s Uttarakhand state, at an elevation of roughly 2,000m. Formerly a British hill station, it’s set around Nainital Lake, a popular boating site with Naina Devi Hindu Temple on its north shore. A cable car runs to Snow View observation point (at 2,270m), with vistas over the town and mountains including Nanda Devi, Uttarakhand’s highest",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27812.666926061847!2d79.4346711088391!3d29.382486012212972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a1bc28fd9d61%3A0x7cae7ba916987db3!2sNainital%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1706939274306!5m2!1sen!2sin",
   "reviews": [
     {
       "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
@@ -39,14 +39,24 @@
       "date": "8th June 2023"
     }
   ],
-  "previousPrice": "13999",
-  "price": "16000",
+  "previousPrice": "3,999",
+  "price": "2,999",
   "itinerary": [
     {
-        "day": "Day 1",
-        "day1Heading": "Departure",
-        "day1Overview": " Embarking on a one-day adventure in Corbett National Park, nature's symphony unfolds. The day commences with a sunrise safari, where the golden hues cast a magical glow on the diverse flora and fauna. Crossing dense sal forests and riverbanks, glimpses of majestic elephants and elusive tigers captivate the senses. A midday pause at Dhikala offers panoramic views of the Ramganga River and an opportunity to savor local cuisine. Afternoon jeep safaris reveal the park's biodiversity, from spotted deer to vibrant birdlife. As the sun sets over the wilderness, a sense of awe lingers, leaving indelible memories of Corbett's untamed beauty."
-    }  
+      "day": "Day 1",
+      "day1Heading": "Delhi to Nainital",
+      "day1Overview": "Start your journey to Nainital in the morning. Enjoy a picturesque drive through scenic landscapes. On arrival in Nainital, check-in at the hotel and unwind. Explore the local markets and embrace the tranquility of the hills. Dinner & overnight stay at the hotel."
+    },
+    {
+      "day": "Day 2",
+      "day2Heading": "Nainital Exploration: Lakes and Peaks",
+      "day2Overview": "After breakfast, embark on a day of exploration in Nainital. Take a boat ride on the enchanting Naini Lake, visit the Naina Devi Temple, and explore the Mall Road. Enjoy breathtaking views of the Himalayas. Return to the hotel for dinner & overnight stay."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "Nainital to Delhi: Cherished Memories",
+      "day3Overview": "After a leisurely breakfast, check-out from the hotel and start your journey back to Delhi. Reflect on the memorable moments spent in the serene beauty of Nainital."
+    }
 ]
 ,
   "carouselImageUrl": [
@@ -59,11 +69,14 @@
   ],
   "exclusions": [
     "Departure Taxes",
-    "Entry Fees"
+    "Entry Fees",
+    "5 Star Accommmodation",
+    "Airport Transfers"
   ],
   "inclusions": [
     "Specialized bilingual guide",
     "Private Transport",
-    "Box lunch water, banana apple and chocolate"
+    "Box lunch water, banana apple and chocolate",
+    "Enterance fees (Cable, Car and Moon Valley)"
   ]
 }

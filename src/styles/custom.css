@@ -22,3 +22,27 @@
        "I4 I4 I4 I4"
    }  
 }
+.swiper-button-next,
+          .swiper-button-prev {
+            background-color: white !important;
+            padding: 16px !important;
+            border-radius: 100% !important;
+            color: #00BB98 !important;
+            font-size: 10px !important;
+            width: 60px !important;
+            height: 60px !important;
+            top: 40% !important;
+          }
+@media(max-width:480px){
+    
+    .swiper-button-next,
+          .swiper-button-prev {
+           
+            padding: 30px !important;
+           
+            width: 50px !important;
+            height: 50px !important;
+            top: 40% !important;
+          }
+}
+         

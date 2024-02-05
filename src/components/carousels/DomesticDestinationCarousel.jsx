@@ -8,6 +8,7 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 import domesticDestinations from "@/data/domesticDestination";
+import Link from "next/link";
 const DomesticDestinationCarousel = () => {
   return (
     <section className="container max-w-7xl my-20  mx-auto">
@@ -56,20 +57,22 @@ const DomesticDestinationCarousel = () => {
                 >
                   {domesticDestinations.map((item, index) => (
                     <Slide index={index} key={index}>
-                      <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
-                        <img
-                          src={item.imageUrl}
-                          alt={item.title}
-                          className="object-cover rounded-xl object-center h-96 w-96"
-                        />
-                        <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                          <div className="flex h-full items-end  relative pb-6">
-                            <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                              {item.title}
-                            </h3>
+                      <Link href={item.link}>
+                        <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
+                          <img
+                            src={item.imageUrl}
+                            alt={item.title}
+                            className="object-cover rounded-xl object-center h-96 w-96"
+                          />
+                          <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
+                            <div className="flex h-full items-end  relative pb-6">
+                              <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
+                                {item.title}
+                              </h3>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     </Slide>
                   ))}
                 </div>
@@ -141,20 +144,22 @@ const DomesticDestinationCarousel = () => {
                 >
                   {domesticDestinations.map((item, index) => (
                     <Slide index={index} key={index}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <img
-                          src={item.imageUrl}
-                          alt={item.title}
-                          className="object-cover rounded-xl object-center h-96 w-96"
-                        />
-                        <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                          <div className="flex h-full items-end  relative pb-6">
-                            <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                              {item.title}
-                            </h3>
+                      <Link href={item.link}>
+                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                          <img
+                            src={item.imageUrl}
+                            alt={item.title}
+                            className="object-cover rounded-xl object-center h-96 w-96"
+                          />
+                          <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
+                            <div className="flex h-full items-end  relative pb-6">
+                              <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
+                                {item.title}
+                              </h3>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     </Slide>
                   ))}
                 </div>
@@ -225,20 +230,22 @@ const DomesticDestinationCarousel = () => {
                 >
                   {domesticDestinations.map((items, index) => (
                     <Slide index={index} key={index}>
-                      <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
-                        <img
-                          src={items.imageUrl}
-                          alt={items.title}
-                          className="object-cover rounded-xl object-center w-full"
-                        />
-                        <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                          <div className="flex h-full items-end  relative pb-6">
-                            <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                              {items.title}
-                            </h3>
+                      <Link href={items.link}>
+                        <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                          <img
+                            src={items.imageUrl}
+                            alt={items.title}
+                            className="object-cover rounded-xl object-center w-full"
+                          />
+                          <div className="bg-gray-800 rounded-xl bg-opacity-5 absolute w-full h-full py-6">
+                            <div className="flex h-full items-end  relative pb-6">
+                              <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
+                                {items.title}
+                              </h3>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     </Slide>
                   ))}
                 </div>

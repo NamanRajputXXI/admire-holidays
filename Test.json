@@ -57,8 +57,7 @@
       "day3Heading": "Nainital to Delhi: Cherished Memories",
       "day3Overview": "After a leisurely breakfast, check-out from the hotel and start your journey back to Delhi. Reflect on the memorable moments spent in the serene beauty of Nainital."
     }
-]
-,
+  ],
   "carouselImageUrl": [
     "/productKasauli1.jpg",
     "/productKasauli2.jpg",
@@ -70,13 +69,19 @@
   "exclusions": [
     "Departure Taxes",
     "Entry Fees",
-    "5 Star Accommmodation",
+    "5 Star Accommodation",
     "Airport Transfers"
   ],
   "inclusions": [
     "Specialized bilingual guide",
     "Private Transport",
     "Box lunch water, banana apple and chocolate",
-    "Enterance fees (Cable, Car and Moon Valley)"
+    "Entrance fees (Cable, Car and Moon Valley)"
   ]
 }
+
+
+
+
+
+

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Accordian from "./Accordian";
 import { TiTick } from "react-icons/ti";
-import { RxCross1 } from "react-icons/rx";
+import { RxCross1, RxCross2 } from "react-icons/rx";
 import { CiStar } from "react-icons/ci";
 import { FaCarSide, FaHome, FaPlane, FaUserCircle } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
@@ -210,8 +210,8 @@ const ProductDetailLeft = ({
 
         <div className="flex flex-col mb-10 gap-4">
           {exclusions.map((exclusion, i) => (
-            <div className="flex items-center gap-5" key={i}>
-              <ImCross color="#FD4A4C" size={20} />
+            <div className="flex items-center gap-2" key={i}>
+              <RxCross2 color="gray" size={20} />
               <p className="font-light">{exclusion}</p>
             </div>
           ))}

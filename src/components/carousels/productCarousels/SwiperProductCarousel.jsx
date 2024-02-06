@@ -29,8 +29,6 @@ const SwiperProductCarousel = ({ carouselImageUrl }) => {
           slidesPerView={3}
           navigation
           pagination={false}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
         >
           <div
             id="slider"
@@ -63,8 +61,6 @@ const SwiperProductCarousel = ({ carouselImageUrl }) => {
           slidesPerView={2}
           navigation
           pagination={false}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
         >
           <div
             id="slider"
@@ -97,8 +93,6 @@ const SwiperProductCarousel = ({ carouselImageUrl }) => {
           slidesPerView={1}
           navigation
           pagination={false}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
         >
           <div
             id="slider"

@@ -10,6 +10,7 @@ import { MdDateRange } from "react-icons/md";
 import { IoFastFoodSharp } from "react-icons/io5";
 import { BsFillEmojiSunglassesFill } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
+import PackageOptions from "./PackageOptions";
 
 const ProductDetailLeft = ({
   overview,
@@ -19,6 +20,7 @@ const ProductDetailLeft = ({
   reviewHeading,
   reviews,
   exclusions,
+  packageOptions,
 }) => {
   const [allOpen, setAllOpen] = useState(false);
   const [dayOneOpen, setDayOneOpen] = useState(false);
@@ -86,9 +88,9 @@ const ProductDetailLeft = ({
       </div>
 
       <div className="flex flex-col gap-10 bg-white rounded-lg px-4 py-4">
-        <div className="grid sm:grid-cols-5 grid-cols-2 sm:gap-0 gap-3  py-2 w-full  text-xs text-gray-700 sm:text-base  items-center justify-center">
+        <div className="grid sm:grid-cols-6 grid-cols-2 sm:gap-0 gap-3  py-2 w-full   text-xs text-gray-700 sm:text-sm  items-center justify-center">
           <div
-            className={`flex items-center py-2  px-2 justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2  justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#itinerary"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -103,18 +105,22 @@ const ProductDetailLeft = ({
             </a>
           </div>
           <div
-            className={`flex items-center py-2 px-2 justify-center border-l-[0.5px]  border-l-gray-300 border-t-gray-400 border-t-[1px] ${
-              activeLink === "#map"
+            className={`flex items-center py-2  justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#packageOptions"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
             }`}
           >
-            <a href="#map" onClick={() => handleLinkClick("#map")}>
-              Map
+            <a
+              href="#packageOptions"
+              onClick={() => handleLinkClick("#packageOptions")}
+            >
+              Package option
             </a>
           </div>
+
           <div
-            className={`flex items-center py-2 px-2 justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2  justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#reviews"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -125,7 +131,7 @@ const ProductDetailLeft = ({
             </a>
           </div>
           <div
-            className={`flex items-center py-2 px-2 justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2  justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#inclusions"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -139,7 +145,7 @@ const ProductDetailLeft = ({
             </a>
           </div>
           <div
-            className={`flex items-center py-2 px-2 justify-center border-x-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
+            className={`flex items-center py-2  justify-center border-x-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#exclusions"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -150,6 +156,17 @@ const ProductDetailLeft = ({
               onClick={() => handleLinkClick("#exclusions")}
             >
               Exclusions
+            </a>
+          </div>
+          <div
+            className={`flex items-center py-2  justify-center border-l-[0.5px]  border-l-gray-300 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#map"
+                ? "border-b-[1px] border-b-red-500"
+                : "border-b-gray-400 border-b-[1px]"
+            }`}
+          >
+            <a href="#map" onClick={() => handleLinkClick("#map")}>
+              Map
             </a>
           </div>
         </div>
@@ -192,9 +209,10 @@ const ProductDetailLeft = ({
             />
           )}
         </div>
+        <PackageOptions packageOptions={packageOptions} />
 
         <h1 className="font-bold text-2xl  mt-10 md:text-4xl" id="inclusions">
-          Included
+          Inclusions
         </h1>
         <div className="flex  flex-col mb-10 gap-3 ">
           {inclusions.map((inclusion, i) => (
@@ -206,7 +224,7 @@ const ProductDetailLeft = ({
             </div>
           ))}
         </div>
-        <h1 className="font-bold text-2xl mt-10  md:text-4xl">Excluded</h1>
+        <h1 className="font-bold text-2xl mt-10  md:text-4xl">Exclusions</h1>
 
         <div className="flex flex-col mb-10 gap-4">
           {exclusions.map((exclusion, i) => (

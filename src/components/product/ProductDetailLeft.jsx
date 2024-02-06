@@ -236,18 +236,6 @@ const ProductDetailLeft = ({
         </div>
       </div>
 
-      <h1 className="font-bold  text-2xl md:text-4xl" id="map">
-        Tour Map
-      </h1>
-      <div>
-        <iframe
-          src={mapSrc}
-          className="lg:w-[700px] lg:h-[450px] sm:w-96 sm:h-96 w-64 h-64"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
       <h1 className="font-medium text-xl md:text-2xl">{reviewHeading}</h1>
       <div className="flex  sm:flex-row flex-col gap-5">
         <div className="bg-white flex-col flex sm:justify-center justify-start  gap-5 sm:items-center sm:h-[400px] h-fit w-full sm:w-1/2">
@@ -332,6 +320,18 @@ const ProductDetailLeft = ({
         </div>
       ))}
 
+      <h1 className="font-bold  text-2xl mt-10 md:text-4xl" id="map">
+        Tour Map
+      </h1>
+      <div className="mb-10">
+        <iframe
+          src={mapSrc}
+          className="lg:w-[700px] lg:h-[450px] sm:w-96 sm:h-96 w-64 h-64"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
       <div className="flex flex-col gap-5 bg-[#F2FBFA] rounded-lg px-5 py-3">
         <h5 className="text-xl">LEAVE FEEDBACK ABOUT THIS</h5>
         <p className="font-light">Your email address will not be published.</p>

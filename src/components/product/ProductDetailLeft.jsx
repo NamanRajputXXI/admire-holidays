@@ -27,6 +27,10 @@ const ProductDetailLeft = ({
   const [dayTwoOpen, setDayTwoOpen] = useState(false);
   const [dayThreeOpen, setDayThreeOpen] = useState(false);
   const [dayFourOpen, setDayFourOpen] = useState(false);
+  const [dayFiveOpen, setDayFiveOpen] = useState(false);
+  const [daySixOpen, setDaySixOpen] = useState(false);
+  const [daySevenOpen, setDaySevenOpen] = useState(false);
+  const [dayEightOpen, setDayEightOpen] = useState(false);
   const dayOneClick = () => {
     setDayOneOpen((prev) => !prev);
   };
@@ -39,6 +43,18 @@ const ProductDetailLeft = ({
   const dayFourClick = () => {
     setDayFourOpen((prev) => !prev);
   };
+  const dayFiveClick = () => {
+    setDayFiveOpen((prev) => !prev);
+  };
+  const daySixClick = () => {
+    setDaySixOpen((prev) => !prev);
+  };
+  const daySevenClick = () => {
+    setDaySevenOpen((prev) => !prev);
+  };
+  const dayEightClick = () => {
+    setDayEightOpen((prev) => !prev);
+  };
 
   const expandAll = () => {
     setAllOpen(!allOpen);
@@ -46,6 +62,7 @@ const ProductDetailLeft = ({
     setDayTwoOpen(!allOpen);
     setDayThreeOpen(!allOpen);
     setDayFourOpen(!allOpen);
+    setDayFiveOpen(!allOpen);
   };
 
   const [activeLink, setActiveLink] = useState("#itinerary");
@@ -220,6 +237,42 @@ const ProductDetailLeft = ({
               isOpen={dayFourOpen}
               dayOverview={itinerary[3].day3Overview}
               clickFunction={dayFourClick}
+            />
+          )}
+          {itinerary[4] && itinerary[4].day && (
+            <Accordian
+              day={itinerary[4].day}
+              heading={itinerary[4].day3Heading}
+              isOpen={dayFiveOpen}
+              dayOverview={itinerary[4].day3Overview}
+              clickFunction={dayFiveClick}
+            />
+          )}
+          {itinerary[5] && itinerary[5].day && (
+            <Accordian
+              day={itinerary[5].day}
+              heading={itinerary[5].day3Heading}
+              isOpen={daySixOpen}
+              dayOverview={itinerary[5].day3Overview}
+              clickFunction={daySixClick}
+            />
+          )}
+          {itinerary[6] && itinerary[6].day && (
+            <Accordian
+              day={itinerary[6].day}
+              heading={itinerary[6].day3Heading}
+              isOpen={daySevenOpen}
+              dayOverview={itinerary[6].day3Overview}
+              clickFunction={daySevenClick}
+            />
+          )}
+          {itinerary[7] && itinerary[7].day && (
+            <Accordian
+              day={itinerary[7].day}
+              heading={itinerary[7].day3Heading}
+              isOpen={dayEightOpen}
+              dayOverview={itinerary[7].day3Overview}
+              clickFunction={dayEightClick}
             />
           )}
         </div>

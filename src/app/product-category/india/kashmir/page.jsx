@@ -18,9 +18,14 @@ const page = () => {
           <ProductCategoryCard
             url="/srinagar.jpg"
             days="4 Days"
-            destination="Srinagar"
-            details="Srinagar, Kashmir, India"
-            productLink={"/product/srinagar"}
+            destination="Srinagar 02N + Houseboat 01 N"
+            productLink={"/product/srinagar/SriNagar02HouseBoat01N"}
+          />
+          <ProductCategoryCard
+            url="/srinagar.jpg"
+            days="4 Days"
+            destination="Katra 03N"
+            productLink={"/product/katra/katra03N"}
           />
         </div>
       </div>

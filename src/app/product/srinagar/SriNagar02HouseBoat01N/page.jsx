@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import FormModal from "@/components/FormModal";
 import Navbar from "@/components/Navbar";
-import ShrinagarProduct from "@/components/product/Srinagar/ShrinagarProduct";
+import Srinagar02NHouseboat01N from "@/components/product/Srinagar/Srinagar02NHouseboat01N";
 import React from "react";
 
 const page = () => {
@@ -10,7 +10,7 @@ const page = () => {
       <FormModal />
       <FormModal />
       <Navbar />
-      <ShrinagarProduct />
+      <Srinagar02NHouseboat01N />
       <Footer />
     </>
   );
@@ -19,6 +19,6 @@ const page = () => {
 export default page;
 export function generateMetadata({ param }) {
   return {
-    title: "Product | Srinagar",
+    title: "Product | Pushkar",
   };
 }

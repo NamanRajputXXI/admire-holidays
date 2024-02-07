@@ -1,0 +1,132 @@
+
+{
+  "_id": {
+    "$oid": "65c21adb514164b4bcf9d8f2"
+  },
+  "heading": "Katra",
+  "subHeading": "Katra in Jammu & Kahsmir",
+  "duration": "4 Days",
+  "maxPeople": {
+    "$numberInt": "50"
+  },
+  "minAge": "10+",
+  "pickup": "Airport",
+  "overview": " Katra, nestled at the foothills of the Trikuta Mountains, serves as the gateway to the divine Vaishno Devi pilgrimage. This sacred town is surrounded by picturesque landscapes, offering a serene and spiritual atmosphere. Embark on a transformative journey as you trek to the revered shrine of Mata Vaishno Devi, located at an altitude of 5,200 feet. Along the way, immerse yourself in the spiritual energy, visit the sacred Bhairon Temple, and witness the breathtaking views of the surrounding mountains. Katra not only provides a spiritual escape but also a chance to explore local markets, savor traditional cuisine, and experience the rich cultural heritage of the region.",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13386.885203969881!2d74.93059875!3d32.984754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e78e6316b55cb%3A0xf3ea3335c5a9638!2sKatra%20182320!5e0!3m2!1sen!2sin!4v1707306500978!5m2!1sen!2sin",
+  "reviews": [
+    {
+      "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
+      "name": "Aarav",
+      "date": "19th January 2023"
+    },
+    {
+      "review": "Spectacular sights and smooth travel. Heartfelt thanks to admire holidays for an unforgettable trip!",
+      "name": "Ishita",
+      "date": "17th December 2023"
+    },
+    {
+      "review": "Unparalleled memories created by the exceptional services of admire holidays.",
+      "name": "Kajal",
+      "date": "18th April 2023"
+    },
+    {
+      "review": "Outstanding arrangements and a flawless Pushkar experience. Highly recommended!",
+      "name": "Aryan",
+      "date": "25th May 2023"
+    },
+    {
+      "review": "An amazing journey, meticulously planned itinerary, and exceptional customer service by admire holidays.",
+      "name": "Ishaan",
+      "date": "8th June 2023"
+    }
+  ],
+  "previousPrice": "9,400",
+  "price": "14,400",
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "day1Heading": " Arrival - Jammu – Katra",
+      "day1Overview": "Pick up from Jammu Airport/Railway Station and transfer to Katra (50 Kms/1.5 Hours). Spend rest of the day at leisure. Overnight stay at Katra."
+    },
+    {
+      "day": "Day 2",
+      "day2Heading": "  Katra - Vaishno Devi Darshans ",
+      "day2Overview": "Early morning after breakfast, proceed for Mata Vaishno Devi Bhawan- one of the most popular pilgrimages of India situated in the lap of Trikuta mountains across Katra town at an altitude of  around 5200 feet. Yatra involves a trek of nearly 12 Kms from base camp at Katra known as Ban Ganga. Alternate way to perform darshans is by Ponies/Palkis/ Helicopter. If time permits, visit  Bhairo Temple & return back to Katra in the evening. Overnight stay at Katra"
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": " Katra - Shiv Khori – Katra",
+      "day3Overview": "Early morning after breakfast, proceed for Shiv Khori - the Holy Cave abode of Lord Shiva situated at a distance of 70 Kms from Katra. The cave is a real wonder to be seen and measures nearly half a kilometer in length with a 4 feet high naturally formed Shiv-lingam at the heart of the Sanctum Sanctorum. Have darshans of Lord Shiva and back to Katra in the evening. If time permits, en route, visit Siar Baba waterfalls, Baba Dhansal & Nau Devis. Overnight stay at Katra"
+    },
+    {
+      "day": "Day 4",
+      "day3Heading": "Katra - Jammu – Departure",
+      "day3Overview": "After breakfast, check out from the hotel & proceed for Jammu to drop at Airport/Railway Station for your onward journey with sweet memories of the tour."
+    }
+  ],
+  "packageOptions": [
+    {
+      "package": "Premium 3 Star",
+      "days": "3 Night,4 Days",
+      "price": "₹23,199",
+      "previousPrice": "₹25,199",
+      "hotelsName": [
+        "Grand Kaires",
+        "Pacific Hotel",
+        "Batra Hotel"
+      ]
+    },
+    {
+      "package": " 4 Star",
+      "days": "3 Night,4 Days",
+      "price": "₹28,749",
+      "previousPrice": "₹30,749",
+      "hotelsName": [
+        "Apple Orchard",
+        "The Monteral"
+      ]
+    },
+    {
+      "package": " 3 Star",
+      "days": "3 Night,4 Days",
+      "price": "₹17,499",
+      "previousPrice": "₹19,499",
+      "hotelsName": [
+        "Royal Heritage",
+        "Royal Arabia",
+        "Hotel Shefat"
+      ]
+    },
+    {
+      "package": " 2 Star",
+      "days": "3 Night,4 Days",
+      "price": "₹14,999",
+      "previousPrice": "₹16,999",
+      "hotelsName": [
+        "K2 Inn",
+        "Hotel Curio's",
+        "Royal Milad"
+      ]
+    }
+  ],
+  "carouselImageUrl": [
+    "/productKasauli1.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli3.jpg",
+    "/productKasauli4.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli1.jpg"
+  ],
+  "exclusions": [
+    "Departure Taxes",
+    "Entry Fees",
+    "5 Star Accommodation",
+    "Airport Transfers"
+  ],
+  "inclusions": [
+    "Specialized bilingual guide",
+    "Private Transport",
+    "Box lunch water, banana apple and chocolate",
+    "Entrance fees (Cable, Car and Moon Valley)"
+  ]
+}

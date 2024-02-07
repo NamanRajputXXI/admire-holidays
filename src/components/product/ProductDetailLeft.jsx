@@ -26,6 +26,7 @@ const ProductDetailLeft = ({
   const [dayOneOpen, setDayOneOpen] = useState(false);
   const [dayTwoOpen, setDayTwoOpen] = useState(false);
   const [dayThreeOpen, setDayThreeOpen] = useState(false);
+  const [dayFourOpen, setDayFourOpen] = useState(false);
   const dayOneClick = () => {
     setDayOneOpen((prev) => !prev);
   };
@@ -35,12 +36,16 @@ const ProductDetailLeft = ({
   const dayThreeClick = () => {
     setDayThreeOpen((prev) => !prev);
   };
+  const dayFourClick = () => {
+    setDayFourOpen((prev) => !prev);
+  };
 
   const expandAll = () => {
     setAllOpen(!allOpen);
     setDayOneOpen(!allOpen);
     setDayTwoOpen(!allOpen);
     setDayThreeOpen(!allOpen);
+    setDayFourOpen(!allOpen);
   };
 
   const [activeLink, setActiveLink] = useState("#itinerary");
@@ -208,9 +213,21 @@ const ProductDetailLeft = ({
               clickFunction={dayThreeClick}
             />
           )}
+          {itinerary[3] && itinerary[3].day && (
+            <Accordian
+              day={itinerary[3].day}
+              heading={itinerary[3].day3Heading}
+              isOpen={dayFourOpen}
+              dayOverview={itinerary[3].day3Overview}
+              clickFunction={dayFourClick}
+            />
+          )}
         </div>
-        <PackageOptions packageOptions={packageOptions} />
-
+        {packageOptions && packageOptions.length > 0 ? (
+          <PackageOptions packageOptions={packageOptions} />
+        ) : (
+          <p></p>
+        )}
         <h1 className="font-bold text-2xl  mt-10 md:text-4xl" id="inclusions">
           Inclusions
         </h1>

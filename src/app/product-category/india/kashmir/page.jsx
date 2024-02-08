@@ -16,26 +16,26 @@ const page = () => {
         <div className="grid lg:grid-cols-4   justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
           <ProductCategoryCard
             url="/srinagar.jpg"
-            days="4 Days"
+            days="3 Night / 4 Days"
             destination="Whispers of the Valley: Unveil Kashmir's Hidden Gems"
             productLink={"/product/srinagar/SriNagar02HouseBoat01N"}
           />
           <ProductCategoryCard
             url="https://images.unsplash.com/photo-1566323124805-757e5c41d37c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGthc2htaXJ8ZW58MHx8MHx8fDA%3D"
-            days="4 Days"
+            days="3 Night / 4 Days"
             destination="Secret Splendors: Discover Kashmir's Enigmatic Charms"
             productLink={"/product/katra/katra03N"}
           />
           <ProductCategoryCard
             url="https://images.unsplash.com/photo-1632231065530-f5fd55c62846?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGthc2htaXJ8ZW58MHx8MHx8fDA%3D"
-            days="5 Days"
+            days="4 Night / 5 Days"
             destination="Offbeat Elegance: Your Unique Kashmir Adventure Awaits"
             productLink={"/product/srinagar/SriNagar03HouseBoat01N"}
           />
           <ProductCategoryCard
             url="https://images.unsplash.com/photo-1575336127377-71c4af9ce931?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGthc2htaXJ8ZW58MHx8MHx8fDA%3D"
-            days="5 Days"
             destination="Offbeat Elegance: Your Unique Kashmir Adventure Awaits"
+            days="4 Night / 5 Days"
             productLink={"/product/srinagar/SriNagar03HouseBoat01N"}
           />
         </div>

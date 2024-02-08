@@ -3,16 +3,16 @@
   "_id": {
     "$oid": "65c21adb514164b4bcf9d8f2"
   },
-  "heading": "Katra",
-  "subHeading": "Katra in Jammu & Kahsmir",
-  "duration": "4 Days",
+  "heading": "Srinagar",
+  "subHeading": "Srinagar & Houseboat 5 Days",
+  "duration": "5 Days",
   "maxPeople": {
     "$numberInt": "50"
   },
   "minAge": "10+",
   "pickup": "Airport",
-  "overview": " Katra, nestled at the foothills of the Trikuta Mountains, serves as the gateway to the divine Vaishno Devi pilgrimage. This sacred town is surrounded by picturesque landscapes, offering a serene and spiritual atmosphere. Embark on a transformative journey as you trek to the revered shrine of Mata Vaishno Devi, located at an altitude of 5,200 feet. Along the way, immerse yourself in the spiritual energy, visit the sacred Bhairon Temple, and witness the breathtaking views of the surrounding mountains. Katra not only provides a spiritual escape but also a chance to explore local markets, savor traditional cuisine, and experience the rich cultural heritage of the region.",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13386.885203969881!2d74.93059875!3d32.984754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e78e6316b55cb%3A0xf3ea3335c5a9638!2sKatra%20182320!5e0!3m2!1sen!2sin!4v1707306500978!5m2!1sen!2sin",
+  "overview": " Srinagar, nestled in Kashmir's breathtaking valleys, marks the beginning of a captivating houseboat journey on Dal Lake. Glide through its tranquil waters surrounded by snow-capped mountains, embracing the unique experience of staying in a traditional houseboat. Wake up to nature's symphony, with the gentle lap of water against your floating abode and a stunning sunrise over the pristine lake. Explore Srinagar's alleys, vibrant markets, and savor Kashmiri cuisine. Immerse yourself in the rich local culture, forging connections with the warm-hearted residents. A houseboat trip in Srinagar offers not just scenic beauty but a soulful encounter with Kashmir's spirit. ",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707369466024!5m2!1sen!2sin",
   "reviews": [
     {
       "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
@@ -40,28 +40,33 @@
       "date": "8th June 2023"
     }
   ],
-  "previousPrice": "9,400",
-  "price": "14,400",
+  "previousPrice": "20,600",
+  "price": "14,600",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": " Arrival - Jammu – Katra",
-      "day1Overview": "Pick up from Jammu Airport/Railway Station and transfer to Katra (50 Kms/1.5 Hours). Spend rest of the day at leisure. Overnight stay at Katra."
+      "day1Heading": "Arrive Srinagar",
+      "day1Overview": "Welcome to Srinagar the city of Lakes you will met over representative and get transferred to  Hotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi overnight stay in hotel in Srinagar."
     },
     {
       "day": "Day 2",
-      "day2Heading": "  Katra - Vaishno Devi Darshans ",
-      "day2Overview": "Early morning after breakfast, proceed for Mata Vaishno Devi Bhawan- one of the most popular pilgrimages of India situated in the lap of Trikuta mountains across Katra town at an altitude of  around 5200 feet. Yatra involves a trek of nearly 12 Kms from base camp at Katra known as Ban Ganga. Alternate way to perform darshans is by Ponies/Palkis/ Helicopter. If time permits, visit  Bhairo Temple & return back to Katra in the evening. Overnight stay at Katra"
+      "day2Heading": " Srinagar | Gulmarg (85 kms / approx. 2½ hour drive)      ",
+      "day2Overview": "Early morning Check Out from houseboat and proceed to Gulmarg driving past willow trees, fast flowing streams and lush green meadows. Gulmarg - the meadow of flowers is an apt term for this idyllic flower-laden meadow offering a spectacular view of towering snow capped peaks covered with dense forests of tall conifers and gigantic fir and pine trees. Stroll  leisurely or take pony rides (by your own payment) across the green meadow to one of the world's highest Golf Course. A must is a fun-filled ride in the Gondola lift (by your own payment). Return to Srinagar in the evening and enjoy a comfortable overnight stay at hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": " Katra - Shiv Khori – Katra",
-      "day3Overview": "Early morning after breakfast, proceed for Shiv Khori - the Holy Cave abode of Lord Shiva situated at a distance of 70 Kms from Katra. The cave is a real wonder to be seen and measures nearly half a kilometer in length with a 4 feet high naturally formed Shiv-lingam at the heart of the Sanctum Sanctorum. Have darshans of Lord Shiva and back to Katra in the evening. If time permits, en route, visit Siar Baba waterfalls, Baba Dhansal & Nau Devis. Overnight stay at Katra"
+      "day3Heading": " In Srinagar | Day Excursion to Sonamarg (90 kms / approx. 3hour  drive",
+      "day3Overview": "Today you embark on a full day excursion to the picturesque 'meadow of gold’ Sonamarg. The fast flowing Sindh River makes it popular for trout and mahseer fishing in summer. You  can opt for a pony ride to one of the glaciers for some fun in snow and ice (by your own  payment). Return to the Hotel in Srinagar in the evening and enjoy comfortable overnight  stay. Note: The vehicle will drop and pick you up at Sonamarg car stand. To reach the glaciers, you can hire ponies by your own payment basis."
     },
     {
       "day": "Day 4",
-      "day3Heading": "Katra - Jammu – Departure",
-      "day3Overview": "After breakfast, check out from the hotel & proceed for Jammu to drop at Airport/Railway Station for your onward journey with sweet memories of the tour."
+      "day4Heading": "Srinagar/Pahalgam",
+      "day4Overview": "After morning breakfast will leave for Pahalgam the 'valley of shepherds' the approx distance  of 100kms 3hrs drive; Pahalgam is situated at the confluence of the streams flowing from river Lidder and Sheeshnag lake. Enroute visit the Awantipura ruins, an 1100 year old temple  dedicated to Lord Vishnu and built by King Awantivarma, Today you can visit to Kashmir valley, baisaran and water fall (by your own expenses) or betaab valley, Chandanwari and Aru valley (by hiring car on your own expenses) overnight stay in hotel in Srinagar."
+    },
+    {
+      "day": "Day 5",
+      "day5Heading": "Return home with happy memories",
+      "day5Overview": "we transfer you to Srinagar Airport to board your flight with memorable experience of Travel Inn® Tours & Travels"
     }
   ],
   "packageOptions": [

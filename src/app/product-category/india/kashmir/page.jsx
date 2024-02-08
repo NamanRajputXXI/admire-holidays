@@ -14,18 +14,24 @@ const page = () => {
       />
       <div className="max-w-7xl mx-auto my-20 justify-center items-center  px-5 flex flex-col gap-10">
         <p className=" text-gray-600">Showing the single result</p>
-        <div className="grid lg:grid-cols-4  items-center justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
+        <div className="grid lg:grid-cols-4   justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
           <ProductCategoryCard
             url="/srinagar.jpg"
             days="4 Days"
-            destination="Srinagar 02N + Houseboat 01 N"
+            destination="Whispers of the Valley: Unveil Kashmir's Hidden Gems"
             productLink={"/product/srinagar/SriNagar02HouseBoat01N"}
           />
           <ProductCategoryCard
             url="/srinagar.jpg"
             days="4 Days"
-            destination="Katra 03N"
+            destination="Secret Splendors: Discover Kashmir's Enigmatic Charms"
             productLink={"/product/katra/katra03N"}
+          />
+          <ProductCategoryCard
+            url="/srinagar.jpg"
+            days="5 Days"
+            destination="Offbeat Elegance: Your Unique Kashmir Adventure Awaits"
+            productLink={"/product/srinagar/SriNagar03HouseBoat01N"}
           />
         </div>
       </div>

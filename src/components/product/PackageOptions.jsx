@@ -12,17 +12,18 @@ const PackageOptions = ({ packageOptions }) => {
 
   return (
     <div className="flex flex-col gap-5" id="packageOptions">
-      <h1 className="font-bold text-2xl mt-10 md:text-4xl">Package Option</h1>
+      <h1 className="font-bold text-2xl my-10 md:text-4xl">
+        Exclusive Packages
+      </h1>
       <div className="flex flex-col gap-5">
         {packageOptions.map((item, index) => (
           <div
             key={index}
-            className="p-10 border-[1px] rounded-lg border-gray-400"
+            className="p-5 border-[1px] rounded-lg border-gray-400"
           >
             <div className="flex justify-between">
               <div className="flex flex-col gap-3">
                 <h2 className="font-semibold text-xl">{item.package}</h2>
-                <p className="text-gray-500 text-sm">{item.days}</p>
                 <p
                   className="text-[#FD4A4C] cursor-pointer font-bold"
                   onClick={() => togglePackage(index)}
@@ -50,7 +51,6 @@ const PackageOptions = ({ packageOptions }) => {
             <div>
               {openPackage === index && (
                 <div className="flex flex-col mt-10 gap-3 ">
-                  <h2 className="font-semibold text-xl">Hotels Name</h2>
                   <ul className="text-sm text-gray-500 list-disc px-5">
                     {item.hotelsName.map((hotel, i) => (
                       <li key={i}>{hotel}</li>

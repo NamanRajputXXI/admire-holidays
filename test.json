@@ -71,8 +71,31 @@
   ],
   "packageOptions": [
     {
-      "package": "Premium 3 Star",
-      "days": "3 Night,4 Days",
+      "package": " Deluxe",
+      
+      "price": "₹14,999",
+      "previousPrice": "₹16,999",
+      "hotelsName": [
+        "K2 Inn",
+        "Hotel Curio's",
+        "Royal Milad"
+      ]
+    },
+    {
+      "package": "Semi Deluxe",
+     
+      "price": "₹17,499",
+      "previousPrice": "₹19,499",
+      "hotelsName": [
+        "Royal Heritage",
+        "Royal Arabia",
+        "Hotel Shefat"
+      ]
+    },
+   
+    {
+      "package": "Super Deluxe",
+      
       "price": "₹23,199",
       "previousPrice": "₹25,199",
       "hotelsName": [
@@ -82,37 +105,16 @@
       ]
     },
     {
-      "package": " 4 Star",
-      "days": "3 Night,4 Days",
+      "package": "Premium",
+      
       "price": "₹28,749",
       "previousPrice": "₹30,749",
       "hotelsName": [
         "Apple Orchard",
         "The Monteral"
       ]
-    },
-    {
-      "package": " 3 Star",
-      "days": "3 Night,4 Days",
-      "price": "₹17,499",
-      "previousPrice": "₹19,499",
-      "hotelsName": [
-        "Royal Heritage",
-        "Royal Arabia",
-        "Hotel Shefat"
-      ]
-    },
-    {
-      "package": " 2 Star",
-      "days": "3 Night,4 Days",
-      "price": "₹14,999",
-      "previousPrice": "₹16,999",
-      "hotelsName": [
-        "K2 Inn",
-        "Hotel Curio's",
-        "Royal Milad"
-      ]
     }
+ 
   ],
   "carouselImageUrl": [
     "/productKasauli1.jpg",
@@ -135,3 +137,33 @@
     "Entrance fees (Cable, Car and Moon Valley)"
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

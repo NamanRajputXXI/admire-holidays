@@ -2,9 +2,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { CiHeart } from "react-icons/ci";
-import { MdDateRange } from "react-icons/md";
-import { GoPeople } from "react-icons/go";
-import { IoPersonOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
 import ProductRightPricing from "../ProductRightPricing";
 import ProductDetailLeft from "../ProductDetailLeft";
@@ -70,51 +67,12 @@ const Srinagar02NHouseboat01N = () => {
                         <h1 className="md:text-4xl text-2xl font-semibold">
                           {destinations[0].heading}
                         </h1>
+
                         <div className="flex justify-between">
                           <div className="flex gap-2 items-center ">
                             <CiLocationOn size={25} color="#00bb98" />
                             <p>{destinations[0].subHeading}</p>
                             <CiHeart size={25} color="#fd4c5c" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className=" ">
-                      <div className=" lg:gap-2 gap-10 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1  px-5 py-10">
-                        <div className="flex gap-5 items-center">
-                          <MdDateRange size={30} color="#FD4C5C" />
-                          <div className="flex flex-col gap-3 ">
-                            <p className="text-sm font-medium">Duration</p>
-                            <p className="text-sm text-gray-500">
-                              {destinations[0].duration}
-                            </p>
-                          </div>
-                        </div>
-                        <div className="flex gap-5 items-center">
-                          <GoPeople size={30} color="#FD4C5C" />
-                          <div className="flex flex-col gap-3 ">
-                            <p className="text-sm font-medium">Max People</p>
-                            <p className="text-sm text-gray-500">
-                              {destinations[0].maxPeople}
-                            </p>
-                          </div>
-                        </div>
-                        <div className="flex gap-5 items-center">
-                          <IoPersonOutline size={30} color="#FD4C5C" />
-                          <div className="flex flex-col gap-3 ">
-                            <p className="text-sm font-medium">Min Age</p>
-                            <p className="text-sm text-gray-500">
-                              {destinations[0].minAge}
-                            </p>
-                          </div>
-                        </div>
-                        <div className="flex gap-5 items-center">
-                          <CiLocationOn size={30} color="#FD4C5C" />
-                          <div className="flex flex-col gap-3 ">
-                            <p className="text-sm font-medium">Pickup</p>
-                            <p className="text-sm text-gray-500">
-                              {destinations[0].pickup}
-                            </p>
                           </div>
                         </div>
                       </div>

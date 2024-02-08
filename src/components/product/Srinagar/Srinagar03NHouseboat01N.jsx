@@ -79,7 +79,7 @@ const Srinagar03NHouseboat01N = () => {
                         </div>
                       </div>
                     </div>
-                    <div className=" ">
+                    {/* <div className=" ">
                       <div className=" lg:gap-2 gap-10 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1  px-5 py-10">
                         <div className="flex gap-5 items-center">
                           <MdDateRange size={30} color="#FD4C5C" />
@@ -118,7 +118,7 @@ const Srinagar03NHouseboat01N = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">

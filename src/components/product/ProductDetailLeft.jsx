@@ -143,17 +143,6 @@ const ProductDetailLeft = ({
 
           <div
             className={`flex items-center py-2  justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
-              activeLink === "#reviews"
-                ? "border-b-[1px] border-b-red-500"
-                : "border-b-gray-400 border-b-[1px]"
-            }`}
-          >
-            <a href="#reviews" onClick={() => handleLinkClick("#reviews")}>
-              Reviews
-            </a>
-          </div>
-          <div
-            className={`flex items-center py-2  justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
               activeLink === "#inclusions"
                 ? "border-b-[1px] border-b-red-500"
                 : "border-b-gray-400 border-b-[1px]"
@@ -178,6 +167,17 @@ const ProductDetailLeft = ({
               onClick={() => handleLinkClick("#exclusions")}
             >
               Exclusions
+            </a>
+          </div>
+          <div
+            className={`flex items-center py-2  justify-center border-l-[0.5px]  border-x-gray-300 border-t-gray-400 border-t-[1px] ${
+              activeLink === "#reviews"
+                ? "border-b-[1px] border-b-red-500"
+                : "border-b-gray-400 border-b-[1px]"
+            }`}
+          >
+            <a href="#reviews" onClick={() => handleLinkClick("#reviews")}>
+              Reviews
             </a>
           </div>
           <div
@@ -233,45 +233,45 @@ const ProductDetailLeft = ({
           {itinerary[3] && itinerary[3].day && (
             <Accordian
               day={itinerary[3].day}
-              heading={itinerary[3].day3Heading}
+              heading={itinerary[3].day4Heading}
               isOpen={dayFourOpen}
-              dayOverview={itinerary[3].day3Overview}
+              dayOverview={itinerary[3].day4Overview}
               clickFunction={dayFourClick}
             />
           )}
           {itinerary[4] && itinerary[4].day && (
             <Accordian
               day={itinerary[4].day}
-              heading={itinerary[4].day3Heading}
+              heading={itinerary[4].day5Heading}
               isOpen={dayFiveOpen}
-              dayOverview={itinerary[4].day3Overview}
+              dayOverview={itinerary[4].day5Overview}
               clickFunction={dayFiveClick}
             />
           )}
           {itinerary[5] && itinerary[5].day && (
             <Accordian
               day={itinerary[5].day}
-              heading={itinerary[5].day3Heading}
+              heading={itinerary[5].day6Heading}
               isOpen={daySixOpen}
-              dayOverview={itinerary[5].day3Overview}
+              dayOverview={itinerary[5].day6Overview}
               clickFunction={daySixClick}
             />
           )}
           {itinerary[6] && itinerary[6].day && (
             <Accordian
               day={itinerary[6].day}
-              heading={itinerary[6].day3Heading}
+              heading={itinerary[6].day7Heading}
               isOpen={daySevenOpen}
-              dayOverview={itinerary[6].day3Overview}
+              dayOverview={itinerary[6].day7Overview}
               clickFunction={daySevenClick}
             />
           )}
           {itinerary[7] && itinerary[7].day && (
             <Accordian
               day={itinerary[7].day}
-              heading={itinerary[7].day3Heading}
+              heading={itinerary[7].day8Heading}
               isOpen={dayEightOpen}
-              dayOverview={itinerary[7].day3Overview}
+              dayOverview={itinerary[7].day8Overview}
               clickFunction={dayEightClick}
             />
           )}

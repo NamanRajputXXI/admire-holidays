@@ -88,7 +88,19 @@ const EnquiryForm = ({
           <input
             type="tel"
             id="phone"
-            placeholder="(229)555 - 2872"
+            placeholder="Enter your phone"
+            className="mt-2 py-2  px-5 w-full border rounded-md"
+            required
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="phone" className=" font-medium text-gray-700">
+            Email *
+          </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your Email"
             className="mt-2 py-2  px-5 w-full border rounded-md"
             required
           />
@@ -107,7 +119,7 @@ const EnquiryForm = ({
         </div>
 
         <button className="py-4 border-[#FD4A4C] border-2 mt-5 w-full px-5  text-base  rounded-lg text-[#FD4A4C] flex justify-center items-center">
-          Send Enquiry
+          Request a Quote
         </button>
       </form>
       <p className="text-center text-lg my-5 text-gray-600">or</p>

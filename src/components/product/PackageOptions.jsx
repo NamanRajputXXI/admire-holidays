@@ -1,9 +1,17 @@
 "use client";
 import React, { useState } from "react";
+import PackageOptionQuote from "./PackageOptionQuote";
 
 const PackageOptions = ({ packageOptions }) => {
   const [openPackage, setOpenPackage] = useState(null);
+  const [openRequestQuotePopup, setRequestQuotePopup] = useState(false);
 
+  const openQuotepopup = () => {
+    setRequestQuotePopup(true);
+  };
+  const closeQuotepopup = () => {
+    setRequestQuotePopup(false);
+  };
   const togglePackage = (index) => {
     setOpenPackage((prevOpenPackage) =>
       prevOpenPackage === index ? null : index
@@ -12,6 +20,10 @@ const PackageOptions = ({ packageOptions }) => {
 
   return (
     <div className="flex flex-col gap-5" id="packageOptions">
+      <PackageOptionQuote
+        openRequestQuotePopup={openRequestQuotePopup}
+        closeQuotepopup={closeQuotepopup}
+      />
       <h1 className="font-bold text-2xl my-10 md:text-4xl">
         Exclusive Packages
       </h1>
@@ -43,7 +55,10 @@ const PackageOptions = ({ packageOptions }) => {
                 </p>
               </div>
               <div>
-                <button className="px-4 py-3 cursor-pointer border-[#FD4A4C] border-[1px] text-[#FD4A4C] rounded-lg">
+                <button
+                  className="px-4 py-3 cursor-pointer border-[#FD4A4C] border-[1px] text-[#FD4A4C] rounded-lg"
+                  onClick={openQuotepopup}
+                >
                   Request a Quote
                 </button>
               </div>

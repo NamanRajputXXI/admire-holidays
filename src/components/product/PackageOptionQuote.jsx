@@ -1,25 +1,17 @@
 "use client";
 import React from "react";
 import { RxCross1 } from "react-icons/rx";
-const FormModal = ({
-  closeModalFunc,
-  openModal,
-  setOpenModal,
-  openModalFunc,
-}) => {
+const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
   return (
     <div
-      className={`fixed z-[9999] top-0 px-4 h-full w-full items-center justify-center bg-gray-700 bg-opacity-90 ${
-        openModal === true ? "flex" : "hidden"
+      className={`fixed z-[9999] top-0 left-0 px-4 h-full w-full items-center justify-center bg-gray-700 bg-opacity-90 ${
+        openRequestQuotePopup === true ? "flex" : "hidden"
       } `}
     >
       <div className=" text-white cursor-pointer  text-7xl absolute right-4 top-4">
-        <RxCross1 color="white" size={30} onClick={closeModalFunc} />
+        <RxCross1 color="white" size={30} onClick={closeQuotepopup} />
       </div>
       <div className="bg-white sm:p-8 p-4 rounded-xl gap-8 flex flex-col items-center justify-center">
-        <p className="text-center text-xl font-semibold">
-          Get the Itinirary of Jaipur
-        </p>
         <form action="" className="w-full">
           <div className="mb-5">
             <label htmlFor="name" className=" font-medium text-gray-700">
@@ -33,7 +25,6 @@ const FormModal = ({
               required
             />
           </div>
-
           <div className="mb-5">
             <label htmlFor="phone" className=" font-medium text-gray-700">
               Phone *
@@ -47,20 +38,19 @@ const FormModal = ({
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="destination" className=" font-medium text-gray-700">
-              Destination *
+            <label htmlFor="email" className=" font-medium text-gray-700">
+              Email *
             </label>
             <input
-              type="text"
-              id="destination"
-              placeholder="Enter Destination"
+              type="email"
+              id="email"
+              placeholder="Enter Email"
               className="mt-2 py-2  px-5 w-full border rounded-md"
               required
             />
           </div>
-
           <button className="py-4 bg-[#FD4A4C] mt-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center">
-            Download pdf
+            Submit
           </button>
         </form>
       </div>
@@ -68,4 +58,4 @@ const FormModal = ({
   );
 };
 
-export default FormModal;
+export default PackageOptionQuote;

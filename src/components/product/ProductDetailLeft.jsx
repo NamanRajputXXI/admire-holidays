@@ -403,7 +403,6 @@ const ProductDetailLeft = ({
       <div className="flex  sm:flex-row flex-col gap-5">
         <div className="bg-white flex-col flex sm:justify-center justify-start  gap-5 sm:items-center sm:h-[400px] h-fit w-full sm:w-1/2">
           <div className="flex gap-5">
-            <p className="text-gray-400">/5 </p>
             <p>Based On 0 ratings</p>
           </div>
           <div className="flex gap-2 ">

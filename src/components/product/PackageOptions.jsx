@@ -65,12 +65,10 @@ const PackageOptions = ({ packageOptions }) => {
             </div>
             <div>
               {openPackage === index && (
-                <div className="flex flex-col mt-10 gap-3 ">
-                  <ul className="text-sm text-gray-500 list-disc px-5">
-                    {item.hotelsName.map((hotel, i) => (
-                      <li key={i}>{hotel}</li>
-                    ))}
-                  </ul>
+                <div className="flex text-sm text-gray-500  px-5  mt-10 gap-1 ">
+                  {item.hotelsName.map((hotel, i) => (
+                    <p key={i}>{hotel}, </p>
+                  ))}
                 </div>
               )}
             </div>

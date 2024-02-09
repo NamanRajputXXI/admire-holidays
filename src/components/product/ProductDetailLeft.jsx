@@ -391,7 +391,7 @@ const ProductDetailLeft = ({
 
         <div className="flex flex-col mb-10 gap-4">
           {exclusions.map((exclusion, i) => (
-            <div className="flex items-center gap-2" key={i}>
+            <div className="flex items-center gap-3" key={i}>
               <RxCross2 color="gray" size={20} />
               <p className="font-light">{exclusion}</p>
             </div>

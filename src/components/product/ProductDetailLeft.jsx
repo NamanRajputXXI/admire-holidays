@@ -11,6 +11,7 @@ import { IoFastFoodSharp } from "react-icons/io5";
 import { BsFillEmojiSunglassesFill } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
 import PackageOptions from "./PackageOptions";
+import reviewData from "@/data/reviewData";
 
 const ProductDetailLeft = ({
   overview,
@@ -18,7 +19,7 @@ const ProductDetailLeft = ({
   inclusions,
   mapSrc,
   reviewHeading,
-  reviews,
+
   exclusions,
   packageOptions,
   overView,
@@ -453,7 +454,7 @@ const ProductDetailLeft = ({
         Reviewed by 02 customer(s)
       </div>
 
-      {reviews.map((review, index) => (
+      {reviewData.map((review, index) => (
         <div
           className="bg-gray-200 rounded-lg py-5 gap-10 pt-3 flex px-5"
           key={index}

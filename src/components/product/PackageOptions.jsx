@@ -31,21 +31,21 @@ const PackageOptions = ({ packageOptions }) => {
         {packageOptions.map((item, index) => (
           <div
             key={index}
-            className="p-5 border-[1px] rounded-lg border-gray-400"
+            className="sm:p-5 p-3 border-[1px] rounded-lg border-gray-300"
           >
-            <div className="flex justify-between">
+            <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-0 gap-5 justify-between">
               <div className="flex flex-col gap-3">
                 <h2 className="font-semibold text-xl">{item.package}</h2>
                 <p
-                  className="text-[#FD4A4C] cursor-pointer font-bold"
+                  className="text-[#FD4A4C]  cursor-pointer font-bold"
                   onClick={() => togglePackage(index)}
                 >
                   {openPackage === index ? "Hide Details" : "Show Details"}
                 </p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex items-center flex-col">
                 <p
-                  className="text-[#00BB98] text-2xl font-bold"
+                  className="text-[#00BB98] sm:text-2xl text-xl font-bold"
                   id="packageOption"
                 >
                   {item.price}
@@ -56,7 +56,7 @@ const PackageOptions = ({ packageOptions }) => {
               </div>
               <div>
                 <button
-                  className="px-4 py-3 cursor-pointer border-[#FD4A4C] border-[1px] text-[#FD4A4C] rounded-lg"
+                  className="sm:px-4 px-1 py-3 cursor-pointer sm:text-base text-sm border-[#FD4A4C] border-[1px] text-[#FD4A4C] rounded-lg"
                   onClick={openQuotepopup}
                 >
                   Request a Quote

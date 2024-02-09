@@ -21,6 +21,7 @@ const ProductDetailLeft = ({
   reviews,
   exclusions,
   packageOptions,
+  overView,
 }) => {
   const [allOpen, setAllOpen] = useState(false);
   const [dayOneOpen, setDayOneOpen] = useState(false);
@@ -31,6 +32,10 @@ const ProductDetailLeft = ({
   const [daySixOpen, setDaySixOpen] = useState(false);
   const [daySevenOpen, setDaySevenOpen] = useState(false);
   const [dayEightOpen, setDayEightOpen] = useState(false);
+  const [openOverview, setOpenOverview] = useState(false);
+  const handleOverview = () => {
+    setOpenOverview(!openOverview);
+  };
   const dayOneClick = () => {
     setDayOneOpen((prev) => !prev);
   };
@@ -78,13 +83,100 @@ const ProductDetailLeft = ({
     }
   };
   useEffect(() => {
-    console.log(itinerary[0].day2Overview);
+    console.log(overview);
   }, []);
 
   return (
     <div className="flex my-10 lg:w-[65%] rounded-lg w-full flex-col gap-6">
       <h5 className="md:text-3xl text-xl font-bold">Overview</h5>
-      <p className="text-base text-gray-700">{overview}</p>
+      {/* <p className="text-base text-gray-700">{overview}</p> */}
+      {overView && (
+        <div className="flex flex-col gap-10 relative py-10">
+          <div className="flex gap-4 flex-col">
+            <p className="text-lg font-medium text-gray-700">
+              {overView[0].heading}
+            </p>
+            <p className="text-sm font-light text-gray-700">
+              {overView[0].text}
+            </p>
+          </div>
+          <div className="flex gap-4 flex-col relative">
+            <p className="text-lg font-medium text-gray-700">
+              {" "}
+              {overView[1].heading}
+            </p>
+            <p
+              className={`text-sm font-light text-gray-700  ${
+                openOverview === false ? "pb-10" : ""
+              }`}
+            >
+              {overView[1].text}
+            </p>
+            {openOverview === false && (
+              <p
+                className="text-[#FD4A4C] cursor-pointer absolute  bottom-0 right-0 text-sm font-medium"
+                onClick={handleOverview}
+              >
+                Read More
+              </p>
+            )}
+          </div>
+          {openOverview === true && (
+            <>
+              <div className="flex gap-4 flex-col">
+                <p className="text-lg font-medium text-gray-700">
+                  {overView[2].heading}
+                </p>
+                <p className="text-sm font-light text-gray-700">
+                  {overView[2].text}
+                </p>
+              </div>
+              <div className="flex gap-4 flex-col">
+                <p className="text-lg font-medium text-gray-700">
+                  {overView[3].heading}
+                </p>
+                <p className="text-sm font-light text-gray-700">
+                  {overView[3].text}
+                </p>
+              </div>
+
+              <div className="flex gap-4 flex-col">
+                <p className="text-lg font-medium text-gray-700">
+                  {overView[4].heading}
+                </p>
+                <p className="text-sm font-light text-gray-700">
+                  {overView[4].text}
+                </p>
+              </div>
+              <div className="flex gap-4 flex-col">
+                <p className="text-lg font-medium text-gray-700">
+                  {overView[5].heading}
+                </p>
+                <p className="text-sm font-light text-gray-700">
+                  {overView[5].text}
+                </p>
+              </div>
+              <div className="flex gap-4 relative pb-10 flex-col">
+                <p className="text-lg font-medium text-gray-700">
+                  {overView[6].heading}
+                </p>
+                <p className="text-sm font-light text-gray-700">
+                  {overView[6].text}
+                </p>
+                {openOverview === true && (
+                  <p
+                    className="text-[#FD4A4C] cursor-pointer absolute  bottom-0 right-0 text-sm font-medium"
+                    onClick={handleOverview}
+                  >
+                    Read Less
+                  </p>
+                )}
+              </div>
+            </>
+          )}
+        </div>
+      )}
+      {overview && <p>{overview}</p>}
 
       <div className="grid sm:gap-5 gap-10  my-10 sm:grid-cols-5 grid-cols-2 items-center justify-center">
         <div className="flex text-xs text-gray-800 flex-col items-center justify-center gap-2">

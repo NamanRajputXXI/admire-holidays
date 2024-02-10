@@ -11,6 +11,7 @@ const page = () => {
       <FormModal />
       <Navbar />
       <Srinagar04NPahalgam01NHouseboat01 />
+
       <Footer />
     </>
   );

@@ -19,7 +19,6 @@ const ProductDetailLeft = ({
   inclusions,
   mapSrc,
   reviewHeading,
-
   exclusions,
   packageOptions,
   overView,
@@ -33,6 +32,8 @@ const ProductDetailLeft = ({
   const [daySixOpen, setDaySixOpen] = useState(false);
   const [daySevenOpen, setDaySevenOpen] = useState(false);
   const [dayEightOpen, setDayEightOpen] = useState(false);
+  const [dayNineOpen, setDayNineOpen] = useState(false);
+  const [dayTenOpen, setDayTenOpen] = useState(false);
   const [openOverview, setOpenOverview] = useState(false);
   const handleOverview = () => {
     setOpenOverview(!openOverview);
@@ -61,6 +62,12 @@ const ProductDetailLeft = ({
   const dayEightClick = () => {
     setDayEightOpen((prev) => !prev);
   };
+  const dayNineClick = () => {
+    setDayNineOpen((prev) => !prev);
+  };
+  const dayTenClick = () => {
+    setDayTenOpen((prev) => !prev);
+  };
 
   const expandAll = () => {
     setAllOpen(!allOpen);
@@ -69,6 +76,11 @@ const ProductDetailLeft = ({
     setDayThreeOpen(!allOpen);
     setDayFourOpen(!allOpen);
     setDayFiveOpen(!allOpen);
+    setDaySixOpen(!allOpen);
+    setDaySevenOpen(!allOpen);
+    setDayEightOpen(!allOpen);
+    setDayNineOpen(!allOpen);
+    setDayTenOpen(!allOpen);
   };
 
   const [activeLink, setActiveLink] = useState("#itinerary");
@@ -366,6 +378,24 @@ const ProductDetailLeft = ({
               isOpen={dayEightOpen}
               dayOverview={itinerary[7].day8Overview}
               clickFunction={dayEightClick}
+            />
+          )}
+          {itinerary[8] && itinerary[8].day && (
+            <Accordian
+              day={itinerary[8].day}
+              heading={itinerary[8].day9Heading}
+              isOpen={dayNineOpen}
+              dayOverview={itinerary[8].day9Overview}
+              clickFunction={dayNineClick}
+            />
+          )}
+          {itinerary[9] && itinerary[9].day && (
+            <Accordian
+              day={itinerary[9].day}
+              heading={itinerary[9].day10Heading}
+              isOpen={dayTenOpen}
+              dayOverview={itinerary[9].day10Overview}
+              clickFunction={dayTenClick}
             />
           )}
         </div>

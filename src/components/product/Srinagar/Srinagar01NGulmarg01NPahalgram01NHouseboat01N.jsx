@@ -55,23 +55,23 @@ const Srinagar01NGulmarg01NPahalgram01NHouseboat01N = () => {
             {Array.isArray(destinations) && destinations.length > 0 && (
               <section
                 className="bg-[rgb(248,248,248)]"
-                key={destinations[0]._id}
+                key={destinations[4]._id}
               >
                 <div className="mt-20 px-5 py-16 bg-[#F2FBFA]">
                   <SwiperProductCarousel
-                    carouselImageUrl={destinations[0].carouselImageUrl}
+                    carouselImageUrl={destinations[4].carouselImageUrl}
                   />
                   <div className="max-w-7xl md:flex-row flex-col mx-auto grid  items-center grid-cols-1 md:grid-cols-2 gap-10">
                     <div className=" flex sm:justify-between gap-5 justify-start sm:flex-row flex-col sm:items-center   px-5">
                       <div className="flex flex-col gap-5">
                         <h1 className="md:text-4xl text-2xl font-semibold">
-                          {destinations[0].heading}
+                          {destinations[4].heading}
                         </h1>
 
                         <div className="flex justify-between">
                           <div className="flex gap-2 items-center ">
                             <CiLocationOn size={25} color="#00bb98" />
-                            <p>{destinations[0].subHeading}</p>
+                            <p>{destinations[4].subHeading}</p>
                             <CiHeart size={25} color="#fd4c5c" />
                           </div>
                         </div>
@@ -81,19 +81,19 @@ const Srinagar01NGulmarg01NPahalgram01NHouseboat01N = () => {
                 </div>
                 <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">
                   <ProductDetailLeft
-                    overview={destinations[0].overview}
-                    overView={destinations[0].overView}
-                    mapSrc={destinations[0].mapSrc}
-                    reviewHeading={destinations[0].reviewHeading}
-                    reviews={destinations[0].reviews}
-                    itinerary={destinations[0].itinerary}
-                    exclusions={destinations[0].exclusions}
-                    inclusions={destinations[0].inclusions}
-                    packageOptions={destinations[0].packageOptions}
+                    overview={destinations[4].overview}
+                    overView={destinations[4].overView}
+                    mapSrc={destinations[4].mapSrc}
+                    reviewHeading={destinations[4].reviewHeading}
+                    reviews={destinations[4].reviews}
+                    itinerary={destinations[4].itinerary}
+                    exclusions={destinations[4].exclusions}
+                    inclusions={destinations[4].inclusions}
+                    packageOptions={destinations[4].packageOptions}
                   />
                   <ProductRightPricing
-                    price={destinations[0].price}
-                    previousPrice={destinations[0].previousPrice}
+                    price={destinations[4].price}
+                    previousPrice={destinations[4].previousPrice}
                     openModalFunc={openModalFunc}
                   />
                 </div>

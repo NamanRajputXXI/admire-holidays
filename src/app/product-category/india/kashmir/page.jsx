@@ -42,7 +42,9 @@ const page = () => {
             url="https://images.unsplash.com/photo-1647876406690-9219264ab85a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8a2F0cmF8ZW58MHx8MHx8fDA%3D"
             destination="Alpine Thrills: Srinagar, Gulmarg, Pahalgam Bliss!"
             days="4 Night / 5 Days"
-            productLink={"/product/srinagar/SriNagar03HouseBoat01N"}
+            productLink={
+              "/product/srinagar/Srinagar01NGulmarg01NPahalgam01NHouseboat01N"
+            }
           />
           <ProductCategoryCard
             url="https://images.unsplash.com/photo-1664964836305-36ee35cbe365?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGthdHJhfGVufDB8fDB8fHww"

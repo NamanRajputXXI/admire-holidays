@@ -36,7 +36,7 @@ const page = () => {
             url="https://images.unsplash.com/photo-1575336127377-71c4af9ce931?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGthc2htaXJ8ZW58MHx8MHx8fDA%3D"
             destination="Kashmir Escape: 4 Nights, 3 Gems, Endless Memories!"
             days="4 Night / 5 Days"
-            productLink={"/product/srinagar/SriNagar03HouseBoat01N"}
+            productLink={"/product/srinagar/Srinagar02NPahalgam01NHouseboat01N"}
           />
           <ProductCategoryCard
             url="https://images.unsplash.com/photo-1647876406690-9219264ab85a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8a2F0cmF8ZW58MHx8MHx8fDA%3D"

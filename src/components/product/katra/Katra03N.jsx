@@ -123,6 +123,7 @@ const Katra03N = () => {
                 <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">
                   <ProductDetailLeft
                     overview={destinations[1].overview}
+                    overView={destinations[1].overView}
                     mapSrc={destinations[1].mapSrc}
                     reviewHeading={destinations[1].reviewHeading}
                     reviews={destinations[1].reviews}

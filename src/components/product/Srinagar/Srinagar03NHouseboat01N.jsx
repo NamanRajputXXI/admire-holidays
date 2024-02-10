@@ -124,6 +124,7 @@ const Srinagar03NHouseboat01N = () => {
                 <div className="flex max-w-7xl lg:flex-row flex-col-reverse gap-10 px-5 mx-auto">
                   <ProductDetailLeft
                     overview={destinations[2].overview}
+                    overView={destinations[2].overView}
                     mapSrc={destinations[2].mapSrc}
                     reviewHeading={destinations[2].reviewHeading}
                     reviews={destinations[2].reviews}

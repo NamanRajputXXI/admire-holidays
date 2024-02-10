@@ -1,42 +1,42 @@
 {
   "_id": {
-    "$oid": "65c21adb514164b4bcf9d8f2"
+    "$oid": "65c4b9b866aff2dcb93d4eb2"
   },
-  "heading": "Whispers of the Valley: Unveil Kashmir's Hidden Gems",
-  "subHeading": "Srinagar in Kashmir",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707200490990!5m2!1sen!2sin",
-  "reviews": [
+  "heading": "Offbeat Elegance: Your Unique Kashmir Adventure Awaits",
+  "subHeading": "Srinagar & Houseboat 5 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707369466024!5m2!1sen!2sin",
+  "itinerary": [
     {
-      "review": "A mesmerizing journey with flawless planning. Hats off to admire holidays!",
-      "name": "Aarav",
-      "date": "19th January 2023"
+      "day": "Day 1",
+      "day1Heading": "Arrival Srinagar/ Airport",
+      "day1Overview": "Welcome to Srinagar the city of Lakes you will met over representative and get transferred to Hotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi overnight stay in hotel in Srinagar."
     },
     {
-      "review": "Spectacular sights and smooth travel. Heartfelt thanks to admire holidays for an unforgettable trip!",
-      "name": "Ishita",
-      "date": "17th December 2023"
+      "day": "Day 2",
+      "day2Heading": "Srinagar/ Day trip to Gulmarg      ",
+      "day2Overview": "After breakfast drive to Gulmarg know as meadows of flowers the distance of 60kms 02  hours drive in Gulmarg you can visit local Gulmarg with golf course and can have gondola ride (by your own expenses) and then overnight stay in hotel in Srinagar"
     },
     {
-      "review": "Unparalleled memories created by the exceptional services of admire holidays.",
-      "name": "Kajal",
-      "date": "18th April 2023"
+      "day": "Day 3",
+      "day3Heading": " Srinagar/Pahalgam",
+      "day3Overview": "After morning breakfast will leave for Pahalgam the 'valley of shepherds' the approx. distance    of 100kms 3hrs drive; Pahalgam is situated at the confluence of the streams flowing from   river Lidder and Sheeshnag lake. Enroute visit the Awantipura ruins, an 1100 year old temple  dedicated to Lord Vishnu and built by King Awantivarma, Today you can visit to Kashmir  valley, baisaran and water fall (by your own expenses) or betaab valley, Chandanwari and Aru valley (by hiring car on your own expenses) over night stay in hotel in Pahalgam."
     },
     {
-      "review": "Outstanding arrangements and a flawless Pushkar experience. Highly recommended!",
-      "name": "Aryan",
-      "date": "25th May 2023"
+      "day": "Day 4",
+      "day4Heading": " Pahalgam/Srinagar",
+      "day4Overview": "Morning after breakfast drive back to Srinagar and check in houseboat in Dal Lake, Srinagar  and at evening enjoy Shikara ride in Dal Lake and then over night stay in houseboat in Dal Lake, Srinagar"
     },
     {
-      "review": "An amazing journey, meticulously planned itinerary, and exceptional customer service by admire holidays.",
-      "name": "Ishaan",
-      "date": "8th June 2023"
+      "day": "Day 5",
+      "day5Heading": " Departure      ",
+      "day5Overview": "Morning after breakfast drop at srinagar airport for onward journey "
     }
   ],
   "packageOptions": [
     {
-      "package": "Deluxe",
+      "package": " Deluxe",
       "price": "₹14,999",
-      "previousPrice": "₹17,999",
+      "previousPrice": "₹16,999",
       "hotelsName": [
         "K2 Inn",
         "Hotel Curio's",
@@ -46,7 +46,7 @@
     {
       "package": "Semi Deluxe",
       "price": "₹17,499",
-      "previousPrice": "20,499",
+      "previousPrice": "₹19,499",
       "hotelsName": [
         "Royal Heritage",
         "Royal Arabia",
@@ -58,7 +58,7 @@
       "price": "₹23,199",
       "previousPrice": "₹25,199",
       "hotelsName": [
-        "Grand Kaires",
+        "Grand Kaisar",
         "Pacific Hotel",
         "Batra Hotel"
       ]
@@ -82,40 +82,26 @@
     "/productKasauli1.jpg"
   ],
   "exclusions": [
-    "Departure Taxes",
-    "Entry Fees",
-    "5 Star Accommodation",
-    "Airport Transfers"
+    "Any meals other than those specified in Inclusions",
+    "Chained vehicle from Tangmarg to Gulmarg",
+    "Expenses of personal nature such as tips",
+    "Any additional expenses incurred due to any train delay or cancellation",
+    "Guide & Entrance fees during sightseeing",
+    "Transfer from Banganga to Vaishno Devi Temple",
+    "Visit to Ganderbal and Thajiwas Glacier",
+    "Visit to Aru, Chandanwari, Baisaran, and Betab valleys",
+    "Expenses of watersports",
+    "Cable Car / Pony Ride in Gulmarg, Pahalgam, & Sonamarg\n"
   ],
   "inclusions": [
-    "Specialized bilingual guide",
-    "Private Transport",
-    "Box lunch water, banana apple and chocolate",
-    "Entrance fees (Cable, Car and Moon Valley)"
+    "Breakfast & Dinner",
+    "All accommodation as per Double Sharing ",
+    "Shikara Ride over Dal Lake",
+    "Pick up and drop from As per Itinerary",
+    "Toll Taxes & Service charges",
+    "All Transportation on private basis"
   ],
-  "itinerary": [
-    {
-      "day": "Day 1",
-      "day1Heading": "Arrival in Srinagar",
-      "day1Overview": "Welcome to Srinagar the city of Lakes you will met over representative and get transferred to \nHotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi \novernight stay in hotel in Srinagar."
-    },
-    {
-      "day": "Day 2",
-      "day2Heading": "Drive from Srinagar- Sonamarg – Srinagar (100 km / 3 Hours)\n",
-      "day2Overview": "After all the exciting experiences and astounding views in Srinagar, you will be driven to Sonamarg \ntoday. The drive will begin after your breakfast in the hotel and will take around 3 hours to complete. \nFondly called the ‘Meadow of Gold’, Sonamarg is perched at a height of 9,000 ft. above the sea level \nand lies in the scenic Sindh Valley. Nestled amidst colourful and flowery meadows, your arrival in the \nhill station will be greeted by an exciting pony ride to the Thajiwas Glacier, which serves as one of \nthe best Sonamarg attractions. Returning from the glacier, you will be driven back to Srinagar, where \nyou can relish the day with a scrumptious dinner and overnight stay in the hotel"
-    },
-    {
-      "day": "Day 3",
-      "day3Heading": " Drive from Srinagar to Gulmarg (60 km / 2-3 Hours)",
-      "day3Overview": "Today’s breakfast will bring an end to your Srinagar stay, and will take you to Gulmarg! Post \nbreakfast in the hotel/houseboat, take an enthralling drive through the scenic trails of Srinagar and its \nhilly terrains to reach Gulmarg within 2-3 hours. Located at an altitude of 2,730m, Gulmarg or the \n‘Meadow of Gold’ is one of the most popular and highest visited skiing destinations in the entire \ncountry. It is also in this hill station, you can visit the highest golf course in the world! During your \ndrive, the panoramic views of the Nanga Parbat and Tangmarg will behold all your attentions for sure! \nArriving in Gulmarg, join a 3-4 hours trek to Khilangmarg and witness the magical beauty of the hill \nstation. Completing this trek, check-in into a hotel and enjoy your dinner with an overnight stay.\n"
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": " Srinagar Departure",
-      "day4Overview": "On the last day of your houseboat tour in Kashmir; after breakfast in the hotel, you will be driven \nback to Srinagar. Arriving in the capital city, the tour will come to an end with your drop either at the \nairpor"
-    }
-  ],
-  "overView": [
+   "overView": [
     {
       "heading": "Exploring the Enchantment of Kashmir: A Land of Beauty and Diversity",
       "text": "Nestled in the northernmost region of India, Kashmir is a breathtaking paradise renowned for its stunning landscapes, rich cultural heritage, and serene tranquility. Often referred to as Heaven on Earth,this picturesque valley attracts travelers from all corners of the globe, seeking solace in its majestic mountains, lush green valleys, and serene lakes."

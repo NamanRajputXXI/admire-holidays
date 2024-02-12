@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import FormModal from "@/components/FormModal";
 import Navbar from "@/components/Navbar";
-import Srinagar04NPahalgam01NHouseboat01 from "@/components/product/Srinagar/Srinagar04NPahalgam01NHouseboat01";
+import Srinagar04NPahalgam01NHouseboat01 from "@/components/product/kashmir/Srinagar/Srinagar04NPahalgam01NHouseboat01";
 import React from "react";
 
 const page = () => {

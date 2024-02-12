@@ -1,75 +1,68 @@
 {
   "_id": {
-    "$oid": "65c4b9b866aff2dcb93d4eb2"
+    "$oid": "65c711722e7e4a015da55ca2"
   },
-  "heading": "Offbeat Elegance: Your Unique Kashmir Adventure Awaits",
-  "subHeading": "Srinagar & Houseboat 5 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707369466024!5m2!1sen!2sin",
+  "heading": "Adventure and Serenity in Kullu-Manali",
+  "subHeading": "Kullu Manali 4 Days Trip",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.521732070087!2d77.16652016609842!3d32.239506678474974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707717119245!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival Srinagar/ Airport",
-      "day1Overview": "Welcome to Srinagar the city of Lakes you will met over representative and get transferred to Hotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi overnight stay in hotel in Srinagar."
+      "day1Heading": "Delhi - Manali",
+      "day1Overview": "Early morning drive from Delhi to Manali. Meet our representative upon arrival at Manali and transfer to your pre-booked hotel. Enjoy mouthwatering dinner and overnight stay at the hotel."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Srinagar/ Day trip to Gulmarg      ",
-      "day2Overview": "After breakfast drive to Gulmarg know as meadows of flowers the distance of 60kms 02  hours drive in Gulmarg you can visit local Gulmarg with golf course and can have gondola ride (by your own expenses) and then overnight stay in hotel in Srinagar"
+      "day2Heading": "Explore Manali",
+      "day2Overview": "After the hearty breakfast, get ready for the sightseeing tour of the Manali hill station and visit the Hadimba Devi Temple, Manu Temple, Tibetan Monasteries and Vashist Village. Afternoon is free for your own leisure activities. Dinner and overnight stay at the hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": " Srinagar/Pahalgam",
-      "day3Overview": "After morning breakfast will leave for Pahalgam the 'valley of shepherds' the approx. distance    of 100kms 3hrs drive; Pahalgam is situated at the confluence of the streams flowing from   river Lidder and Sheeshnag lake. Enroute visit the Awantipura ruins, an 1100 year old temple  dedicated to Lord Vishnu and built by King Awantivarma, Today you can visit to Kashmir  valley, baisaran and water fall (by your own expenses) or betaab valley, Chandanwari and Aru valley (by hiring car on your own expenses) over night stay in hotel in Pahalgam."
+      "day3Heading": "Manali",
+      "day3Overview": "Proceed for a full day excursion by visiting the several prominent places such as the Kothi Gorge, Gulaba Marhi, Rohtang Pass and Solang Valley. In the evening, return to your hotel, enjoy the scrumptious dinner and a comfortable overnight stay."
     },
     {
       "day": "Day 4",
-      "day4Heading": " Pahalgam/Srinagar",
-      "day4Overview": "Morning after breakfast drive back to Srinagar and check in houseboat in Dal Lake, Srinagar  and at evening enjoy Shikara ride in Dal Lake and then over night stay in houseboat in Dal Lake, Srinagar"
+      "day4Heading": " Manali - Manikaran via Kullu - Manali",
+      "day4Overview": "After breakfast, check out of your hotel in Manali and drive to Manikaran, which is situated about 75 kms from Kullu. Manikaran is essentially a sacred pilgrimage place, especially for the Hindus. It is believed that the Lord Manu recreated human life in Manikaran after the severe flood. The place is replete with several temples and a gurudwara. After the sightseeing in Manikaran, drive to Kullu for a half day sightseeing tour. Dinner and overnight stay at Manali."
     },
     {
       "day": "Day 5",
-      "day5Heading": " Departure      ",
-      "day5Overview": "Morning after breakfast drop at srinagar airport for onward journey "
+      "day5Heading": "Manali - Delhi",
+      "day5Overview": "After breakfast, early morning drive from Manali to Delhi for your onward destination."
     }
   ],
   "packageOptions": [
     {
-      "package": " Deluxe",
-      "price": "₹14,999",
-      "previousPrice": "₹16,999",
+      "package": " ",
+      "price": "",
+      "previousPrice": "",
       "hotelsName": [
-        "K2 Inn",
-        "Hotel Curio's",
-        "Royal Milad"
+       
       ]
     },
     {
-      "package": "Semi Deluxe",
-      "price": "₹17,499",
-      "previousPrice": "₹19,499",
+      "package": "",
+      "price": "",
+      "previousPrice": "",
       "hotelsName": [
-        "Royal Heritage",
-        "Royal Arabia",
-        "Hotel Shefat"
+       
       ]
     },
     {
-      "package": "Super Deluxe",
-      "price": "₹23,199",
-      "previousPrice": "₹25,199",
+      "package": "",
+      "price": "",
+      "previousPrice": "",
       "hotelsName": [
-        "Grand Kaisar",
-        "Pacific Hotel",
-        "Batra Hotel"
+       
       ]
     },
     {
-      "package": "Premium",
-      "price": "₹28,749",
-      "previousPrice": "₹30,749",
+      "package": "",
+      "price": "",
+      "previousPrice": "",
       "hotelsName": [
-        "Apple Orchard",
-        "The Monteral"
+      
       ]
     }
   ],
@@ -77,58 +70,45 @@
     "/productKasauli1.jpg",
     "/productKasauli2.jpg",
     "/productKasauli3.jpg",
-    "/productKasauli4.jpg",
-    "/productKasauli2.jpg",
-    "/productKasauli1.jpg"
+    "/productKasauli4.jpg"
+   
   ],
   "exclusions": [
-    "Any meals other than those specified in Inclusions",
-    "Chained vehicle from Tangmarg to Gulmarg",
-    "Expenses of personal nature such as tips",
-    "Any additional expenses incurred due to any train delay or cancellation",
-    "Guide & Entrance fees during sightseeing",
-    "Transfer from Banganga to Vaishno Devi Temple",
-    "Visit to Ganderbal and Thajiwas Glacier",
-    "Visit to Aru, Chandanwari, Baisaran, and Betab valleys",
-    "Expenses of watersports",
-    "Cable Car / Pony Ride in Gulmarg, Pahalgam, & Sonamarg\n"
+    
   ],
   "inclusions": [
-    "Breakfast & Dinner",
-    "All accommodation as per Double Sharing ",
-    "Shikara Ride over Dal Lake",
-    "Pick up and drop from As per Itinerary",
-    "Toll Taxes & Service charges",
-    "All Transportation on private basis"
+   
   ],
-   "overView": [
+  "overView": [
     {
-      "heading": "Exploring the Enchantment of Kashmir: A Land of Beauty and Diversity",
-      "text": "Nestled in the northernmost region of India, Kashmir is a breathtaking paradise renowned for its stunning landscapes, rich cultural heritage, and serene tranquility. Often referred to as Heaven on Earth,this picturesque valley attracts travelers from all corners of the globe, seeking solace in its majestic mountains, lush green valleys, and serene lakes."
+        "heading": "Exploring Himachal's Allure: Nature, Adventure, and Cultural Wonders Await",
+        "text": "Situated in the heart of the Himalayas, Himachal Pradesh is a captivating destination known for its diverse landscapes, thrilling adventures, and rich cultural heritage. A haven for nature lovers and adventure enthusiasts alike, this region invites travelers to embrace the beauty of snow-capped peaks, lush valleys, and vibrant traditions."
     },
     {
-      "heading": "Natural Splendor",
-      "text": "Kashmir's natural beauty is unparalleled. The valley is embraced by the towering peaks of the Himalayas and Pir Panjal ranges, creating a spellbinding panorama of snow-capped mountains, verdant meadows, and crystal-clear streams. The Dal Lake, with its floating gardens and colorful Shikara boats, is a symbol of the region's ethereal charm. Visitors can also explore the enchanting Mughal Gardens, adorned with vibrant flowers and intricate water channels, offering a glimpse into the region's royal past."
+        "heading": "Scenic Marvels",
+        "text": "Himachal's charm lies in its breathtaking landscapes, with towering peaks, serene valleys, and pristine lakes. From the panoramic views of Rohtang Pass to the tranquil beauty of Khajjiar, every corner of Himachal is a canvas of natural splendor."
     },
     {
-      "heading": "Cultural Richness",
-      "text": "Kashmir boasts a rich cultural tapestry woven from centuries of history and tradition. The valley has been a melting pot of diverse influences, including Hindu, Muslim, and Buddhist heritage. Visitors can immerse themselves in the vibrant bazaars of Srinagar, where artisans craft exquisite Pashmina shawls, intricate carpets, and ornate woodwork. The region's culinary delights, such as Wazwan—a traditional feast of aromatic Kashmiri cuisine—offer a tantalizing glimpse into its culinary heritage."
+        "heading": "Cultural Tapestry",
+        "text": "Immerse yourself in Himachal's rich cultural tapestry, woven over centuries. Explore bustling markets in Shimla, where artisans showcase intricate crafts. Indulge in the region's flavors, savoring local delicacies that reflect the warmth of Himachali hospitality."
     },
     {
-      "heading": "Spiritual Sanctuaries",
-      "text": "Kashmir is home to a multitude of sacred sites and spiritual retreats, each imbued with a sense of serenity and devotion. The ancient Shankaracharya Temple, perched atop a hill overlooking Srinagar, offers panoramic views of the valley below and serves as a revered pilgrimage destination for Hindus. The revered Hazratbal Shrine, housing a relic believed to be a strand of Prophet Muhammad's hair, is a symbol of religious harmony and attracts devotees of all faiths."
+        "heading": "Sacred Havens",
+        "text": "Himachal houses sacred havens amidst the mountains. Visit ancient temples like Hidimba Devi in Manali and the mystical caves of Masroor. Each site echoes with spiritual resonance, inviting pilgrims and seekers alike."
     },
     {
-      "heading": "Adventure and Recreation",
-      "text": "For adventure enthusiasts, Kashmir offers a plethora of adrenaline-pumping activities amidst its breathtaking landscapes. From trekking in the picturesque Lidder Valley to skiing in the world-renowned slopes of Gulmarg, there's no shortage of outdoor adventures to embark upon. White-water rafting in the gushing rapids of the Lidder River and paragliding over the Sonamarg valley are also popular choices for those seeking an adrenaline rush."
+        "heading": "Adventure Escapades",
+        "text": "For thrill-seekers, Himachal offers an array of adventures. Trek through the enchanting Parvati Valley, ski down the slopes of Solang Nala, or brave the white-water rapids of the Beas River. The possibilities for excitement are endless."
     },
     {
-      "heading": "Preserving Paradise",
-      "text": "Despite its unparalleled beauty, Kashmir has faced its share of challenges, including political unrest and environmental degradation. However, concerted efforts are underway to preserve and protect this pristine paradise for future generations. Sustainable tourism initiatives, coupled with community-driven conservation efforts, aim to safeguard the region's natural and cultural heritage while empowering local communities."
+        "heading": "Conserving Beauty",
+        "text": "While Himachal's beauty is unmatched, challenges like environmental impact persist. The state is committed to preserving its natural splendor through sustainable tourism practices and community-driven conservation initiatives."
     },
     {
-      "heading": "Plan Your Visit",
-      "text": "Whether you seek adventure in the great outdoors, tranquility amidst serene landscapes, or immersion in vibrant culture and tradition, Kashmir offers an unforgettable experience like no other. Plan your journey to this enchanting valley and discover the timeless allure of Kashmir—a land where beauty knows no bounds and every moment is a cherished memory"
+        "heading": "Plan Your Himachal Expedition",
+        "text": "Whether drawn to nature's wonders, seeking thrilling adventures, or eager to explore diverse cultures, Himachal offers an unforgettable experience. Plan your expedition to this Himalayan jewel, where every moment becomes a cherished memory."
     }
-  ]
+]
+
+
 }

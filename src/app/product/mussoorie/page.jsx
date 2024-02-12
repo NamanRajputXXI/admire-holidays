@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import FormModal from "@/components/FormModal";
 import Navbar from "@/components/Navbar";
-import MussoorieProduct from "@/components/product/mussoorie/MussoorieProduct";
+import MussoorieProduct from "@/components/product/uttarakhand/mussoorie/MussoorieProduct";
 import React from "react";
 
 const page = () => {

@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import FormModal from "@/components/FormModal";
 import Navbar from "@/components/Navbar";
-import Katra03N from "@/components/product/katra/Katra03N";
+import Katra03N from "@/components/product/kashmir/katra/Katra03N";
 import React from "react";
 
 const page = () => {

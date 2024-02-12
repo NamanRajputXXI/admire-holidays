@@ -2,70 +2,58 @@
   "_id": {
     "$oid": "65c711722e7e4a015da55ca2"
   },
-  "heading": "Adventure and Serenity in Kullu-Manali",
-  "subHeading": "Kullu Manali 4 Days Trip",
+  "heading": "Snowy Escapade: Shimla Manali Trail Unveiled",
+  "subHeading": "Shimla Manali 9 Days Trip",
   "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.521732070087!2d77.16652016609842!3d32.239506678474974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707717119245!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Delhi - Manali",
-      "day1Overview": "Early morning drive from Delhi to Manali. Meet our representative upon arrival at Manali and transfer to your pre-booked hotel. Enjoy mouthwatering dinner and overnight stay at the hotel."
+      "day1Heading": "Delhi - Shimla (365 km) Overnight journey",
+      "day1Overview": "Arrive at Volvo Bus Stand. Board the bus for overnight journey. (Volvo will start from Delhi House at 8:30 in evening)."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Explore Manali",
-      "day2Overview": "After the hearty breakfast, get ready for the sightseeing tour of the Manali hill station and visit the Hadimba Devi Temple, Manu Temple, Tibetan Monasteries and Vashist Village. Afternoon is free for your own leisure activities. Dinner and overnight stay at the hotel."
+      "day2Heading": "Arrive Shimla",
+      "day2Overview": "Arrive Shimla in morning. One of the most popular hill Resorts of the North. The town is situated at an altitude of 6810 ft, initially chosen as a sanatorium for invalid European officers, but soon developed into a big hill town and became the summer capital of the country. Upon arrival transfer you to hotel. Day at rest and relaxation. Overnight stay at hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Manali",
-      "day3Overview": "Proceed for a full day excursion by visiting the several prominent places such as the Kothi Gorge, Gulaba Marhi, Rohtang Pass and Solang Valley. In the evening, return to your hotel, enjoy the scrumptious dinner and a comfortable overnight stay."
+      "day3Heading": "Shimla - Kufri - Shimla",
+      "day3Overview": "After having breakfast proceed for sightseeing tour of Shimla. Visit Kufri, Ridge Maidan, Mall Road and Christ Church. Overnight stay at the hotel."
     },
     {
       "day": "Day 4",
-      "day4Heading": " Manali - Manikaran via Kullu - Manali",
-      "day4Overview": "After breakfast, check out of your hotel in Manali and drive to Manikaran, which is situated about 75 kms from Kullu. Manikaran is essentially a sacred pilgrimage place, especially for the Hindus. It is believed that the Lord Manu recreated human life in Manikaran after the severe flood. The place is replete with several temples and a gurudwara. After the sightseeing in Manikaran, drive to Kullu for a half day sightseeing tour. Dinner and overnight stay at Manali."
+      "day4Heading": " Shimla – Manali (270 km)",
+      "day4Overview": "After having breakfast proceed for Manali. Manali is an important hill station of northern India and is the destination of thousands of tourists every year. Its cool atmosphere provides a perfect haven for the ones afflicted by the hot Indian summers. Besides offering quite a few places for sightseeing, Manali is also famous for adventure sports like skiing, hiking, mountaineering, paragliding, rafting, trekking, kayaking, and mountain biking En- route visit Hanogi Mata Temple. Overnight stay at hotel in Manali."
     },
     {
       "day": "Day 5",
-      "day5Heading": "Manali - Delhi",
-      "day5Overview": "After breakfast, early morning drive from Manali to Delhi for your onward destination."
+      "day5Heading": "Manali - Rohtang Pass - Manali",
+      "day5Overview": "Today full day excursion visiting Rohtang Pass (Upto Snow Line in case Rohtang is closed due to snow fall). Overnight at hotel. "
+    },
+    {
+      "day": "Day 6",
+      "day6Heading": "Manali",
+      "day6Overview": "After breakfast visit newly constructed Buddhist Monastery. Hadimba Devi temple-It is small temple situated in the dense forest is very interesting . Hadimba is said to be the wife of Bhima from the epic of Mahabharata. Vashist, it is an extremely picturesque little place clinging to the steep hill side. On the way up to the village you come upon the Vashist hot baths where a natural sulphar spring is piped into a modern bath -house. Dinner and overnight."
+    },
+    {
+      "day": "Day 7",
+      "day7Heading": "Manali Kullu Manikaran Manali",
+      "day7Overview": "After breakfast visit Kullu Vaishno Devi Temple, Hot sulfer spring and Gurudwara in Manikaran. Come back to Manali for overnight stay."
+    },
+    {
+      "day": "Day 8",
+      "day8Heading": "Manali – Delhi (570 kms)15/16 hrs Overnight journey",
+      "day8Overview": "After having breakfast, We trasfer you to Volvo Bus stand to board the bus to Delhi. Coach will start at 4:30 from Manali Volvo Bus Stand(. Overnight Journey."
+    },
+    {
+      "day": "Day 9",
+      "day9Heading": "Arrive Delhi",
+      "day9Overview": "Arrive Delhi in morning time."
     }
+    
   ],
-  "packageOptions": [
-    {
-      "package": " ",
-      "price": "",
-      "previousPrice": "",
-      "hotelsName": [
-       
-      ]
-    },
-    {
-      "package": "",
-      "price": "",
-      "previousPrice": "",
-      "hotelsName": [
-       
-      ]
-    },
-    {
-      "package": "",
-      "price": "",
-      "previousPrice": "",
-      "hotelsName": [
-       
-      ]
-    },
-    {
-      "package": "",
-      "price": "",
-      "previousPrice": "",
-      "hotelsName": [
-      
-      ]
-    }
-  ],
+  
   "carouselImageUrl": [
     "/productKasauli1.jpg",
     "/productKasauli2.jpg",
@@ -73,12 +61,7 @@
     "/productKasauli4.jpg"
    
   ],
-  "exclusions": [
-    
-  ],
-  "inclusions": [
-   
-  ],
+
   "overView": [
     {
         "heading": "Exploring Himachal's Allure: Nature, Adventure, and Cultural Wonders Await",

@@ -32,6 +32,14 @@ const page = () => {
             destination={"Adventure and Serenity in Kullu-Manali"}
             productLink={"/product/kullu-manali"}
           />
+          <ProductCategoryCard
+            url={
+              "https://images.unsplash.com/photo-1579689189009-874f5cac2db5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFuYWxpfGVufDB8fDB8fHww"
+            }
+            days={"8 Night / 9 Days"}
+            destination={"Snowy Escapade: Shimla Manali Trail Unveiled"}
+            productLink={"/product/shimla-manali"}
+          />
         </div>
       </div>
       <Footer />

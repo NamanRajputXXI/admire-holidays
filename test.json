@@ -2,26 +2,36 @@
   "_id": {
     "$oid": "65c711722e7e4a015da55ca2"
   },
-  "heading": "Shimla's Timeless Charm and Toy Train Marvels",
-  "subHeading": "Shimla 3 Days Trip",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54674.09399244156!2d77.11782143234817!3d31.078286363783636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390578e3e35d6e67%3A0x1f7e7ff6ff9f54b7!2sShimla%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707729407572!5m2!1sen!2sin",
+  "heading": "Romantic Retreat Manali: Honeymoon Bliss Amids Beauty",
+  "subHeading": "Manali Honeymoon 5 Days Trip",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.521732070087!2d77.16652016609842!3d32.239506678474974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707730575582!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Kalka Shimla (90kms/3hrs)",
-      "day1Overview": "Reach Kalka Railway Station and travel by Toy Train to the queen of hills-“Shimla”. Relish the sights of snow covered mountains and lush greenery from the train. After arriving in Shimla, check in the hotel. Overnight stay in hotel."
+      "day1Heading": "Delhi - Shimla",
+      "day1Overview": "Early morning drive from Delhi to Shimla. Meet our representative upon arrival at Shimla and transfer to your pre-booked hotel. Evening time is free for shopping and own activities. Enjoy mouthwatering dinner and overnight stay at the hotel."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Shimla Kufri Shimla",
-      "day2Overview": "After breakfast, leave for Kufri which is situated 13 km from Shimla. Kufri is known for skiing in winters and one can explore the endless Himalayan view from here. In the evening you can take a stroll down the mall road and visit the Jakhoo hill which tenders superb sight of the Shimla town. Night stay at hotel."
+      "day2Heading": "Shimla - Manali",
+      "day2Overview": "After breakfast at the hotel, drive from Shimla to Manali. After reaching Manali, check-in to your hotel and after taking some rest, proceed for sightseeing tour and visit the Club House and Hadimba Temple. Evening time is free for shopping at the famous Mall Road."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Shimla To Kalka",
-      "day3Overview": "After having appetizing breakfast, checkout from the hotel and leave for Shimla railhead to catch a train to Kalka for further journey."
+      "day3Heading": "Manali - Rohtang Pass - Manali",
+      "day3Overview": "After the early breakfast in the hotel, proceed for Rohtang Pass and Solang Valley. Rohtang pass is a beautiful high mountain pass where you can see the spectacular beauty of the Mother Nature. Solang Valley offers a mesmerizing view of the glaciers and stunning mountains."
     }
-    
+    ,
+    {
+      "day": "Day 4",
+      "day4Heading": "Manali - Kullu - Manali",
+      "day4Overview": "After the breakfast, drive from Manali to Kullu Valley. Visit the Bijli Mahadev Temple, which is nestled at an altitude of around 2438m in the Kullu Valley. The magnificent beauty surrounding the region will certainly captivate your attention. In the evening, have a delicious dinner and enjoy a comfortable overnight stay at the hotel."
+    },
+    {
+      "day": "Day 5",
+      "day5Heading": "Manali - Delhi",
+      "day5Overview": "After breakfast, early morning drive from Manali to Delhi for onward destination."
+    }
   ],
   
   "carouselImageUrl": [

@@ -34,6 +34,7 @@ const ProductDetailLeft = ({
   const [dayEightOpen, setDayEightOpen] = useState(false);
   const [dayNineOpen, setDayNineOpen] = useState(false);
   const [dayTenOpen, setDayTenOpen] = useState(false);
+  const [dayElevenOpen, setDayElevenOpen] = useState(false);
   const [openOverview, setOpenOverview] = useState(false);
   const handleOverview = () => {
     setOpenOverview(!openOverview);
@@ -68,6 +69,9 @@ const ProductDetailLeft = ({
   const dayTenClick = () => {
     setDayTenOpen((prev) => !prev);
   };
+  const dayElevenClick = () => {
+    setDayElevenOpen((prev) => !prev);
+  };
 
   const expandAll = () => {
     setAllOpen(!allOpen);
@@ -81,6 +85,7 @@ const ProductDetailLeft = ({
     setDayEightOpen(!allOpen);
     setDayNineOpen(!allOpen);
     setDayTenOpen(!allOpen);
+    setDayElevenOpen(!allOpen);
   };
 
   const [activeLink, setActiveLink] = useState("#itinerary");
@@ -396,6 +401,15 @@ const ProductDetailLeft = ({
               isOpen={dayTenOpen}
               dayOverview={itinerary[9].day10Overview}
               clickFunction={dayTenClick}
+            />
+          )}
+          {itinerary[10] && itinerary[10].day && (
+            <Accordian
+              day={itinerary[10].day}
+              heading={itinerary[10].day11Heading}
+              isOpen={dayElevenOpen}
+              dayOverview={itinerary[10].day11Overview}
+              clickFunction={dayElevenClick}
             />
           )}
         </div>

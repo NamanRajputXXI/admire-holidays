@@ -56,7 +56,7 @@ const page = () => {
             }
             days={"3 Night / 4 Days"}
             destination={"Mountain Majesty: Manali's Scenic Spectacle Unveiled"}
-            productLink={"/product/manali"}
+            productLink={"/product/manali/manali4D"}
           />
           <ProductCategoryCard
             url={
@@ -73,6 +73,26 @@ const page = () => {
             days={"2 Night / 3 Days"}
             destination={"Shimla's Timeless Charm and Toy Train Marvels"}
             productLink={"/product/shimla/shimlaToyTrain"}
+          />
+          <ProductCategoryCard
+            url={
+              "https://images.unsplash.com/photo-1649140068309-6f82e4db2081?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hpbWxhJTIwdG95JTIwdHJhaW58ZW58MHx8MHx8fDA%3D"
+            }
+            days={"10 Night / 11 Days"}
+            destination={
+              "Manali Skiing Extravaganza: Carving Adventure on Snowy"
+            }
+            productLink={"/product/manali/manaliSkiing"}
+          />
+          <ProductCategoryCard
+            url={
+              "https://images.unsplash.com/photo-1579689189009-874f5cac2db5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFuYWxpfGVufDB8fDB8fHww"
+            }
+            days={"4 Night / 5 Days"}
+            destination={
+              "Romantic Retreat Manali: Honeymoon Bliss Amids Beauty"
+            }
+            productLink={"/product/manali/manaliHoneymoon"}
           />
         </div>
       </div>

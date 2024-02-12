@@ -40,6 +40,16 @@ const page = () => {
             destination={"Snowy Escapade: Shimla Manali Trail Unveiled"}
             productLink={"/product/shimla-manali"}
           />
+          <ProductCategoryCard
+            url={
+              "https://images.unsplash.com/photo-1600947509785-29fb4e7d1362?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+            days={"3 Night / 4 Days"}
+            destination={
+              "Dharamshala Discovery: Himalayan Tranquility and Marvels"
+            }
+            productLink={"/product/dharmashala"}
+          />
         </div>
       </div>
       <Footer />

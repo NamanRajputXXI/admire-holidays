@@ -2,29 +2,29 @@
   "_id": {
     "$oid": "65c711722e7e4a015da55ca2"
   },
-  "heading": "Dharamshala Discovery: Himalayan Tranquility and Marvels",
-  "subHeading": "Dharamshala 4 Days Trip",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27004.263703688135!2d76.29856561603812!3d32.216813188172395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b50df65bd7311%3A0x3e08bdb100c6dc10!2sDharamshala%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707723559342!5m2!1sen!2sin",
+  "heading": "Mountain Majesty: Manali's Scenic Spectacle Unveiled",
+  "subHeading": "Manali 4 Days Trip",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.532023013307!2d77.1871198!3d32.23947205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707727409743!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Delhi - Chandigarh",
-      "day1Overview": "You will be picked up by our representative from your desired place or the Delhi International Airport and then drive to Chandigarh. Check in at your pre-booked, take some rest and in the afternoon, get ready for a half-day sightseeing tour of Chandigarh. Visit several famous places like the Rock Garden, Rose Garden, Sukhna Lake and Pinjore Garden. Enjoy lip-smacking dinner and relaxing overnight stay at the hotel."
+      "day1Heading": "Delhi - Manali (570 km) 15/16 hrs journey",
+      "day1Overview": "Arrive Delhi Airport/Train station and drive to Manali. Manali is an important hill station of northern India and is the destination of thousands of tourists every year. Its cool atmosphere provides a perfect haven for the ones afflicted by the hot Indian summers. Besides offering quite a few places for sightseeing, Manali is also famous for adventure sports like skiing, hiking, mountaineering, paragliding, rafting, trekking, kayaking, and mountain biking En- route visit Hanogi Mata Temple. On arrival check in to the hotel. Overnight stay at hotel in Manali."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Chandigarh - Dharamshala",
-      "day2Overview": "After breakfast, check out from the hotel and drive from Chandigarh to Dharamshala.Dharamshala Tour While driving, get mesmerized by the enchanting views of the snow-clad Dhauladhar range, Una, a beautiful small village of Himachal Pradesh, the Kangra Valley and Palampur. Stop for the scrumptious lunch at a highway motel between Chandigarh/Dharamshala. In the evening, give your body a much needed rest after the long day drive. Dinner and overnight stay at the hotel."
+      "day2Heading": "Manali - Rohtang Pass - Manali",
+      "day2Overview": "Today full day excursion visiting Rohtang Pass (Upto Snow Line in case Rohtang is closed due to snow fall) and Sollang Valley. Overnight at hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Dharamshala",
-      "day3Overview": "In the morning, after the hearty breakfast, proceed for a full day tour of Dharamshala including Dalai Lama's village, Mcleodganj region, Bhagsunath Temple, St. John's Church, Dal Lake and Talnoo - highest point in Dharamshala that gives best view of the Dhauladhar range. Dinner and overnight stay at the hotel.      "
+      "day3Heading": "Manali",
+      "day3Overview": "Walk through town visiting newly constructed Buddhist Monastery. Hadimba Devi temple-It is small temple situated in the dense forest is very interesting . Hadimba is said to be the wife of Bhima from the epic of Mahabharata. Vashist, it is an extremely picturesque little place clinging to the steep hill side. On the way up to the village you come upon the Vashist hot baths where a natural sulphar spring is piped into a modern bath -house. Dinner and overnight. "
     },
     {
       "day": "Day 4",
-      "day4Heading": " Dharamshala - Delhi",
-      "day4Overview": "After breakfast, early morning drive from Dharamshala to Delhi for your onward destination."
+      "day4Heading": " Manali – Delhi (570 kms 15/16 hrs journey)",
+      "day4Overview": "After having breakfast, drive to Delhi. We transfer you to Railway station/Airport for onward journey.      "
     }
     
   ],

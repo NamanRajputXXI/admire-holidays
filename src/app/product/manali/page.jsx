@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import FormModal from "@/components/FormModal";
 import Navbar from "@/components/Navbar";
-import ShimlaManaliProduct from "@/components/product/himachal/shimlaManali/ShimlaManaliProduct";
+import ManaliProduct from "@/components/product/himachal/manali/ManaliProduct";
 import React from "react";
 
 const page = () => {
@@ -9,7 +9,7 @@ const page = () => {
     <>
       <FormModal />
       <Navbar />
-      <ShimlaManaliProduct />
+      <ManaliProduct />
       <Footer />
     </>
   );

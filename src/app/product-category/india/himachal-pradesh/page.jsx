@@ -94,6 +94,16 @@ const page = () => {
             }
             productLink={"/product/manali/manaliHoneymoon"}
           />
+          <ProductCategoryCard
+            url={
+              "https://images.unsplash.com/photo-1606667544139-81e47935d769?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhpbWFjaGFsJTIwcHJhZGVzaHxlbnwwfHwwfHx8MA%3D%3D"
+            }
+            days={"6 Night / 7 Days"}
+            destination={
+              "Beyond the Stars: Exploring the Mysteries of Deep Space Travel"
+            }
+            productLink={"/product/HimachalHoneymoon"}
+          />
         </div>
       </div>
       <Footer />

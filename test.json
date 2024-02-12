@@ -2,29 +2,24 @@
   "_id": {
     "$oid": "65c711722e7e4a015da55ca2"
   },
-  "heading": "Mountain Majesty: Manali's Scenic Spectacle Unveiled",
-  "subHeading": "Manali 4 Days Trip",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.532023013307!2d77.1871198!3d32.23947205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707727409743!5m2!1sen!2sin",
+  "heading": "Shimla's Timeless Charm and Toy Train Marvels",
+  "subHeading": "Shimla 3 Days Trip",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54674.09399244156!2d77.11782143234817!3d31.078286363783636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390578e3e35d6e67%3A0x1f7e7ff6ff9f54b7!2sShimla%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707729407572!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Delhi - Manali (570 km) 15/16 hrs journey",
-      "day1Overview": "Arrive Delhi Airport/Train station and drive to Manali. Manali is an important hill station of northern India and is the destination of thousands of tourists every year. Its cool atmosphere provides a perfect haven for the ones afflicted by the hot Indian summers. Besides offering quite a few places for sightseeing, Manali is also famous for adventure sports like skiing, hiking, mountaineering, paragliding, rafting, trekking, kayaking, and mountain biking En- route visit Hanogi Mata Temple. On arrival check in to the hotel. Overnight stay at hotel in Manali."
+      "day1Heading": "Kalka Shimla (90kms/3hrs)",
+      "day1Overview": "Reach Kalka Railway Station and travel by Toy Train to the queen of hills-“Shimla”. Relish the sights of snow covered mountains and lush greenery from the train. After arriving in Shimla, check in the hotel. Overnight stay in hotel."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Manali - Rohtang Pass - Manali",
-      "day2Overview": "Today full day excursion visiting Rohtang Pass (Upto Snow Line in case Rohtang is closed due to snow fall) and Sollang Valley. Overnight at hotel."
+      "day2Heading": "Shimla Kufri Shimla",
+      "day2Overview": "After breakfast, leave for Kufri which is situated 13 km from Shimla. Kufri is known for skiing in winters and one can explore the endless Himalayan view from here. In the evening you can take a stroll down the mall road and visit the Jakhoo hill which tenders superb sight of the Shimla town. Night stay at hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Manali",
-      "day3Overview": "Walk through town visiting newly constructed Buddhist Monastery. Hadimba Devi temple-It is small temple situated in the dense forest is very interesting . Hadimba is said to be the wife of Bhima from the epic of Mahabharata. Vashist, it is an extremely picturesque little place clinging to the steep hill side. On the way up to the village you come upon the Vashist hot baths where a natural sulphar spring is piped into a modern bath -house. Dinner and overnight. "
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": " Manali – Delhi (570 kms 15/16 hrs journey)",
-      "day4Overview": "After having breakfast, drive to Delhi. We transfer you to Railway station/Airport for onward journey.      "
+      "day3Heading": "Shimla To Kalka",
+      "day3Overview": "After having appetizing breakfast, checkout from the hotel and leave for Shimla railhead to catch a train to Kalka for further journey."
     }
     
   ],

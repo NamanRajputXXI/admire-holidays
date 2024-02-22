@@ -1,87 +1,96 @@
 {
   "_id": {
-    "$oid": "65c711722e7e4a015da55ca2"
+    "$oid": "65ca00a975c8f4ba6459c28e"
   },
-  "heading": "Beyond the Stars: Exploring the Mysteries of Deep Space Travel",
-  "subHeading": "Himachal Honeymoon 7 Days Trip",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54674.09399244169!2d77.11782143234817!3d31.078286363783644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390578e3e35d6e67%3A0x1f7e7ff6ff9f54b7!2sShimla%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1707733679814!5m2!1sen!2sin",
+  "heading": "Regal Romance: Udaipur's Palatial Splendor Revealed",
+  "subHeading": "Udaipur trip 3 days",
+  
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116078.16872078643!2d73.62247004429061!3d24.608419845506436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1707736956668!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Delhi - Shimla (365 km)",
-      "day1Overview": "Arrive Delhi Airport/Train station and drive to Shimla. One of the most popular hill Resorts of the North. The town is situated at an altitude of 6810 ft, initially chosen as a sanatorium for invalid European officers, but soon developed into a big hill town and became the summer capital of the country. Upon arrival check in to the hotel for Overnight stay."
+      "day1Heading": "ARRIVAL IN UDAIPUR",
+      "day1Overview": "Upon arrival at Udaipur airport, railway station or bus stop, meet Tour My India representatives who help you with hotel transfer. Rest of the day will be free for leisure. In the evening, you will go for a boat ride on lake Pichola to visit the Jag Mandir. Overnight stay at the Udaipur hotel."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Shimla - Kufri - Shimla",
-      "day2Overview": "After having breakfast proceed for sightseeing tour of Shimla. Visit Kufri, Ridge Maidan, Mall Road and Christ Church. Overnight stay at the hotel."
+      "day2Heading": "UDAIPUR CITY TOUR",
+      "day2Overview": "After breakfast, go for Udaipur sightseeing tour. You will visit all the famed attractions like City Palace, Jagdish Temple, Fateh Sagar Lake, Saheliyon ki Bari and Bhartiya Lok Kala Mandir. Overnight stay at the Udaipur hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Shimla – Manali (270 km)",
-      "day3Overview": "After having breakfast proceed for Manali. Manali is an important hill station of northern India and is the destination of thousands of tourists every year. Its cool atmosphere provides a perfect haven for the ones afflicted by the hot Indian summers. Besides offering quite a few places for sightseeing, Manali is also famous for adventure sports like skiing, hiking, mountaineering, paragliding, rafting, trekking, kayaking, and mountain biking En- route visit Hanogi Mata Temple. Overnight stay at hotel in Manali."
-    }
-    ,
-    {
-      "day": "Day 4",
-      "day4Heading": "Manali - Rohtang Pass - Manali",
-      "day4Overview": "Today full day excursion visiting Rohtang Pass (Upto Snow Line in case Rohtang is closed due to snow fall) and Sollang Valley. Overnight at hotel."
-    },
-    {
-      "day": "Day 5",
-      "day5Heading": "Manali",
-      "day5Overview": "Walk through town visiting newly constructed Buddhist Monastery. Hadimba Devi temple-It is small temple situated in the dense forest is very interesting . Hadimba is said to be the wife of Bhima from the epic of Mahabharata. Vashist, it is an extremely picturesque little place clinging to the steep hill side. On the way up to the village you come upon the Vashist hot baths where a natural sulphar spring is piped into a modern bath -house. Dinner and overnight."
-    },
-    {
-      "day": "Day 6",
-      "day6Heading": "Manali – Chandigarh (300kms)",
-      "day6Overview": "After having breakfast, drive to Chandigarh. On arrival check in to the hotel. Visit rock garden, Sukhna Lake and Rose Garden."
-    },
-    {
-      "day": "Day 7",
-      "day7Heading": "Chandigarh – Delhi (250 kms) 5/6 hours drive",
-      "day7Overview": "After having breakfast, drive to Delhi. We transfer you to Railway station/Airport for onward journey"
+      "day3Heading": "DEPARTURE",
+      "day3Overview": "Post breakfast, you will be transferred to airport or railway station for your journey onwards."
     }
   ],
-  
+
+  "exclusions": [
+    "Departure Taxes",
+    "Entry Fees",
+    "5 Star Accommodation",
+    "Airport Transfers"
+  ],
+  "inclusions": [
+    "Specialized bilingual guide",
+    "Private Transport",
+    "Entrance fees (Cable and car and Moon Valley)",
+    "Box lunch water, banana apple and chocolate"
+  ],
   "carouselImageUrl": [
-    "/productKasauli1.jpg",
-    "/productKasauli2.jpg",
-    "/productKasauli3.jpg",
-    "/productKasauli4.jpg"
-   
+    "/productJaipur1.jpg",
+    "/productJaipur2.jpg",
+    "/productJaipur3.jpg",
+    "/productJaipur4.jpg"
   ],
-
-  "overView": [
+  "overview": [
     {
-        "heading": "Exploring Himachal's Allure: Nature, Adventure, and Cultural Wonders Await",
-        "text": "Situated in the heart of the Himalayas, Himachal Pradesh is a captivating destination known for its diverse landscapes, thrilling adventures, and rich cultural heritage. A haven for nature lovers and adventure enthusiasts alike, this region invites travelers to embrace the beauty of snow-capped peaks, lush valleys, and vibrant traditions."
+      "heading": "Discovering Rajasthan's Splendor: History, Culture, and Scenic Marvels Await",
+      "text": "Embark on a journey to Rajasthan, a land of royal opulence, rich history, and diverse landscapes. This captivating state in India beckons travelers with its majestic forts, vibrant markets, and a tapestry of cultural traditions that unfold against the backdrop of desert landscapes."
     },
     {
-        "heading": "Scenic Marvels",
-        "text": "Himachal's charm lies in its breathtaking landscapes, with towering peaks, serene valleys, and pristine lakes. From the panoramic views of Rohtang Pass to the tranquil beauty of Khajjiar, every corner of Himachal is a canvas of natural splendor."
+      "heading": "Regal Fortresses",
+      "text": "Rajasthan is adorned with magnificent forts, each narrating tales of valor and grandeur. Explore the regal forts of Jaipur, Jodhpur, and Jaisalmer, marveling at the architectural prowess that has stood the test of time."
     },
     {
-        "heading": "Cultural Tapestry",
-        "text": "Immerse yourself in Himachal's rich cultural tapestry, woven over centuries. Explore bustling markets in Shimla, where artisans showcase intricate crafts. Indulge in the region's flavors, savoring local delicacies that reflect the warmth of Himachali hospitality."
+      "heading": "Cultural Extravaganza",
+      "text": "Immerse yourself in the cultural richness of Rajasthan. Wander through the bustling bazaars of Udaipur, where artisans showcase intricate handicrafts. Indulge in the flavors of Rajasthani cuisine, a delightful blend of spices and culinary traditions."
     },
     {
-        "heading": "Sacred Havens",
-        "text": "Himachal houses sacred havens amidst the mountains. Visit ancient temples like Hidimba Devi in Manali and the mystical caves of Masroor. Each site echoes with spiritual resonance, inviting pilgrims and seekers alike."
+      "heading": "Spiritual Odyssey",
+      "text": "Rajasthan houses spiritual havens amidst its golden dunes. Visit the sacred temples of Pushkar and witness the spiritual aura at the Brahma Temple. Explore the intricately carved temples of Ranakpur, a testament to the region's religious diversity."
     },
     {
-        "heading": "Adventure Escapades",
-        "text": "For thrill-seekers, Himachal offers an array of adventures. Trek through the enchanting Parvati Valley, ski down the slopes of Solang Nala, or brave the white-water rapids of the Beas River. The possibilities for excitement are endless."
+      "heading": "Desert Adventures",
+      "text": "For adventure enthusiasts, Rajasthan offers unique experiences amidst its desert landscapes. Take a camel safari in the Thar Desert, camp under the starlit sky, or explore the sand dunes of Khimsar. Rajasthan's deserts unfold as an adventurous playground."
     },
     {
-        "heading": "Conserving Beauty",
-        "text": "While Himachal's beauty is unmatched, challenges like environmental impact persist. The state is committed to preserving its natural splendor through sustainable tourism practices and community-driven conservation initiatives."
+      "heading": "Preserving Heritage",
+      "text": "While Rajasthan's heritage is timeless, efforts are made to preserve its cultural and architectural marvels. Conservation initiatives and responsible tourism practices aim to safeguard the state's heritage for generations to come."
     },
     {
-        "heading": "Plan Your Himachal Expedition",
-        "text": "Whether drawn to nature's wonders, seeking thrilling adventures, or eager to explore diverse cultures, Himachal offers an unforgettable experience. Plan your expedition to this Himalayan jewel, where every moment becomes a cherished memory."
+      "heading": "Plan Your Rajasthan Sojourn",
+      "text": "Whether captivated by history, intrigued by diverse cultures, or seeking the thrill of desert landscapes, Rajasthan promises an enchanting experience. Plan your sojourn to this regal realm, where every corner reveals a piece of the past and every moment is a cultural revelation."
     }
-]
-
-
+  ],
+  "duration": "1 Day"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

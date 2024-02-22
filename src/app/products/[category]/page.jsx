@@ -49,9 +49,7 @@ const Page = async ({ params }) => {
           {data.map((destination, index) => (
             <div key={index}>
               <ProductCategoryCard
-                url={
-                  "https://images.unsplash.com/photo-1503265192943-9d7eea6fc77a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                }
+                url={destination.imageUrl}
                 days={destination.duration}
                 destination={destination.heading}
                 productLink={`/products/${params.category}/${index}`}

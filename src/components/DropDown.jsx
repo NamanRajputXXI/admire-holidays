@@ -38,9 +38,13 @@ const DropDown = () => {
       <div className="dropdown-content left-0  font-light text-base absolute z-50  bg-white p-8 top-12 ">
         <ul className="flex flex-col gap-4">
           {Object.entries(travelData).map(([category, destinations]) => {
+            const capitalizedCategory =
+              category.charAt(0).toUpperCase() + category.slice(1);
             return (
               <li key={category}>
-                <Link href={`/products/${category}`}>{category}</Link>
+                <Link href={`/products/${category}`}>
+                  {capitalizedCategory}
+                </Link>
               </li>
             );
           })}

@@ -1,96 +1,102 @@
 {
   "_id": {
-    "$oid": "65ca00a975c8f4ba6459c28e"
+    "$oid": "65bdd4bf4f87f8d9affb3dd5"
   },
-  "heading": "Regal Romance: Udaipur's Palatial Splendor Revealed",
-  "subHeading": "Udaipur trip 3 days",
-  
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116078.16872078643!2d73.62247004429061!3d24.608419845506436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1707736956668!5m2!1sen!2sin",
+  "heading": "Punjab Pulse: Unveiling the Vibrant Tapestry",
+  "subHeading": "Trip in Punjab",
+  "duration": "6 Night / 7 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504426.457410204!2d70.3920214625343!3d30.934423300256523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!5e0!3m2!1sen!2sin!4v1709204684965!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "ARRIVAL IN UDAIPUR",
-      "day1Overview": "Upon arrival at Udaipur airport, railway station or bus stop, meet Tour My India representatives who help you with hotel transfer. Rest of the day will be free for leisure. In the evening, you will go for a boat ride on lake Pichola to visit the Jag Mandir. Overnight stay at the Udaipur hotel."
+      "day1Heading": "ARRIVAL IN AMRITSAR",
+      "day1Overview": "Your wonderful expedition to Amritsar will start with your arrival at Amritsar railway station/airport, whichever of your choice. At the station/airport, our representative will be waiting to escort you to a pre-booked hotel. After getting freshened up, be ready to go on an Amritsar sightseeing tour. On the tour, visit the famous five sacred Sarovar (ponds). The first stop on this day sightseeing is Sri Harmandir Sahib, also known as Golden Temple. It is one of the highly revered Sikh shrines in Punjab. The gurdwara includes a sacred pond, known as Sarovar. Followed by this, visit Gurdwara Santokshar Sahib which houses one of the five historical Sarovar - Santokshar Sarovar. Thereafter, visit Gurdwara Ramsar where you will be also visiting the Ramsar Sarovar - the smallest of all five ponds. Built in the year 1885, the gurudwara marks the place where the fifth Sikh Guru - Guru Arjan Dev wrote Guru Granth Sahib - the sacred scripture. Thereafter, visit the Gurdwara Shri Mata Kaulsar Sahib which houses Kaulsar Sarovar. Dedicated to Mata Kaulan Ji, the gurdwara is another significant Sikh sacred site in Amritsar. From there, you will be taken to Gurdwara Bibeksar Sahib where you will find the fifth pond, Bibeksar Sarovar. Built in the year 1628 by the sixth Sikh Guru - Hargobind Sahib, the Sarovar is one of the sacred sites in the region. In the evening, you will be transferred back to the same hotel for dinner and overnight stay."
     },
     {
       "day": "Day 2",
-      "day2Heading": "UDAIPUR CITY TOUR",
-      "day2Overview": "After breakfast, go for Udaipur sightseeing tour. You will visit all the famed attractions like City Palace, Jagdish Temple, Fateh Sagar Lake, Saheliyon ki Bari and Bhartiya Lok Kala Mandir. Overnight stay at the Udaipur hotel."
+      "day2Heading": "AMRITSAR TO JALANDHAR",
+      "day2Overview": "In the morning, you will be served with a scrumptious breakfast. Followed by this, begin a drive to Jalandhar which would be a 2-3 hours drive. Upon arrival in the city, you will be transferred to a pre-booked hotel in Jalandhar. After getting freshened up, be ready to go on a sightseeing tour of Jalandhar. On the tour, visit Pushpa Gujral Science City, Gurdwara Chhevin Padshahi, Devi Talab Mandir, and Rangla Punjab Haveli. After the day sightseeing tour, you will be taken back to the hotel in the evening. Dinner and overnight stay will be provided at the hotel."
     },
     {
       "day": "Day 3",
-      "day3Heading": "DEPARTURE",
-      "day3Overview": "Post breakfast, you will be transferred to airport or railway station for your journey onwards."
+      "day3Heading": "JALANDHAR TO LUDHIANA",
+      "day3Overview": "Enjoy a delectable breakfast in the morning. After that, be ready to commence a road drive to Ludhiana which would take 2-3 hours to complete. On your arrival in Ludhiana, you will be accommodated in a pre-booked hotel in Ludhiana. After getting freshened up, you will be taken on a sightseeing tour of Ludhiana. On this tour, you will explore some top tourist attractions of the city like Gurdwara Dukh Niwaran Sahib and Nehru Rose Garden. In the evening, you will be taken back to the hotel for dinner and overnight stay."
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": "LUDHIANA TO PATIALA",
+      "day4Overview": "Like all days, enjoy a nutritious morning meal. Followed by this, commence a road drive to Patiala. This would be a 2-3 hours drive. Upon arrival, you will be accommodated in a pre-booked hotel in Patiala. Get freshen up and be ready to go out for a sightseeing tour in Patiala. On the sightseeing tour, visit popular places like Qila Mubarak Complex, Sheesh Mahal, and Gurdwara Dukh Nivaran Sahib. In the evening, return to the hotel for dinner and overnight stay."
+    },
+    {
+      "day": "Day 5",
+      "day5Heading": "PATIALA TO CHANDIGARH",
+      "day5Overview": "Post breakfast, check-out from the hotel and be ready to begin a road drive to Chandigarh. The distance between Patiala and Chandigarh is 69 km. Upon arrival, you will be transferred to a pre-booked hotel in Chandigarh. After getting freshened up, commence a day sightseeing tour of Chandigarh. On this tour, you will be taken to some top tourist attractions of the city including Rock Garden, Rose Garden, and Sukhna Lake. In the evening, enjoy a shopping tour in the market of sector 17. Thereafter, head back to the hotel. Dinner and overnight stay will be provided at the hotel."
+    },
+    {
+      "day": "Day 6",
+      "day6Heading": "CHANDIGARH TO ANANDPUR SAHIB",
+      "day6Overview": "Start your morning with a delicious breakfast. Followed by this, check-out from the hotel and be ready to begin a road drive to Anandpur Shaib. This would be a 2-3 hours drive. On your arrival in Anandpur Sahib, you will be taken to a pre-booked hotel to get freshened up. Thereafter, you will be taken out for a sightseeing tour of Anandpur Sahib. On the tour, you will first visit the popular pilgrimage site of Gurdwara Shri Kesgarh. Thereafter, visit Kesgarh Sahib and Bhakra Nangal Dam. In the evening, return to the hotel in Anandpur Sahib. Dinner and overnight stay will be provided at the hotel."
+    },
+    {
+      "day": "Day 7",
+      "day7Heading": "DEPARTURE",
+      "day7Overview": "In the morning, enjoy the last delectable breakfast of this tour. Post breakfast, be ready with your backpacks as you will be transferred to the railway station/airport. Board your train/flight either to the onward destination or to the home destination."
     }
-  ],
+  ]
 
+  
+
+,
+"overView": [
+  {
+    "heading": "Punjab Panorama: Diving into Rich Cultural Heritage",
+    "text": "Embark on an enchanting expedition through the heart of Punjab, experiencing its rich culture and heritage. Immerse yourself in a tapestry of traditions, historical marvels, and vibrant markets, creating a harmonious blend of the past and the present."
+  },
+  {
+    "heading": "Historical Grandeur in Amritsar",
+    "text": "Uncover the historical treasures of Amritsar. Explore iconic landmarks, witness architectural splendor, and absorb the lively vibes of this historical city, echoing tales of Sikhism, British colonial influence, and cultural richness."
+  },
+  {
+    "heading": "Cultural Extravaganza in Jalandhar",
+    "text": "Discover the cultural richness of Jalandhar. Immerse yourself in traditional arts, explore historic structures, and embrace the vibrant charm of this city, where the past seamlessly merges with contemporary life."
+  },
+  {
+    "heading": "Natural Retreat: Ropar Wetland",
+    "text": "Delve into the natural beauty of Ropar Wetland. Explore the serene landscapes, known for their lush greenery and diverse birdlife. Immerse yourself in the peaceful surroundings and revel in the tranquility of this natural sanctuary."
+  },
+  {
+    "heading": "Gastronomic Journey through Punjab",
+    "text": "Embark on a culinary odyssey through Punjab. Relish local specialties like makki di roti, sarson da saag, and Amritsari kulcha. Navigate through bustling markets, savor authentic Punjabi cuisine, and indulge in the diverse flavors of this vibrant state."
+  },
+  {
+    "heading": "Preserving Cultural Heritage in Ludhiana",
+    "text": "Punjab is dedicated to preserving its cultural legacy. From promoting traditional arts to conserving ancient structures, the state strives to protect its rich heritage, ensuring a cultural spectacle for both locals and visitors."
+  },
+  {
+    "heading": "Plan Your Punjab Exploration",
+    "text": "Whether captivated by history, cultural diversity, or culinary delights, Punjab promises an immersive journey. Plan your exploration in this dynamic state, where every street echoes tales of valor, and every moment is a celebration of Punjab's vibrant spirit."
+  }
+]
+
+
+,
+  "carouselImageUrl": [
+    "/productKasauli1.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli3.jpg",
+    "/productKasauli4.jpg"
+  ],
   "exclusions": [
     "Departure Taxes",
     "Entry Fees",
-    "5 Star Accommodation",
+    "5 Star Accommmodation",
     "Airport Transfers"
   ],
   "inclusions": [
     "Specialized bilingual guide",
     "Private Transport",
-    "Entrance fees (Cable and car and Moon Valley)",
-    "Box lunch water, banana apple and chocolate"
+    "Box lunch water, banana apple and chocolate",
+    "Enterance fees (Cable, Car and Moon Valley)"
   ],
-  "carouselImageUrl": [
-    "/productJaipur1.jpg",
-    "/productJaipur2.jpg",
-    "/productJaipur3.jpg",
-    "/productJaipur4.jpg"
-  ],
-  "overview": [
-    {
-      "heading": "Discovering Rajasthan's Splendor: History, Culture, and Scenic Marvels Await",
-      "text": "Embark on a journey to Rajasthan, a land of royal opulence, rich history, and diverse landscapes. This captivating state in India beckons travelers with its majestic forts, vibrant markets, and a tapestry of cultural traditions that unfold against the backdrop of desert landscapes."
-    },
-    {
-      "heading": "Regal Fortresses",
-      "text": "Rajasthan is adorned with magnificent forts, each narrating tales of valor and grandeur. Explore the regal forts of Jaipur, Jodhpur, and Jaisalmer, marveling at the architectural prowess that has stood the test of time."
-    },
-    {
-      "heading": "Cultural Extravaganza",
-      "text": "Immerse yourself in the cultural richness of Rajasthan. Wander through the bustling bazaars of Udaipur, where artisans showcase intricate handicrafts. Indulge in the flavors of Rajasthani cuisine, a delightful blend of spices and culinary traditions."
-    },
-    {
-      "heading": "Spiritual Odyssey",
-      "text": "Rajasthan houses spiritual havens amidst its golden dunes. Visit the sacred temples of Pushkar and witness the spiritual aura at the Brahma Temple. Explore the intricately carved temples of Ranakpur, a testament to the region's religious diversity."
-    },
-    {
-      "heading": "Desert Adventures",
-      "text": "For adventure enthusiasts, Rajasthan offers unique experiences amidst its desert landscapes. Take a camel safari in the Thar Desert, camp under the starlit sky, or explore the sand dunes of Khimsar. Rajasthan's deserts unfold as an adventurous playground."
-    },
-    {
-      "heading": "Preserving Heritage",
-      "text": "While Rajasthan's heritage is timeless, efforts are made to preserve its cultural and architectural marvels. Conservation initiatives and responsible tourism practices aim to safeguard the state's heritage for generations to come."
-    },
-    {
-      "heading": "Plan Your Rajasthan Sojourn",
-      "text": "Whether captivated by history, intrigued by diverse cultures, or seeking the thrill of desert landscapes, Rajasthan promises an enchanting experience. Plan your sojourn to this regal realm, where every corner reveals a piece of the past and every moment is a cultural revelation."
-    }
-  ],
-  "duration": "1 Day"
+  "imageUrl": "https://images.unsplash.com/photo-1612612139178-edfe5c2caaaf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHB1bmphYnxlbnwwfHwwfHx8MA%3D%3D"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

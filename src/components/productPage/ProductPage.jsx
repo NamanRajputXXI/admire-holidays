@@ -9,7 +9,6 @@ import ProductBottomCarousel from "../carousels/ProductBottomCarousel";
 import FormModal from "../FormModal";
 import SwiperProductCarousel from "../carousels/productCarousels/SwiperProductCarousel";
 const ProductPage = ({ singleProductData }) => {
-  console.log(singleProductData);
   const [openModal, setOpenModal] = useState(false);
 
   const closeModalFunc = () => {

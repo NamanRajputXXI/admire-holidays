@@ -37,11 +37,13 @@ const DropDown = () => {
     return (
       <div className="dropdown-content left-0  font-light text-base absolute z-50  bg-white p-8 top-12 ">
         <ul className="flex flex-col gap-4">
-          {Object.entries(travelData).map(([category, destinations]) => (
-            <li key={category}>
-              <Link href={`/products/${category}`}>{category}</Link>
-            </li>
-          ))}
+          {Object.entries(travelData).map(([category, destinations]) => {
+            return (
+              <li key={category}>
+                <Link href={`/products/${category}`}>{category}</Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
     );

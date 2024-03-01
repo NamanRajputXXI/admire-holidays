@@ -3,17 +3,17 @@ const popularDestinations = [
   {
     imageUrl: `popularDestinationCarouselKashmir.webp`,
     title: "Kashmir",
-    link: "/product-category/india/kashmir",
+    link: "/products/kashmir",
   },
   {
     imageUrl: `popularDestinationCarouselGoa.webp`,
     title: "Goa",
-    link: "/product-category/india/goa",
+    link: "/products/goa",
   },
   {
     imageUrl: `popularDestinationCarouselAndaman.jpg`,
     title: "Andaman",
-    link: "/product-category/india/andaman",
+    link: "/products/andaman",
   },
   {
     imageUrl: `popularDestinationCarouselSwitzerland.jpg`,
@@ -28,7 +28,7 @@ const popularDestinations = [
   {
     imageUrl: `popularDestinationCarouselUttarakhand.jpg`,
     title: "Uttarakhand",
-    link: "/product-category/india/uttarakhand",
+    link: "/products/uttarakhand",
   },
   {
     imageUrl: `popularDestinationCarouselSingapore.jpg`,

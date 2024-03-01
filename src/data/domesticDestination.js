@@ -3,27 +3,27 @@ const domesticDestinations = [
   {
     imageUrl: `popularDestinationCarouselAndaman.jpg`,
     title: "Andaman",
-    link: "/product-category/india/andaman",
+    link: "/products/andaman",
   },
   {
     imageUrl: `popularDestinationCarouselGoa.webp`,
     title: "Goa",
-    link: "/product-category/india/goa",
+    link: "/products/goa",
   },
   {
     imageUrl: `popularDestinationCarouselKashmir.webp`,
     title: "Kashmir",
-    link: "/product-category/india/kashmir",
+    link: "/products/kashmir",
   },
   {
     imageUrl: `popularDestinationCarouselUttarakhand.jpg`,
     title: "Uttarakhand",
-    link: "/product-category/india/uttarakhand",
+    link: "/products/uttarakhand",
   },
   {
     imageUrl: `popularDestinationCarouselRajasthan.webp`,
     title: "Rajasthan",
-    link: "/product-category/india/rajasthan",
+    link: "/products/rajasthan",
   },
   {
     imageUrl: `popularDestinationCarouselWestBengal.jpg`,

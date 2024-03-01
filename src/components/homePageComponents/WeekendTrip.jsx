@@ -12,6 +12,7 @@ const WeekendTrip = () => {
         {weekendTripData.map((item, index) => (
           <WeekendTripCard
             key={index}
+            url={item.url}
             imageUrl={item.imageUrl}
             location={item.location}
             about={item.about}

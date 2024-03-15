@@ -70,14 +70,14 @@ const ProductRightPricing = ({
         <div className="flex text-lg font-medium gap-3 items-center">
           {/* <CiShoppingTag size={30} color="#FD4A4C" /> Starting from */}
         </div>
-        <div className="flex items-baseline gap-2">
+        {/* <div className="flex items-baseline gap-2">
           {price && previousPrice && (
             <>
               <p className="text-[#00BB98] text-2xl font-bold">₹{price}</p>
               <p className="text-gray-500 line-through">₹{previousPrice}</p>
             </>
           )}
-        </div>
+        </div> */}
         <div className="flex justify-center gap-1 items-center relative">
           <div className="bg-[#FD4A4C] h-[1px] z-10 w-[50%]"></div>
           <IoIosAirplane size={40} color="#FD4A4C" />

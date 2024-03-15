@@ -3,6 +3,34 @@ import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 
 const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
+  const [result, setResult] = React.useState("Submit");
+
+  const submitForm = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    if (formData.name && formData.phone && formData.email) {
+      setFormValid(true);
+    }
+
+    formData.append("access_key", "8203b704-160f-4dd1-96c4-8b52b46ff79e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -18,14 +46,6 @@ const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Check if all fields are filled
-    if (formData.name && formData.phone && formData.email) {
-      setFormValid(true);
-    }
-  };
-
   return (
     <div
       className={`fixed z-[9999] top-0 left-0 px-4 h-full w-full items-center justify-center bg-gray-700 bg-opacity-90 ${
@@ -36,14 +56,15 @@ const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
         <RxCross1 color="white" size={30} onClick={closeQuotepopup} />
       </div>
       <div className="bg-white sm:p-8 p-4 rounded-xl gap-8 flex flex-col items-center justify-center">
-        <form onSubmit={handleSubmit} className="w-full">
+        <form onSubmit={submitForm} className="w-full">
           <div className="mb-5">
             <label htmlFor="name" className=" font-medium text-gray-700">
-              Name *
+              Name
             </label>
             <input
               type="text"
               id="name"
+              name="name"
               placeholder=" Your Name"
               className="mt-2 py-2  px-5 w-full border rounded-md"
               value={formData.name}
@@ -53,11 +74,12 @@ const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
           </div>
           <div className="mb-5">
             <label htmlFor="phone" className=" font-medium text-gray-700">
-              Phone *
+              Phone
             </label>
             <input
               type="tel"
               id="phone"
+              name="phone"
               placeholder="Enter Number"
               className="mt-2 py-2  px-5 w-full border rounded-md"
               value={formData.phone}
@@ -67,9 +89,10 @@ const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
           </div>
           <div className="mb-5">
             <label htmlFor="email" className=" font-medium text-gray-700">
-              Email *
+              Email
             </label>
             <input
+              name="email"
               type="email"
               id="email"
               placeholder="Enter Email"
@@ -79,21 +102,13 @@ const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
               required
             />
           </div>
-          {formValid ? (
-            <Link
-              href={"/payment"}
-              className="py-4 bg-[#FD4A4C] mt-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center"
-            >
-              Submit
-            </Link>
-          ) : (
-            <button
-              type="submit"
-              className="py-4 bg-[#FD4A4C] mt-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center"
-            >
-              Submit
-            </button>
-          )}
+
+          <Link
+            href={"/payment"}
+            className="py-4 bg-[#FD4A4C] mt-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center"
+          >
+            Submit
+          </Link>
         </form>
       </div>
     </div>

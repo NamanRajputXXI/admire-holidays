@@ -1,80 +1,42 @@
 import React, { useState, useEffect } from "react";
 
-const EnquiryForm = ({
-  homePickupAdultPrice,
-  homePickupBabyPrice,
-  homePickupChildPrice,
-  openModalFunc,
-}) => {
-  const [selectedTime, setSelectedTime] = useState("");
-  const [checkinDate, setCheckinDate] = useState("");
-  const [checkoutDate, setCheckoutDate] = useState("");
-  const [guests, setGuests] = useState(1);
-  const [options, setOptions] = useState([]);
+const EnquiryForm = ({ openModalFunc }) => {
+  const [result, setResult] = React.useState(" Request a Quote");
 
-  useEffect(() => {
-    // Get current date
-    const currentDate = new Date();
-    const currentDateString = formatDate(currentDate);
+  const requestQuote = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
 
-    // Generate Choose Time options dynamically
-    const generatedOptions = [];
-    for (let i = 0; i < 3; i++) {
-      const startDate = new Date(currentDate);
-      const endDate = new Date(currentDate);
-      endDate.setDate(endDate.getDate() + 6); // Assuming 7 days duration
+    formData.append("access_key", "c1e1dd01-589b-418d-b6bd-0ba7c09dfde5");
 
-      const optionString = `From ${formatDate(startDate)} - ${formatDate(
-        endDate
-      )}`;
-      generatedOptions.push({
-        value: `option${i + 1}`,
-        label: optionString,
-        startDate: formatDate(startDate),
-        endDate: formatDate(endDate),
-      });
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
 
-      currentDate.setDate(currentDate.getDate() + 7); // Move to next week
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
     }
-
-    setOptions(generatedOptions);
-    setSelectedTime(generatedOptions[0].value);
-
-    // Set default Check-in and Check-out dates
-    setCheckinDate(generatedOptions[0].startDate);
-    setCheckoutDate(generatedOptions[0].endDate);
-  }, []);
-
-  const handleTimeChange = (event) => {
-    const selectedOption = options.find(
-      (opt) => opt.value === event.target.value
-    );
-
-    setSelectedTime(event.target.value);
-    setCheckinDate(selectedOption.startDate);
-    setCheckoutDate(selectedOption.endDate);
   };
 
-  const handleGuestsChange = (event) => {
-    setGuests(event.target.value);
-  };
-
-  const formatDate = (date) => {
-    const day = date.getDate().toString().padStart(2, "0");
-    const month = (date.getMonth() + 1).toString().padStart(2, "0");
-    const year = date.getFullYear();
-    return `${day}-${month}-${year}`;
-  };
   return (
     <div className="mt-8 w-full ">
-      <form action="" className="w-full">
+      <form action="" onSubmit={requestQuote} className="w-full">
         <div className="mb-4">
           <label htmlFor="name" className=" font-medium text-gray-700">
-            Name *
+            Name
           </label>
           <input
             type="text"
             id="name"
+            name="name"
             placeholder=" Your Name"
             className="mt-2 py-2  px-5 w-full border rounded-md"
             required
@@ -83,11 +45,12 @@ const EnquiryForm = ({
 
         <div className="mb-4">
           <label htmlFor="phone" className=" font-medium text-gray-700">
-            Phone *
+            Phone
           </label>
           <input
             type="tel"
             id="phone"
+            name="phone"
             placeholder="Enter your phone"
             className="mt-2 py-2  px-5 w-full border rounded-md"
             required
@@ -95,11 +58,12 @@ const EnquiryForm = ({
         </div>
         <div className="mb-4">
           <label htmlFor="phone" className=" font-medium text-gray-700">
-            Email *
+            Email
           </label>
           <input
             type="email"
             id="email"
+            name="email"
             placeholder="Enter your Email"
             className="mt-2 py-2  px-5 w-full border rounded-md"
             required
@@ -107,11 +71,12 @@ const EnquiryForm = ({
         </div>
         <div className="mb-4">
           <label htmlFor="destination" className=" font-medium text-gray-700">
-            Destination *
+            Destination
           </label>
           <input
             type="text"
             id="destination"
+            name="destination"
             placeholder="Enter Destination"
             className="mt-2 py-2  px-5 w-full border rounded-md"
             required
@@ -119,7 +84,7 @@ const EnquiryForm = ({
         </div>
 
         <button className="py-4 border-[#FD4A4C] border-2 mt-5 w-full px-5  text-base  rounded-lg text-[#FD4A4C] flex justify-center items-center">
-          Request a Quote
+          {result}
         </button>
       </form>
       <p className="text-center text-lg my-5 text-gray-600">or</p>

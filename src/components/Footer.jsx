@@ -65,27 +65,43 @@ const Footer = () => {
             </li>
 
             <li className="flex items-center mt-10  gap-4">
-              <FaFacebook
-                color="	#1877F2"
-                size={40}
-                className="cursor-pointer"
-              />
-              <FaSquareXTwitter
-                size={40}
-                color="#14171A"
-                className="cursor-pointer"
-              />
-              <FaLinkedin
-                size={40}
-                color=" #0077b5 "
-                className="cursor-pointer"
-              />
-              <FaSquareInstagram
-                size={40}
-                color="#4c68d7"
-                className="cursor-pointer"
-              />
-              <FaYoutube size={40} color="#FF0000" className="cursor-pointer" />
+              <a href="https://m.facebook.com/p/Admire-Holidays-100090809996697/">
+                <FaFacebook
+                  color="	#1877F2"
+                  size={40}
+                  className="cursor-pointer"
+                />
+              </a>
+              <a href="https://twitter.com/HolidaysAd53932">
+                <FaSquareXTwitter
+                  size={40}
+                  color="#14171A"
+                  className="cursor-pointer"
+                />
+              </a>
+
+              <a href="https://www.linkedin.com/in/admire-holidays-272a06272/?originalSubdomain=in">
+                <FaLinkedin
+                  size={40}
+                  color=" #0077b5 "
+                  className="cursor-pointer"
+                />
+              </a>
+              <a href="https://www.instagram.com/admireholidays_official?igsh=MTBhNnU4MWI5Njdjeg==">
+                <FaSquareInstagram
+                  size={40}
+                  color="#4c68d7"
+                  className="cursor-pointer"
+                />
+              </a>
+
+              <a href="https://www.youtube.com/@AdmireHolidays_official">
+                <FaYoutube
+                  size={40}
+                  color="#FF0000"
+                  className="cursor-pointer"
+                />
+              </a>
             </li>
           </ul>
         </div>

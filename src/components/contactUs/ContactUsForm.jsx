@@ -2,11 +2,14 @@
 import React, { useState } from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineAddIcCall, MdOutlineMessage, MdChat } from "react-icons/md";
+
 const ContactUsForm = () => {
   const [result, setResult] = useState("Submit");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const contactSubmit = async (event) => {
     event.preventDefault();
+    setIsSubmitting(true);
     setResult("Sending....");
     const formData = new FormData(event.target);
 
@@ -20,13 +23,16 @@ const ContactUsForm = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Submitted");
       event.target.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
     }
+
+    setIsSubmitting(false);
   };
+
   return (
     <div className="px-4">
       <section className="max-w-7xl  border-[1px] border-gray-200 py-10 shadow-xl rounded-2xl my-20 mx-auto flex-col  flex gap-10 px-4 md:px-10">
@@ -118,6 +124,7 @@ const ContactUsForm = () => {
                 placeholder="Subject *"
                 name="subject"
                 className="border-[1px]  border-gray-300 rounded-lg py-3 px-4"
+                required
               />
               <textarea
                 name="text"
@@ -125,9 +132,10 @@ const ContactUsForm = () => {
                 cols="30"
                 rows="10"
                 className="border-[1px]  border-gray-300 rounded-lg py-3 px-4"
+                required
               ></textarea>
-              <button className=" text-white bg-red-500 rounded-lg w-28 h-10 flex justify-center items-center md:p-7 ">
-                {result}
+              <button className=" text-white bg-red-500 rounded-lg w-1/2 px-5 h-10 flex justify-center items-center md:p-7 ">
+                {isSubmitting ? "Sending..." : result}
               </button>
             </form>
           </div>

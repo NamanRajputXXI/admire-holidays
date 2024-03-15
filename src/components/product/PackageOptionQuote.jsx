@@ -107,7 +107,7 @@ const PackageOptionQuote = ({ openRequestQuotePopup, closeQuotepopup }) => {
             href={"/payment"}
             className="py-4 bg-[#FD4A4C] mt-5 w-full px-5  text-sm text-white rounded-lg  flex justify-center items-center"
           >
-            Sumbit
+            Submit
           </Link>
         </form>
       </div>

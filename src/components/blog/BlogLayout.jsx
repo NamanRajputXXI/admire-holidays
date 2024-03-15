@@ -1,9 +1,43 @@
+"use client";
 import blogPagedata from "@/data/blogPageData";
-import React from "react";
+import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaRegFolderOpen } from "react-icons/fa";
 import BlogPageCard from "../cards/BlogPageCard";
 const BlogLayout = () => {
+  const [result, setResult] = useState("Subscribe");
+  const [formValid, setFormValid] = useState(true);
+
+  const submitForm = async (event) => {
+    event.preventDefault();
+    setResult("Subscribing....");
+    const formData = new FormData(event.target);
+
+    if (!formData.get("mail")) {
+      setFormValid(false);
+      setResult("Please enter your email");
+      return;
+    }
+
+    formData.append("access_key", "c1e1dd01-589b-418d-b6bd-0ba7c09dfde5");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Subscribed");
+      event.target.reset();
+      setFormValid(true);
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <section className="max-w-7xl flex items-center justify-center mx-auto px-5 my-20">
       <div className="flex w-full md:flex-row flex-col justify-between gap-10 ">
@@ -144,14 +178,25 @@ const BlogLayout = () => {
             <h1 className="font-semibold">
               GET THE LATEST NEWS, UPDATES AND LATEST OFFERS
             </h1>
-            <input
-              type="text"
-              placeholder="Enter your email"
-              className="min-w-[100%] rounded-xl  p-3 border-[1px] bg-white"
-            />
-            <button className="w-full h-16 rounded-xl bg-[#ef4444]">
-              Subscribe Now
-            </button>
+            <form
+              onSubmit={submitForm}
+              className="flex flex-col gap-5 items-center justify-center"
+            >
+              <input
+                type="email"
+                placeholder="Enter your email"
+                name="mail"
+                className={`min-w-[100%] rounded-xl text-black p-3 border-[1px] bg-white ${
+                  !formValid && "border-red-500"
+                }`}
+              />
+              {!formValid && (
+                <p className="text-red-500">Please enter a valid email</p>
+              )}
+              <button className="w-full h-12 rounded-xl bg-[#ef4444]">
+                {result}
+              </button>
+            </form>
           </div>
           <div className="flex flex-col gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">
             <h5 className="text-lg font-medium">Popular Tags</h5>

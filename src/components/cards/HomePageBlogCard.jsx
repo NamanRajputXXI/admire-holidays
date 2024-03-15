@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
@@ -7,9 +8,9 @@ const HomePageBlogCard = ({ imageUrl, title }) => {
       <img src={imageUrl} alt={title} className=" sm:h-72 rounded-t-xl h-56" />
       <div className="p-5 flex flex-col gap-4">
         <p className="sm:text-xl text-lg font-medium">{title}</p>
-        <a className="flex items-center gap-5 text-red-500" href="#">
+        <Link className="flex items-center gap-5 text-red-500" href={"/blog"}>
           Read More <FaLongArrowAltRight size={30} color="#ef4444" />
-        </a>
+        </Link>
       </div>
     </div>
   );

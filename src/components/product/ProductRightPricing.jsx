@@ -6,18 +6,9 @@ import BookingForm from "./BookingForm";
 import EnquiryForm from "./EnquiryForm";
 import { TiTick } from "react-icons/ti";
 const ProductRightPricing = ({
-  price,
-  previousPrice,
   homePickupAdultPrice,
   homePickupBabyPrice,
   homePickupChildPrice,
-  adultPrice,
-  childPrice,
-  babyPrice,
-  discount,
-  startDate,
-  endDate,
-  minMax,
   openModalFunc,
 }) => {
   const [isBookingFormOpen, setIsBookingFormOpen] = useState(true);

@@ -1,7 +1,32 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineAddIcCall, MdOutlineMessage, MdChat } from "react-icons/md";
 const ContactUsForm = () => {
+  const [result, setResult] = useState("Submit");
+
+  const contactSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "c1e1dd01-589b-418d-b6bd-0ba7c09dfde5");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <div className="px-4">
       <section className="max-w-7xl  border-[1px] border-gray-200 py-10 shadow-xl rounded-2xl my-20 mx-auto flex-col  flex gap-10 px-4 md:px-10">
@@ -67,32 +92,42 @@ const ContactUsForm = () => {
           </div>
           <div className="flex flex-col gap-5 items-center justify-start">
             <h1 className="text-xl font-medium text-center">Leave a reply</h1>
-            <form action="" className=" flex flex-col gap-5  ">
+            <form
+              action=""
+              onSubmit={contactSubmit}
+              className=" flex flex-col gap-5  "
+            >
               <div className="flex gap-5 justify-between">
                 <input
                   type="text"
-                  placeholder="Name *"
+                  placeholder="Name*"
+                  name="name"
                   className="border-[1px] w-[50%] border-gray-300 rounded-lg py-3 px-4"
+                  required
                 />
                 <input
                   type="email"
                   placeholder="Email *"
+                  name="email"
                   className="border-[1px] w-[50%] border-gray-300 rounded-lg py-3 px-4"
+                  required
                 />
               </div>
               <input
                 type="text"
                 placeholder="Subject *"
+                name="subject"
                 className="border-[1px]  border-gray-300 rounded-lg py-3 px-4"
               />
               <textarea
+                name="text"
                 placeholder="Textarea *"
                 cols="30"
                 rows="10"
                 className="border-[1px]  border-gray-300 rounded-lg py-3 px-4"
               ></textarea>
               <button className=" text-white bg-red-500 rounded-lg w-28 h-10 flex justify-center items-center md:p-7 ">
-                Submit
+                {result}
               </button>
             </form>
           </div>

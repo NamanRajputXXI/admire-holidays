@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const EnquiryForm = ({ openModalFunc }) => {
-  const [result, setResult] = React.useState(" Request a Quote");
+  const [result, setResult] = useState(" Request a Quote");
 
   const requestQuote = async (event) => {
     event.preventDefault();

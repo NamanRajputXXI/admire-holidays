@@ -52,7 +52,7 @@ const Footer = () => {
           </h5>
           <ul className="font-light flex sm:items-start  flex-col gap-4">
             <li className="flex   gap-4">
-              <IoCallOutline color="#FD4A4C" size={30} /> +91-1140612834
+              <IoCallOutline color="#FD4A4C" size={30} /> 1800-121-4252
             </li>
             <li className="flex  gap-4">
               <MdOutlineMessage color="#FD4A4C" size={30} />

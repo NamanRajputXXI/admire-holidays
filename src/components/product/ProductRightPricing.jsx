@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { CiShoppingTag } from "react-icons/ci";
 import { IoIosAirplane } from "react-icons/io";
+import { FaRegStar } from "react-icons/fa";
 import BookingForm from "./BookingForm";
 import EnquiryForm from "./EnquiryForm";
 import { TiTick } from "react-icons/ti";
@@ -58,17 +59,6 @@ const ProductRightPricing = ({
   return (
     <div className="flex lg:min-w-[35%] w-full flex-col gap-10">
       <div className="p-10  flex flex-col gap-4 h-fit rounded-lg  my-5 bg-white">
-        <div className="flex text-lg font-medium gap-3 items-center">
-          {/* <CiShoppingTag size={30} color="#FD4A4C" /> Starting from */}
-        </div>
-        {/* <div className="flex items-baseline gap-2">
-          {price && previousPrice && (
-            <>
-              <p className="text-[#00BB98] text-2xl font-bold">₹{price}</p>
-              <p className="text-gray-500 line-through">₹{previousPrice}</p>
-            </>
-          )}
-        </div> */}
         <div className="flex justify-center gap-1 items-center relative">
           <div className="bg-[#FD4A4C] h-[1px] z-10 w-[50%]"></div>
           <IoIosAirplane size={40} color="#FD4A4C" />
@@ -159,6 +149,79 @@ const ProductRightPricing = ({
             </div>
             <div className="flex flex-col gap-2">
               <p className=" text-sm  md:text-lg">Quick book</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col gap-10 rounded-lg  bg-white justify-center  ">
+        <div className="w-full  px-5 py-3  rounded-t-lg bg-[#FD4A4C] text-white ">
+          <p className="sm:text-xl text-base text-center font-medium">
+            Cancellation Policy
+          </p>
+        </div>
+        <div className="px-5 flex flex-col gap-3 pb-5">
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <FaRegStar size={20} color=" #FFD700" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-sm">
+                Airfare/Train fare cancellation applied original booking refund
+                policy
+              </p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <FaRegStar size={20} color="#FFD700" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-sm  ">
+                Before 30 days of cancellation 100% refund of total booking
+                amount
+              </p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <FaRegStar size={20} color="#FFD700" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-sm  ">
+                Before 15 days of cancellation 25% cancellation amount require
+                of total booking cost
+              </p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <FaRegStar size={20} color="#FFD700" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className=" text-sm  ">
+                Before 7 days of cancellation 50% cancellation amount require of
+                total booking cost{" "}
+              </p>
+            </div>
+          </div>
+          <div className="flex  items-center gap-5">
+            <div className="w-fit h-fit flex items-center justify-center">
+              <FaRegStar size={20} color="#FFD700" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className=" text-sm  ">
+                Before 3 days of cancellation no refund allowed of total advance
+                amount.
+              </p>
+            </div>
+          </div>
+          <div className="flex text-sm justify-center  flex-col gap-5 py-5">
+            <div className="flex items-center ">
+              N.B - Any types of cancellation/Refund amount will be made
+              30working days from date of cancellation.
+            </div>
+            <div className="">
+              N.B - Refund amount pay through only Cheque/Neft mode.
             </div>
           </div>
         </div>

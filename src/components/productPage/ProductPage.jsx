@@ -73,6 +73,7 @@ const ProductPage = ({ singleProductData }) => {
                 price={singleProductData.price}
                 previousPrice={singleProductData.previousPrice}
                 openModalFunc={openModalFunc}
+                visaPolicy={singleProductData.visaPolicy}
               />
             </div>
             <ProductBottomCarousel />

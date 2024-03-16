@@ -11,6 +11,7 @@ const ProductRightPricing = ({
   homePickupBabyPrice,
   homePickupChildPrice,
   openModalFunc,
+  visaPolicy,
 }) => {
   const [isBookingFormOpen, setIsBookingFormOpen] = useState(true);
   const [isEnquiryFormOpen, setIsEnquiryFormOpen] = useState(false);
@@ -226,6 +227,27 @@ const ProductRightPricing = ({
           </div>
         </div>
       </div>
+      {visaPolicy && (
+        <div className="flex flex-col gap-10 rounded-lg  bg-white justify-center  ">
+          <div className="w-full  px-5 py-3  rounded-t-lg bg-[#FD4A4C] text-white ">
+            <p className="sm:text-xl text-base text-center font-medium">
+              Visa Policy
+            </p>
+          </div>
+          <div className="px-5 flex flex-col gap-3 pb-5">
+            {visaPolicy.map((item, i) => (
+              <div className="flex  items-center gap-5" key={i}>
+                <div className="w-fit h-fit flex items-center justify-center">
+                  <FaRegStar size={20} color=" #FFD700" />
+                </div>
+                <div className="flex flex-col gap-2">
+                  <p className="text-sm">{item}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

@@ -43,10 +43,14 @@ const DropDown = () => {
 
   const renderDropdown = (data) => {
     if (loading) {
-      return <p>Loading...</p>;
+      return <p></p>;
     }
     if (error) {
       return <p>{error}</p>;
+    }
+
+    if (!data) {
+      return null; // Return null if data is not available yet
     }
     return (
       <div className="dropdown-content left-0  font-light text-base absolute z-50  bg-white p-8 top-12 ">

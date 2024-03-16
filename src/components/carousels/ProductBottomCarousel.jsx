@@ -1,5 +1,6 @@
 "use client";
 import productCarouselBottom from "@/data/ProductBottomCarousel";
+import Link from "next/link";
 
 import {
   ButtonBack,
@@ -57,36 +58,38 @@ const ProductBottomCarousel = () => {
               >
                 {productCarouselBottom.map((item, i) => (
                   <Slide key={i}>
-                    <div className="flex relative flex-col pb-5 bg-white rounded-lg w-fit gap-5">
-                      <img
-                        src={item.imageUrl}
-                        alt=""
-                        className="w-[300px] rounded-t-lg h-[240px]"
-                      />
-                      <div className="flex items-center absolute w-full   py-5 px-2 justify-between">
-                        <button className="bg-[#FD4A4C] text-sm  text-white px-5 py-1 rounded-md">
-                          Featured
-                        </button>
-                        <div className="p-2 bg-white rounded-full">
-                          <IoMdHeartEmpty size={20} color="gray" />
+                    <Link href={item.link}>
+                      <div className="flex relative flex-col pb-5 bg-white rounded-lg w-fit gap-5">
+                        <img
+                          src={item.imageUrl}
+                          alt=""
+                          className="w-[300px] rounded-t-lg h-[240px]"
+                        />
+                        <div className="flex items-center absolute w-full   py-5 px-2 justify-between">
+                          <button className="bg-[#FD4A4C] text-sm  text-white px-5 py-1 rounded-md">
+                            Featured
+                          </button>
+                          <div className="p-2 bg-white rounded-full">
+                            <IoMdHeartEmpty size={20} color="gray" />
+                          </div>
+                        </div>
+                        <div className="flex   flex-col px-5 gap-3 -mt-10">
+                          <div className="justify-center bg-white border-[1px]  text-[#00BB98] rounded-lg border-[#00BB98] w-28 items-center flex gap-2 py-1">
+                            <CiClock2 size={20} color="#00BB98" /> {item.time}
+                          </div>
+                          <h5 className="text-xl font-semibold">
+                            {item.location}
+                          </h5>
+                          <div className="flex text-sm gap-1 items-center">
+                            <CiLocationOn size={20} color="#00BB98" />{" "}
+                            {item.about}
+                          </div>
+                          <button className="bg-[#FD4A4C] w-36  font-medium  text-white flex justify-center items-center py-2 rounded-md">
+                            Explore
+                          </button>
                         </div>
                       </div>
-                      <div className="flex   flex-col px-5 gap-3 -mt-10">
-                        <div className="justify-center bg-white border-[1px]  text-[#00BB98] rounded-lg border-[#00BB98] w-28 items-center flex gap-2 py-1">
-                          <CiClock2 size={20} color="#00BB98" /> {item.time}
-                        </div>
-                        <h5 className="text-xl font-semibold">
-                          {item.location}
-                        </h5>
-                        <div className="flex text-sm gap-1 items-center">
-                          <CiLocationOn size={20} color="#00BB98" />{" "}
-                          {item.about}
-                        </div>
-                        <button className="bg-[#FD4A4C] w-36  font-medium  text-white flex justify-center items-center py-2 rounded-md">
-                          Explore
-                        </button>
-                      </div>
-                    </div>
+                    </Link>
                   </Slide>
                 ))}
               </div>

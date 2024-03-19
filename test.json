@@ -2,73 +2,99 @@
   "_id": {
     "$oid": "65e056522beb63464ccb27ac"
   },
-  "heading": "Discovering the Soul of West Bengal: A Cultural Expedition",
-  "subHeading": "Trip in West Bengal",
-  "duration": "2 Night / 3 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721954.8376073395!2d85.20924429840399!3d24.356191410878953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa16ff1397e887%3A0x71543a3dc3e7a20a!2sWest%20Bengal!5e0!3m2!1sen!2sin!4v1710829315502!5m2!1sen!2sin",  
+  "heading": "Exploring Bali's Enchanting Beach Paradises",
+  "subHeading": "Trip in Bali",
+  "duration": "6 Night / 5 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505146.7660750952!2d114.74190810260133!3d-8.454654116000697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali%2C%20Indonesia!5e0!3m2!1sen!2sin!4v1710836403836!5m2!1sen!2sin",  
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Digha",
-      "day1Overview": "Arrive in Digha by train or road. Check into your hotel or beach resort. Freshen up and have lunch at the hotel or nearby restaurant. Spend the afternoon relaxing on the beach. Digha Beach is the main attraction and offers opportunities for sunbathing, swimming, and beach sports. Enjoy the sunset by the sea. In the evening, explore the local market or nearby eateries. Dinner at a local restaurant. Overnight stay in Digha."
+      "day1Heading": "Arrival in Ubud",
+      "day1Overview": "Upon arrival, get transferred to the hotel and check-in. You can explore the city on your own by visiting places like Waterbom Waterpark, Ubud Art Market, Bali Bird Park, and many more. Later, return to the hotel at your own pace for an overnight stay."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Digha Exploration",
-      "day2Overview": "After breakfast at the hotel, head out to explore more of Digha. Visit the New Digha Beach, which is relatively less crowded and offers a peaceful environment for relaxation. Explore the Amarabati Park, a beautiful garden with landscaped lawns, flower beds, and a children's play area. Have lunch at a seaside restaurant, enjoying fresh seafood. Visit the Digha Science Centre, which features interactive exhibits related to science and technology. Spend the evening leisurely walking along the beach or indulging in beach activities. Dinner at a local restaurant or at the hotel. Overnight stay in Digha."
+      "day2Heading": "Central Bali Sightseeing Tour",
+      "day2Overview": "Board your transfer to Kintamani Village to start the Central Bali sightseeing tour. Then, continue your journey to see Coffee Plantations, Tegenungan Waterfalls, and Tegalalang Rice Terrace. Also, visit the Bali Swing for amazing photos. Later, get transferred to the hotel for an overnight stay."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Departure from Digha",
-      "day3Overview": "Enjoy a relaxed breakfast at the hotel. Depending on your departure time, you may have some free time to explore the beach or do some last-minute shopping. Check out from the hotel and proceed to the railway station or bus stop for your onward journey."
+      "day3Heading": "Monkey Forest and Tanah Lot Visit | Arrival in Kuta",
+      "day3Overview": "Check-out and get transferred to the Alas Kedaton Monkey Forest where you will see many long-tailed Macaques. Then, continue your journey to visit Bali's iconic Tanah Lot temple for a beautiful sunset view. Afterwards, get transferred to the hotel in Kuta for check-in. Have an overnight stay."
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": "South Bali Sightseeing Tour",
+      "day4Overview": "Board your transfer from the hotel to the Tanjung Benoa beach and enjoy thrilling water sports. Later, get transferred to Bali's architectural beauty, Uluwatu Temple, which offers the best views of the Indian ocean. Later, get assisted back to the hotel for an overnight stay."
+    },
+    {
+      "day": "Day 5",
+      "day5Heading": "Excursion to Nusa Penida Island",
+      "day5Overview": "Board the transfer from the hotel to Sanur Harbor. From here, take a speedboat to reach Nusa Penida Island. Admire the beauty of Kelingking Beach, Angel’s Billabong, and Broken Bay. Also, enjoy snorkeling while at the beach. Later, get transferred back to the hotel for an overnight stay."
+    },
+    {
+      "day": "Day 6",
+      "day6Heading": "Departure Day",
+      "day6Overview": "After breakfast, get transferred to the airport and board your flight back home. This is where your trip ends."
     }
-]
-
-  
-  
+] 
 ,
 "overView": [
   {
-    "heading": "Exploring the Cultural Riches of West Bengal",
-    "text": "Embark on a journey through the heart of West Bengal, where ancient traditions blend seamlessly with modern life. Discover the vibrant culture, diverse landscapes, and historic landmarks that define this enchanting region."
+  "heading": "Bali's Cultural Tapestry: Tradition Meets Modernity",
+  "text": "Embark on a journey through Bali's rich cultural heritage, where ancient traditions harmonize with contemporary life. Explore the island's diverse landscapes, vibrant culture, and historic landmarks that paint a vivid picture of its enchanting essence."
   },
   {
-    "heading": "Immersing in Heritage: Kolkata's Colonial Charms",
-    "text": "Step back in time as you explore the colonial architecture and rich history of Kolkata. Wander through bustling streets, visit iconic landmarks like Victoria Memorial, and savor the flavors of Bengali cuisine in this cultural melting pot."
+  "heading": "Captivating Ubud: Art, Temples, and Rice Terraces",
+  "text": "Discover the allure of Ubud, Bali's cultural heartland. Immerse yourself in the artistry of traditional crafts, visit ancient temples, and wander through emerald-green rice terraces that epitomize the island's serene beauty and spiritual charm."
   },
   {
-    "heading": "Tranquil Escapes: Sunderbans and the Ganges Delta",
-    "text": "Experience the serene beauty of the Sunderbans and the Ganges Delta. Cruise along winding waterways, encounter diverse wildlife, and witness the mangrove forests that form one of the world's largest delta regions, teeming with natural wonders."
+  "heading": "Island Escapes: Bali's Pristine Beaches and Coral Reefs",
+  "text": "Indulge in the tranquility of Bali's pristine beaches and vibrant coral reefs. Relax on sun-kissed shores, dive into crystal-clear waters teeming with marine life, and unwind in luxurious beachfront resorts that offer a slice of paradise."
   },
   {
-    "heading": "Cultural Extravaganza: Festivals and Folklore",
-    "text": "Immerse yourself in the vibrant festivals and folklore of West Bengal. From the colorful celebrations of Durga Puja to the rhythmic beats of Baul music, experience the cultural richness and hospitality that define the spirit of the region."
+  "heading": "Cultural Festivities: Bali's Vibrant Celebrations and Rituals",
+  "text": "Immerse yourself in the colorful festivities and sacred rituals of Bali. From vibrant temple ceremonies to captivating dance performances, experience the island's cultural richness and spiritual vibrancy that captivate the hearts of visitors."
   },
   {
-    "heading": "Scenic Splendor: Darjeeling and the Himalayan Foothills",
-    "text": "Journey to Darjeeling and the Himalayan foothills, where tea plantations carpet the rolling hills and majestic peaks loom in the distance. Sip on freshly brewed Darjeeling tea, trek through lush forests, and witness breathtaking sunrise views over the mountains."
+  "heading": "Enchanting Highlands: Volcanic Peaks and Terraced Landscapes",
+  "text": "Explore Bali's enchanting highlands, where towering volcanic peaks and emerald-green terraced landscapes create a mesmerizing backdrop. Trek through lush jungles, witness cascading waterfalls, and soak in panoramic views that evoke a sense of wonder."
   },
   {
-    "heading": "Culinary Delights: Bengali Cuisine and Street Food",
-    "text": "Savor the authentic flavors of Bengali cuisine and tantalizing street food. From mouthwatering seafood dishes to delectable sweets like rasgulla and sandesh, indulge your taste buds in the culinary treasures of West Bengal's gastronomic scene."
+  "heading": "Gastronomic Delights: Balinese Cuisine and Street Eats",
+  "text": "Savor the tantalizing flavors of Balinese cuisine and street eats. From aromatic spices to succulent satays and refreshing tropical fruits, embark on a culinary journey that delights the senses and showcases the island's culinary diversity."
   },
   {
-    "heading": "Preserving Cultural Heritage: Museums and Artisan Craftsmanship",
-    "text": "Discover the rich cultural heritage of West Bengal through its museums and artisan craftsmanship. Explore the intricate art of kantha embroidery, marvel at terracotta temples, and learn about the region's history and traditions preserved in its museums."
+  "heading": "Artisan Traditions: Handcrafted Treasures and Batik Creations",
+  "text": "Discover Bali's artisan traditions through its handcrafted treasures and intricate batik creations. Explore local markets, interact with skilled artisans, and admire the craftsmanship that reflects the island's rich cultural heritage and artistic soul."
   },
   {
-    "heading": "Plan Your West Bengal Adventure",
-    "text": "Embark on a journey of discovery and adventure in West Bengal, where every moment unveils a new facet of this captivating region. Whether you're drawn to its cultural heritage, natural beauty, or culinary delights, West Bengal promises an unforgettable experience for travelers seeking authenticity and charm."
+  "heading": "Craft Your Bali Adventure",
+  "text": "Craft your own adventure in Bali, where every moment is infused with magic and discovery. Whether you seek tranquil beaches, cultural immersion, or adrenaline-fueled escapades, Bali invites you to embrace its beauty and create memories that last a lifetime."
   }
-],
-  "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1589041127168-9b1915731dc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VzdCUyMGJlbmdhbHxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1618756450287-0137d2a06b49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHdlc3QlMjBiZW5nYWx8ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1627906610550-fd7c4429accf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHdlc3QlMjBiZW5nYWx8ZW58MHx8MHx8fDA%3D"
+  ]
+  ,
+  "visaPolicy": [
+    "Tourist Visa for under 30 days free on arrival",
+    "Tourist Visa for over 30 days ₹2400 for an extension, you will have to pay ₹4213 or ₹1817 if done through an agent",
+    "B211 Visa can be bought on arrival with each extension costing ₹2400",
+    "Business Visa ₹2900",
+    "The visa fees may be subject to change and travellers should check the latest fees before planning their trip to Bali."
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1561047692-74d9802df671?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGtvbGthdGF8ZW58MHx8MHx8fDA%3D"
+ 
+
+  "carouselImageUrl": [
+    "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFsaXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1558005530-a7958896ec60?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJhbGl8ZW58MHx8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbGl8ZW58MHx8MHx8fDA%3D"
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1554481923-a6918bd997bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhbGl8ZW58MHx8MHx8fDA%3D"
 }
+
+
+
+
 
 
 

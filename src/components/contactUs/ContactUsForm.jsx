@@ -61,7 +61,7 @@ const ContactUsForm = () => {
               </div>
               <div className="flex flex-col gap-4 ">
                 <p className="text-base">Phone Number</p>
-                <p className="text-base text-gray-500">+91-1140612834</p>
+                <p className="text-base text-gray-500">1800-121-4252</p>
               </div>
             </div>
             <div className="flex gap-5 items-center ">

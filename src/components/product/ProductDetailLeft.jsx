@@ -419,41 +419,44 @@ const ProductDetailLeft = ({
           <p></p>
         )}
 
-        {inclusions && exclusions && (
-          <>
-            <h1
-              className="font-bold text-2xl  mt-10 md:text-4xl"
-              id="inclusions"
-            >
-              Inclusions
-            </h1>
-            <div className="flex  flex-col mb-10 gap-3 ">
-              {inclusions.map((inclusion, i) => (
-                <div className="flex items-center gap-3" key={i}>
-                  <TiTick color="#00BB98" size={30} />
-                  <p
-                    className="font-light text-sm sm:text-base"
-                    id="exclusions"
-                  >
-                    {inclusion}
-                  </p>
-                </div>
-              ))}
-            </div>
-            <h1 className="font-bold text-2xl mt-10  md:text-4xl">
-              Exclusions
-            </h1>
+        {inclusions &&
+          exclusions &&
+          inclusions.length > 0 &&
+          exclusions.length > 0 && (
+            <>
+              <h1
+                className="font-bold text-2xl  mt-10 md:text-4xl"
+                id="inclusions"
+              >
+                Inclusions
+              </h1>
+              <div className="flex  flex-col mb-10 gap-3 ">
+                {inclusions.map((inclusion, i) => (
+                  <div className="flex items-center gap-3" key={i}>
+                    <TiTick color="#00BB98" size={30} />
+                    <p
+                      className="font-light text-sm sm:text-base"
+                      id="exclusions"
+                    >
+                      {inclusion}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <h1 className="font-bold text-2xl mt-10  md:text-4xl">
+                Exclusions
+              </h1>
 
-            <div className="flex flex-col mb-10 gap-4">
-              {exclusions.map((exclusion, i) => (
-                <div className="flex items-center gap-3" key={i}>
-                  <RxCross2 color="gray" size={20} />
-                  <p className="font-light">{exclusion}</p>
-                </div>
-              ))}
-            </div>
-          </>
-        )}
+              <div className="flex flex-col mb-10 gap-4">
+                {exclusions.map((exclusion, i) => (
+                  <div className="flex items-center gap-3" key={i}>
+                    <RxCross2 color="gray" size={20} />
+                    <p className="font-light">{exclusion}</p>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
       </div>
 
       <h1 className="font-medium text-xl md:text-2xl">{reviewHeading}</h1>

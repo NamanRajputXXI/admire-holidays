@@ -218,16 +218,20 @@ const ProductRightPricing = ({
           </div>
           <div className="flex text-sm justify-center  flex-col gap-5 py-5">
             <div className="flex items-center ">
-              N.B - Any types of cancellation/Refund amount will be made
-              30working days from date of cancellation.
+              <strong>
+                N.B - Any types of cancellation/Refund amount will be made
+                30working days from date of cancellation.
+              </strong>
             </div>
             <div className="">
-              N.B - Refund amount pay through only Cheque/Neft mode.
+              <strong>
+                N.B - Refund amount pay through only Cheque/Neft mode.
+              </strong>
             </div>
           </div>
         </div>
       </div>
-      {visaPolicy && (
+      {visaPolicy && visaPolicy.length > 0 && (
         <div className="flex flex-col gap-10 rounded-lg  bg-white justify-center  ">
           <div className="w-full  px-5 py-3  rounded-t-lg bg-[#FD4A4C] text-white ">
             <p className="sm:text-xl text-base text-center font-medium">

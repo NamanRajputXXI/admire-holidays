@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import ProductCategoryCard from "@/components/ProductCategoryCard";
-import Link from "next/link";
 
 export const getProductsData = async ({ params }) => {
   const response = await fetch(

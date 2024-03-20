@@ -2,113 +2,67 @@
   "_id": {
     "$oid": "65e056522beb63464ccb27ac"
   },
-  "heading": "Exploring Bali's Enchanting Beach Paradises",
-  "subHeading": "Trip in Bali",
-  "duration": "6 Night / 5 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505146.7660750952!2d114.74190810260133!3d-8.454654116000697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali%2C%20Indonesia!5e0!3m2!1sen!2sin!4v1710836403836!5m2!1sen!2sin",  
-  "itinerary": [
+  "heading": "ODISHA (ORISSA) WILDLIFE TOUR",
+  "subHeading": "Trip in Odisha",
+  "duration": "9 Days / 8 Nights",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834887.7289732853!2d81.79509573200248!3d20.175411232739787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a226aece9af3bfd%3A0x133625caa9cea81f!2sOdisha!5e0!3m2!1sen!2sin!4v1710925160000!5m2!1sen!2sin",  
+  
+  
+  "itinerary": [[
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Ubud",
-      "day1Overview": "Upon arrival, get transferred to the hotel and check-in. You can explore the city on your own by visiting places like Waterbom Waterpark, Ubud Art Market, Bali Bird Park, and many more. Later, return to the hotel at your own pace for an overnight stay."
+      "day1Heading": "Balasore - Simlipal National Park",
+      "day1Overview": "Arrival at the Balasore Railway Station. Received at the station and escorted to the Ramtirtha Forest Lodge. Nature Walk and Nature Study at Herbal Nursery. Visit to Crocodile Breeding Farm, subject to time of arrival."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Central Bali Sightseeing Tour",
-      "day2Overview": "Board your transfer to Kintamani Village to start the Central Bali sightseeing tour. Then, continue your journey to see Coffee Plantations, Tegenungan Waterfalls, and Tegalalang Rice Terrace. Also, visit the Bali Swing for amazing photos. Later, get transferred to the hotel for an overnight stay."
+      "day2Heading": "Simlipal National Park",
+      "day2Overview": "Breakfast at the lodge. Drive to Barehipani and Joranda waterfalls. Option to proceed to Gurguria Forest Lodge or return to Ramtirtha Forest Lodge. Dinner and an overnight stay in Forest Lodge(Ramtirtha/Gurguria)."
     },
     {
-      "day": "Day 3",
-      "day3Heading": "Monkey Forest and Tanah Lot Visit | Arrival in Kuta",
-      "day3Overview": "Check-out and get transferred to the Alas Kedaton Monkey Forest where you will see many long-tailed Macaques. Then, continue your journey to visit Bali's iconic Tanah Lot temple for a beautiful sunset view. Afterwards, get transferred to the hotel in Kuta for check-in. Have an overnight stay."
+      "day": "Day 3", 
+      "day3Heading": "Simlipal National Park - Panchalingeswar - Kuldiha",
+      "day3Overview": "Breakfast at Ramtirtha/Gurguria. Drive to Panchalingeswar on the Nilagiri Hills, Balasore district. Check in at Panthasala Lodge. Visit Kuldiha Wildlife Sanctuary, 272 sq. km. Wide variety of wild life Tiger, Gaur, Sambar, Reptiles and Birds among others. Dinner and overnight stay at Panthasala."
     },
     {
       "day": "Day 4",
-      "day4Heading": "South Bali Sightseeing Tour",
-      "day4Overview": "Board your transfer from the hotel to the Tanjung Benoa beach and enjoy thrilling water sports. Later, get transferred to Bali's architectural beauty, Uluwatu Temple, which offers the best views of the Indian ocean. Later, get assisted back to the hotel for an overnight stay."
+      "day4Heading": "Bhadrak - Chandbali - Dangamal",
+      "day4Overview": "Post breakfast drive to Chandbali via Bhadrak by jeep. From Chandbali, motorboat cruise to Dangamal Island. At Dangamal, check in at the forest rest house. Dinner and overnight stay at Dangamal Island."
     },
     {
       "day": "Day 5",
-      "day5Heading": "Excursion to Nusa Penida Island",
-      "day5Overview": "Board the transfer from the hotel to Sanur Harbor. From here, take a speedboat to reach Nusa Penida Island. Admire the beauty of Kelingking Beach, Angel’s Billabong, and Broken Bay. Also, enjoy snorkeling while at the beach. Later, get transferred back to the hotel for an overnight stay."
+      "day5Heading": "Dangamal - Bhitarkanika Sanctuary",
+      "day5Overview": "Breakfast at Dangamal Island. Proceed to Bird Island and observe the thousands of migratory birds from the watch tower. Cruise across to the Bhitarkanika Island. Dinner and overnight stay at Hotel."
     },
     {
       "day": "Day 6",
-      "day6Heading": "Departure Day",
-      "day6Overview": "After breakfast, get transferred to the airport and board your flight back home. This is where your trip ends."
+      "day6Heading": "Dangamal - Bhitarkanika Sanctuary",
+      "day6Overview": "Breakfast at Hotel. Take the motorboat to Ekkakula, 4 hours away. An island on the Bay of Bengal, unknown and unspoilt, with a breathtaking view of the sunset. Look out for Wildboars, Hyenas and Jackals. Dolphins can also be spotted in the sea. Visit the Olive Ridley Turtle nesting site on the beach at Gahirmatha. Return to Bhubaneswar. Dinner and overnight stay at Bhubaneswar."
+    },
+    {
+      "day": "Day 7",
+      "day7Heading": "Bhubaneswar - Nandankanan",
+      "day7Overview": "Nandankanan Zoo, located in Chandaka Forest along the Kanjia Lake is the habitat of the White Tiger, 67 other animals, 18 reptiles, and 81 species of birds. The Zoo has successfully bred Black Panthers, White Tigers and the Gharial crocodiles in captivity.\n\nDrive to Bhubaneswar/Nandankanan Zoo in Chandaka Forest, 25 kms. Enjoy White Tiger Safari and Lion Safari, Botanical Garden. Lunch at Nandankanan. Return to Bhubaneswar. Dinner and overnight stay in Bhubaneswar."
+    },
+    {
+      "day": "Day 8",
+      "day8Heading": "Bhubaneswar - Chilika Lake",
+      "day8Overview": "Chilika Lake: 1,100 sq. km of Asia's largest brackish water lake is home to thousands of birds. The hills ringing the lake are inhabited by wild animals like the Black Bucks, Cheetahs and Porcupines. Islands dot the vast lake, the best visited ones being Nalbana, Kalijal known for the Makar Sankranti Mela, Satapada, Parikud, Malud and Brahmaputra.\n\nPost early breakfast, drive to Chilika Lake. Check in at Lodge in Barkul, 105 kms. Cruise on the Chilika by motor launch to the islands. Return to Barkul Lodge. Dinner and overnight stay at Barkul."
+    },
+    {
+      "day": "Day 9",
+      "day9Heading": "Chilika Lake - Bhubaneswar",
+      "day9Overview": "Breakfast at Lodge. Visit Nirmala Jhar temple, Narayani temple and Banpur. Return to Bhubaneswar for onward journey."
     }
-] 
+   ]]
+
 ,
-"overView": [
-  {
-  "heading": "Bali's Cultural Tapestry: Tradition Meets Modernity",
-  "text": "Embark on a journey through Bali's rich cultural heritage, where ancient traditions harmonize with contemporary life. Explore the island's diverse landscapes, vibrant culture, and historic landmarks that paint a vivid picture of its enchanting essence."
-  },
-  {
-  "heading": "Captivating Ubud: Art, Temples, and Rice Terraces",
-  "text": "Discover the allure of Ubud, Bali's cultural heartland. Immerse yourself in the artistry of traditional crafts, visit ancient temples, and wander through emerald-green rice terraces that epitomize the island's serene beauty and spiritual charm."
-  },
-  {
-  "heading": "Island Escapes: Bali's Pristine Beaches and Coral Reefs",
-  "text": "Indulge in the tranquility of Bali's pristine beaches and vibrant coral reefs. Relax on sun-kissed shores, dive into crystal-clear waters teeming with marine life, and unwind in luxurious beachfront resorts that offer a slice of paradise."
-  },
-  {
-  "heading": "Cultural Festivities: Bali's Vibrant Celebrations and Rituals",
-  "text": "Immerse yourself in the colorful festivities and sacred rituals of Bali. From vibrant temple ceremonies to captivating dance performances, experience the island's cultural richness and spiritual vibrancy that captivate the hearts of visitors."
-  },
-  {
-  "heading": "Enchanting Highlands: Volcanic Peaks and Terraced Landscapes",
-  "text": "Explore Bali's enchanting highlands, where towering volcanic peaks and emerald-green terraced landscapes create a mesmerizing backdrop. Trek through lush jungles, witness cascading waterfalls, and soak in panoramic views that evoke a sense of wonder."
-  },
-  {
-  "heading": "Gastronomic Delights: Balinese Cuisine and Street Eats",
-  "text": "Savor the tantalizing flavors of Balinese cuisine and street eats. From aromatic spices to succulent satays and refreshing tropical fruits, embark on a culinary journey that delights the senses and showcases the island's culinary diversity."
-  },
-  {
-  "heading": "Artisan Traditions: Handcrafted Treasures and Batik Creations",
-  "text": "Discover Bali's artisan traditions through its handcrafted treasures and intricate batik creations. Explore local markets, interact with skilled artisans, and admire the craftsmanship that reflects the island's rich cultural heritage and artistic soul."
-  },
-  {
-  "heading": "Craft Your Bali Adventure",
-  "text": "Craft your own adventure in Bali, where every moment is infused with magic and discovery. Whether you seek tranquil beaches, cultural immersion, or adrenaline-fueled escapades, Bali invites you to embrace its beauty and create memories that last a lifetime."
-  }
-  ]
-  ,
-  "visaPolicy": [
-    "Tourist Visa for under 30 days free on arrival",
-    "Tourist Visa for over 30 days ₹2400 for an extension, you will have to pay ₹4213 or ₹1817 if done through an agent",
-    "B211 Visa can be bought on arrival with each extension costing ₹2400",
-    "Business Visa ₹2900",
-    "The visa fees may be subject to change and travellers should check the latest fees before planning their trip to Bali."
-  ],
- 
-
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFsaXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1558005530-a7958896ec60?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJhbGl8ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbGl8ZW58MHx8MHx8fDA%3D"
+    "https://images.unsplash.com/photo-1633410195091-bd66114cef5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG9kaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1609777708255-398289acfb9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fG9kaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1618252068305-733c8fcb37ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fG9kaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1618252067287-59f50259aeda?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1554481923-a6918bd997bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhbGl8ZW58MHx8MHx8fDA%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1586622637024-f2f204ad98ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGtvbmFya3xlbnwwfHwwfHx8MA%3D%3D"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

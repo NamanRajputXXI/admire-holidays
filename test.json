@@ -2,67 +2,52 @@
   "_id": {
     "$oid": "65e056522beb63464ccb27ac"
   },
-  "heading": "ODISHA (ORISSA) WILDLIFE TOUR",
-  "subHeading": "Trip in Odisha",
-  "duration": "9 Days / 8 Nights",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834887.7289732853!2d81.79509573200248!3d20.175411232739787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a226aece9af3bfd%3A0x133625caa9cea81f!2sOdisha!5e0!3m2!1sen!2sin!4v1710925160000!5m2!1sen!2sin",  
-  
-  
-  "itinerary": [[
+  "heading": "7 Days Leh Ladakh | With Tso Moriri",
+  "subHeading": "Trip in Ladakh",
+  "duration": "7 Days / 6 Nights",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387857.457607195!2d74.8032961937907!3d33.980856589959636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38fd86bce37d7139%3A0xc6c2990fdad28ac7!2sLadakh!5e0!3m2!1sen!2sin!4v1710930038945!5m2!1sen!2sin",  
+  "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Balasore - Simlipal National Park",
-      "day1Overview": "Arrival at the Balasore Railway Station. Received at the station and escorted to the Ramtirtha Forest Lodge. Nature Walk and Nature Study at Herbal Nursery. Visit to Crocodile Breeding Farm, subject to time of arrival."
+      "day1Heading": "Arrival in Leh | Welcome to the Top of the World",
+      "day1Overview": "After landing in Leh, get welcomed by a representative who will assist in a smooth transfer to the hotel. Complete the check-in formalities and spend a relaxing day getting proper rest. Enjoy a hearty breakfast and gradually acclimatize to the climate. Given the high elevation of Ladakh and the risk of altitude sickness, the whole day will be at leisure. In the evening, enjoy a lip-smacking dinner. Overnight stay at the hotel in Leh."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Simlipal National Park",
-      "day2Overview": "Breakfast at the lodge. Drive to Barehipani and Joranda waterfalls. Option to proceed to Gurguria Forest Lodge or return to Ramtirtha Forest Lodge. Dinner and an overnight stay in Forest Lodge(Ramtirtha/Gurguria)."
+      "day2Heading": "Leh to Sham Valley | Exploring Borders of Leh",
+      "day2Overview": "Wake up to a beautiful morning in the mountains and have a hearty breakfast. Get ready for an adventurous drive to 'Sham Valley', nestled around the Srinagar - Leh highway. Start off the sightseeing by paying homage to the martyrs of the Indo-Pak War at the Hall of Fame. Visit Spituk Gompa, Gurudwara Pathar Sahib, Magnetic Hill, and Indus Sangam Viewpoint. Explore SECMOL, the real 3-idiots school. Return to the hotel for dinner and overnight stay in Leh."
     },
     {
-      "day": "Day 3", 
-      "day3Heading": "Simlipal National Park - Panchalingeswar - Kuldiha",
-      "day3Overview": "Breakfast at Ramtirtha/Gurguria. Drive to Panchalingeswar on the Nilagiri Hills, Balasore district. Check in at Panthasala Lodge. Visit Kuldiha Wildlife Sanctuary, 272 sq. km. Wide variety of wild life Tiger, Gaur, Sambar, Reptiles and Birds among others. Dinner and overnight stay at Panthasala."
+      "day": "Day 3",
+      "day3Heading": "Leh to Nubra Valley via Khardung-La Pass | A Drive to the World’s Highest Motorable Road (18000 ft.)",
+      "day3Overview": "After a healthy breakfast, embark on the ultimate adventure to Khardung La Pass, one of the highest motorable roads in the world. Take a stopover at the cafe on Khardung-La Pass and soak in the views. Descend from Khardung-la to enter Nubra Valley, known for its sand dunes. Visit Diskit Monastery and enjoy a Bactrian Camel Ride. Later, camp with a bonfire under the starlit sky. Overnight stay in Nubra Valley."
     },
     {
       "day": "Day 4",
-      "day4Heading": "Bhadrak - Chandbali - Dangamal",
-      "day4Overview": "Post breakfast drive to Chandbali via Bhadrak by jeep. From Chandbali, motorboat cruise to Dangamal Island. At Dangamal, check in at the forest rest house. Dinner and overnight stay at Dangamal Island."
+      "day4Heading": "Nubra Valley to Pangong Lake | Recreate the Famous Bollywood Moments",
+      "day4Overview": "Wake up to a scrumptious breakfast in Nubra Valley. Get ready to visit Pangong Lake on the Indo-China border. Enjoy exploring the surroundings and recreating Bollywood moments. Stop at Chang-la Pass and visit Druk Padma School, Thiksey Monastery, and Shey Palace en-route. Overnight stay and dinner at a campsite near Pangong Lake."
     },
     {
       "day": "Day 5",
-      "day5Heading": "Dangamal - Bhitarkanika Sanctuary",
-      "day5Overview": "Breakfast at Dangamal Island. Proceed to Bird Island and observe the thousands of migratory birds from the watch tower. Cruise across to the Bhitarkanika Island. Dinner and overnight stay at Hotel."
+      "day5Heading": "Pangong Lake to Tso Moriri | A Hidden Gem in the Cold Desert",
+      "day5Overview": "Wake up to the beautiful view of Pangong Lake and have breakfast. Journey from Pangong Lake to Tso Moriri offers scenic landscapes. Pass through Tsaga La Pass and Mahe Bridge to reach Tso Moriri. Enjoy the changing hues of the lake and a dinner around the bonfire. Overnight stay at a campsite near Tso Moriri lake."
     },
     {
       "day": "Day 6",
-      "day6Heading": "Dangamal - Bhitarkanika Sanctuary",
-      "day6Overview": "Breakfast at Hotel. Take the motorboat to Ekkakula, 4 hours away. An island on the Bay of Bengal, unknown and unspoilt, with a breathtaking view of the sunset. Look out for Wildboars, Hyenas and Jackals. Dolphins can also be spotted in the sea. Visit the Olive Ridley Turtle nesting site on the beach at Gahirmatha. Return to Bhubaneswar. Dinner and overnight stay at Bhubaneswar."
+      "day6Heading": "Tso Moriri to Leh | Natural Hot Water Springs of Chumathang",
+      "day6Overview": "After breakfast, head back to Leh passing through picturesque landscapes. Experience a unique bathing adventure at Chumathang Hot Water Spring. Stop at traditional attractions and reach Leh. Visit Leh market for shopping and Ladakhi cuisine. Overnight stay at hotel in Leh."
     },
     {
       "day": "Day 7",
-      "day7Heading": "Bhubaneswar - Nandankanan",
-      "day7Overview": "Nandankanan Zoo, located in Chandaka Forest along the Kanjia Lake is the habitat of the White Tiger, 67 other animals, 18 reptiles, and 81 species of birds. The Zoo has successfully bred Black Panthers, White Tigers and the Gharial crocodiles in captivity.\n\nDrive to Bhubaneswar/Nandankanan Zoo in Chandaka Forest, 25 kms. Enjoy White Tiger Safari and Lion Safari, Botanical Garden. Lunch at Nandankanan. Return to Bhubaneswar. Dinner and overnight stay in Bhubaneswar."
-    },
-    {
-      "day": "Day 8",
-      "day8Heading": "Bhubaneswar - Chilika Lake",
-      "day8Overview": "Chilika Lake: 1,100 sq. km of Asia's largest brackish water lake is home to thousands of birds. The hills ringing the lake are inhabited by wild animals like the Black Bucks, Cheetahs and Porcupines. Islands dot the vast lake, the best visited ones being Nalbana, Kalijal known for the Makar Sankranti Mela, Satapada, Parikud, Malud and Brahmaputra.\n\nPost early breakfast, drive to Chilika Lake. Check in at Lodge in Barkul, 105 kms. Cruise on the Chilika by motor launch to the islands. Return to Barkul Lodge. Dinner and overnight stay at Barkul."
-    },
-    {
-      "day": "Day 9",
-      "day9Heading": "Chilika Lake - Bhubaneswar",
-      "day9Overview": "Breakfast at Lodge. Visit Nirmala Jhar temple, Narayani temple and Banpur. Return to Bhubaneswar for onward journey."
+      "day7Heading": "Departure | It's Time to Say Goodbye to the Mountains",
+      "day7Overview": "Complete check-out formalities after breakfast. Transfer to the airport for your onwards journey. Fly out of Leh bidding goodbye to this magical land and fellow travelers."
     }
-   ]]
-
+  ]
 ,
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1633410195091-bd66114cef5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG9kaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1609777708255-398289acfb9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fG9kaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1618252068305-733c8fcb37ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fG9kaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1618252067287-59f50259aeda?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "https://images.unsplash.com/photo-1593118845043-359e5f628214?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFkYWtofGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1600356033695-a003690a6351?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxhZGFraHxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1600438831035-48f5f196d3bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGFkYWtofGVufDB8fDB8fHww"
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1586622637024-f2f204ad98ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGtvbmFya3xlbnwwfHwwfHx8MA%3D%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1624075472620-ae8ff6aabf8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxsYWRha2h8ZW58MHx8MHx8fDA%3D"
 }
-

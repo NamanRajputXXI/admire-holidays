@@ -64,8 +64,8 @@ const DropDown = () => {
     if (!data) return null;
 
     return (
-      <div className="dropdown-content left-0 font-light text-base absolute z-50 bg-white p-8 top-12">
-        <ul className="flex flex-col gap-4">
+      <div className="dropdown-content sm:w-[400px] w-[300px] left-0 font-light text-base absolute z-50 bg-white p-8 top-12">
+        <ul className="grid sm:grid-cols-3 grid-cols-2 gap-4">
           {Object.entries(data).map(([category, destinations]) => (
             <li key={category}>
               <Link href={`/products/${category}`}>

@@ -1,53 +1,83 @@
 {
   "_id": {
-    "$oid": "65e056522beb63464ccb27ac"
+    "$oid": "65f971b4d312519f810e4aa6"
   },
-  "heading": "7 Days Leh Ladakh | With Tso Moriri",
-  "subHeading": "Trip in Ladakh",
-  "duration": "7 Days / 6 Nights",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387857.457607195!2d74.8032961937907!3d33.980856589959636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38fd86bce37d7139%3A0xc6c2990fdad28ac7!2sLadakh!5e0!3m2!1sen!2sin!4v1710930038945!5m2!1sen!2sin",  
+  "heading": "EXCLUSIVE Bhutan | FREE Tiger Nest Hiking Experience",
+  "subHeading": "Trip in Bhutan",
+  "duration": "5 Night / 6 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1812449.1852587347!2d89.11582539482!3d27.471133006748627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375b92a573c595cf%3A0xbb0cac652836bcda!2sBhutan!5e0!3m2!1sen!2sin!4v1711020972637!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Leh | Welcome to the Top of the World",
-      "day1Overview": "After landing in Leh, get welcomed by a representative who will assist in a smooth transfer to the hotel. Complete the check-in formalities and spend a relaxing day getting proper rest. Enjoy a hearty breakfast and gradually acclimatize to the climate. Given the high elevation of Ladakh and the risk of altitude sickness, the whole day will be at leisure. In the evening, enjoy a lip-smacking dinner. Overnight stay at the hotel in Leh."
+      "dayHeading": "Arrival in Siliguri | Transfer to Phuentsholing",
+      "dayOverview": "Upon arrival in Siliguri, get transferred to the hotel in Phuentsholing and check-in. You can relax for the day or self-explore the city by visiting places like the Bhutan Gate, Zangto Pelri, etc. Later, return to the hotel on your own for an overnight stay."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Leh to Sham Valley | Exploring Borders of Leh",
-      "day2Overview": "Wake up to a beautiful morning in the mountains and have a hearty breakfast. Get ready for an adventurous drive to 'Sham Valley', nestled around the Srinagar - Leh highway. Start off the sightseeing by paying homage to the martyrs of the Indo-Pak War at the Hall of Fame. Visit Spituk Gompa, Gurudwara Pathar Sahib, Magnetic Hill, and Indus Sangam Viewpoint. Explore SECMOL, the real 3-idiots school. Return to the hotel for dinner and overnight stay in Leh."
+      "dayHeading": "Arrival in Thimphu",
+      "dayOverview": "Check-out and get transferred to Thimphu. After arrival, check-in at the hotel. You may take rest or set out to self-explore the city by visiting attractions like the Clock Tower Square, Simply Bhutan, Royal Botanical Garden, etc. Later, return to the hotel on your own for an overnight stay."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Leh to Nubra Valley via Khardung-La Pass | A Drive to the World’s Highest Motorable Road (18000 ft.)",
-      "day3Overview": "After a healthy breakfast, embark on the ultimate adventure to Khardung La Pass, one of the highest motorable roads in the world. Take a stopover at the cafe on Khardung-La Pass and soak in the views. Descend from Khardung-la to enter Nubra Valley, known for its sand dunes. Visit Diskit Monastery and enjoy a Bactrian Camel Ride. Later, camp with a bonfire under the starlit sky. Overnight stay in Nubra Valley."
+      "dayHeading": "Thimphu Sightseeing Tour | Transfer to Paro",
+      "dayOverview": "Get assisted from the hotel for a sightseeing tour of Thimphu. Explore attractions like the National Memorial Chorten, and Buddha Statue, followed by a visit to the beautiful Tashichho Dzong and Simtokha Dzong. Later, get transferred to Paro and check-in at the hotel for an overnight stay."
     },
     {
       "day": "Day 4",
-      "day4Heading": "Nubra Valley to Pangong Lake | Recreate the Famous Bollywood Moments",
-      "day4Overview": "Wake up to a scrumptious breakfast in Nubra Valley. Get ready to visit Pangong Lake on the Indo-China border. Enjoy exploring the surroundings and recreating Bollywood moments. Stop at Chang-la Pass and visit Druk Padma School, Thiksey Monastery, and Shey Palace en-route. Overnight stay and dinner at a campsite near Pangong Lake."
+      "dayHeading": "Hike to Tiger's Nest",
+      "dayOverview": "Get assisted from the hotel for a hiking experience to the beautiful Taktsang Monastery. Enjoy an assisted walk through the pine forest, leading you to Tiger's Nest. Also, visit the Ta Dzong and Paro Rinpung Dzong. Later, get transferred back to the hotel for an overnight stay."
     },
     {
       "day": "Day 5",
-      "day5Heading": "Pangong Lake to Tso Moriri | A Hidden Gem in the Cold Desert",
-      "day5Overview": "Wake up to the beautiful view of Pangong Lake and have breakfast. Journey from Pangong Lake to Tso Moriri offers scenic landscapes. Pass through Tsaga La Pass and Mahe Bridge to reach Tso Moriri. Enjoy the changing hues of the lake and a dinner around the bonfire. Overnight stay at a campsite near Tso Moriri lake."
+      "dayHeading": "Arrival in Phuentsholing",
+      "dayOverview": "Check-out and get transferred to the hotel in Phuentsholing. After check-in, you can take the day to relax or explore the city by yourself by visiting attractions like Chukha Hydropower Dam, Alapan's View Point, etc. Later, return to the hotel on your own for an overnight stay."
     },
     {
       "day": "Day 6",
-      "day6Heading": "Tso Moriri to Leh | Natural Hot Water Springs of Chumathang",
-      "day6Overview": "After breakfast, head back to Leh passing through picturesque landscapes. Experience a unique bathing adventure at Chumathang Hot Water Spring. Stop at traditional attractions and reach Leh. Visit Leh market for shopping and Ladakhi cuisine. Overnight stay at hotel in Leh."
-    },
-    {
-      "day": "Day 7",
-      "day7Heading": "Departure | It's Time to Say Goodbye to the Mountains",
-      "day7Overview": "Complete check-out formalities after breakfast. Transfer to the airport for your onwards journey. Fly out of Leh bidding goodbye to this magical land and fellow travelers."
+      "dayHeading": "Departure Day",
+      "dayOverview": "After breakfast, check-out from the hotel and get transferred to the Bagdogra Airport/Railway Station. This is where your trip ends."
     }
   ]
 ,
+"overView": [
+  {
+    "heading": "Bhutan: Land of Gross National Happiness",
+    "text": "Embark on an unforgettable journey through Bhutan, a land where Gross National Happiness takes precedence over material wealth. Explore the serene landscapes, vibrant culture, and ancient traditions that define the essence of this enchanting kingdom nestled in the Himalayas."
+  },
+  {
+    "heading": "Gateway to Happiness: Phuentsholing's Tranquil Charm",
+    "text": "Discover the gateway to happiness in Phuentsholing, Bhutan's serene border town. Immerse yourself in its tranquil charm as you explore the Bhutan Gate, Zangto Pelri, and other cultural landmarks that offer a glimpse into the kingdom's unique identity and ethos."
+  },
+  {
+    "heading": "Capital Splendor: Thimphu's Cultural Heritage and Scenic Beauty",
+    "text": "Experience the splendor of Bhutan's capital city, Thimphu, where cultural heritage and scenic beauty converge. Marvel at the ancient dzongs, stroll through bustling markets, and immerse yourself in the city's vibrant traditions that embody the spirit of Bhutanese life."
+  },
+  {
+    "heading": "Spiritual Odyssey: Paro's Sacred Sites and Natural Wonders",
+    "text": "Embark on a spiritual odyssey in Paro, where sacred sites and natural wonders beckon travelers. Explore the historic forts, hike to the iconic Tiger's Nest Monastery, and immerse yourself in the tranquility of the Paro Valley, a haven of peace and serenity."
+  },
+  {
+    "heading": "Enchanting Phuentsholing: Gateway to Bhutan's Southern Charms",
+    "text": "Experience the enchanting beauty of Phuentsholing, the gateway to Bhutan's southern charms. Discover Alapan's View Point, Chukha Hydropower Dam, and other scenic wonders that showcase the region's natural splendor and cultural richness."
+  },
+  {
+    "heading": "Tiger's Nest Trek: A Journey to Spiritual Enlightenment",
+    "text": "Embark on the iconic Tiger's Nest Trek, a journey to spiritual enlightenment amidst breathtaking scenery. Traverse lush forests, cross cascading streams, and ascend to the legendary Taktsang Monastery, perched on a cliffside overlooking the Paro Valley."
+  },
+  {
+    "heading": "Artisan Heritage: Bhutan's Time-Honored Crafts and Traditions",
+    "text": "Discover Bhutan's artisan heritage through its time-honored crafts and traditions. Explore local markets, interact with skilled artisans, and witness the intricate art of thangka painting, weaving, and woodcarving that embody the kingdom's rich cultural legacy."
+  },
+  {
+    "heading": "Craft Your Bhutanese Adventure",
+    "text": "Craft your own adventure in Bhutan, a land where happiness is measured by the joy of the journey. Whether you seek spiritual enlightenment, cultural immersion, or scenic splendor, let Bhutan's timeless allure and mystical charm guide you on an unforgettable odyssey."
+  }
+],
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1593118845043-359e5f628214?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFkYWtofGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1600356033695-a003690a6351?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxhZGFraHxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1600438831035-48f5f196d3bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGFkYWtofGVufDB8fDB8fHww"
+    "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymh1dGFufGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1597658333270-8c0d8f0eb845?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ymh1dGFufGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1617469165786-8007eda3caa7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ymh1dGFufGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1587639895914-6f33530a3314?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJodXRhbnxlbnwwfHwwfHx8MA%3D%3D"
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1624075472620-ae8ff6aabf8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxsYWRha2h8ZW58MHx8MHx8fDA%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1608659386020-fe140120722c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcyfHxiaHV0YW58ZW58MHx8MHx8fDA%3D"
 }

@@ -8,29 +8,64 @@ const AboutUs = () => {
           About Admire Holidays
         </h1>
         <p>
-          We Admire Holidays are here to help you explore this beautiful world
-          we live in. Our travel & tourism services will ensure seamless travel.
-          We have been providing our travel-related services to various
-          companies and customers for more than the past 7 years. You can be
-          stress-free and enjoy flawless travel services from us.
+          Admire Holidays is more than just a tour and travel company; we are
+          your gateway to unforgettable experiences and remarkable journeys.
+          With a legacy spanning over 7 years, we have established ourselves as
+          a trusted name in the travel and tourism industry, committed to
+          delivering excellence at every step of your journey.
         </p>
-        <p>
-          We cover many destinations throughout the country and the world.
-          including beautiful Indian destinations such as palm-lined, white-sand
-          beaches; mangroves and tropical rainforests of Andaman and Nicobar;
-          lush green valleys and glistering lakes in the north Indian states;
-          magnificent mountains and hills of the northeast Indian states; and
-          tropical beauty, exotic locales, and tranquil backwaters of the south
-          Indian states.
-        </p>
-        <p>
-          We also cover various international destinations like scenic views,
-          ancient temples, and vibrant nightlife of Thailand; incredible
-          architecture and futuristic attractions in Singapore; colonial
-          architecture, thriving modern cities, and beautiful beaches of
-          Malaysia; the beauty of the Gulf in Dubai; and various destinations in
-          Europe
-        </p>
+        <div className="flex flex-col gap-10 pt-10">
+          <h1 className="text-center md:text-4xl text-2xl  font-bold">
+            Our Story
+          </h1>
+          <p>
+            Our journey began with a simple yet profound mission: to help people
+            explore the beauty of our world. Over the years, we have honed our
+            expertise and expanded our services to cater to the diverse needs of
+            travelers from all walks of life. Whether you seek adventure in the
+            mountains, tranquility by the beach, or cultural immersion in
+            vibrant cities, Admire Holidays is here to make your travel dreams a
+            reality.
+          </p>
+        </div>
+        <div className="flex flex-col gap-10 pt-10">
+          <h1 className="text-center md:text-4xl text-2xl  font-bold">
+            What Sets Us Apart
+          </h1>
+          <p>
+            Our journey began with a simple yet profound mission: to help people
+            explore the beauty of our world. Over the years, we have honed our
+            expertise and expanded our services to cater to the diverse needs of
+            travelers from all walks of life. Whether you seek adventure in the
+            mountains, tranquility by the beach, or cultural immersion in
+            vibrant cities, Admire Holidays is here to make your travel dreams a
+            reality.
+          </p>
+          <p>
+            <strong> Transparency</strong> : We believe in transparency and
+            honesty in all our dealings. From pricing and itinerary details to
+            terms and conditions, you can trust us to provide clear and upfront
+            information every step of the way.
+          </p>
+          <p>
+            <strong>24/7 Support</strong>: Your safety and comfort are our top
+            priorities. That's why our dedicated support team is available
+            around the clock to assist you with any queries or concerns you may
+            have before, during, or after your trip
+          </p>
+        </div>
+        <div className="flex flex-col gap-10 pt-10">
+          <h1 className="text-center md:text-4xl text-2xl  font-bold">
+            Join Us on the Journey
+          </h1>
+          <p>
+            Whether you're embarking on a solo adventure, planning a romantic
+            getaway, or organizing a group tour with friends and family, Admire
+            Holidays is here to make your travel dreams come true. Join us on
+            the journey of a lifetime and let us help you explore the wonders of
+            our world, one unforgettable experience at a time.
+          </p>
+        </div>
       </div>
       <div className="flex justify-center  md:flex-row flex-col items-center gap-8">
         <div className="flex flex-col gap-8">

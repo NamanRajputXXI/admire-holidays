@@ -22,8 +22,10 @@ const BlogPageCard = ({ imageUrl, title, date, comment, detail, i }) => {
         </div>
       </div>
       <div className="flex flex-col gap-1">
-        <p>Introduction :</p>
-        <p>{detail}</p>
+        <p>
+          <strong>Introduction</strong> :
+        </p>
+        <p className="sm:text-base text-sm">{detail}</p>
       </div>
       <button className="w-fit px-5 h-11 rounded-xl text-white bg-[#ef4444]">
         Read More

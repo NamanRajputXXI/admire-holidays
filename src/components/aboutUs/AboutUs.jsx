@@ -49,7 +49,7 @@ const AboutUs = () => {
           </p>
           <p>
             <strong>24/7 Support</strong>: Your safety and comfort are our top
-            priorities. That's why our dedicated support team is available
+            priorities. That&apos;s why our dedicated support team is available
             around the clock to assist you with any queries or concerns you may
             have before, during, or after your trip
           </p>
@@ -59,11 +59,12 @@ const AboutUs = () => {
             Join Us on the Journey
           </h1>
           <p>
-            Whether you're embarking on a solo adventure, planning a romantic
-            getaway, or organizing a group tour with friends and family, Admire
-            Holidays is here to make your travel dreams come true. Join us on
-            the journey of a lifetime and let us help you explore the wonders of
-            our world, one unforgettable experience at a time.
+            Whether you&apos;re embarking on a solo adventure, planning a
+            romantic getaway, or organizing a group tour with friends and
+            family, Admire Holidays is here to make your travel dreams come
+            true. Join us on the journey of a lifetime and let us help you
+            explore the wonders of our world, one unforgettable experience at a
+            time.
           </p>
         </div>
       </div>
@@ -75,7 +76,7 @@ const AboutUs = () => {
           <p>
             Our mission is to help people explore the world. We are committed to
             providing you with all kinds of travel and tourism related services.
-            We take pride in exceeding our client’s expectations about our
+            We take pride in exceeding our client&apos;s expectations about our
             services. Your satisfaction and excellent service are our main
             goals, while also providing the best value for your hard-earned
             money.

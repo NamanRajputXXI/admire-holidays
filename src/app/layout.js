@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        {/* Add other meta tags or links to stylesheets if needed */}
       </Head>
       <body className={inter.className}>
         <NextTopLoader

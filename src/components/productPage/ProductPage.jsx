@@ -8,7 +8,6 @@ import ProductDetailLeft from "../product/ProductDetailLeft";
 import ProductBottomCarousel from "../carousels/ProductBottomCarousel";
 import FormModal from "../FormModal";
 import SwiperProductCarousel from "../carousels/productCarousels/SwiperProductCarousel";
-import { ShareButtons } from "@/app/products/[category]/[id]/page";
 const ProductPage = ({ singleProductData }) => {
   const [openModal, setOpenModal] = useState(false);
 
@@ -52,7 +51,6 @@ const ProductPage = ({ singleProductData }) => {
                         <CiLocationOn size={25} color="#00bb98" />
                         <p>{singleProductData.subHeading}</p>
                         <CiHeart size={25} color="#fd4c5c" />
-                        <ShareButtons />
                       </div>
                     </div>
                   </div>

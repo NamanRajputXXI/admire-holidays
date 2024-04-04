@@ -37,7 +37,6 @@ const getShareUrl = (platform, singleProductData, params) => {
   }
 
   const url = `https://admireholidays.com/products/${params.category}/${params.id}`;
-  const title = encodeURIComponent(singleProductData.title);
   const text = encodeURIComponent(singleProductData.heading);
 
   switch (platform) {
@@ -54,43 +53,6 @@ const getShareUrl = (platform, singleProductData, params) => {
       return "";
   }
 };
-export const ShareButtons = ({ singleProductData, params }) => {
-  return (
-    <div>
-      <h2>Share This Product</h2>
-      <div>
-        <a
-          href={getShareUrl("whatsapp", singleProductData, params)}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaWhatsapp />
-        </a>
-        <a
-          href={getShareUrl("facebook", singleProductData, params)}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaFacebook />
-        </a>
-        <a
-          href={getShareUrl("twitter", singleProductData, params)}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaTwitter />
-        </a>
-        <a
-          href={getShareUrl("instagram", singleProductData, params)}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaInstagram />
-        </a>
-      </div>
-    </div>
-  );
-};
 
 const Page = async ({ params }) => {
   const singleProductData = await getProductData({ params });
@@ -100,9 +62,45 @@ const Page = async ({ params }) => {
       {singleProductData && (
         <>
           <FormModal />
+
           <Navbar />
+
           <ProductPage singleProductData={singleProductData} />
+
           <Footer />
+          <div>
+            <h2>Share This Product</h2>
+            <div className="flex items-center justify-center gap-10 py-10">
+              <a
+                href={getShareUrl("whatsapp", singleProductData, params)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp size={30} />
+              </a>
+              <a
+                href={getShareUrl("facebook", singleProductData, params)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook size={30} />
+              </a>
+              <a
+                href={getShareUrl("twitter", singleProductData, params)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter size={30} />
+              </a>
+              <a
+                href={getShareUrl("instagram", singleProductData, params)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram size={30} />
+              </a>
+            </div>
+          </div>
         </>
       )}
     </div>

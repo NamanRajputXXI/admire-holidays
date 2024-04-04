@@ -1,80 +1,74 @@
 {
   "_id": {
-    "$oid": "65f58850efa56874b355d3a0"
+    "$oid": "65f578d8efa56874b355d39a"
   },
-  "heading": "Vietnam Couple EXCLUSIVE | FREE Candle Light Dinner",
-  "subHeading": "Trip in Vietnam",
-  "duration": "6 Night / 7 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15743719.228722906!2d95.23467808854284!3d15.555198294291172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2sVietnam!5e0!3m2!1sen!2sin!4v1712217321304!5m2!1sen!2sin",
+  "heading": "The Instagrammable Dubai | Couple Special",
+  "subHeading": "Trip in Dubai",
+  "duration": "5 Night / 6 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.68281887844!2d54.89782418606137!3d25.076280448702796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1710582133598!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Hanoi | Explore Old Quarter",
-      "day1Overview": "Upon arrival at Noi Bai International Airport, transfer to Hm Boutique Hotel Hanoi for check-in. Explore Hanoi's Old Quarter, local market streets, and iconic landmarks like Huc Bridge. Enjoy a water puppet show before returning to the hotel for an overnight stay."
+      "day1Heading": "Arrival in Dubai | Welcome to the City Of Gold",
+      "day1Overview": "The driver will pick you up from Dubai Airport and transfer you to your hotel. After check-in, you can relax or explore the local neighborhood around your hotel. Later in the evening, the driver will take you to the Dubai Marina for Dhow Cruise. Take in the views of the Dubai skyline while cruising along the Dubai Marina. Savor a delicious buffet with Arabic dishes and enjoy live shows. Post-cruise, get transferred back to your hotel for an overnight stay."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Excursion to Ninh Binh | Tam Coc Boat Ride",
-      "day2Overview": "Embark on a shared transfer to Ninh Binh for a day trip. Visit ancient temples and enjoy a 2-hour boat ride through Tam Coc's scenic landscapes and caves. Return to Hanoi for an overnight stay at The Light Hotel Hanoi."
+      "day2Heading": "Dubai Sightseeing Tour | Visit the Burj Khalifa",
+      "day2Overview": "The driver will pick you up from your hotel and take you on a half-day sightseeing tour of Dubai. Admire Dubai's iconic landmarks including Jumeirah Beach, Atlantis Hotel, and Jumeirah Mosque. Afterward, visit the Dubai Mall and head towards Dubai Aquarium to see over 33,000 aquatic creatures. Later, head to Burj Khalifa and take stunning photos of the city from the 124th & 125th floors. Return back to your hotel for an overnight stay."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Hanoi to Halong Bay | Overnight Cruise",
-      "day3Overview": "Travel to Halong Bay through scenic routes. Board a traditional sailing junk and cruise through floating villages and caves. Enjoy local flavors and entertainment onboard during the overnight stay."
+      "day3Heading": "Dubai Dolphinarium & Desert Safari | Adventure in Dubai's golden dunes",
+      "day3Overview": "The driver will pick you up from the hotel and take you to Dubai Dolphinarium. Enjoy an amazing performance by the dolphins as they showcase their incredible skills and perform tricks. Afterwards, enjoy a thrilling Desert Safari with dune bashing, sandboarding, and camel ride. After the activities, indulge in a scrumptious BBQ dinner in the deserts of Dubai while enjoying amazing live shows. Later, return back to your hotel for an overnight stay."
     },
     {
       "day": "Day 4",
-      "day4Heading": "Halong Bay Exploration | Flight to Ho Chi Minh City",
-      "day4Overview": "Explore Halong Bay's highlights before returning to Hanoi. Transfer to Noi Bai International Airport for a flight to Tan Son Nhat International Airport in Ho Chi Minh City. Check-in at Avanti Saigon Hotel for a leisurely overnight stay."
+      "day4Heading": "Dubai Frame and AYA Universe | Dubai Delights",
+      "day4Overview": "The driver will pick you up from your hotel and take you to Dubai Frame. Marvel at the panoramic views of Dubai's skyline from the Dubai Frame's observation deck. Then, visit AYA Universe, with twelve immersive experiences including Flora, Outland, and The River. After your visit, get transferred back to your hotel for an overnight stay."
     },
     {
       "day": "Day 5",
-      "day5Heading": "Visit Cu Chi Tunnels | Ho Chi Minh City Tour",
-      "day5Overview": "Explore Cu Chi Tunnels, then embark on a half-day tour of Ho Chi Minh City. Visit landmarks like the Presidential Palace and War Remnants Museum. Return to the hotel for an overnight stay."
+      "day5Heading": "IMG Worlds of Adventure | Visit Dubai's Largest Indoor Theme Park",
+      "day5Overview": "The driver will pick you up from your hotel and transfer you to IMG Worlds of Adventure, Dubai's largest indoor theme park. Explore the six themed zones at the park and enjoy adrenaline-pumping rides and meet iconic superheroes & beloved cartoon characters at the park. After your visit, the driver will transfer you back to your hotel for an overnight stay in Dubai."
     },
     {
       "day": "Day 6",
-      "day6Heading": "Mekong Delta Adventure",
-      "day6Overview": "Explore My Tho City and embark on a boat ride along the Mekong River. Visit a local island and bee farms, followed by a special lunch. Return to Ho Chi Minh City for an overnight stay at Avanti Saigon Hotel."
-    },
-    {
-      "day": "Day 7",
-      "day7Heading": "Departure from Ho Chi Minh City",
-      "day7Overview": "Check-out from the hotel and transfer to Tan Son Nhat International Airport for your departure flight. Your memorable Vietnam tour concludes here."
+      "day6Heading": "Departure | Take a bag full of memories to cherish for eternity",
+      "day6Overview": "Pack your bags and check out from your hotel in Dubai. The driver will pick you up from the hotel and drop you off at Dubai Airport (DXB) as your trip comes to an end."
     }
   ]
-  
-,
-"overview": [
-  {
-    "heading": "Unveiling the Enchanting Wonders of Vietnam",
-    "text": "Embark on an extraordinary journey through Vietnam, a captivating land where ancient traditions harmoniously blend with modern splendor. Discover a kaleidoscope of cultural riches, breathtaking landscapes, and warm hospitality that will leave an indelible mark on your soul."
-  },
-  {
-    "heading": "Imperial Cities and Ancient Legends",
-    "text": "Immerse yourself in the imperial grandeur of Vietnam's historic cities. Wander through the UNESCO-listed Citadel of Hue, unravel the mysteries of Hoi An's ancient town, and stand in awe before the majestic temples and pagodas that echo stories of dynasties past."
-  },
-  {
-    "heading": "Natural Wonders and Coastal Splendor",
-    "text": "Vietnam's natural beauty takes center stage in its stunning landscapes. Cruise along the emerald waters of Halong Bay, where limestone karsts rise majestically from the sea. Explore picturesque beaches, lush national parks, and verdant rice terraces that paint a vivid tapestry of natural grandeur."
-  },
-  {
-    "heading": "Vibrant Cities and Culinary Delights",
-    "text": "Discover the pulsating energy of Vietnam's vibrant cities. Explore the bustling streets of Hanoi and Ho Chi Minh City, where modern skyscrapers coexist with ancient temples. Indulge in the country's renowned cuisine, a harmonious blend of fresh ingredients and aromatic spices that tantalize the senses."
-  },
-  {
-    "heading": "Craftsmanship and Cultural Immersion",
-    "text": "Delve into the rich tapestry of Vietnamese culture through its craftsmanship and traditions. Witness the intricate art of water puppetry, admire the skilled hands of artisans creating lacquerware and silk paintings, and immerse yourself in the warmth of local hospitality."
-  },
-  {
-    "heading": "A Journey of Resilience and Renewal",
-    "text": "Vietnam's history is a testament to resilience and renewal. From the Cu Chi Tunnels that bear witness to the country's struggles, to the thriving cities that showcase its remarkable progress, Vietnam's spirit is one of enduring strength and unwavering determination."
-  },
-  {
-    "heading": "Plan Your Vietnamese Odyssey",
-    "text": "Whether you seek ancient wonders, natural beauty, or cultural immersion, Vietnam promises an unforgettable journey. Embark on your odyssey through this captivating land, where every experience is a tapestry woven with timeless traditions and modern wonders."
-  }
- ],
+   ,
+  "overView": [
+    {
+      "heading": "Discovering Dubai: A Fusion of Tradition and Luxury",
+      "text": "Embark on an enchanting journey to Dubai, where tradition intertwines seamlessly with luxury. Explore the cultural heritage, extravagant landmarks, and opulent lifestyle, creating a captivating blend of past and present."
+    },
+    {
+      "heading": "Iconic Wonders of Old Dubai",
+      "text": "Unravel the historical marvels of Old Dubai. Wander through ancient souks, marvel at majestic mosques, and absorb the rich heritage of this vibrant district, echoing tales of Bedouin tribes and pearl divers."
+    },
+    {
+      "heading": "Modern Marvels in New Dubai",
+      "text": "Experience the futuristic skyline of New Dubai. Marvel at towering skyscrapers, indulge in luxury shopping, and immerse yourself in the cosmopolitan allure of the city, where innovation meets extravagance."
+    },
+    {
+      "heading": "Nature's Oasis: Dubai Miracle Garden",
+      "text": "Escape into nature's beauty at Dubai Miracle Garden. Admire the colorful floral displays, stroll through themed gardens, and bask in the tranquility of this botanical paradise, offering a serene respite amidst the urban landscape."
+    },
+    {
+      "heading": "Culinary Delights of Dubai",
+      "text": "Embark on a gastronomic adventure in Dubai. Indulge in diverse cuisines from around the world, from traditional Emirati dishes to international delights. Explore bustling food markets, savor exquisite flavors, and treat your taste buds to a culinary journey like no other."
+    },
+    {
+      "heading": "Preserving Cultural Legacy",
+      "text": "Dubai is committed to preserving its cultural heritage. From heritage villages to art galleries, the city honors its roots while embracing modernity, offering a dynamic cultural experience for both residents and visitors alike."
+    },
+    {
+      "heading": "Plan Your Dubai Exploration",
+      "text": "Whether drawn to history, luxury, or gastronomy, Dubai promises an unforgettable adventure. Plan your exploration of this dynamic city, where every corner reveals a story, and every moment is a celebration of Dubai's boundless charm."
+    }
+  ],
   "visaPolicy": [
     "Visa Application Takes Minimum 4-5 Working Days for Issuance (Friday- Saturday immigration is closed - Subject To Immigration Approval)",
     "Transit visa is valid for 14-days stay on and the Tourist visa is valid for 30-days stay. If passenger will stay more, penalty will be charged accordingly.",
@@ -82,10 +76,10 @@
     "Cancellation for visa applications will be charged at an additional cost of USD 45/- per visa. We are not responsiat all in case of delayed and rejection of visa."
   ],
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1557750255-c76072a7aad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1555979864-7a8f9b4fddf8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1572579836409-bf5a66093a5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1561461221-959c3f16234b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D"
+    "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGR1YmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1546412414-8035e1776c9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGR1YmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1634148551170-d37d021e0cc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGR1YmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGR1YmFpfGVufDB8fDB8fHww"
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmlldG5hbXxlbnwwfHwwfHx8MA%3D%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1553195027-fc397a315e84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE2fHxkdWJhaXxlbnwwfHwwfHx8MA%3D%3D"
 }

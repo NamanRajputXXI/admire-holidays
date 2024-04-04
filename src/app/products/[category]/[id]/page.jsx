@@ -3,6 +3,10 @@ import FormModal from "@/components/FormModal";
 import Navbar from "@/components/Navbar";
 import ProductPage from "@/components/productPage/ProductPage";
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 export const getProductData = async ({ params }) => {
   const response = await fetch(
@@ -13,20 +17,79 @@ export const getProductData = async ({ params }) => {
   );
 
   if (!response.ok) {
-    // Handle the case where the response is not OK (e.g., status code other than 200)
     console.error(`Error fetching data. Status: ${response.status}`);
     return [];
   }
 
   const contentType = response.headers.get("content-type");
   if (!contentType || !contentType.includes("application/json")) {
-    // Handle the case where the response is not in JSON format
     console.error("Response is not in JSON format");
     return [];
   }
 
   const productsData = await response.json();
   return productsData.data;
+};
+
+const getShareUrl = (platform, singleProductData, params) => {
+  if (!params || !params.category || !params.id) {
+    return ""; // Return an empty string if params is undefined or missing category/id
+  }
+
+  const url = `https://admireholidays.com/products/${params.category}/${params.id}`;
+  const title = encodeURIComponent(singleProductData.title);
+  const text = encodeURIComponent(singleProductData.heading);
+
+  switch (platform) {
+    case "whatsapp":
+      return `https://wa.me/?text=${text}%20${url}`;
+    case "facebook":
+      return `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+    case "twitter":
+      return `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+    case "instagram":
+      // Try to open the Instagram app, fallback to the website if app is not installed
+      return `instagram://app?url=${url} || https://www.instagram.com/?url=${url}`;
+    default:
+      return "";
+  }
+};
+export const ShareButtons = ({ singleProductData, params }) => {
+  return (
+    <div>
+      <h2>Share This Product</h2>
+      <div>
+        <a
+          href={getShareUrl("whatsapp", singleProductData, params)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp />
+        </a>
+        <a
+          href={getShareUrl("facebook", singleProductData, params)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook />
+        </a>
+        <a
+          href={getShareUrl("twitter", singleProductData, params)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter />
+        </a>
+        <a
+          href={getShareUrl("instagram", singleProductData, params)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram />
+        </a>
+      </div>
+    </div>
+  );
 };
 
 const Page = async ({ params }) => {

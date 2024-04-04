@@ -39,11 +39,21 @@ const Footer = () => {
         <div className="flex flex-col    gap-5 items-center ">
           <h5 className="font-semibold">Trending</h5>
           <ul className=" font-light sm:items-start items-center flex flex-col gap-4">
-            <li>Dubai</li>
-            <li>London</li>
-            <li>Sydney</li>
-            <li>Malidives</li>
-            <li>Instanbul </li>
+            <li>
+              <Link href={"/products/dubai"}>Dubai</Link>
+            </li>
+            <li>
+              <Link href={"/products/bali"}>Bali</Link>
+            </li>
+            <li>
+              <Link href={"/products/kerala"}>Kerala</Link>
+            </li>
+            <li>
+              <Link href={"/products/ladakh"}>Ladakh</Link>
+            </li>
+            <li>
+              <Link href={"/products/thailand"}>Thailand</Link>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col gap-5  sm:items-start items-center  ">

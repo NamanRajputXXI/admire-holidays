@@ -1,83 +1,90 @@
 {
   "_id": {
-    "$oid": "65f971b4d312519f810e4aa6"
+    "$oid": "65f58850efa56874b355d3a0"
   },
-  "heading": "EXCLUSIVE Bhutan | FREE Tiger Nest Hiking Experience",
-  "subHeading": "Trip in Bhutan",
-  "duration": "5 Night / 6 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1812449.1852587347!2d89.11582539482!3d27.471133006748627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375b92a573c595cf%3A0xbb0cac652836bcda!2sBhutan!5e0!3m2!1sen!2sin!4v1711020972637!5m2!1sen!2sin",
+  "heading": "Vacation to Dubai and Abu Dhabi | FREE Ferrari World Tickets",
+  "subHeading": "Trip in Dubai",
+  "duration": "6 Night / 7 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.68281887844!2d54.89782418606137!3d25.076280448702796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1710582133598!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "dayHeading": "Arrival in Siliguri | Transfer to Phuentsholing",
-      "dayOverview": "Upon arrival in Siliguri, get transferred to the hotel in Phuentsholing and check-in. You can relax for the day or self-explore the city by visiting places like the Bhutan Gate, Zangto Pelri, etc. Later, return to the hotel on your own for an overnight stay."
+      "day1Heading": "Arrival in Dubai | Dhow Dinner Cruise Experience",
+      "day1Overview": "Upon arrival at Dubai International Airport, get transferred to the pre-booked hotel and check-in. Explore the city on your own by visiting attractions like Dubai Fountain, Safa Park, etc. Later, in the evening, take the pre-booked transfer to Dubai Marina for the Dhow Cruise experience and enjoy a savory dinner. Later, get assisted back to the hotel for an overnight stay."
     },
     {
       "day": "Day 2",
-      "dayHeading": "Arrival in Thimphu",
-      "dayOverview": "Check-out and get transferred to Thimphu. After arrival, check-in at the hotel. You may take rest or set out to self-explore the city by visiting attractions like the Clock Tower Square, Simply Bhutan, Royal Botanical Garden, etc. Later, return to the hotel on your own for an overnight stay."
+      "day2Heading": "Dubai Sightseeing Tour | Burj Khalifa Visit",
+      "day2Overview": "Get transferred from the hotel for a sightseeing tour of Dubai. Enjoy visiting famous attractions like Jumeirah Beach, Atlantis Hotel, etc. Then, continue your journey to Burj Khalifa and see the cityscapes from the 124th and 125th floors. Later, get assisted back to the hotel for an overnight stay."
     },
     {
       "day": "Day 3",
-      "dayHeading": "Thimphu Sightseeing Tour | Transfer to Paro",
-      "dayOverview": "Get assisted from the hotel for a sightseeing tour of Thimphu. Explore attractions like the National Memorial Chorten, and Buddha Statue, followed by a visit to the beautiful Tashichho Dzong and Simtokha Dzong. Later, get transferred to Paro and check-in at the hotel for an overnight stay."
+      "day3Heading": "Dubai Frame Visit | Desert Safari Experience",
+      "day3Overview": "Board your transfer to the famous Dubai Frame and enjoy views of old and new Dubai from its observation deck. Then, get assisted for a desert safari experience and enjoy sandboarding, dune bashing, etc., followed by BBQ dinner. Later, get transferred back to the hotel for an overnight stay."
     },
     {
       "day": "Day 4",
-      "dayHeading": "Hike to Tiger's Nest",
-      "dayOverview": "Get assisted from the hotel for a hiking experience to the beautiful Taktsang Monastery. Enjoy an assisted walk through the pine forest, leading you to Tiger's Nest. Also, visit the Ta Dzong and Paro Rinpung Dzong. Later, get transferred back to the hotel for an overnight stay."
+      "day4Heading": "The View at The Palm Visit | Aquaventure Waterpark Visit",
+      "day4Overview": "Get transferred from the hotel to The View At The Palm and enjoy views of the iconic Palm Jumeirah from the observation deck. Then, get assisted to Aquaventure's private beach where you can perform water adventures on the shores. Later, board your transfer back to the hotel for an overnight stay."
     },
     {
       "day": "Day 5",
-      "dayHeading": "Arrival in Phuentsholing",
-      "dayOverview": "Check-out and get transferred to the hotel in Phuentsholing. After check-in, you can take the day to relax or explore the city by yourself by visiting attractions like Chukha Hydropower Dam, Alapan's View Point, etc. Later, return to the hotel on your own for an overnight stay."
+      "day5Heading": "Dolphinarium Visit | AYA Universe Visit | Museum of Future Visit",
+      "day5Overview": "Board your transfer for an adventurous time in Dubai. During the trip, spend time with dolphins at the Dolphinarium. Then, visit the AYA Universe and enjoy virtual reality adventures, followed by a visit to the Museum Of The Future. Later, get assisted back to the hotel for an overnight stay."
     },
     {
       "day": "Day 6",
-      "dayHeading": "Departure Day",
-      "dayOverview": "After breakfast, check-out from the hotel and get transferred to the Bagdogra Airport/Railway Station. This is where your trip ends."
+      "day6Heading": "Abu Dhabi Sightseeing Tour | Ferrari World Park Visit",
+      "day6Overview": "Get transferred from the hotel for a sightseeing tour of Abu Dhabi. Enjoy visiting attractions like the Sheikh Zayed Mosque, Emirates Palace, etc. Then, explore Ferrari World Park and see the park's iconic architecture inspired by Ferrari. Later, get assisted back to the hotel for an overnight stay."
+    },
+    {
+      "day": "Day 7",
+      "day7Heading": "Departure Day",
+      "day7Overview": "After breakfast, check-out from the hotel and get transferred to the airport to board your flight back home. This is where your trip ends."
     }
   ]
 ,
-"overView": [
-  {
-    "heading": "Bhutan: Land of Gross National Happiness",
-    "text": "Embark on an unforgettable journey through Bhutan, a land where Gross National Happiness takes precedence over material wealth. Explore the serene landscapes, vibrant culture, and ancient traditions that define the essence of this enchanting kingdom nestled in the Himalayas."
-  },
-  {
-    "heading": "Gateway to Happiness: Phuentsholing's Tranquil Charm",
-    "text": "Discover the gateway to happiness in Phuentsholing, Bhutan's serene border town. Immerse yourself in its tranquil charm as you explore the Bhutan Gate, Zangto Pelri, and other cultural landmarks that offer a glimpse into the kingdom's unique identity and ethos."
-  },
-  {
-    "heading": "Capital Splendor: Thimphu's Cultural Heritage and Scenic Beauty",
-    "text": "Experience the splendor of Bhutan's capital city, Thimphu, where cultural heritage and scenic beauty converge. Marvel at the ancient dzongs, stroll through bustling markets, and immerse yourself in the city's vibrant traditions that embody the spirit of Bhutanese life."
-  },
-  {
-    "heading": "Spiritual Odyssey: Paro's Sacred Sites and Natural Wonders",
-    "text": "Embark on a spiritual odyssey in Paro, where sacred sites and natural wonders beckon travelers. Explore the historic forts, hike to the iconic Tiger's Nest Monastery, and immerse yourself in the tranquility of the Paro Valley, a haven of peace and serenity."
-  },
-  {
-    "heading": "Enchanting Phuentsholing: Gateway to Bhutan's Southern Charms",
-    "text": "Experience the enchanting beauty of Phuentsholing, the gateway to Bhutan's southern charms. Discover Alapan's View Point, Chukha Hydropower Dam, and other scenic wonders that showcase the region's natural splendor and cultural richness."
-  },
-  {
-    "heading": "Tiger's Nest Trek: A Journey to Spiritual Enlightenment",
-    "text": "Embark on the iconic Tiger's Nest Trek, a journey to spiritual enlightenment amidst breathtaking scenery. Traverse lush forests, cross cascading streams, and ascend to the legendary Taktsang Monastery, perched on a cliffside overlooking the Paro Valley."
-  },
-  {
-    "heading": "Artisan Heritage: Bhutan's Time-Honored Crafts and Traditions",
-    "text": "Discover Bhutan's artisan heritage through its time-honored crafts and traditions. Explore local markets, interact with skilled artisans, and witness the intricate art of thangka painting, weaving, and woodcarving that embody the kingdom's rich cultural legacy."
-  },
-  {
-    "heading": "Craft Your Bhutanese Adventure",
-    "text": "Craft your own adventure in Bhutan, a land where happiness is measured by the joy of the journey. Whether you seek spiritual enlightenment, cultural immersion, or scenic splendor, let Bhutan's timeless allure and mystical charm guide you on an unforgettable odyssey."
-  }
-],
-  "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymh1dGFufGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1597658333270-8c0d8f0eb845?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ymh1dGFufGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1617469165786-8007eda3caa7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ymh1dGFufGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1587639895914-6f33530a3314?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJodXRhbnxlbnwwfHwwfHx8MA%3D%3D"
+  "overView": [
+    {
+      "heading": "Discovering Dubai: A Fusion of Tradition and Luxury",
+      "text": "Embark on an enchanting journey to Dubai, where tradition intertwines seamlessly with luxury. Explore the cultural heritage, extravagant landmarks, and opulent lifestyle, creating a captivating blend of past and present."
+    },
+    {
+      "heading": "Iconic Wonders of Old Dubai",
+      "text": "Unravel the historical marvels of Old Dubai. Wander through ancient souks, marvel at majestic mosques, and absorb the rich heritage of this vibrant district, echoing tales of Bedouin tribes and pearl divers."
+    },
+    {
+      "heading": "Modern Marvels in New Dubai",
+      "text": "Experience the futuristic skyline of New Dubai. Marvel at towering skyscrapers, indulge in luxury shopping, and immerse yourself in the cosmopolitan allure of the city, where innovation meets extravagance."
+    },
+    {
+      "heading": "Nature's Oasis: Dubai Miracle Garden",
+      "text": "Escape into nature's beauty at Dubai Miracle Garden. Admire the colorful floral displays, stroll through themed gardens, and bask in the tranquility of this botanical paradise, offering a serene respite amidst the urban landscape."
+    },
+    {
+      "heading": "Culinary Delights of Dubai",
+      "text": "Embark on a gastronomic adventure in Dubai. Indulge in diverse cuisines from around the world, from traditional Emirati dishes to international delights. Explore bustling food markets, savor exquisite flavors, and treat your taste buds to a culinary journey like no other."
+    },
+    {
+      "heading": "Preserving Cultural Legacy",
+      "text": "Dubai is committed to preserving its cultural heritage. From heritage villages to art galleries, the city honors its roots while embracing modernity, offering a dynamic cultural experience for both residents and visitors alike."
+    },
+    {
+      "heading": "Plan Your Dubai Exploration",
+      "text": "Whether drawn to history, luxury, or gastronomy, Dubai promises an unforgettable adventure. Plan your exploration of this dynamic city, where every corner reveals a story, and every moment is a celebration of Dubai's boundless charm."
+    }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1608659386020-fe140120722c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcyfHxiaHV0YW58ZW58MHx8MHx8fDA%3D"
+  "visaPolicy": [
+    "Visa Application Takes Minimum 4-5 Working Days for Issuance (Friday- Saturday immigration is closed - Subject To Immigration Approval)",
+    "Transit visa is valid for 14-days stay on and the Tourist visa is valid for 30-days stay. If passenger will stay more, penalty will be charged accordingly.",
+    "Client must travel within 7-10 days once visa is issued.",
+    "Cancellation for visa applications will be charged at an additional cost of USD 45/- per visa. We are not responsiat all in case of delayed and rejection of visa."
+  ],
+  "carouselImageUrl": [
+    "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGR1YmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1546412414-8035e1776c9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGR1YmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1634148551170-d37d021e0cc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGR1YmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGR1YmFpfGVufDB8fDB8fHww"
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1577544728904-c1ae02851346?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGR1YmFpfGVufDB8fDB8fHww"
 }

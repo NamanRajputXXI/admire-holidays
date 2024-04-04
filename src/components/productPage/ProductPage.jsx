@@ -8,7 +8,8 @@ import ProductDetailLeft from "../product/ProductDetailLeft";
 import ProductBottomCarousel from "../carousels/ProductBottomCarousel";
 import FormModal from "../FormModal";
 import SwiperProductCarousel from "../carousels/productCarousels/SwiperProductCarousel";
-const ProductPage = ({ singleProductData }) => {
+import SocialMediaShare from "../SocialMediaShare";
+const ProductPage = ({ singleProductData, params }) => {
   const [openModal, setOpenModal] = useState(false);
 
   const closeModalFunc = () => {
@@ -46,12 +47,16 @@ const ProductPage = ({ singleProductData }) => {
                       {singleProductData.heading}
                     </h1>
 
-                    <div className="flex justify-between">
+                    <div className="flex justify-between lg:flex-row flex-col gap-3">
                       <div className="flex gap-2 items-center ">
                         <CiLocationOn size={25} color="#00bb98" />
                         <p>{singleProductData.subHeading}</p>
                         <CiHeart size={25} color="#fd4c5c" />
                       </div>
+                      <SocialMediaShare
+                        params={params}
+                        singleProductData={singleProductData}
+                      />
                     </div>
                   </div>
                 </div>

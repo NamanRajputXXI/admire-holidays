@@ -1,85 +1,101 @@
 {
   "_id": {
-    "$oid": "65f578d8efa56874b355d39a"
+    "$oid": "65f971b4d312519f810e4aa6"
   },
-  "heading": "The Instagrammable Dubai | Couple Special",
-  "subHeading": "Trip in Dubai",
-  "duration": "5 Night / 6 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.68281887844!2d54.89782418606137!3d25.076280448702796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1710582133598!5m2!1sen!2sin",
+  "heading": "Bangkok Pattaya Phuket Krabi | DEAL From Kolkata",
+  "subHeading": "Trip in Thailand",
+  "duration": "8 Night / 9 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15933507.286949398!2d90.80938032479894!3d12.842214863724964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d8df747424db1%3A0x9ed72c880757e802!2sThailand!5e0!3m2!1sen!2sin!4v1710845827870!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Dubai | Welcome to the City Of Gold",
-      "day1Overview": "The driver will pick you up from Dubai Airport and transfer you to your hotel. After check-in, you can relax or explore the local neighborhood around your hotel. Later in the evening, the driver will take you to the Dubai Marina for Dhow Cruise. Take in the views of the Dubai skyline while cruising along the Dubai Marina. Savor a delicious buffet with Arabic dishes and enjoy live shows. Post-cruise, get transferred back to your hotel for an overnight stay."
+      "day1Heading": "Arrival in Phuket | Experience breathtaking sandy beach views surrounded by nodding palm trees",
+      "day1Overview": "Upon your arrival at Phuket Airport, one of our representatives will pick you up and transfer you to your designated hotel. Phuket offers incredible views of the ocean and sandy beaches surrounded by palm trees, making it a top beach holiday destination. Check-in at the hotel and freshen up. Spend the rest of the day at leisure and enjoy a peaceful overnight stay."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Dubai Sightseeing Tour | Visit the Burj Khalifa",
-      "day2Overview": "The driver will pick you up from your hotel and take you on a half-day sightseeing tour of Dubai. Admire Dubai's iconic landmarks including Jumeirah Beach, Atlantis Hotel, and Jumeirah Mosque. Afterward, visit the Dubai Mall and head towards Dubai Aquarium to see over 33,000 aquatic creatures. Later, head to Burj Khalifa and take stunning photos of the city from the 124th & 125th floors. Return back to your hotel for an overnight stay."
+      "day2Heading": "Phi Phi Island Tour | Walk around the powdery white beaches and observe coral reefs",
+      "day2Overview": "After breakfast, embark on an exciting Phi Phi Island Tour by speedboat. Explore the stunning limestone cliffs rising out of the emerald green waters. Visit Phi Don and Phi Leh towns, as well as the famous Maya Bay. Enjoy walking on the powdery white beaches and observe the vibrant coral reefs while swimming and snorkeling in the turquoise waters. Return to Phuket for an overnight stay."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Dubai Dolphinarium & Desert Safari | Adventure in Dubai's golden dunes",
-      "day3Overview": "The driver will pick you up from the hotel and take you to Dubai Dolphinarium. Enjoy an amazing performance by the dolphins as they showcase their incredible skills and perform tricks. Afterwards, enjoy a thrilling Desert Safari with dune bashing, sandboarding, and camel ride. After the activities, indulge in a scrumptious BBQ dinner in the deserts of Dubai while enjoying amazing live shows. Later, return back to your hotel for an overnight stay."
+      "day3Heading": "Transfer to Krabi | Enjoy splendid beauty of Phi Phi Island",
+      "day3Overview": "Wake up early to enjoy the morning beauty of Phi Phi Island. Proceed to Krabi as per your tour package. Krabi is known for its relaxing atmosphere, transparent limestone cliffs, mangrove forests, and numerous offshore islands. Check into your hotel upon arrival and rest. Overnight stay in Krabi."
     },
     {
       "day": "Day 4",
-      "day4Heading": "Dubai Frame and AYA Universe | Dubai Delights",
-      "day4Overview": "The driver will pick you up from your hotel and take you to Dubai Frame. Marvel at the panoramic views of Dubai's skyline from the Dubai Frame's observation deck. Then, visit AYA Universe, with twelve immersive experiences including Flora, Outland, and The River. After your visit, get transferred back to your hotel for an overnight stay."
+      "day4Heading": "Krabi | Enjoy Island tour of Krabi",
+      "day4Overview": "After breakfast, embark on a Four Island Tour of Krabi by speedboat. Admire the scenic rocky cliffs and shimmering blue sea. Visit Koh Poda, Chicken Island, Tup Island, and Phranang Cave Beach. Relax on the beaches, sunbathe, snorkel, and swim in the Andaman Sea. Return to the hotel for an overnight stay."
     },
     {
       "day": "Day 5",
-      "day5Heading": "IMG Worlds of Adventure | Visit Dubai's Largest Indoor Theme Park",
-      "day5Overview": "The driver will pick you up from your hotel and transfer you to IMG Worlds of Adventure, Dubai's largest indoor theme park. Explore the six themed zones at the park and enjoy adrenaline-pumping rides and meet iconic superheroes & beloved cartoon characters at the park. After your visit, the driver will transfer you back to your hotel for an overnight stay in Dubai."
+      "day5Heading": "Krabi to Pattaya | Enjoy nightlife of Pattaya",
+      "day5Overview": "Check out from the hotel and transfer to Krabi Airport for a flight to Bangkok. From Bangkok, proceed to Pattaya. Check-in at the hotel and relax. Enjoy the vibrant nightlife of Pattaya. Overnight stay in Pattaya."
     },
     {
       "day": "Day 6",
-      "day6Heading": "Departure | Take a bag full of memories to cherish for eternity",
-      "day6Overview": "Pack your bags and check out from your hotel in Dubai. The driver will pick you up from the hotel and drop you off at Dubai Airport (DXB) as your trip comes to an end."
+      "day6Heading": "Krabi to Koh Larn | Get ready to adore the Coral Island",
+      "day6Overview": "Embark on a speedboat to reach Koh Larn Coral Island. Enjoy the pristine beaches and azure ocean views surrounded by swaying palm trees. In the evening, experience the Alcazar Show, known for its splendid performances and entertainment. Overnight stay in Pattaya."
+    },
+    {
+      "day": "Day 7",
+      "day7Heading": "Pattaya to Bangkok | Visit famous shopping and eat street of Bangkok",
+      "day7Overview": "Check out from the hotel and transfer to Bangkok. Check-in at the hotel and freshen up. Explore the famous shopping areas and street food of Bangkok at your leisure. Overnight stay in Bangkok."
+    },
+    {
+      "day": "Day 8",
+      "day8Heading": "Bangkok | Head out for a Full Day Sightseeing Tour",
+      "day8Overview": "After breakfast, embark on a full-day sightseeing tour of Bangkok. Visit fascinating temples like Wat Pho and Wat Arun, and explore the architectural beauty of the city. Spend the evening as per your preference. Overnight stay in Bangkok."
+    },
+    {
+      "day": "Day 9",
+      "day9Heading": "Goodbye Bangkok | End of Experience",
+      "day9Overview": "Check out from the hotel after a delicious breakfast. You will be transferred to Bangkok International Airport for your return flight home, carrying wonderful memories of your Bangkok Pattaya Phuket Krabi tour from Kolkata."
     }
-  ]
-   ,
+  ],
   "overView": [
     {
-      "heading": "Discovering Dubai: A Fusion of Tradition and Luxury",
-      "text": "Embark on an enchanting journey to Dubai, where tradition intertwines seamlessly with luxury. Explore the cultural heritage, extravagant landmarks, and opulent lifestyle, creating a captivating blend of past and present."
+      "heading": "Thailand's Cultural Kaleidoscope: Ancient Wonders and Modern Marvels",
+      "text": "Embark on an unforgettable journey through Thailand, a captivating land where ancient wonders harmonize with modern marvels. Explore the rich tapestry of cultures, vibrant traditions, and breathtaking landscapes that paint a vivid picture of this enchanting kingdom's essence."
     },
     {
-      "heading": "Iconic Wonders of Old Dubai",
-      "text": "Unravel the historical marvels of Old Dubai. Wander through ancient souks, marvel at majestic mosques, and absorb the rich heritage of this vibrant district, echoing tales of Bedouin tribes and pearl divers."
+      "heading": "Bangkok's Urban Allure: Glittering Temples and Tuk-Tuk Adventures",
+      "text": "Discover the allure of Bangkok, Thailand's electrifying capital city. Immerse yourself in the glittering grandeur of its ornate temples, navigate the bustling streets on an exhilarating tuk-tuk ride, and experience the city's pulsating energy that blends ancient heritage with modern flair."
     },
     {
-      "heading": "Modern Marvels in New Dubai",
-      "text": "Experience the futuristic skyline of New Dubai. Marvel at towering skyscrapers, indulge in luxury shopping, and immerse yourself in the cosmopolitan allure of the city, where innovation meets extravagance."
+      "heading": "Island Escapes: Thailand's Tropical Paradise",
+      "text": "Indulge in the tranquility of Thailand's pristine islands and crystal-clear waters. Relax on sun-kissed beaches, snorkel or dive in vibrant coral reefs teeming with marine life, and unwind in luxurious island resorts that offer a true tropical paradise."
     },
     {
-      "heading": "Nature's Oasis: Dubai Miracle Garden",
-      "text": "Escape into nature's beauty at Dubai Miracle Garden. Admire the colorful floral displays, stroll through themed gardens, and bask in the tranquility of this botanical paradise, offering a serene respite amidst the urban landscape."
+      "heading": "Cultural Festivities: Thailand's Vibrant Celebrations and Traditions",
+      "text": "Immerse yourself in the colorful festivities and sacred traditions of Thailand. From vibrant temple fairs to captivating dance performances, experience the country's rich cultural heritage and spiritual vibrancy that captivate the hearts of visitors."
     },
     {
-      "heading": "Culinary Delights of Dubai",
-      "text": "Embark on a gastronomic adventure in Dubai. Indulge in diverse cuisines from around the world, from traditional Emirati dishes to international delights. Explore bustling food markets, savor exquisite flavors, and treat your taste buds to a culinary journey like no other."
+      "heading": "Northern Charm: Chiang Mai's Ancient Temples and Hillside Tribes",
+      "text": "Explore the enchanting northern region of Thailand, where ancient temples and hillside tribal villages create a mesmerizing backdrop. Wander through Chiang Mai's historic old city, trek through lush jungles, and witness the unique traditions of ethnic minority communities."
     },
     {
-      "heading": "Preserving Cultural Legacy",
-      "text": "Dubai is committed to preserving its cultural heritage. From heritage villages to art galleries, the city honors its roots while embracing modernity, offering a dynamic cultural experience for both residents and visitors alike."
+      "heading": "Culinary Delights: Thai Flavors and Street Food Extravaganza",
+      "text": "Savor the tantalizing flavors of authentic Thai cuisine and indulge in the street food extravaganza. From aromatic curries and sizzling stir-fries to refreshing tropical fruits and delectable sweets, embark on a culinary journey that delights the senses and showcases Thailand's diverse culinary heritage."
     },
     {
-      "heading": "Plan Your Dubai Exploration",
-      "text": "Whether drawn to history, luxury, or gastronomy, Dubai promises an unforgettable adventure. Plan your exploration of this dynamic city, where every corner reveals a story, and every moment is a celebration of Dubai's boundless charm."
+      "heading": "Artisan Treasures: Thai Handicrafts and Silk Weaving",
+      "text": "Discover Thailand's artisan traditions through its handcrafted treasures and intricate silk weaving. Explore local markets, interact with skilled artisans, and admire the craftsmanship that reflects the country's rich cultural heritage and artistic soul."
+    },
+    {
+      "heading": "Craft Your Thai Adventure",
+      "text": "Craft your own adventure in Thailand, where every moment is infused with magic and discovery. Whether you seek serene beaches, cultural immersion, or adrenaline-fueled escapades, this captivating kingdom invites you to embrace its beauty and create memories that last a lifetime."
     }
   ],
   "visaPolicy": [
-    "Visa Application Takes Minimum 4-5 Working Days for Issuance (Friday- Saturday immigration is closed - Subject To Immigration Approval)",
-    "Transit visa is valid for 14-days stay on and the Tourist visa is valid for 30-days stay. If passenger will stay more, penalty will be charged accordingly.",
-    "Client must travel within 7-10 days once visa is issued.",
-    "Cancellation for visa applications will be charged at an additional cost of USD 45/- per visa. We are not responsiat all in case of delayed and rejection of visa."
+    "Thailand has also started granting 30-day visa-free entry for visitors from India and Taiwan from November 1.",
+    " The initiative will remain applicable till May 10, 2024."
   ],
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGR1YmFpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1546412414-8035e1776c9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGR1YmFpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1634148551170-d37d021e0cc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGR1YmFpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGR1YmFpfGVufDB8fDB8fHww"
+    "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGhhaWxhbmR8ZW58MHx8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGhhaWxhbmR8ZW58MHx8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1490077476659-095159692ab5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRoYWlsYW5kfGVufDB8fDB8fHww"
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1553195027-fc397a315e84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE2fHxkdWJhaXxlbnwwfHwwfHx8MA%3D%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1588440505440-b07e67dfd615?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHx0aGFpbGFuZHxlbnwwfHwwfHx8MA%3D%3D"
 }

@@ -305,7 +305,7 @@ const ProductDetailLeft = ({
 
         <div className="flex flex-col gap-10 relative">
           <button
-            className="flex items-center text-sm absolute right-0 top-[-30px] sm:right-4 sm:top-4 justify-center px-4 py-1 border-[1px] border-red-500 text-red-500  rounded-lg cursor-pointer"
+            className="flex items-center text-sm absolute right-0 top-[-30px] sm:right-4 sm:top-[-20px] justify-center px-4 py-1 border-[1px] border-red-500 text-red-500  rounded-lg cursor-pointer"
             style={{ minWidth: "100px" }} // Set a fixed width for the button
             onClick={expandAll}
           >

@@ -11,7 +11,7 @@ const HeroSection = () => {
           <p className="text-[#00BB98] text-xl  font-LaBelle  ">
             Travel Around The World
           </p>
-          <h1 className="lg:text-7xl md:text-5xl text-4xl font-bold">
+          <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold">
             Discover the <br /> most engaging <br /> places
           </h1>
           <p className="text-xl font-normal">
@@ -23,7 +23,7 @@ const HeroSection = () => {
         <div>
           <img
             src={"/heroSectionBanner.jpg"}
-            className="lg:h-[700px] lg:w-[750px] w-full"
+            className="lg:h-[700px] lg:w-[100%] w-full"
             width={300}
             height={300}
             alt="Logo"

@@ -1,7 +1,8 @@
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import ProductCategoryCard from "@/components/ProductCategoryCard";
-
+import AdditionalLinks from "@/components/productCategory/AdditionalLinks";
+import Link from "next/link";
 export const getProductsData = async ({ params }) => {
   const response = await fetch(
     `https://server-deploy-gamma.vercel.app/${params.category}`,
@@ -29,22 +30,32 @@ export const getProductsData = async ({ params }) => {
 
 const Page = async ({ params }) => {
   const data = await getProductsData({ params });
-
   if (data.length === 0) {
-    // Handle the case where data is empty (e.g., display a message)
     return <div>No data available.</div>;
   }
+
+  const additionalLinks =
+    params.category === "rajasthan" ? (
+      <div className="flex gap-4 my-6">
+        <Link href="/products/Himachal" className="text-blue-500">
+          Explore Himachal
+        </Link>
+        <Link href="/products/Uttarakhand" className="text-blue-500">
+          Explore Uttarakhand
+        </Link>
+      </div>
+    ) : null;
 
   return (
     <>
       <Navbar />
       <PageBanner
-        heading={`Catergory : ${params.category}`}
+        heading={`Category : ${params.category}`}
         text={`Home > India > ${params.category}`}
       />
 
       <div className="max-w-7xl mx-auto my-20 px-5 flex flex-col gap-10">
-        <div className="grid lg:grid-cols-4   justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
+        <div className="grid lg:grid-cols-4 justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
           {data.map((destination, index) => (
             <div key={index}>
               <ProductCategoryCard
@@ -56,6 +67,8 @@ const Page = async ({ params }) => {
             </div>
           ))}
         </div>
+        <AdditionalLinks category={params.category} />
+        {/* {additionalLinks} */}
       </div>
     </>
   );

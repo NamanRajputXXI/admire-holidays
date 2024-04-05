@@ -21,7 +21,7 @@ const HeroSection = () => {
         </div>
 
         <div>
-          <Image
+          <img
             src={"/heroSectionBanner.jpg"}
             className="lg:h-[700px] lg:w-[750px] w-full"
             width={300}

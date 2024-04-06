@@ -3,7 +3,7 @@ const internationalDestinations = [
   {
     imageUrl: `popularDestinationCarouselBhutan.jpg`,
     title: "Bhutan",
-    link: "/product-category/international/bhutan",
+    link: "/products/bhutan/1",
   },
   {
     imageUrl: `popularDestinationCarouselBangladesh.jpg`,
@@ -23,22 +23,22 @@ const internationalDestinations = [
   {
     imageUrl: `popularDestinationCarouselDubai.jpg`,
     title: "Dubai",
-    link: "/product-category/international/dubai",
+    link: "/products/dubai/3",
   },
   {
     imageUrl: `popularDestinationCarouselNepal.webp`,
     title: "Nepal",
-    link: "/product-category/international/nepal",
+    link: "/products/nepal/2",
   },
   {
     imageUrl: `popularDestinationCarouselSingapore.jpg`,
     title: "Singapore",
-    link: "/product-category/international/singapore",
+    link: "/products/singapore/0",
   },
   {
     imageUrl: `popularDestinationCarouselThailand.jpg`,
     title: "Thailand",
-    link: "/product-category/international/thailand",
+    link: "/products/thailand/7",
   },
 ];
 

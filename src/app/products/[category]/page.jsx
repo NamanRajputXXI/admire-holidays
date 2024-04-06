@@ -34,18 +34,6 @@ const Page = async ({ params }) => {
     return <div>No data available.</div>;
   }
 
-  const additionalLinks =
-    params.category === "rajasthan" ? (
-      <div className="flex gap-4 my-6">
-        <Link href="/products/Himachal" className="text-blue-500">
-          Explore Himachal
-        </Link>
-        <Link href="/products/Uttarakhand" className="text-blue-500">
-          Explore Uttarakhand
-        </Link>
-      </div>
-    ) : null;
-
   return (
     <>
       <Navbar />

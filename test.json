@@ -3,49 +3,63 @@
   "_id": {
     "$oid": "65f971b4d312519f810e4aa6"
   },
-  "heading": "Vietnam Couple EXCLUSIVE | FREE Candle Light Dinner",
+  "heading": "Offbeat Vietnam Sightseeing Tour",
   "subHeading": "Trip in Vietnam",
-  "duration": "6 Night / 7 Days",
+  "duration": "8 Night / 9 Days",
   "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15743719.228722906!2d95.23467808854284!3d15.555198294291172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2sVietnam!5e0!3m2!1sen!2sin!4v1712217321304!5m2!1sen!2sin",
-  "itinerary": [
-    {
-      "day": "Day 1",
-      "day1Heading": "Arrival in Hanoi | Explore Old Quarter",
-      "day1Overview": "Upon arrival at Noi Bai International Airport, transfer to Hm Boutique Hotel Hanoi for check-in. Explore Hanoi's Old Quarter, local market streets, and iconic landmarks like Huc Bridge. Enjoy a water puppet show before returning to the hotel for an overnight stay."
-    },
-    {
-      "day": "Day 2",
-      "day2Heading": "Excursion to Ninh Binh | Tam Coc Boat Ride",
-      "day2Overview": "Embark on a shared transfer to Ninh Binh for a day trip. Visit ancient temples and enjoy a 2-hour boat ride through Tam Coc's scenic landscapes and caves. Return to Hanoi for an overnight stay at The Light Hotel Hanoi."
-    },
-    {
-      "day": "Day 3",
-      "day3Heading": "Hanoi to Halong Bay | Overnight Cruise",
-      "day3Overview": "Travel to Halong Bay through scenic routes. Board a traditional sailing junk and cruise through floating villages and caves. Enjoy local flavors and entertainment onboard during the overnight stay."
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": "Halong Bay Exploration | Flight to Ho Chi Minh City",
-      "day4Overview": "Explore Halong Bay's highlights before returning to Hanoi. Transfer to Noi Bai International Airport for a flight to Tan Son Nhat International Airport in Ho Chi Minh City. Check-in at Avanti Saigon Hotel for a leisurely overnight stay."
-    },
-    {
-      "day": "Day 5",
-      "day5Heading": "Visit Cu Chi Tunnels | Ho Chi Minh City Tour",
-      "day5Overview": "Explore Cu Chi Tunnels, then embark on a half-day tour of Ho Chi Minh City. Visit landmarks like the Presidential Palace and War Remnants Museum. Return to the hotel for an overnight stay."
-    },
-    {
-      "day": "Day 6",
-      "day6Heading": "Mekong Delta Adventure",
-      "day6Overview": "Explore My Tho City and embark on a boat ride along the Mekong River. Visit a local island and bee farms, followed by a special lunch. Return to Ho Chi Minh City for an overnight stay at Avanti Saigon Hotel."
-    },
-    {
-      "day": "Day 7",
-      "day7Heading": "Departure from Ho Chi Minh City",
-      "day7Overview": "Check-out from the hotel and transfer to Tan Son Nhat International Airport for your departure flight. Your memorable Vietnam tour concludes here."
-    }
-  ]
+  
+  
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "day1Heading": "Arrival in Hanoi",
+        "day1Overview": "Upon arrival in Hanoi, check in at the hotel and relax. Spend the day at leisure, exploring the famous attractions like Ngoc Son Temple, Hoan Kiem Lake, Temple of Literature, etc. Afterwards, return to the hotel for an overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "day2Heading": "Excursion to Ninh Binh province",
+        "day2Overview": "Enjoy a trip to Ninh Binh City. Visit the Hao Lu and the ancient temples of the Le Dinh Dynasties. Explore the limestone caves of Tam Coc on a boat ride from Hao Lu. Conclude your day cycling through the village, from Tam Coc to Bich Dong Pagoda. Later, get dropped off at your hotel for an overnight stay."
+      },
+      {
+        "day": "Day 3",
+        "day3Heading": "Halong Bay Overnight Cruise",
+        "day3Overview": "You will make your way to Tuan Chau Harbor via the Red River Delta area and board your overnight cruise. Enjoy a warm welcome and relax for a while. Later, you will visit Ti Top island, pearl farm village, and attend a cooking session on board. Enjoy your overnight cruise stay."
+      },
+      {
+        "day": "Day 4",
+        "day4Heading": "Halong Bay to Hanoi | Transfer to Dong Hoi",
+        "day4Overview": "Begin the day with a Tai Chi lesson at the deck. Later explore the wonderful caves around Halong Bay before getting transferred to Hanoi airport from Tuan Chau Harbor. Board your flight to Dong Hoi, and after arrival get transferred to the hotel for check in and overnight stay."
+      },
+      {
+        "day": "Day 5",
+        "day5Heading": "Excursion to Phong Nha Ke Bang National Park",
+        "day5Overview": "In the morning you will be taken to the Phong Nha Ke Bang National park for a day trip exploring the best caves in Vietnam. Visit the Dark Cave, Phong Nha Cave, and get a chance to enjoy kayaking, flying swing, and more before you get dropped off at the hotel in Dong Hoi for an overnight stay."
+      },
+      {
+        "day": "Day 6",
+        "day6Heading": "Arrival in Da Nang",
+        "day6Overview": "Check out of your hotel in Dong Hoi before getting transferred to the Dong Hoi train station. You will board a train for Da Nang, enjoying a 6 hour journey across scenic forest routes. Upon arrival in Da Nang, check in at the hotel for an overnight stay."
+      },
+      {
+        "day": "Day 7",
+        "day7Heading": "Ba Na Hills Day Trip",
+        "day7Overview": "Get transferred to Suoi Mo Station to board a cable car to Ba Na Hills. Visit the famous Golden Hand Bridge, renowned for scenes in “Game of Thrones”. End your trip by visiting Linh Ung Pagoda, housing a Lady Buddha & Debay Wine Cellar. Afterwards, get transferred back to the hotel in Da Nang."
+      },
+      {
+        "day": "Day 8",
+        "day8Heading": "Da Nang to Ho Chi Minh | Visit to Cu Chi Tunnels",
+        "day8Overview": "Check out and get transferred to the airport for a flight to Ho Chi Minh City. After arrival, check in at the hotel and get ready for a half day tour of Cu Chi tunnels post lunch time. Explore the Vietnam war period tunnels and later get dropped at the hotel for an overnight stay."
+      },
+      {
+        "day": "Day 9",
+        "day9Heading": "Departure from Ho Chi Minh City",
+        "day9Overview": "Check out from the hotel and get transferred to the Ho Chi Minh airport for your flight back home. This marks the end of your trip to Vietnam."
+      }
+    ]
+  
+  
 ,
-"overview": [
+"overView": [
   {
     "heading": "Unveiling the Enchanting Wonders of Vietnam",
     "text": "Embark on an extraordinary journey through Vietnam, a captivating land where ancient traditions harmoniously blend with modern splendor. Discover a kaleidoscope of cultural riches, breathtaking landscapes, and warm hospitality that will leave an indelible mark on your soul."
@@ -87,6 +101,5 @@
     "https://images.unsplash.com/photo-1561461221-959c3f16234b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D"
   ],
 
-  "imageUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmlldG5hbXxlbnwwfHwwfHx8MA%3D%3D"
-
+  "imageUrl": "https://images.unsplash.com/photo-1527241868-2a14a600b05c?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 }

@@ -22,7 +22,7 @@ const TestimonialCarousel = () => {
     {
       name: " Prabhul, Kerala",
       quote:
-        "I booked a Thailand holiday package for my parents through Admire Holidays. Despite initial concerns due to bad reviews, Sandeep from Admire Holidays provided exceptional service, ensuring a smooth trip. My parents returned happy and had an amazing experience. Kudos to Admire Holidays! 👏🏻👏🏻👏🏻",
+        "I booked a Thailand holiday package for my parents through Admire Holidays. Sandeep from Admire Holidays provided exceptional service, ensuring a smooth trip. My parents returned happy and had an amazing experience.👏🏻👏🏻👏🏻",
       rating: 5,
       image: "review3Image.jpg",
     },
@@ -137,7 +137,7 @@ const TestimonialCarousel = () => {
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
-                className="text-neutral-600 dark:text-neutral-300"
+                className="text-black" // Apply 'text-black' class directly here
               >
                 <path
                   fill="currentColor"
@@ -149,6 +149,7 @@ const TestimonialCarousel = () => {
               Previous
             </span>
           </button>
+
           <button
             className="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
             type="button"
@@ -161,7 +162,7 @@ const TestimonialCarousel = () => {
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
-                className="text-neutral-600 dark:text-neutral-300"
+                className="text-black" // Change this class to 'text-black'
               >
                 <path
                   fill="currentColor"

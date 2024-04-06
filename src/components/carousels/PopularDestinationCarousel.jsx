@@ -7,13 +7,15 @@ import {
   ButtonBack,
   ButtonNext,
 } from "pure-react-carousel";
-import popularDestinations from "@/data/popularDestination";
+import exclusivePackage from "@/data/exclusivePackage";
 import Link from "next/link";
+import { MdOutlineDiscount } from "react-icons/md";
+import { FaStar } from "react-icons/fa";
 const PopularDestinationCarousel = () => {
   return (
     <section className="container max-w-7xl my-20  mx-auto">
       <h1 className="text-center font-Aboreto md:text-5xl text-2xl  ">
-        Popular Destinations
+        Exclusive Packages
       </h1>
       <div className="flex items-center justify-center w-full   h-full lg:py-20 py-12 px-4">
         {/* Carousel for desktop and large size devices */}
@@ -55,7 +57,7 @@ const PopularDestinationCarousel = () => {
                   id="slider"
                   className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  {popularDestinations.map((item, index) => (
+                  {exclusivePackage.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
@@ -66,13 +68,28 @@ const PopularDestinationCarousel = () => {
                           />
 
                           <div className="bg-black rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                            <div className="flex h-full items-end relative   pb-6">
-                              <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                                {item.title}
-                              </h3>
+                            <div className="flex h-fit items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-0  ">
+                              <MdOutlineDiscount color="white" size={20} />
+                              Save upto {item.discount}
                             </div>
                           </div>
                         </div>
+                        <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between item-center">
+                          <p className="">{item.days}</p>
+                          <div className="flex items-center gap-2">
+                            <FaStar color="green" />
+                            4.8 (120)
+                          </div>
+                        </div>
+                        <div className="flex w-full text-sm px-1 mt-3  justify-between item-center">
+                          <p>{item.title}</p>
+                        </div>
+                        <div className="flex h-fit rounded-lg mt-3 items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-600 to-yellow-400   relative top-0  ">
+                          Early Summer sale !
+                        </div>
+                        <button className="flex w-full text-lg  mt-3  text-white bg-red-500 font-medium rounded-lg px-2 py-3 justify-center item-center">
+                          Explore
+                        </button>
                       </Link>
                     </Slide>
                   ))}
@@ -143,7 +160,7 @@ const PopularDestinationCarousel = () => {
                   id="slider"
                   className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  {popularDestinations.map((item, index) => (
+                  {exclusivePackage.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
@@ -152,14 +169,30 @@ const PopularDestinationCarousel = () => {
                             alt={item.title}
                             className="object-cover rounded-xl  object-center h-96 w-96"
                           />
+
                           <div className="bg-black rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                            <div className="flex h-full items-end relative pb-6">
-                              <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                                {item.title}
-                              </h3>
+                            <div className="flex h-fit items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-0  ">
+                              <MdOutlineDiscount color="white" size={20} />
+                              Save upto {item.discount}
                             </div>
                           </div>
                         </div>
+                        <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between item-center">
+                          <p className="">{item.days}</p>
+                          <div className="flex items-center gap-2">
+                            <FaStar color="green" />
+                            4.8 (120)
+                          </div>
+                        </div>
+                        <div className="flex w-full text-sm px-1 mt-3  justify-between item-center">
+                          <p>{item.title}</p>
+                        </div>
+                        <div className="flex h-fit rounded-lg mt-3 items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-600 to-yellow-400   relative top-0  ">
+                          Early Summer sale !
+                        </div>
+                        <button className="flex w-full text-lg  mt-3  text-white bg-red-500 font-medium rounded-lg px-2 py-3 justify-center item-center">
+                          Explore
+                        </button>
                       </Link>
                     </Slide>
                   ))}
@@ -191,7 +224,7 @@ const PopularDestinationCarousel = () => {
           </div>
         </CarouselProvider>
 
-        <CarouselProvider
+        {/* <CarouselProvider
           className="block md:hidden "
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
@@ -229,23 +262,38 @@ const PopularDestinationCarousel = () => {
                   id="slider"
                   className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
                 >
-                  {popularDestinations.map((items, index) => (
+                  {exclusivePackage.map((item, index) => (
                     <Slide index={index} key={index}>
-                      <Link href={items.link}>
+                      <Link href={item.link}>
                         <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
                           <img
-                            src={items.imageUrl}
-                            alt={items.title}
+                            src={item.imageUrl}
+                            alt={item.title}
                             className="object-cover rounded-xl object-center w-full"
                           />
                           <div className="bg-black rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                            <div className="flex h-full items-end relative pb-6">
-                              <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-16 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
-                                {items.title}
-                              </h3>
+                            <div className="flex h-fit items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-0  ">
+                              <MdOutlineDiscount color="white" size={20} />
+                              Save upto {item.discount}
                             </div>
                           </div>
                         </div>
+                        <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between item-center">
+                          <p className="">{item.days}</p>
+                          <div className="flex items-center gap-2">
+                            <FaStar color="green" />
+                            4.8 (120)
+                          </div>
+                        </div>
+                        <div className="flex w-full text-sm px-1 mt-3  justify-between item-center">
+                          <p>{item.title}</p>
+                        </div>
+                        <div className="flex h-fit rounded-lg mt-3 items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-600 to-yellow-400   relative top-0  ">
+                          Early Summer sale !
+                        </div>
+                        <button className="flex w-full text-lg  mt-3  text-white bg-red-500 font-medium rounded-lg px-2 py-3 justify-center item-center">
+                          Explore
+                        </button>
                       </Link>
                     </Slide>
                   ))}
@@ -275,7 +323,7 @@ const PopularDestinationCarousel = () => {
               </svg>
             </ButtonNext>
           </div>
-        </CarouselProvider>
+        </CarouselProvider> */}
       </div>
     </section>
   );

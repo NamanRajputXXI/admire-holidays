@@ -24,7 +24,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col gap-5    items-center  ">
-          <h5 className="font-semibold sm:ml-[-80px] ml-0 ">About</h5>
+          <h5 className="font-semibold sm:ml-[-55px] ml-0 ">About</h5>
           <ul className="font-light sm:items-start items-center flex   flex-col gap-4">
             <Link href="/about">About us</Link>
             <Link href="/contact">Contact</Link>

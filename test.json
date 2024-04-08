@@ -1,105 +1,80 @@
-
 {
   "_id": {
-    "$oid": "65f971b4d312519f810e4aa6"
+    "$oid": "65e04383b0263a739b353827"
   },
-  "heading": "Offbeat Vietnam Sightseeing Tour",
-  "subHeading": "Trip in Vietnam",
-  "duration": "8 Night / 9 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15743719.228722906!2d95.23467808854284!3d15.555198294291172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2sVietnam!5e0!3m2!1sen!2sin!4v1712217321304!5m2!1sen!2sin",
-  
-  
-    "itinerary": [
-      {
-        "day": "Day 1",
-        "day1Heading": "Arrival in Hanoi",
-        "day1Overview": "Upon arrival in Hanoi, check in at the hotel and relax. Spend the day at leisure, exploring the famous attractions like Ngoc Son Temple, Hoan Kiem Lake, Temple of Literature, etc. Afterwards, return to the hotel for an overnight stay."
-      },
-      {
-        "day": "Day 2",
-        "day2Heading": "Excursion to Ninh Binh province",
-        "day2Overview": "Enjoy a trip to Ninh Binh City. Visit the Hao Lu and the ancient temples of the Le Dinh Dynasties. Explore the limestone caves of Tam Coc on a boat ride from Hao Lu. Conclude your day cycling through the village, from Tam Coc to Bich Dong Pagoda. Later, get dropped off at your hotel for an overnight stay."
-      },
-      {
-        "day": "Day 3",
-        "day3Heading": "Halong Bay Overnight Cruise",
-        "day3Overview": "You will make your way to Tuan Chau Harbor via the Red River Delta area and board your overnight cruise. Enjoy a warm welcome and relax for a while. Later, you will visit Ti Top island, pearl farm village, and attend a cooking session on board. Enjoy your overnight cruise stay."
-      },
-      {
-        "day": "Day 4",
-        "day4Heading": "Halong Bay to Hanoi | Transfer to Dong Hoi",
-        "day4Overview": "Begin the day with a Tai Chi lesson at the deck. Later explore the wonderful caves around Halong Bay before getting transferred to Hanoi airport from Tuan Chau Harbor. Board your flight to Dong Hoi, and after arrival get transferred to the hotel for check in and overnight stay."
-      },
-      {
-        "day": "Day 5",
-        "day5Heading": "Excursion to Phong Nha Ke Bang National Park",
-        "day5Overview": "In the morning you will be taken to the Phong Nha Ke Bang National park for a day trip exploring the best caves in Vietnam. Visit the Dark Cave, Phong Nha Cave, and get a chance to enjoy kayaking, flying swing, and more before you get dropped off at the hotel in Dong Hoi for an overnight stay."
-      },
-      {
-        "day": "Day 6",
-        "day6Heading": "Arrival in Da Nang",
-        "day6Overview": "Check out of your hotel in Dong Hoi before getting transferred to the Dong Hoi train station. You will board a train for Da Nang, enjoying a 6 hour journey across scenic forest routes. Upon arrival in Da Nang, check in at the hotel for an overnight stay."
-      },
-      {
-        "day": "Day 7",
-        "day7Heading": "Ba Na Hills Day Trip",
-        "day7Overview": "Get transferred to Suoi Mo Station to board a cable car to Ba Na Hills. Visit the famous Golden Hand Bridge, renowned for scenes in “Game of Thrones”. End your trip by visiting Linh Ung Pagoda, housing a Lady Buddha & Debay Wine Cellar. Afterwards, get transferred back to the hotel in Da Nang."
-      },
-      {
-        "day": "Day 8",
-        "day8Heading": "Da Nang to Ho Chi Minh | Visit to Cu Chi Tunnels",
-        "day8Overview": "Check out and get transferred to the airport for a flight to Ho Chi Minh City. After arrival, check in at the hotel and get ready for a half day tour of Cu Chi tunnels post lunch time. Explore the Vietnam war period tunnels and later get dropped at the hotel for an overnight stay."
-      },
-      {
-        "day": "Day 9",
-        "day9Heading": "Departure from Ho Chi Minh City",
-        "day9Overview": "Check out from the hotel and get transferred to the Ho Chi Minh airport for your flight back home. This marks the end of your trip to Vietnam."
-      }
-    ]
-  
-  
-,
-"overView": [
-  {
-    "heading": "Unveiling the Enchanting Wonders of Vietnam",
-    "text": "Embark on an extraordinary journey through Vietnam, a captivating land where ancient traditions harmoniously blend with modern splendor. Discover a kaleidoscope of cultural riches, breathtaking landscapes, and warm hospitality that will leave an indelible mark on your soul."
-  },
-  {
-    "heading": "Imperial Cities and Ancient Legends",
-    "text": "Immerse yourself in the imperial grandeur of Vietnam's historic cities. Wander through the UNESCO-listed Citadel of Hue, unravel the mysteries of Hoi An's ancient town, and stand in awe before the majestic temples and pagodas that echo stories of dynasties past."
-  },
-  {
-    "heading": "Natural Wonders and Coastal Splendor",
-    "text": "Vietnam's natural beauty takes center stage in its stunning landscapes. Cruise along the emerald waters of Halong Bay, where limestone karsts rise majestically from the sea. Explore picturesque beaches, lush national parks, and verdant rice terraces that paint a vivid tapestry of natural grandeur."
-  },
-  {
-    "heading": "Vibrant Cities and Culinary Delights",
-    "text": "Discover the pulsating energy of Vietnam's vibrant cities. Explore the bustling streets of Hanoi and Ho Chi Minh City, where modern skyscrapers coexist with ancient temples. Indulge in the country's renowned cuisine, a harmonious blend of fresh ingredients and aromatic spices that tantalize the senses."
-  },
-  {
-    "heading": "Craftsmanship and Cultural Immersion",
-    "text": "Delve into the rich tapestry of Vietnamese culture through its craftsmanship and traditions. Witness the intricate art of water puppetry, admire the skilled hands of artisans creating lacquerware and silk paintings, and immerse yourself in the warmth of local hospitality."
-  },
-  {
-    "heading": "A Journey of Resilience and Renewal",
-    "text": "Vietnam's history is a testament to resilience and renewal. From the Cu Chi Tunnels that bear witness to the country's struggles, to the thriving cities that showcase its remarkable progress, Vietnam's spirit is one of enduring strength and unwavering determination."
-  },
-  {
-    "heading": "Plan Your Vietnamese Odyssey",
-    "text": "Whether you seek ancient wonders, natural beauty, or cultural immersion, Vietnam promises an unforgettable journey. Embark on your odyssey through this captivating land, where every experience is a tapestry woven with timeless traditions and modern wonders."
-  }
- ],
-  "visaPolicy": [
-    "Visa-free entry for Republic of India passport holders traveling to Malaysia from 1 December 2023 until 31 December 2024.",
-    "Duration of stay: Up to 30 days for each entry.",
-    "Note: Visa-free entry is subject to immigration approval."
+  "heading": "Splendid Goa Tour Package",
+  "subHeading": "Trip in Goa",
+  "duration": "3 Night / 4 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984956.6951151119!2d73.34719476819349!3d15.35008449256378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba106336b741%3A0xeaf887ff62f34092!2sGoa!5e0!3m2!1sen!2sin!4v1709195762246!5m2!1sen!2sin",
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "day1Heading": "Arrival in Goa",
+      "day1Overview": "Upon reaching Goa, meet our official who will ensure a smooth transfer to your pre-booked hotel and assist with check-in formalities. Spend the day leisurely exploring the surroundings or nearby beaches. In the evening, head to the Santa Monica Jetty under the Atal Setu to board your Sunset cruise on the Mandovi river. Enjoy live music, cultural performances, and scenic views as the sun sets over the horizon. Return to the hotel for an overnight stay in Goa."
+    },
+    {
+      "day": "Day 2",
+      "day2Heading": "North Goa Tour",
+      "day2Overview": "Wake up in the morning, have a scrumptious breakfast, and proceed for a full day sightseeing of North Goa. Start off by visiting the famous Aguada Fort, followed by Sinquerim Beach, Candolim Beach, Calangute Beach, Baga Beach, Anjuna Beach, and Vagator Beach. Explore the attractions, enjoy water sports, and witness the stunning Vagator Beach. Return to the hotel for an overnight stay in Goa."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "South Goa Tour OR Excursion to Dudhsagar Waterfalls",
+      "day3Overview": "Option 1: After breakfast, embark on a tour to South Goa. Visit Shri Manguesh Temple, Old Goa Churches (Bom Jesus Basilica, Se Cathedral), Miramar Beach, and Dona Paula Beach. Enjoy shopping at the Panjim flea market. Return to the hotel for an overnight stay.\n\nOption 2: Alternatively, wake up to a beautiful coastal morning and have breakfast. Proceed for an excursion to Dudhsagar Waterfalls, passing through Mollem Wildlife Sanctuary. Hike to witness the majestic waterfall and visit spice plantations. Return to the hotel for an overnight stay in Goa."
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": "Departure from Goa",
+      "day4Overview": "After a hearty breakfast, complete the check-out formalities at the hotel. Take along the bundle of joyful memories from the beaches of Goa to cherish for a lifetime. Your trip concludes as you get dropped at the airport/railway station for your onward journey."
+    }
+  ],  
+  "overView": [
+    {
+      "heading": "Goa Bliss Unveiled: Exploring Coastal Delights",
+      "text": "Embark on a delightful journey through the sun-kissed state of Goa, where sandy beaches, vibrant nightlife, and rich Portuguese heritage create a perfect blend of relaxation and excitement."
+    },
+    {
+      "heading": "Spiritual Tranquility in Old Goa",
+      "text": "Immerse yourself in the serene aura of Old Goa. Explore the historic churches, witness the cultural richness, and absorb the tranquil vibes of this spiritual haven, echoing the remnants of Portuguese influence."
+    },
+    {
+      "heading": "Coastal Views in Palolem",
+      "text": "Discover the pristine coastal views of Palolem. Relax on the sandy shores, experience the lively atmosphere, and embrace the natural beauty of this beach paradise nestled in the heart of Goa's vibrant landscape."
+    },
+    {
+      "heading": "Nature's Charms: Dudhsagar Waterfalls",
+      "text": "Delve into the natural wonders surrounding Goa. Explore the majestic Dudhsagar Waterfalls, known for their breathtaking cascade amidst lush greenery. Immerse yourself in the refreshing landscapes and revel in the tranquility of this natural marvel."
+    },
+    {
+      "heading": "Culinary Delights of Goa",
+      "text": "Embark on a culinary journey through Goa. Savor local delicacies like Goan fish curry, Bebinca, and Feni. Explore bustling markets, indulge in authentic Goan cuisine, and relish the diverse flavors of this vibrant coastal state."
+    },
+    {
+      "heading": "Preserving Coastal Heritage",
+      "text": "Goa is committed to preserving its coastal heritage. From promoting traditional Goan music to conserving historic structures, the state strives to protect its cultural legacy, ensuring an enriching experience for visitors."
+    },
+    {
+      "heading": "Plan Your Goan Retreat",
+      "text": "Whether seeking beachside tranquility, cultural explorations, or culinary adventures, Goa promises a memorable journey. Plan your retreat in this coastal paradise, where every wave tells a story, and every moment is a celebration of Goa's vibrant charm."
+    }
   ],
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1557750255-c76072a7aad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1555979864-7a8f9b4fddf8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1572579836409-bf5a66093a5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1561461221-959c3f16234b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHZpZXRuYW18ZW58MHx8MHx8fDA%3D"
+    "/productKasauli1.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli3.jpg",
+    "/productKasauli4.jpg"
   ],
-
-  "imageUrl": "https://images.unsplash.com/photo-1527241868-2a14a600b05c?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  "exclusions": [
+    "Departure Taxes",
+    "Entry Fees",
+    "5 Star Accommmodation",
+    "Airport Transfers"
+  ],
+  "inclusions": [
+    "Specialized bilingual guide",
+    "Private Transport",
+    "Box lunch water, banana apple and chocolate",
+    "Enterance fees (Cable, Car and Moon Valley)"
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1587216212531-8c045d5e775c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHxnb2F8ZW58MHx8MHx8fDA%3D"
 }

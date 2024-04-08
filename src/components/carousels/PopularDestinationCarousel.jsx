@@ -32,7 +32,7 @@ const PopularDestinationCarousel = () => {
             <ButtonBack
               role="button"
               aria-label="slide backward"
-              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30  left-0 ml-[-10px]  cursor-pointer"
+              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 top-[30%] left-0 ml-[-10px]  cursor-pointer"
               id="prev"
             >
               <svg
@@ -99,7 +99,7 @@ const PopularDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-60 z-30 right-0  "
+              className="absolute   rounded-md top-[30%] bg-black py-3 px-2 bg-opacity-60 z-30 right-0  "
               id="next"
             >
               <svg

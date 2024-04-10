@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import "../styles/custom.css";
 import Head from "next/head";
 import NextTopLoader from "nextjs-toploader";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,20 @@ export default function RootLayout({ children }) {
           speed={200}
         />
         {children}
+
+        {/* Google Search Console Link */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MHF749Q34E"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MHF749Q34E');
+          `}
+        </Script>
       </body>
     </html>
   );

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   CarouselProvider,
   Slider,
@@ -11,7 +11,27 @@ import exclusivePackage from "@/data/exclusivePackage";
 import Link from "next/link";
 import { MdOutlineDiscount } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
+import "../../styles/custom.css";
 const PopularDestinationCarousel = () => {
+  const [windowWidth, setWindowWidth] = useState(undefined);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth);
+
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+  }, []);
+  const divHeight = windowWidth && windowWidth < 500 ? "443px" : "420px";
+
   return (
     <section className="container max-w-7xl my-20  mx-auto">
       <h1 className="text-center font-Aboreto md:text-5xl text-2xl  ">
@@ -265,7 +285,12 @@ const PopularDestinationCarousel = () => {
                   {exclusivePackage.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
-                        <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div
+                          className="flex flex-shrink-0 exlusive-package-carousel-mobile-card relative w-full  sm:w-auto"
+                          style={{
+                            height: divHeight,
+                          }}
+                        >
                           <img
                             src={item.imageUrl}
                             alt={item.title}
@@ -275,6 +300,25 @@ const PopularDestinationCarousel = () => {
                             <div className="flex h-fit items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-0  ">
                               <MdOutlineDiscount color="white" size={20} />
                               Save upto {item.discount}
+                            </div>
+                          </div>
+                          <div className="bg-black  flex flex-col   rounded-xl bottom-0 bg-opacity-5 absolute w-full h-full ">
+                            <div className="flex flex-col   text-xs py-2 px-3 rounded-b-xl gap-3  w-full text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-[296px] ">
+                              <div className=" flex  items-center justify-between gap-3  w-full text-white">
+                                <p>{item.days}</p>
+                                <div className="flex items-center gap-2">
+                                  <FaStar color="green" />
+                                  4.8 (120)
+                                </div>
+                              </div>
+                              <div className="w-full">
+                                <p className="flex text-base">{item.title}</p>
+                              </div>
+                              <div>
+                                <button className="flex w-full text-lg   text-white bg-green-600 font-medium rounded-lg px-2 py-2 justify-center item-center">
+                                  Explore
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>

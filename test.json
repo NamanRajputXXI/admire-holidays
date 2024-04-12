@@ -1,80 +1,73 @@
 {
   "_id": {
-    "$oid": "65e04383b0263a739b353827"
+    "$oid": "65ded54dae0127aa119d2330"
   },
-  "heading": "Splendid Goa Tour Package",
-  "subHeading": "Trip in Goa",
-  "duration": "3 Night / 4 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984956.6951151119!2d73.34719476819349!3d15.35008449256378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba106336b741%3A0xeaf887ff62f34092!2sGoa!5e0!3m2!1sen!2sin!4v1709195762246!5m2!1sen!2sin",
-  "itinerary": [
-    {
-      "day": "Day 1",
-      "day1Heading": "Arrival in Goa",
-      "day1Overview": "Upon reaching Goa, meet our official who will ensure a smooth transfer to your pre-booked hotel and assist with check-in formalities. Spend the day leisurely exploring the surroundings or nearby beaches. In the evening, head to the Santa Monica Jetty under the Atal Setu to board your Sunset cruise on the Mandovi river. Enjoy live music, cultural performances, and scenic views as the sun sets over the horizon. Return to the hotel for an overnight stay in Goa."
-    },
-    {
-      "day": "Day 2",
-      "day2Heading": "North Goa Tour",
-      "day2Overview": "Wake up in the morning, have a scrumptious breakfast, and proceed for a full day sightseeing of North Goa. Start off by visiting the famous Aguada Fort, followed by Sinquerim Beach, Candolim Beach, Calangute Beach, Baga Beach, Anjuna Beach, and Vagator Beach. Explore the attractions, enjoy water sports, and witness the stunning Vagator Beach. Return to the hotel for an overnight stay in Goa."
-    },
-    {
-      "day": "Day 3",
-      "day3Heading": "South Goa Tour OR Excursion to Dudhsagar Waterfalls",
-      "day3Overview": "Option 1: After breakfast, embark on a tour to South Goa. Visit Shri Manguesh Temple, Old Goa Churches (Bom Jesus Basilica, Se Cathedral), Miramar Beach, and Dona Paula Beach. Enjoy shopping at the Panjim flea market. Return to the hotel for an overnight stay.\n\nOption 2: Alternatively, wake up to a beautiful coastal morning and have breakfast. Proceed for an excursion to Dudhsagar Waterfalls, passing through Mollem Wildlife Sanctuary. Hike to witness the majestic waterfall and visit spice plantations. Return to the hotel for an overnight stay in Goa."
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": "Departure from Goa",
-      "day4Overview": "After a hearty breakfast, complete the check-out formalities at the hotel. Take along the bundle of joyful memories from the beaches of Goa to cherish for a lifetime. Your trip concludes as you get dropped at the airport/railway station for your onward journey."
-    }
-  ],  
-  "overView": [
-    {
-      "heading": "Goa Bliss Unveiled: Exploring Coastal Delights",
-      "text": "Embark on a delightful journey through the sun-kissed state of Goa, where sandy beaches, vibrant nightlife, and rich Portuguese heritage create a perfect blend of relaxation and excitement."
-    },
-    {
-      "heading": "Spiritual Tranquility in Old Goa",
-      "text": "Immerse yourself in the serene aura of Old Goa. Explore the historic churches, witness the cultural richness, and absorb the tranquil vibes of this spiritual haven, echoing the remnants of Portuguese influence."
-    },
-    {
-      "heading": "Coastal Views in Palolem",
-      "text": "Discover the pristine coastal views of Palolem. Relax on the sandy shores, experience the lively atmosphere, and embrace the natural beauty of this beach paradise nestled in the heart of Goa's vibrant landscape."
-    },
-    {
-      "heading": "Nature's Charms: Dudhsagar Waterfalls",
-      "text": "Delve into the natural wonders surrounding Goa. Explore the majestic Dudhsagar Waterfalls, known for their breathtaking cascade amidst lush greenery. Immerse yourself in the refreshing landscapes and revel in the tranquility of this natural marvel."
-    },
-    {
-      "heading": "Culinary Delights of Goa",
-      "text": "Embark on a culinary journey through Goa. Savor local delicacies like Goan fish curry, Bebinca, and Feni. Explore bustling markets, indulge in authentic Goan cuisine, and relish the diverse flavors of this vibrant coastal state."
-    },
-    {
-      "heading": "Preserving Coastal Heritage",
-      "text": "Goa is committed to preserving its coastal heritage. From promoting traditional Goan music to conserving historic structures, the state strives to protect its cultural legacy, ensuring an enriching experience for visitors."
-    },
-    {
-      "heading": "Plan Your Goan Retreat",
-      "text": "Whether seeking beachside tranquility, cultural explorations, or culinary adventures, Goa promises a memorable journey. Plan your retreat in this coastal paradise, where every wave tells a story, and every moment is a celebration of Goa's vibrant charm."
-    }
-  ],
+  "heading": "Radisson Blu Udaipur Palace Resort and Spa | Luxury Staycation Deal",
+  "subHeading": "Rajasthan Tour",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114306.33847147405!2d74.55331170761619!3d26.45337326405505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6d8fcb7cd01%3A0xcbaf8f12eb8100ee!2sAjmer%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1709101338642!5m2!1sen!2sin",
+  "duration":"1 Nights / 2 Days",
   "carouselImageUrl": [
-    "/productKasauli1.jpg",
-    "/productKasauli2.jpg",
-    "/productKasauli3.jpg",
-    "/productKasauli4.jpg"
-  ],
-  "exclusions": [
-    "Departure Taxes",
-    "Entry Fees",
-    "5 Star Accommmodation",
-    "Airport Transfers"
+    "/productJaipur1.jpg",
+    "/productJaipur2.jpg",
+    "/productJaipur3.jpg",
+    "/productJaipur4.jpg"
   ],
   "inclusions": [
     "Specialized bilingual guide",
     "Private Transport",
-    "Box lunch water, banana apple and chocolate",
-    "Enterance fees (Cable, Car and Moon Valley)"
+    "Entrance fees (Cable and car and Moon Valley)",
+    "Box lunch water, banana apple and chocolate  "
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1587216212531-8c045d5e775c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHxnb2F8ZW58MHx8MHx8fDA%3D"
+  "exclusions": [
+    "Departure Taxes",
+    "Entry Fees ",
+    "5 Star Accommodation   ",
+    "Airport Transfers"
+  ],
+
+  "itinerary": [
+    {
+        "day": "Day 1",
+        "day1Heading": "Luxury Staycation at Radisson Blu Udaipur Palace Resort and Spa: Day 1",
+        "day1Overview": "09:00 AM - Check-in at Radisson Blu Udaipur Palace Resort and Spa.\n10:00 AM - Enjoy a sumptuous breakfast at the hotel's restaurant.\n11:00 AM - Relax by the poolside and soak in the scenic views of Lake Fateh Sagar.\n01:00 PM - Indulge in a rejuvenating spa treatment at the resort's spa center.\n03:00 PM - Take a guided tour of the resort's expansive grounds and learn about its historical significance.\n05:00 PM - Enjoy evening tea or coffee at the lake-facing lounge area.\n07:00 PM - Savor a gourmet dinner at the hotel's fine dining restaurant.\n09:00 PM - Spend the evening stargazing or enjoying live music at the resort's entertainment venue."
+    },
+    {
+        "day": "Day 2",
+        "day2Heading": "Luxury Staycation at Radisson Blu Udaipur Palace Resort and Spa: Day 2",
+        "day2Overview": "08:00 AM - Wake up to a beautiful sunrise and go for a morning walk around the resort's landscaped gardens.\n09:00 AM - Enjoy a lavish breakfast buffet with a wide selection of local and international cuisine.\n10:30 AM - Participate in a yoga or meditation session conducted by the resort's wellness experts.\n12:00 PM - Explore nearby attractions such as City Palace, Jagdish Temple, and the bustling markets of Udaipur.\n02:00 PM - Return to the resort for a relaxing afternoon by the pool or on a private boat ride on Lake Fateh Sagar.\n04:00 PM - Take part in a cooking class to learn traditional Rajasthani recipes.\n07:00 PM - Attend a cultural performance showcasing local music and dance traditions.\n08:30 PM - Enjoy a farewell dinner featuring a special menu prepared by the resort's culinary team.\n10:00 PM - Relax and unwind in the comfort of your luxurious room or suite."
+    }
+]
+
+ ,
+  "overView": [
+    {
+      "heading": "Royal Romance: Jaipur Honeymoon Retreat",
+      "text": "After breakfast take a boat ride at Lake Pichola. Next visit City Palace - It was built by the Maharana Udai Singh as the capital of the Sisodia Rajput clan in 1559. Jagdish Temple- Jagdish Temple is a large Hindu temple in the middle of Udaipur in Rajasthan. A big tourist attraction, the temple was originally called the temple of Jagannath Rai but is now called Jagdish-Ji, Saheliyon ki Bari (Gardens of the maids of Honor) and Museum. Evening transfer to the hotel. Stay overnight at the hotel.  Udaipur the City of Lakes is one among the most romantic and most beautiful city of India. It is a lovely land around the blue water lakes, edge of the lush hills of the Aravalis. A vision in white soaked in romance and beauty, Udaipur city of Rajasthan state is a fascinating blend of sights, sounds and experiences - an inspiration for the imagination of the painters, poets and writers. Udaipur's lakes, gardens, temples and narrow lanes scattered with stalls, carry the flavor of heroic past, epitomizing valor and chivalry."
+    },
+    {
+      "heading": "Palatial Paradise in Jaipur",
+      "text": "Indulge in the grandeur of Jaipur's palaces and forts. Discover the enchanting Amer Fort, stroll through the City Palace, and marvel at the Hawa Mahal. Let the majestic architecture transport you to a bygone era of royal opulence."
+    },
+    {
+      "heading": "Cultural Delights and Local Markets",
+      "text": "Explore the vibrant markets of Jaipur, adorned with traditional crafts and local delicacies. Immerse yourself in the cultural tapestry, attend folk performances, and savor the flavors of authentic Rajasthani cuisine."
+    },
+    {
+      "heading": "Romantic Strolls in Palace Gardens",
+      "text": "Experience moments of tranquility in the lush gardens surrounding Jaipur's palaces. Take romantic strolls in the picturesque landscapes, where history meets nature, creating an idyllic setting for cherished memories."
+    },
+    {
+      "heading": "Artisan Crafts and Heritage Workshops",
+      "text": "Engage in hands-on experiences with local artisans. Participate in heritage workshops, learn traditional crafts, and witness the intricate artistry that defines Jaipur. Take home souvenirs that encapsulate the city's artistic legacy."
+    },
+    {
+      "heading": "Preserving Rajasthani Heritage",
+      "text": "Jaipur is dedicated to preserving its rich heritage. From architectural conservation to cultural initiatives, the city strives to protect its historical treasures, ensuring they endure as a testament to Rajasthan's royal legacy."
+    },
+    {
+      "heading": "Plan Your Jaipur Escape",
+      "text": "Whether seeking palatial romance, cultural immersion, or artisanal experiences, Jaipur promises an enchanting escape. Plan your retreat to the Pink City, where every street echoes with tales of royalty, and every moment is a celebration of Jaipur's allure."
+    }
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1560190109-e80f2e5ddedc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxyYWphc3RoYW58ZW58MHx8MHx8fDA%3D"
 }

@@ -8,7 +8,7 @@ const TravelGuideline = () => {
         backgroundImage: "url('overlayTheme1.png')",
       }}
     >
-      <div className="max-w-7xl md:flex-row flex-col flex gap-10 justify-between items-center px-5 mx-auto py-20  ">
+      <div className="max-w-7xl md:flex-row flex-col flex gap-10 justify-between items-center px-5 mx-auto sm:py-20 py-5   ">
         <div className="flex flex-col gap-5 ">
           <img src="dial.png" alt="" className="h-32 w-24" />
           <p className="font-light">Take a Hour</p>

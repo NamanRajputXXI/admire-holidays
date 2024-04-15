@@ -62,7 +62,7 @@ const YoutubeBanner = () => {
       <h1 className="text-center font-Aboreto  md:text-5xl text-2xl  ">
         Our Youtube Testimonials
       </h1>
-      <div className="flex sm:flex-row flex-col-reverse items-center my-0 sm:my-10 justify-center w-full h-full">
+      <div className="flex sm:flex-row gap-4 flex-col-reverse items-center my-0 sm:my-10 justify-center w-full h-full">
         <div className="flex px-3 sm:flex-col overflow-x-auto  sm:overflow-y-auto scollbar-hidden sm:w-80 w-full h-48 sm:h-full  flex-row text-white gap-5">
           {youtubeBannerData.map((item, i) => (
             <Link
@@ -71,13 +71,13 @@ const YoutubeBanner = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="relative sm:w-80 w-72   h-48 sm:h-full ">
+              <div className="relative w-72   h-48 sm:h-full ">
                 <img
                   src={item.imageUrl}
                   alt=""
                   className="rounded-xl transition-all duration-300 hover:shadow-xl hover:opacity-75"
                 />
-                <div className="absolute rounded-xl inset-0 flex items-center bg-black gap-3  justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
+                <div className="absolute rounded-xl inset-0 w-72   h-48  sm:h-full  flex items-center bg-black gap-3  justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
                   <span className="text-white font-bold">See Review</span>
                   <FaArrowRight color="white" size={20} />
                 </div>

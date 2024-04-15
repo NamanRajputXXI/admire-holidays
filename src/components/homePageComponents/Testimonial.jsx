@@ -104,14 +104,14 @@ const TestimonialSlider = () => {
             <button
               aria-label="Previous slide"
               onClick={handlePrevSlide}
-              className="rounded-full border flex justify-center  items-center border-red-500 p-3 text-rose-600 transition hover:bg-red-500 hover:text-white"
+              className="rounded-full border flex justify-center  items-center bg-red-600 border-red-500 p-3 text-rose-600 transition  hover:text-white"
             >
               <span className="inline-block h-5 w-5">
                 <svg
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
-                  className="text-black" // Apply 'text-black' class directly here
+                  className="text-white" // Apply 'text-black' class directly here
                 >
                   <path
                     fill="currentColor"
@@ -120,18 +120,17 @@ const TestimonialSlider = () => {
                 </svg>
               </span>
             </button>
-
             <button
               aria-label="Next slide"
               onClick={handleNextSlide}
-              className="rounded-full border border-rose-600 p-3 flex justify-center items-center text-rose-600 transition hover:bg-red-500 hover:text-white"
+              className="rounded-full border bg-red-600 border-rose-600 p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
             >
               <span className="inline-block h-5 w-5">
                 <svg
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
-                  className="text-black" // Change this class to 'text-black'
+                  className="text-white" // Change this class to 'text-black'
                 >
                   <path
                     fill="currentColor"

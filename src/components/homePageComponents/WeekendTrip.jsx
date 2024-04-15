@@ -4,7 +4,7 @@ import WeekendTripCard from "../cards/WeekendTripCard";
 import weekendTripData from "@/data/weekendTrip";
 const WeekendTrip = () => {
   return (
-    <section className="max-w-7xl my-32 mx-auto ">
+    <section className="max-w-7xl mt-32 mx-auto ">
       <h1 className="text-center md:text-5xl text-3xl  font-bold">
         Weekend Trip
       </h1>

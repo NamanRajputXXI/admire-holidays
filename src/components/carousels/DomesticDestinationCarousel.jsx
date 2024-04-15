@@ -53,7 +53,7 @@ const DomesticDestinationCarousel = () => {
               <Slider>
                 <div
                   id="slider"
-                  className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
+                  className="h-full flex lg:gap-4 md:gap-4 gap-8 items-center justify-start transition ease-out duration-700"
                 >
                   {domesticDestinations.map((item, index) => (
                     <Slide index={index} key={index}>
@@ -81,7 +81,7 @@ const DomesticDestinationCarousel = () => {
             <ButtonNext
               role="button"
               aria-label="slide forward"
-              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 right-[-30px] mr-8 "
+              className="absolute   rounded-md bg-black py-3 px-2 bg-opacity-50 z-30 right-[-40px] mr-8 "
               id="next"
             >
               <svg
@@ -140,7 +140,7 @@ const DomesticDestinationCarousel = () => {
               <Slider>
                 <div
                   id="slider"
-                  className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
+                  className="h-full flex lg:gap-6 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
                   {domesticDestinations.map((item, index) => (
                     <Slide index={index} key={index}>
@@ -226,7 +226,7 @@ const DomesticDestinationCarousel = () => {
               <Slider>
                 <div
                   id="slider"
-                  className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
+                  className="h-full w-full flex lg:gap-8 md:gap-6 gap-2 items-center justify-start transition ease-out duration-700"
                 >
                   {domesticDestinations.map((items, index) => (
                     <Slide index={index} key={index}>

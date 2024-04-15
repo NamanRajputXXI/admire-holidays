@@ -75,7 +75,7 @@ const PopularDestinationCarousel = () => {
               <Slider>
                 <div
                   id="slider"
-                  className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
+                  className="h-full flex  md:gap-4 gap-3 items-center justify-start transition ease-out duration-700"
                 >
                   {exclusivePackage.map((item, index) => (
                     <Slide index={index} key={index}>
@@ -178,7 +178,7 @@ const PopularDestinationCarousel = () => {
               <Slider>
                 <div
                   id="slider"
-                  className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
+                  className="h-full flex  md:gap-4 gap-3 items-center justify-start transition ease-out duration-700"
                 >
                   {exclusivePackage.map((item, index) => (
                     <Slide index={index} key={index}>
@@ -280,7 +280,7 @@ const PopularDestinationCarousel = () => {
               <Slider>
                 <div
                   id="slider"
-                  className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
+                  className="h-full w-full flex  md:gap-4 gap-3 items-center justify-start transition ease-out duration-700"
                 >
                   {exclusivePackage.map((item, index) => (
                     <Slide index={index} key={index}>

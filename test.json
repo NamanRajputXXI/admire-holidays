@@ -1,73 +1,149 @@
 {
   "_id": {
-    "$oid": "65ded54dae0127aa119d2330"
+    "$oid": "65dc568710e484c73da1ea76"
   },
-  "heading": "Radisson Blu Udaipur Palace Resort and Spa | Luxury Staycation Deal",
-  "subHeading": "Rajasthan Tour",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114306.33847147405!2d74.55331170761619!3d26.45337326405505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6d8fcb7cd01%3A0xcbaf8f12eb8100ee!2sAjmer%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1709101338642!5m2!1sen!2sin",
-  "duration":"1 Nights / 2 Days",
-  "carouselImageUrl": [
-    "/productJaipur1.jpg",
-    "/productJaipur2.jpg",
-    "/productJaipur3.jpg",
-    "/productJaipur4.jpg"
+  "heading": "Offshore Romance | Couple Tour Package of Andaman",
+  "subHeading": "Trip in Andaman",
+  "duration": "4 Night / 5 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125058.26971091633!2d92.64006163956387!3d11.61829356535844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3088946c176b5971%3A0x5bfa43a5e9a5ed30!2sPort%20Blair%2C%20Andaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1708934053933!5m2!1sen!2sin",
+  
+  
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "day1Heading": "Arrival in Port Blair",
+        "day1Overview": "After arrival, you will be transferred to the hotel for check-in. Later, you will get transferred to the Corbyn Cove Beach, admire its beautiful shore and palm trees. Next, you will visit the Cellular Jail and enjoy a light show, before getting dropped off at the hotel for an overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "day2Heading": "Port Blair to Havelock",
+        "day2Overview": "Post check out, you will get transferred to the Phoenix Bay Harbour for a ferry ride to Havelock Island. Upon arrival, check in at the hotel. Later, you will get transferred to Radhanagar Beach, known for its scenic views. After the visit, you'll get dropped off at the hotel for an overnight stay."
+      },
+      {
+        "day": "Day 3",
+        "day3Heading": "Kalapathar Beach Tour | Transfer to Port Blair",
+        "day3Overview": "In the morning, you will be picked up from the hotel and visit the Kalapathar Beach, enjoying a wonderful sunrise over the Indian Ocean. Afterwards, check out from the hotel and get transferred to Port Blair via a relaxing ferry ride. Check in at your hotel in Port Blair for an overnight stay."
+      },
+      {
+        "day": "Day 4",
+        "day4Heading": "Ross & North Bay Islands Tour",
+        "day4Overview": "Start your day with a ferry ride to Ross and North Bay Islands from Port Blair for a full day tour. Enjoy water sports like snorkeling and scuba diving (at your own expense). Next, visit Ross Island, known for its penal colony. Post visit, you will be transferred to the hotel for an overnight stay."
+      },
+      {
+        "day": "Day 5",
+        "day5Heading": "Departure",
+        "day5Overview": "After you check out from your hotel, you will be transferred to the airport for your flight back home. This marks the end of your trip."
+      }
+    ]
+   ,
+  "packageOptions": [
+    {
+      "package": "Standard",
+      "price": "₹13000",
+      "previousPrice": "₹17,000",
+      "hotelDestination": "Port Blair",
+      "hotelsName": [
+        "Sea Guli",
+        "Hotel King Safire",
+        "Radhakrishna Resort",
+        "Orient Legend Beach Resort ",
+        "Coral Garden Resort",
+        "Laxmi continental Resort"
+      ]
+    },
+    {
+      "package": "3 Star Deluxe",
+      "price": "₹15,200",
+      "previousPrice": "20,4000",
+      "hotelsName": [
+        "White coral Beach Resort",
+        "Havelock Exotic Beach Resort",
+        "TSG Blue ",
+        "Tango Beach Resort ",
+        "CS Empire"
+      ],
+      "hotelDestination": [
+        "Port Blair"
+      ]
+    },
+    {
+      "package": "4 Star Deluxe",
+      "price": "₹20,500",
+      "previousPrice": "₹23,500",
+      "hotelsName": [
+        "Mansha Regency",
+        "Haywizz Havelock",
+        "Symphany Palms ",
+        "Aquays Hotels ",
+        "Aquays Hotel & Resort ",
+        "Pearl Park Beach Resort",
+        "Symphony summer sand "
+      ],
+      "hotelDestination": [
+        "Port Blair"
+      ]
+    }
   ],
-  "inclusions": [
-    "Specialized bilingual guide",
-    "Private Transport",
-    "Entrance fees (Cable and car and Moon Valley)",
-    "Box lunch water, banana apple and chocolate  "
+  "carouselImageUrl": [
+    "/productKasauli1.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli3.jpg",
+    "/productKasauli4.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli1.jpg"
   ],
   "exclusions": [
-    "Departure Taxes",
-    "Entry Fees ",
-    "5 Star Accommodation   ",
-    "Airport Transfers"
+    "Airfare / Ship's fare",
+    "Travel insurance ",
+    "All kinds of personal expenses such as tips, laundry, telephone bills and beverages",
+    "It does not include any meals unless and otherwise specifically mentioned.    ",
+    "Guide, Jolly ride & snorkelling charges.    ",
+    "Optional, suggested or unspecified activities",
+    "Guide at Cellular jail will cost extra.    ",
+    "Camera fee (still or movie)",
+    "Additional usage of vehicles.    ",
+    "Any dispute regarding the child age to be settled directly with the hotels.  "
   ],
-
-  "itinerary": [
-    {
-        "day": "Day 1",
-        "day1Heading": "Luxury Staycation at Radisson Blu Udaipur Palace Resort and Spa: Day 1",
-        "day1Overview": "09:00 AM - Check-in at Radisson Blu Udaipur Palace Resort and Spa.\n10:00 AM - Enjoy a sumptuous breakfast at the hotel's restaurant.\n11:00 AM - Relax by the poolside and soak in the scenic views of Lake Fateh Sagar.\n01:00 PM - Indulge in a rejuvenating spa treatment at the resort's spa center.\n03:00 PM - Take a guided tour of the resort's expansive grounds and learn about its historical significance.\n05:00 PM - Enjoy evening tea or coffee at the lake-facing lounge area.\n07:00 PM - Savor a gourmet dinner at the hotel's fine dining restaurant.\n09:00 PM - Spend the evening stargazing or enjoying live music at the resort's entertainment venue."
-    },
-    {
-        "day": "Day 2",
-        "day2Heading": "Luxury Staycation at Radisson Blu Udaipur Palace Resort and Spa: Day 2",
-        "day2Overview": "08:00 AM - Wake up to a beautiful sunrise and go for a morning walk around the resort's landscaped gardens.\n09:00 AM - Enjoy a lavish breakfast buffet with a wide selection of local and international cuisine.\n10:30 AM - Participate in a yoga or meditation session conducted by the resort's wellness experts.\n12:00 PM - Explore nearby attractions such as City Palace, Jagdish Temple, and the bustling markets of Udaipur.\n02:00 PM - Return to the resort for a relaxing afternoon by the pool or on a private boat ride on Lake Fateh Sagar.\n04:00 PM - Take part in a cooking class to learn traditional Rajasthani recipes.\n07:00 PM - Attend a cultural performance showcasing local music and dance traditions.\n08:30 PM - Enjoy a farewell dinner featuring a special menu prepared by the resort's culinary team.\n10:00 PM - Relax and unwind in the comfort of your luxurious room or suite."
-    }
-]
-
- ,
+  "inclusions": [
+    "Accommodation on double/triple sharing basis at above-mentioned hotels / similar in base category rooms.",
+    "Daily breakfast & Dinner ",
+    "Airport pick up and drop by a/c vehicle.    ",
+    "Makruzz / Green Ocean Cruise / Sea Link / Nautika / ITT Majestic (base category) for Neil & Havelock as per the availability.",
+    "All Toll, Parking, Driver Bata & Fuel Cost",
+    "Assistance at all arrival and departure points. ",
+    "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable "
+  ],
+ 
   "overView": [
     {
-      "heading": "Royal Romance: Jaipur Honeymoon Retreat",
-      "text": "After breakfast take a boat ride at Lake Pichola. Next visit City Palace - It was built by the Maharana Udai Singh as the capital of the Sisodia Rajput clan in 1559. Jagdish Temple- Jagdish Temple is a large Hindu temple in the middle of Udaipur in Rajasthan. A big tourist attraction, the temple was originally called the temple of Jagannath Rai but is now called Jagdish-Ji, Saheliyon ki Bari (Gardens of the maids of Honor) and Museum. Evening transfer to the hotel. Stay overnight at the hotel.  Udaipur the City of Lakes is one among the most romantic and most beautiful city of India. It is a lovely land around the blue water lakes, edge of the lush hills of the Aravalis. A vision in white soaked in romance and beauty, Udaipur city of Rajasthan state is a fascinating blend of sights, sounds and experiences - an inspiration for the imagination of the painters, poets and writers. Udaipur's lakes, gardens, temples and narrow lanes scattered with stalls, carry the flavor of heroic past, epitomizing valor and chivalry."
+      "heading": "Andaman Delight: Discovering Havelock and Port Blair",
+      "text": "Embark on a captivating journey through the enchanting islands of Andaman, where Havelock and Port Blair showcase the region's pristine beaches, vibrant marine life, and rich cultural heritage."
     },
     {
-      "heading": "Palatial Paradise in Jaipur",
-      "text": "Indulge in the grandeur of Jaipur's palaces and forts. Discover the enchanting Amer Fort, stroll through the City Palace, and marvel at the Hawa Mahal. Let the majestic architecture transport you to a bygone era of royal opulence."
+      "heading": "Beachfront Bliss in Havelock",
+      "text": "Immerse yourself in the turquoise waters and white sandy beaches of Havelock. Experience the serene beauty of Radhanagar Beach, indulge in water activities, and unwind in this tropical paradise surrounded by the Andaman Sea."
     },
     {
-      "heading": "Cultural Delights and Local Markets",
-      "text": "Explore the vibrant markets of Jaipur, adorned with traditional crafts and local delicacies. Immerse yourself in the cultural tapestry, attend folk performances, and savor the flavors of authentic Rajasthani cuisine."
+      "heading": "Historical Charm of Port Blair",
+      "text": "Explore the historical landmarks of Port Blair, the capital city of Andaman. Visit the Cellular Jail, witness the Sound and Light Show narrating the region's history, and stroll through the vibrant markets offering local crafts and delicacies."
     },
     {
-      "heading": "Romantic Strolls in Palace Gardens",
-      "text": "Experience moments of tranquility in the lush gardens surrounding Jaipur's palaces. Take romantic strolls in the picturesque landscapes, where history meets nature, creating an idyllic setting for cherished memories."
+      "heading": "Island Adventure: Beyond the Waves",
+      "text": "Delve into the underwater wonders surrounding Havelock and Port Blair. Snorkel or dive to discover vibrant coral reefs and diverse marine life. These islands offer a paradise for water enthusiasts, promising unforgettable aquatic experiences."
     },
     {
-      "heading": "Artisan Crafts and Heritage Workshops",
-      "text": "Engage in hands-on experiences with local artisans. Participate in heritage workshops, learn traditional crafts, and witness the intricate artistry that defines Jaipur. Take home souvenirs that encapsulate the city's artistic legacy."
+      "heading": "Cultural Encounters",
+      "text": "Engage in the cultural tapestry of Andaman. Discover the traditions of the indigenous tribes, explore local markets, and savor the unique Andamanese cuisine. The islands blend natural beauty with a rich cultural heritage."
     },
     {
-      "heading": "Preserving Rajasthani Heritage",
-      "text": "Jaipur is dedicated to preserving its rich heritage. From architectural conservation to cultural initiatives, the city strives to protect its historical treasures, ensuring they endure as a testament to Rajasthan's royal legacy."
+      "heading": "Preserving Marine Heritage",
+      "text": "Andaman is committed to preserving its marine ecosystems. From responsible tourism practices to coral conservation initiatives, the islands strive to protect their underwater treasures for future generations to marvel at."
     },
     {
-      "heading": "Plan Your Jaipur Escape",
-      "text": "Whether seeking palatial romance, cultural immersion, or artisanal experiences, Jaipur promises an enchanting escape. Plan your retreat to the Pink City, where every street echoes with tales of royalty, and every moment is a celebration of Jaipur's allure."
+      "heading": "Plan Your Andaman Escape",
+      "text": "Whether seeking beachfront bliss, historical insights, or underwater adventures, Andaman promises an unforgettable journey. Plan your escape to this tropical haven, where every wave tells a story, and every moment is a celebration of Andaman's allure."
     }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1560190109-e80f2e5ddedc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxyYWphc3RoYW58ZW58MHx8MHx8fDA%3D"
+  
+  "imageUrl": "https://images.unsplash.com/photo-1706629340089-841a74251fbd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM3fHxhbmRhbWFufGVufDB8fDB8fHww"
 }

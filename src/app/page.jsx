@@ -5,7 +5,7 @@ import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
 import YoutubeBanner from "@/components/homePageComponents/YoutubeBanner";
 import DomesticDestinationCarousel from "@/components/carousels/DomesticDestinationCarousel";
 import InternationalDestinationCarousel from "@/components/carousels/InternationalDestinationCarousel";
-import PopularDestinationCarousel from "@/components/carousels/PopularDestinationCarousel";
+import PopularDestinationCarousel from "@/components/carousels/ExclusiveCarousel";
 import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
 import WeekendTrip from "@/components/homePageComponents/WeekendTrip";
 import CompanyStatsSection from "@/components/homePageComponents/CompanyStatsSection";

@@ -20,7 +20,7 @@ const HeroSection = () => {
           <DestinationMaker />
         </div>
 
-        <div>
+        <div className="sm:px-0 sm:flex hidden px-3">
           <img
             src={"/heroSectionBanner.jpg"}
             className="lg:h-[700px] lg:w-[100%] w-full"

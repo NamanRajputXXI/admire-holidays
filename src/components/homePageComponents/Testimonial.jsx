@@ -1,9 +1,10 @@
 "use client";
-import React, { useState } from "react";
 
-const TestimonialCarousel = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+import React, { useEffect, useRef } from "react";
+import KeenSlider from "keen-slider";
+import "keen-slider/keen-slider.min.css";
 
+const TestimonialSlider = () => {
   const testimonials = [
     {
       name: "Prathmesh Sagare,Mumbai",
@@ -41,143 +42,129 @@ const TestimonialCarousel = () => {
       image: "review5Image.jpg",
     },
   ];
+  const sliderContainer = useRef(null);
+  const keenSlider = useRef(null);
 
-  const handlePrev = () => {
-    setActiveIndex((prevIndex) =>
-      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
-    );
+  useEffect(() => {
+    if (sliderContainer.current && !keenSlider.current) {
+      keenSlider.current = new KeenSlider(sliderContainer.current, {
+        loop: true,
+        slides: {
+          origin: "center",
+          perView: 1, // Default to 1 review visible
+          spacing: 16,
+        },
+        breakpoints: {
+          "(min-width: 288px)": {
+            slides: {
+              origin: "auto",
+              perView: 1, // Show 2 reviews on screens >= 768px
+              spacing: 32,
+            },
+          },
+          "(min-width: 768px)": {
+            slides: {
+              origin: "auto",
+              perView: 2, // Show 2 reviews on screens >= 768px
+              spacing: 32,
+            },
+          },
+          "(min-width: 1024px)": {
+            slides: {
+              origin: "auto",
+              perView: 3, // Show 3 reviews on screens >= 1024px
+              spacing: 32,
+            },
+          },
+        },
+      });
+    }
+  }, []);
+
+  const handlePrevSlide = () => {
+    if (keenSlider.current) {
+      keenSlider.current.prev();
+    }
   };
 
-  const handleNext = () => {
-    setActiveIndex((prevIndex) =>
-      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
-    );
+  const handleNextSlide = () => {
+    if (keenSlider.current) {
+      keenSlider.current.next();
+    }
   };
 
   return (
-    <div className="container my-24 mx-auto md:px-6">
-      <section className="mb-32 text-center">
-        <p className="text-center text-xl font-medium text-[#00BB98] my-4 italic">
-          Testimonials
-        </p>
-        <h1 className="text-center md:text-5xl  text-3xl  font-bold">
-          What Our Happy Clients Say
-        </h1>
-        <div
-          id="carouselExampleCaptions"
-          className="relative mt-20"
-          data-te-carousel-init
-          data-te-carousel-slide
-        >
-          <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-            {testimonials.map((testimonial, index) => (
-              <div
-                key={index}
-                className={`relative float-left -mr-[100%] ${
-                  index === activeIndex ? "block" : "hidden"
-                } w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none`}
-                data-te-carousel-active={index === activeIndex}
-                data-te-carousel-item
-                style={{ backfaceVisibility: "hidden" }}
-              >
+    <section className="bg-gray-50">
+      <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6  lg:py-16  lg:ps-8 xl:py-24">
+        <div className="max-w-7xl items-end justify-between sm:flex sm:pe-6 lg:pe-8">
+          <h2 className="max-w-xl text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            Read trusted reviews from our customers
+          </h2>
+          <div className="mt-8 flex gap-4 lg:mt-0">
+            <button
+              aria-label="Previous slide"
+              onClick={handlePrevSlide}
+              className="rounded-full border flex justify-center  items-center border-red-500 p-3 text-rose-600 transition hover:bg-red-500 hover:text-white"
+            >
+              <span className="inline-block h-5 w-5">
+                <svg
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  className="text-black" // Apply 'text-black' class directly here
+                >
+                  <path
+                    fill="currentColor"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </span>
+            </button>
+
+            <button
+              aria-label="Next slide"
+              onClick={handleNextSlide}
+              className="rounded-full border border-rose-600 p-3 flex justify-center items-center text-rose-600 transition hover:bg-red-500 hover:text-white"
+            >
+              <span className="inline-block h-5 w-5">
+                <svg
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  className="text-black" // Change this class to 'text-black'
+                >
+                  <path
+                    fill="currentColor"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div className=" sm:mt-16 mt-8 lg:col-span-2 sm:px-8  px-3 lg:mx-0">
+          <div ref={sliderContainer} className="keen-slider">
+            {testimonials.map((item, i) => (
+              <div className="keen-slider__slide" key={i}>
                 <img
-                  className="mx-auto mb-6 h-[150px] rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
-                  src={testimonial.image}
+                  className="mx-auto mb-6 h-[75px] rounded-full shadow-lg dark:shadow-black/20 w-[75px]"
+                  src={item.image}
                   alt="avatar"
                 />
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
-                    <h5 className="mb-2 text-lg font-bold">
-                      {testimonial.name}
-                    </h5>
-                    <p className="mb-4 font-medium text-neutral-700 dark:text-neutral-400">
-                      {testimonial.profession}
-                    </p>
-                    <p className="mb-6 text-neutral-500 dark:text-neutral-300">
-                      {testimonial.quote}
-                    </p>
-                    <ul className="mb-0 flex justify-center">
-                      {[...Array(5)].map((_, i) => (
-                        <li key={i}>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 96 960 960"
-                            className={`w-5 ${
-                              i < testimonial.rating
-                                ? "text-yellow-400"
-                                : "text-neutral-400"
-                            }`}
-                          >
-                            <path
-                              fill="currentColor"
-                              d={
-                                i < testimonial.rating
-                                  ? "M233 976 65 695l218-189L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"
-                                  : "M480 757v387l157-94 157 94V757l-157 95-157-95Zm-247 219 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"
-                              }
-                            />
-                          </svg>
-                        </li>
-                      ))}
-                    </ul>
+                    <h5 className="mb-2 text-lg font-bold">{item.name}</h5>
                   </div>
                 </div>
+                <p className=" sm:text-base px-3  text-sm">{item.quote}</p>
               </div>
             ))}
           </div>
-          <button
-            className="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-            type="button"
-            data-te-target="#carouselExampleCaptions"
-            data-te-slide="prev"
-            onClick={handlePrev}
-          >
-            <span className="inline-block h-8 w-8">
-              <svg
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 16 16"
-                className="text-black" // Apply 'text-black' class directly here
-              >
-                <path
-                  fill="currentColor"
-                  d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                />
-              </svg>
-            </span>
-            <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
-              Previous
-            </span>
-          </button>
-
-          <button
-            className="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-            type="button"
-            data-te-target="#carouselExampleCaptions"
-            data-te-slide="next"
-            onClick={handleNext}
-          >
-            <span className="inline-block h-8 w-8">
-              <svg
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 16 16"
-                className="text-black" // Change this class to 'text-black'
-              >
-                <path
-                  fill="currentColor"
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </span>
-            <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
-              Next
-            </span>
-          </button>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
-export default TestimonialCarousel;
+export default TestimonialSlider;

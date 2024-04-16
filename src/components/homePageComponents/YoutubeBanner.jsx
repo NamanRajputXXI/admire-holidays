@@ -91,11 +91,6 @@ const YoutubeBanner = () => {
         "https://i.ytimg.com/an_webp/dN22GvFZyhM/mqdefault_6s.webp?du=3000&sqp=CKHQ-LAG&rs=AOn4CLD1On6chzOWhS27iL6F3bOoak7c3A",
       link: "https://www.youtube.com/watch?v=dN22GvFZyhM",
     },
-    // {
-    //   imageUrl:
-    //     "https://i.ytimg.com/an_webp/5lplp_TwZlQ/mqdefault_6s.webp?du=3000&sqp=CPTB-LAG&rs=AOn4CLD1cznaK_pPhnYQM0_k7kXz2aRdvQ",
-    //   link: "https://www.youtube.com/watch?v=5lplp_TwZlQ",
-    // },
     {
       imageUrl:
         "https://i.ytimg.com/an_webp/5lplp_TwZlQ/mqdefault_6s.webp?du=3000&sqp=CPTB-LAG&rs=AOn4CLD1cznaK_pPhnYQM0_k7kXz2aRdvQ",

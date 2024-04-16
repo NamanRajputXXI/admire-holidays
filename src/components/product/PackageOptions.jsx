@@ -65,16 +65,16 @@ const PackageOptions = ({ packageOptions }) => {
             </div>
             <div>
               {openPackage === index && (
-                <div className="flex  flex-col text-sm text-gray-500  px-5  mt-10 gap-1 ">
+                <div className="flex  flex-col text-sm text-gray-500  sm:px-5 px-2  mt-10 gap-1 ">
                   {item.hotelDetails.map((item, i) => (
                     <div
-                      className="flex gap-3  sm:flex-row flex-col items-center "
+                      className="flex gap-3  sm:flex-row flex-col sm:items-center items-start "
                       key={i}
                     >
-                      <h1 className="font-bold text-base sm:text-xl text-black ">
+                      <h1 className="font-bold sm:text-right text-left w-[130px] text-base sm:text-xl text-black ">
                         {item.destination} :
                       </h1>
-                      <div className="flex sm:gap-3 gap-1">
+                      <div className="flex sm:gap-3 items-center gap-1">
                         {item.hotels.map((items, i) => (
                           <div className="flex gap-3" key={i}>
                             <p className="sm:text-base text-xs">{items}</p>

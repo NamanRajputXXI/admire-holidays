@@ -1,173 +1,60 @@
 {
   "_id": {
-    "$oid": "65c21adb514164b4bcf9d8f2"
+    "$oid": "65e056522beb63464ccb27ac"
   },
-  "heading": "Whispers of the Valley: Unveil Kashmir's Hidden Gems",
-  "subHeading": "Srinagar in Kashmir",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707200490990!5m2!1sen!2sin",
-  "packageOptions": [
-    {
-      "package": "Deluxe",
-      "price": "₹14,999",
-      "previousPrice": "₹17,999",
-      "hotelDestination": "Srinagar",
-      "hotelDetails": [
-        {
-          "destination":"Srinagar",
-          "hotels":["K2 inn /", "Hotel Curios /", "Royal Milad"]
-        },
-         {
-          "destination":"Pahalgam",
-          "hotels":["Freedom Palace /", "Shabnam Resort /", "Santoor Hotel /"]
-        },
-         {
-          "destination":"Gulmarg",
-          "hotels":["Poshwan hotel /", "Florence Hotel /"]
-        }
-      ]
-    },
-    {
-      "package": "Semi Duluxe",
-      "price": "₹17,499",
-      "previousPrice": "₹20,499",
-      "hotelDestination": "Srinagar",
-      "hotelDetails": [
-        {
-          "destination":"Srinagar",
-          "hotels":["Royal Heritage /", "Royal Arabia /", "Hotel Shefaf"]
-        },
-         {
-          "destination":"Pahalgam",
-          "hotels":["AS Resort /", "Raj Palace /", "Blue Whale /"]
-        },
-         {
-          "destination":"Gulmarg",
-          "hotels":["Gulmarg House /", "Signature /"]
-        }
-      ]
-    },
-    {
-      "package": "Super Duluxe",
-      "price": "₹23,499",
-      "previousPrice": "₹26,499",
-      "hotelDestination": "Srinagar",
-      "hotelDetails": [
-        {
-          "destination":"Srinagar",
-          "hotels":["Grand Kaisar /", "Pacific /", "Batra Hotel"]
-        },
-         {
-          "destination":"Pahalgam",
-          "hotels":["Baisaran /", "The Villagio /", "Abshar"]
-        },
-         {
-          "destination":"Gulmarg",
-          "hotels":["Khaleel Palace /", "Alipne /", "Zahgeer"]
-        }
-      ]
-    },
-    {
-      "package": "Premium",
-      "price": "₹28,749",
-      "previousPrice": "₹30,749",
-      "hotelDestination": "Srinagar",
-      "hotelDetails": [
-        {
-          "destination":"Srinagar",
-          "hotels":["Apple Orchard /", "The Montreal /"]
-        },
-         {
-          "destination":"Pahalgam",
-          "hotels":["Fifth Season /", "The Hermitage /"]
-        },
-         {
-          "destination":"Gulmarg",
-          "hotels":["Shaw inn /", "Hill Top /"]
-        }
-      ]
-    }
-   
-  ],
-  "carouselImageUrl": [
-    "/productKasauli1.jpg",
-    "/productKasauli2.jpg",
-    "/productKasauli3.jpg",
-    "/productKasauli4.jpg",
-    "/productKasauli2.jpg",
-    "/productKasauli1.jpg"
-  ],
-  "exclusions": [
-    "Any meals other than those specified in Inclusions",
-    "Chained vehicle from Tangmarg to Gulmarg",
-    "Expenses of personal nature such as tips",
-    "Any additional expenses incurred due to any train delay or cancellation",
-    "Guide & Entrance fees during sightseeing",
-    "Transfer from Banganga to Vaishno Devi Temple",
-    "Visit to Ganderbal and Thajiwas Glacier",
-    "Visit to Aru, Chandanwari, Baisaran, and Betab valleys",
-    "Expenses of watersports",
-    "Cable Car / Pony Ride in Gulmarg, Pahalgam, & Sonamarg\n"
-  ],
-  "inclusions": [
-    "Breakfast & Dinner",
-    "All accommodation as per Double Sharing ",
-    "Shikara Ride over Dal Lake",
-    "Pick up and drop from As per Itinerary",
-    "Toll Taxes & Service charges",
-    "All Transportation on private basis"
-  ],
+  "heading": "2 Days Alibaug Tour Package From Mumbai",
+  "subHeading": "Trip in Alibag",
+  "duration": "1 Night / 2 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30241.038091398583!2d72.86067153786844!3d18.658172188033028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be87a3b9826f96b%3A0xa9634e5680f68b81!2sAlibag%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1713265567584!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Srinagar",
-      "day1Overview": "Welcome to Srinagar the city of Lakes you will met over representative and get transferred to \nHotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi \novernight stay in hotel in Srinagar."
+      "day1Heading": "Arrival in Alibag | A Place of Ravishing Beaches and Ancient Forts",
+      "day1Overview": "Depart from Mumbai and embark on a scenic drive to Alibaug, accompanied by a representative. Arrive in Alibaug and smoothly check into your hotel, ensuring a hassle-free start to your getaway. Immerse yourself in history and charm as you visit the magnificent Kolaba Fort. This historic sea fort, built in the 17th century, offers mesmerizing views of the Arabian Sea. Indulge in the natural beauty and tranquility of Alibaug Beach. This popular beach is renowned for its picturesque landscapes and captivating sunset vistas. Then head to Kanhoji Angre Samadhi, a solemn memorial dedicated to the esteemed Maratha admiral, Kanhoji Angre. Return to your hotel, where you can unwind and relax, cherishing the memories of the day's exploration. Enjoy an overnight stay in Alibaug."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Drive from Srinagar- Sonamarg – Srinagar (100 km / 3 Hours)\n",
-      "day2Overview": "After all the exciting experiences and astounding views in Srinagar, you will be driven to Sonamarg \ntoday. The drive will begin after your breakfast in the hotel and will take around 3 hours to complete. \nFondly called the ‘Meadow of Gold’, Sonamarg is perched at a height of 9,000 ft. above the sea level \nand lies in the scenic Sindh Valley. Nestled amidst colourful and flowery meadows, your arrival in the \nhill station will be greeted by an exciting pony ride to the Thajiwas Glacier, which serves as one of \nthe best Sonamarg attractions. Returning from the glacier, you will be driven back to Srinagar, where \nyou can relish the day with a scrumptious dinner and overnight stay in the hotel"
-    },
-    {
-      "day": "Day 3",
-      "day3Heading": " Drive from Srinagar to Gulmarg (60 km / 2-3 Hours)",
-      "day3Overview": "Today’s breakfast will bring an end to your Srinagar stay, and will take you to Gulmarg! Post \nbreakfast in the hotel/houseboat, take an enthralling drive through the scenic trails of Srinagar and its \nhilly terrains to reach Gulmarg within 2-3 hours. Located at an altitude of 2,730m, Gulmarg or the \n‘Meadow of Gold’ is one of the most popular and highest visited skiing destinations in the entire \ncountry. It is also in this hill station, you can visit the highest golf course in the world! During your \ndrive, the panoramic views of the Nanga Parbat and Tangmarg will behold all your attentions for sure! \nArriving in Gulmarg, join a 3-4 hours trek to Khilangmarg and witness the magical beauty of the hill \nstation. Completing this trek, check-in into a hotel and enjoy your dinner with an overnight stay.\n"
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": " Srinagar Departure",
-      "day4Overview": "On the last day of your houseboat tour in Kashmir; after breakfast in the hotel, you will be driven \nback to Srinagar. Arriving in the capital city, the tour will come to an end with your drop either at the \nairport"
+      "day2Heading": "Exploring Alibag and Departure",
+      "day2Overview": "Start your day with breakfast and head to the peaceful Kihim Beach. This serene beach is perfect for a morning walk and offers a chance to connect with nature. Visit the magnificent Murud-Janjira Fort, an architectural masterpiece built in the 17th century. Explore the fort and learn about its rich naval history. Return to Alibag for lunch (at your own cost) and take some time to relax. Check out of your hotel and say goodbye to Alibag. Embark on your journey back to Mumbai accompanied by our representative. Reflect on the memorable experiences of your 2 days Alibag tour package from Mumbai during the comfortable ride. Arrive in Mumbai, depending on your preferred location, as our representative drops you off at your desired destination."
     }
+  ]
+,
+"overView": [
+  {
+    "heading": "Coastal Charms of Alibag: Embracing Serenity",
+    "text": "Embark on a serene weekend getaway in Alibag. Immerse yourself in coastal tranquility, picturesque beaches, and a laid-back atmosphere, offering a perfect escape from the hustle and bustle."
+  },
+  {
+    "heading": "Exploring Alibag's Historical Enclave",
+    "text": "Discover the historical richness of Alibag. Explore ancient forts, witness colonial influences, and soak in the cultural heritage of this coastal gem, echoing tales of Maratha history and colonial era."
+  },
+  {
+    "heading": "Scenic Seascapes and Leisure",
+    "text": "Uncover the scenic seascapes of Alibag. Experience the sandy shores, indulge in water sports, and embrace the coastal charm of this relaxing destination, where nature meets leisure by the Arabian Sea."
+  },
+  {
+    "heading": "Nature's Retreat: Alibag Gardens",
+    "text": "Delve into the natural retreats within Alibag. Explore lush gardens, known for their tranquility and green landscapes. Immerse yourself in the peaceful ambiance and revel in the beauty of this coastal sanctuary."
+  },
+  {
+    "heading": "Local Cuisine and Coastal Flavors",
+    "text": "Embark on a culinary journey through Alibag. Indulge in coastal delicacies like fresh seafood, kokum sherbet, and Konkan specialties. Navigate through local markets, savor authentic Alibag cuisine, and relish the flavors of this coastal paradise."
+  },
+  {
+    "heading": "Preserving Alibag's Heritage",
+    "text": "Alibag is dedicated to preserving its cultural heritage. From ancient temples to historic landmarks, the town values its rich legacy, ensuring a delightful experience for both locals and visitors."
+  },
+  {
+    "heading": "Plan Your Alibag Weekend",
+    "text": "Whether seeking relaxation, history, or culinary delights, Alibag promises a rejuvenating experience. Plan your weekend in this coastal town, where every street whispers tales of tranquility and every moment is a celebration of Alibag's coastal charm."
+  }
+]
+,
+  "carouselImageUrl": [
+    "https://images.unsplash.com/photo-1661337959363-cdb9dc8fb9d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1580561869669-84746a53de21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1605636951775-6487d0d942e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1671794661122-588ffc73a32e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D"
   ],
-  "overView": [
-    {
-      "heading": "Exploring the Enchantment of Kashmir: A Land of Beauty and Diversity",
-      "text": "Nestled in the northernmost region of India, Kashmir is a breathtaking paradise renowned for its stunning landscapes, rich cultural heritage, and serene tranquility. Often referred to as Heaven on Earth,this picturesque valley attracts travelers from all corners of the globe, seeking solace in its majestic mountains, lush green valleys, and serene lakes."
-    },
-    {
-      "heading": "Natural Splendor",
-      "text": "Kashmir's natural beauty is unparalleled. The valley is embraced by the towering peaks of the Himalayas and Pir Panjal ranges, creating a spellbinding panorama of snow-capped mountains, verdant meadows, and crystal-clear streams. The Dal Lake, with its floating gardens and colorful Shikara boats, is a symbol of the region's ethereal charm. Visitors can also explore the enchanting Mughal Gardens, adorned with vibrant flowers and intricate water channels, offering a glimpse into the region's royal past."
-    },
-    {
-      "heading": "Cultural Richness",
-      "text": "Kashmir boasts a rich cultural tapestry woven from centuries of history and tradition. The valley has been a melting pot of diverse influences, including Hindu, Muslim, and Buddhist heritage. Visitors can immerse themselves in the vibrant bazaars of Srinagar, where artisans craft exquisite Pashmina shawls, intricate carpets, and ornate woodwork. The region's culinary delights, such as Wazwan—a traditional feast of aromatic Kashmiri cuisine—offer a tantalizing glimpse into its culinary heritage."
-    },
-    {
-      "heading": "Spiritual Sanctuaries",
-      "text": "Kashmir is home to a multitude of sacred sites and spiritual retreats, each imbued with a sense of serenity and devotion. The ancient Shankaracharya Temple, perched atop a hill overlooking Srinagar, offers panoramic views of the valley below and serves as a revered pilgrimage destination for Hindus. The revered Hazratbal Shrine, housing a relic believed to be a strand of Prophet Muhammad's hair, is a symbol of religious harmony and attracts devotees of all faiths."
-    },
-    {
-      "heading": "Adventure and Recreation",
-      "text": "For adventure enthusiasts, Kashmir offers a plethora of adrenaline-pumping activities amidst its breathtaking landscapes. From trekking in the picturesque Lidder Valley to skiing in the world-renowned slopes of Gulmarg, there's no shortage of outdoor adventures to embark upon. White-water rafting in the gushing rapids of the Lidder River and paragliding over the Sonamarg valley are also popular choices for those seeking an adrenaline rush."
-    },
-    {
-      "heading": "Preserving Paradise",
-      "text": "Despite its unparalleled beauty, Kashmir has faced its share of challenges, including political unrest and environmental degradation. However, concerted efforts are underway to preserve and protect this pristine paradise for future generations. Sustainable tourism initiatives, coupled with community-driven conservation efforts, aim to safeguard the region's natural and cultural heritage while empowering local communities."
-    },
-    {
-      "heading": "Plan Your Visit",
-      "text": "Whether you seek adventure in the great outdoors, tranquility amidst serene landscapes, or immersion in vibrant culture and tradition, Kashmir offers an unforgettable experience like no other. Plan your journey to this enchanting valley and discover the timeless allure of Kashmir—a land where beauty knows no bounds and every moment is a cherished memory"
-    }
-  ],
-  "duration": "3 Night / 4 Days",
-  "imageUrl": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbmFnYXJ8ZW58MHx8MHx8fDA%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1671794661122-588ffc73a32e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D"
 }

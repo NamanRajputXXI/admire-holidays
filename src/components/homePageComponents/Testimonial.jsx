@@ -41,6 +41,41 @@ const TestimonialSlider = () => {
       rating: 5,
       image: "review5Image.jpg",
     },
+    {
+      name: "Janak Kawa",
+      quote:
+        "We booked andamans tour with admire holidays. The trip was really beautiful and memorable. Accommodation arranged by Sandeep ji, admire holidays was simply top class. All the travel arrangements outstanding. Will really recommend their service and packages as they are best in class and pretty decent priced.👍🏼",
+      rating: 5,
+      image: "review6Image.jpg",
+    },
+    {
+      name: "Rohit Reda",
+      quote:
+        "Admire Holidays provided excellent service throughout my trip. I was highly satisfied with their professionalism and attention to detail. Definitely recommend them for a memorable travel experience.",
+      rating: 5,
+      image: "review7Image.jpg",
+    },
+    {
+      name: "Nitanshu Gupta",
+      quote:
+        "I received good services and timely care during the tour. Admire Holidays ensured a smooth and enjoyable trip, making it hassle-free and memorable. Will choose them again!",
+      rating: 5,
+      image: "review8Image.jpg",
+    },
+    {
+      name: "Vivek Chand",
+      quote:
+        "My trip to Gangtok and Darjeeling with Admire Holidays was wonderful. They provided top-notch facilities, ensuring I visited my dream places hassle-free. Highly recommended for your travel needs!",
+      rating: 5,
+      image: "review9Image.jpg",
+    },
+    {
+      name: "Ashok Parmar",
+      quote:
+        " I have a great experience with Admire holidays with my holidays tour shimla, kulu, manali, Rohtang i have lots of enjoy there with 0 complained .It's a great travel agency with nice facility professional drivers to traveling lovers",
+      rating: 5,
+      image: "review10Image.jpg",
+    },
   ];
   const sliderContainer = useRef(null);
   const keenSlider = useRef(null);

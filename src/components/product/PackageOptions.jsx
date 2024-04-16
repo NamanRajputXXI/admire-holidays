@@ -37,7 +37,7 @@ const PackageOptions = ({ packageOptions }) => {
               <div className="flex flex-col gap-3">
                 <h2 className="font-semibold text-xl">{item.package}</h2>
                 <p
-                  className="text-[#FD4A4C]  cursor-pointer font-bold"
+                  className="text-[#FD4A4C] sm:text-base text-sm  cursor-pointer font-[500]"
                   onClick={() => togglePackage(index)}
                 >
                   {openPackage === index ? "Hide Details" : "Show Details"}
@@ -56,18 +56,32 @@ const PackageOptions = ({ packageOptions }) => {
               </div>
               <div>
                 <button
-                  className="sm:px-4 px-1 py-3 cursor-pointer sm:text-base text-sm border-[#FD4A4C] border-[1px] text-[#FD4A4C] rounded-lg"
+                  className="sm:px-4 px-1 py-3 cursor-pointer sm:text-base text-xs border-[#FD4A4C] border-[1px] text-[#FD4A4C] rounded-lg"
                   onClick={openQuotepopup}
                 >
-                  Request a Quote
+                  Request Quote
                 </button>
               </div>
             </div>
             <div>
               {openPackage === index && (
-                <div className="flex text-sm text-gray-500  px-5  mt-10 gap-1 ">
-                  {item.hotelsName.map((hotel, i) => (
-                    <p key={i}>{hotel}, </p>
+                <div className="flex  flex-col text-sm text-gray-500  px-5  mt-10 gap-1 ">
+                  {item.hotelDetails.map((item, i) => (
+                    <div
+                      className="flex gap-3  sm:flex-row flex-col items-center "
+                      key={i}
+                    >
+                      <h1 className="font-bold text-base sm:text-xl text-black ">
+                        {item.destination} :
+                      </h1>
+                      <div className="flex sm:gap-3 gap-1">
+                        {item.hotels.map((items, i) => (
+                          <div className="flex gap-3" key={i}>
+                            <p className="sm:text-base text-xs">{items}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                   ))}
                 </div>
               )}

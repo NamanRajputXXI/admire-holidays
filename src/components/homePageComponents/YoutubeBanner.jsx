@@ -53,8 +53,98 @@ const YoutubeBanner = () => {
     },
     {
       imageUrl:
-        "https://i.ytimg.com/an_webp/-UwdenlgcQQ/mqdefault_6s.webp?du=3000&sqp=CJiD9LAG&rs=AOn4CLAKXoDHP65pQVcIJlFWUGb2E3sGWg",
+        "https://i.ytimg.com/an_webp/-UwdenlgcQQ/mqdefault_6s.webp?du=3000&sqp=CLi9-LAG&rs=AOn4CLB-ZoojqjMizHsJemYUubx-qle71Q",
       link: "https://www.youtube.com/watch?v=-UwdenlgcQQ",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/NVgKYNE_cUA/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgaAAuADigIMCAAQARhKIFQoZTAP&rs=AOn4CLAbvsYR6zHELw_AFdKluq8FP3Tkug",
+      link: "https://www.youtube.com/watch?v=NVgKYNE_cUA",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/FOPy1xaX-18/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgaAAuADigIMCAAQARhWIF0oZTAP&rs=AOn4CLC2iGsxCgoOweGKpZ-iQELW0PTg8Q",
+      link: "https://www.youtube.com/watch?v=FOPy1xaX-18",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/wmi_B-dYk3o/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjgKAAuADigIMCAAQARhlIEcoQTAP&rs=AOn4CLBsyZ_V_etqu41f-ce219SXqXTM_A",
+      link: "https://www.youtube.com/watch?v=wmi_B-dYk3o",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/g97V1QilOn8/mqdefault_6s.webp?du=3000&sqp=CLST-LAG&rs=AOn4CLC8iJ93hL82g58wS4_WpeR80SsfKA",
+      link: "https://www.youtube.com/watch?v=g97V1QilOn8",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/C0poaPlTqms/mqdefault_6s.webp?du=3000&sqp=CMe9-LAG&rs=AOn4CLAZNIae3sl0Yxu-RGeBf3VJJ9yQgA",
+      link: "https://www.youtube.com/watch?v=C0poaPlTqms",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/BKT6-sicey0/mqdefault_6s.webp?du=3000&sqp=CPSl-LAG&rs=AOn4CLAJCOzLoMp6p8NjranSpzYRUAPeZw",
+      link: "https://www.youtube.com/watch?v=BKT6-sicey0",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/dN22GvFZyhM/mqdefault_6s.webp?du=3000&sqp=CKHQ-LAG&rs=AOn4CLD1On6chzOWhS27iL6F3bOoak7c3A",
+      link: "https://www.youtube.com/watch?v=dN22GvFZyhM",
+    },
+    // {
+    //   imageUrl:
+    //     "https://i.ytimg.com/an_webp/5lplp_TwZlQ/mqdefault_6s.webp?du=3000&sqp=CPTB-LAG&rs=AOn4CLD1cznaK_pPhnYQM0_k7kXz2aRdvQ",
+    //   link: "https://www.youtube.com/watch?v=5lplp_TwZlQ",
+    // },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/5lplp_TwZlQ/mqdefault_6s.webp?du=3000&sqp=CPTB-LAG&rs=AOn4CLD1cznaK_pPhnYQM0_k7kXz2aRdvQ",
+      link: "https://www.youtube.com/watch?v=5lplp_TwZlQ",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/qGfKZVOHzew/mqdefault_6s.webp?du=3000&sqp=CPS5-LAG&rs=AOn4CLDGZYJ57EeRsIsT2LDfbAmIoE-ptQ",
+      link: "https://www.youtube.com/watch?v=qGfKZVOHzew",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/vQyTehJBEvc/mqdefault_6s.webp?du=3000&sqp=CIOt-LAG&rs=AOn4CLAhREiPdKVck1bcPhz1QlXR3eXbeQ",
+      link: "https://www.youtube.com/watch?v=vQyTehJBEvc",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/9n4GLfIss7U/mqdefault_6s.webp?du=3000&sqp=CPPM-LAG&rs=AOn4CLDMQEQ3P1GKs31kqNXXE-RXhIy0Lw",
+      link: "https://www.youtube.com/watch?v=9n4GLfIss7U",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/an_webp/2F_9UGoS2nU/mqdefault_6s.webp?du=3000&sqp=CMHQ-LAG&rs=AOn4CLBO1SFD8stADjec1xVpvF-rWtSkcg",
+      link: "https://www.youtube.com/watch?v=2F_9UGoS2nU",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/xwlET8ztFGU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAuACigIMCAAQARhLIEwoZTAP&rs=AOn4CLALlnWOVsSOfLnBbJTStd7-pVYlgg",
+      link: "https://www.youtube.com/watch?v=xwlET8ztFGU",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/WS8GdOBYrA8/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBhgKAAuADigIMCAAQARhlIFMoRTAP&rs=AOn4CLBuDaiV5UQuXaBEQgdFMbzTppSGyQ",
+      link: "https://www.youtube.com/watch?v=WS8GdOBYrA8",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/Ft4A-EpFTsM/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAvACigIMCAAQARhyIF0oNTAP&rs=AOn4CLCf8fIUx-Bp01o3vq3SEXlv8Ltz6w",
+      link: "https://www.youtube.com/watch?v=Ft4A-EpFTsM",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/k4UDSypfkko/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAvACigIMCAAQARhlIFsoUzAP&rs=AOn4CLDVQmssYBK7TWk9xms3W2GV8BXeTw",
+      link: "https://www.youtube.com/watch?v=k4UDSypfkko",
+    },
+    {
+      imageUrl:
+        "https://i.ytimg.com/vi/rp-eye-Yj4o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbCBC2HK-ScLLbm7NV0QXBwCjt8A",
+      link: "https://www.youtube.com/watch?v=rp-eye-Yj4o",
     },
   ];
   return (
@@ -93,7 +183,7 @@ const YoutubeBanner = () => {
           >
             <div className="relative">
               <img
-                src="https://i.ytimg.com/an_webp/-UwdenlgcQQ/mqdefault_6s.webp?du=3000&sqp=CPS787AG&rs=AOn4CLAxPwMdQexmxl99dElPkok9-02Kpw"
+                src="https://i.ytimg.com/an_webp/-UwdenlgcQQ/mqdefault_6s.webp?du=3000&sqp=CLi9-LAG&rs=AOn4CLB-ZoojqjMizHsJemYUubx-qle71Q"
                 alt=""
                 className="h-[440px] rounded-xl  transition-all duration-300 hover:shadow-xl hover:opacity-75 w-[700px]"
               />

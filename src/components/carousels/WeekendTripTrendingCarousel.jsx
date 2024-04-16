@@ -12,6 +12,7 @@ import Link from "next/link";
 import { MdOutlineDiscount } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import "../../styles/custom.css";
+import weekendTripExclusiveData from "@/data/weekendTripExclusive";
 
 const WeekendTripTrendingCarousel = () => {
   const [windowWidth, setWindowWidth] = useState(undefined);
@@ -74,7 +75,7 @@ const WeekendTripTrendingCarousel = () => {
                   id="slider"
                   className="h-full flex  md:gap-4 gap-3 items-center justify-start transition ease-out duration-700"
                 >
-                  {exclusivePackage.map((item, index) => (
+                  {weekendTripExclusiveData.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
@@ -177,7 +178,7 @@ const WeekendTripTrendingCarousel = () => {
                   id="slider"
                   className="h-full flex  md:gap-4 gap-3 items-center justify-start transition ease-out duration-700"
                 >
-                  {exclusivePackage.map((item, index) => (
+                  {weekendTripExclusiveData.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
@@ -279,7 +280,7 @@ const WeekendTripTrendingCarousel = () => {
                   id="slider"
                   className="h-full w-full flex  md:gap-4 gap-3 items-center justify-start transition ease-out duration-700"
                 >
-                  {exclusivePackage.map((item, index) => (
+                  {weekendTripExclusiveData.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
                         <div

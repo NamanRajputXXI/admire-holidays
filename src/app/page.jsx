@@ -13,6 +13,7 @@ import LatestUpdatesSection from "@/components/homePageComponents/LatestUpdatesS
 import TravelGuideline from "@/components/homePageComponents/TravelGuideline";
 import HeroSection from "@/components/homePageComponents/HeroSection";
 import Testimonial from "@/components/homePageComponents/Testimonial";
+import FeaturesSection from "@/components/homePageComponents/FeaturesSection";
 const Home = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const Home = () => {
       <YoutubeBanner />
       <TravelGuideline />
       <LatestUpdatesSection />
+      <FeaturesSection />
       <CompanyStatsSection />
       <Testimonial />
       <HomePageBlogSection />

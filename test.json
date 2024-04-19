@@ -1,60 +1,140 @@
 {
-  "_id": {
-    "$oid": "65e056522beb63464ccb27ac"
+  "_id":{
+     "$oid":"661a51d5f06cb040dea38b10"
   },
-  "heading": "2 Days Alibaug Tour Package From Mumbai",
-  "subHeading": "Trip in Alibag",
-  "duration": "1 Night / 2 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30241.038091398583!2d72.86067153786844!3d18.658172188033028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be87a3b9826f96b%3A0xa9634e5680f68b81!2sAlibag%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1713265567584!5m2!1sen!2sin",
+  "heading":"Andaman Backpacking Tour Package",
+  "subHeading":"Trip in Andaman",
+  "duration":"6 Night / 7 Days",
+  "mapSrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125058.26971091633!2d92.64006163956387!3d11.61829356535844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3088946c176b5971%3A0x5bfa43a5e9a5ed30!2sPort%20Blair%2C%20Andaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1708934053933!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Alibag | A Place of Ravishing Beaches and Ancient Forts",
-      "day1Overview": "Depart from Mumbai and embark on a scenic drive to Alibaug, accompanied by a representative. Arrive in Alibaug and smoothly check into your hotel, ensuring a hassle-free start to your getaway. Immerse yourself in history and charm as you visit the magnificent Kolaba Fort. This historic sea fort, built in the 17th century, offers mesmerizing views of the Arabian Sea. Indulge in the natural beauty and tranquility of Alibaug Beach. This popular beach is renowned for its picturesque landscapes and captivating sunset vistas. Then head to Kanhoji Angre Samadhi, a solemn memorial dedicated to the esteemed Maratha admiral, Kanhoji Angre. Return to your hotel, where you can unwind and relax, cherishing the memories of the day's exploration. Enjoy an overnight stay in Alibaug."
+      "day1Heading": "Arrival in Port Blair | Port Blair Sightseeing",
+      "day1Overview": "Upon your arrival at Veer Savarkar International Airport, get transferred to your hotel. Later, visit the Corbyn Cove beach and witness beautiful views. Explore the Cellular Jail and enjoy a light and sound show in the evening. Return to your hotel for an overnight stay in Port Blair."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Exploring Alibag and Departure",
-      "day2Overview": "Start your day with breakfast and head to the peaceful Kihim Beach. This serene beach is perfect for a morning walk and offers a chance to connect with nature. Visit the magnificent Murud-Janjira Fort, an architectural masterpiece built in the 17th century. Explore the fort and learn about its rich naval history. Return to Alibag for lunch (at your own cost) and take some time to relax. Check out of your hotel and say goodbye to Alibag. Embark on your journey back to Mumbai accompanied by our representative. Reflect on the memorable experiences of your 2 days Alibag tour package from Mumbai during the comfortable ride. Arrive in Mumbai, depending on your preferred location, as our representative drops you off at your desired destination."
+      "day2Heading": "Port Blair to Havelock Island | Explore Radhanagar Beach",
+      "day2Overview": "After checking out from your hotel, proceed to Phoenix Bay Harbour for a ferry ride to Havelock Island. On arrival, check in to your hotel. Later, explore the stunning Radhanagar Beach and enjoy a leisurely walk along the coastline. Return to your hotel for an overnight stay in Havelock Island."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "Havelock Island | Excursion to Elephant Beach",
+      "day3Overview": "Embark on a speed boat ride to Elephant Beach. Enjoy water activities like scuba diving, snorkelling (at an additional cost), or simply relax on the shore and soak in the scenic surroundings. Return to your hotel in Havelock Island for an overnight stay."
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": "Havelock Island to Port Blair | Visit Kalapathar Beach",
+      "day4Overview": "Check out from your hotel and proceed to Kalapathar Beach, known for its beautiful views of the Indian Ocean. Later, board a ferry back to Port Blair. Upon arrival, get transferred to your hotel for an overnight stay in Port Blair."
     }
   ]
-,
-"overView": [
-  {
-    "heading": "Coastal Charms of Alibag: Embracing Serenity",
-    "text": "Embark on a serene weekend getaway in Alibag. Immerse yourself in coastal tranquility, picturesque beaches, and a laid-back atmosphere, offering a perfect escape from the hustle and bustle."
-  },
-  {
-    "heading": "Exploring Alibag's Historical Enclave",
-    "text": "Discover the historical richness of Alibag. Explore ancient forts, witness colonial influences, and soak in the cultural heritage of this coastal gem, echoing tales of Maratha history and colonial era."
-  },
-  {
-    "heading": "Scenic Seascapes and Leisure",
-    "text": "Uncover the scenic seascapes of Alibag. Experience the sandy shores, indulge in water sports, and embrace the coastal charm of this relaxing destination, where nature meets leisure by the Arabian Sea."
-  },
-  {
-    "heading": "Nature's Retreat: Alibag Gardens",
-    "text": "Delve into the natural retreats within Alibag. Explore lush gardens, known for their tranquility and green landscapes. Immerse yourself in the peaceful ambiance and revel in the beauty of this coastal sanctuary."
-  },
-  {
-    "heading": "Local Cuisine and Coastal Flavors",
-    "text": "Embark on a culinary journey through Alibag. Indulge in coastal delicacies like fresh seafood, kokum sherbet, and Konkan specialties. Navigate through local markets, savor authentic Alibag cuisine, and relish the flavors of this coastal paradise."
-  },
-  {
-    "heading": "Preserving Alibag's Heritage",
-    "text": "Alibag is dedicated to preserving its cultural heritage. From ancient temples to historic landmarks, the town values its rich legacy, ensuring a delightful experience for both locals and visitors."
-  },
-  {
-    "heading": "Plan Your Alibag Weekend",
-    "text": "Whether seeking relaxation, history, or culinary delights, Alibag promises a rejuvenating experience. Plan your weekend in this coastal town, where every street whispers tales of tranquility and every moment is a celebration of Alibag's coastal charm."
-  }
-]
-,
-  "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1661337959363-cdb9dc8fb9d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1580561869669-84746a53de21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1605636951775-6487d0d942e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1671794661122-588ffc73a32e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D"
+  ,
+  "packageOptions":[
+     {
+        "package":"Standard",
+        "price":"₹13000",
+        "previousPrice":"₹17,000",
+        "hotelDestination":"Port Blair",
+        "hotelsName":[
+           "Sea Guli",
+           "Hotel King Safire",
+           "Radhakrishna Resort",
+           "Orient Legend Beach Resort ",
+           "Coral Garden Resort",
+           "Laxmi continental Resort"
+        ]
+     },
+     {
+        "package":"3 Star Deluxe",
+        "price":"₹15,200",
+        "previousPrice":"20,4000",
+        "hotelsName":[
+           "White coral Beach Resort",
+           "Havelock Exotic Beach Resort",
+           "TSG Blue ",
+           "Tango Beach Resort ",
+           "CS Empire"
+        ],
+        "hotelDestination":[
+           "Port Blair"
+        ]
+     },
+     {
+        "package":"4 Star Deluxe",
+        "price":"₹20,500",
+        "previousPrice":"₹23,500",
+        "hotelsName":[
+           "Mansha Regency",
+           "Haywizz Havelock",
+           "Symphany Palms ",
+           "Aquays Hotels ",
+           "Aquays Hotel & Resort ",
+           "Pearl Park Beach Resort",
+           "Symphony summer sand "
+        ],
+        "hotelDestination":[
+           "Port Blair"
+        ]
+     }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1671794661122-588ffc73a32e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFsaWJhZ3xlbnwwfHwwfHx8MA%3D%3D"
+  "carouselImageUrl":[
+     "/productKasauli1.jpg",
+     "/productKasauli2.jpg",
+     "/productKasauli3.jpg",
+     "/productKasauli4.jpg",
+     "/productKasauli2.jpg",
+     "/productKasauli1.jpg"
+  ],
+  "exclusions":[
+     "Airfare / Ship's fare",
+     "Travel insurance ",
+     "All kinds of personal expenses such as tips, laundry, telephone bills and beverages",
+     "It does not include any meals unless and otherwise specifically mentioned.    ",
+     "Guide, Jolly ride & snorkelling charges.    ",
+     "Optional, suggested or unspecified activities",
+     "Guide at Cellular jail will cost extra.    ",
+     "Camera fee (still or movie)",
+     "Additional usage of vehicles.    ",
+     "Any dispute regarding the child age to be settled directly with the hotels.  "
+  ],
+  "inclusions":[
+     "Accommodation on double/triple sharing basis at above-mentioned hotels / similar in base category rooms.",
+     "Daily breakfast & Dinner ",
+     "Airport pick up and drop by a/c vehicle.    ",
+     "Makruzz / Green Ocean Cruise / Sea Link / Nautika / ITT Majestic (base category) for Neil & Havelock as per the availability.",
+     "All Toll, Parking, Driver Bata & Fuel Cost",
+     "Assistance at all arrival and departure points. ",
+     "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable "
+  ],
+  "overView":[
+     {
+        "heading":"Andaman Delight: Discovering Havelock and Port Blair",
+        "text":"Embark on a captivating journey through the enchanting islands of Andaman, where Havelock and Port Blair showcase the region's pristine beaches, vibrant marine life, and rich cultural heritage."
+     },
+     {
+        "heading":"Beachfront Bliss in Havelock",
+        "text":"Immerse yourself in the turquoise waters and white sandy beaches of Havelock. Experience the serene beauty of Radhanagar Beach, indulge in water activities, and unwind in this tropical paradise surrounded by the Andaman Sea."
+     },
+     {
+        "heading":"Historical Charm of Port Blair",
+        "text":"Explore the historical landmarks of Port Blair, the capital city of Andaman. Visit the Cellular Jail, witness the Sound and Light Show narrating the region's history, and stroll through the vibrant markets offering local crafts and delicacies."
+     },
+     {
+        "heading":"Island Adventure: Beyond the Waves",
+        "text":"Delve into the underwater wonders surrounding Havelock and Port Blair. Snorkel or dive to discover vibrant coral reefs and diverse marine life. These islands offer a paradise for water enthusiasts, promising unforgettable aquatic experiences."
+     },
+     {
+        "heading":"Cultural Encounters",
+        "text":"Engage in the cultural tapestry of Andaman. Discover the traditions of the indigenous tribes, explore local markets, and savor the unique Andamanese cuisine. The islands blend natural beauty with a rich cultural heritage."
+     },
+     {
+        "heading":"Preserving Marine Heritage",
+        "text":"Andaman is committed to preserving its marine ecosystems. From responsible tourism practices to coral conservation initiatives, the islands strive to protect their underwater treasures for future generations to marvel at."
+     },
+     {
+        "heading":"Plan Your Andaman Escape",
+        "text":"Whether seeking beachfront bliss, historical insights, or underwater adventures, Andaman promises an unforgettable journey. Plan your escape to this tropical haven, where every wave tells a story, and every moment is a celebration of Andaman's allure."
+     }
+  ],
+  "imageUrl":"https://images.unsplash.com/photo-1497256654106-4a29efafb831?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuZGFtYW58ZW58MHx8MHx8fDA%3D"
 }

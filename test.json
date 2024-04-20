@@ -1,140 +1,131 @@
 {
-  "_id":{
-     "$oid":"661a51d5f06cb040dea38b10"
-  },
-  "heading":"Andaman Backpacking Tour Package",
-  "subHeading":"Trip in Andaman",
-  "duration":"6 Night / 7 Days",
-  "mapSrc":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125058.26971091633!2d92.64006163956387!3d11.61829356535844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3088946c176b5971%3A0x5bfa43a5e9a5ed30!2sPort%20Blair%2C%20Andaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1708934053933!5m2!1sen!2sin",
-  "itinerary": [
-    {
-      "day": "Day 1",
-      "day1Heading": "Arrival in Port Blair | Port Blair Sightseeing",
-      "day1Overview": "Upon your arrival at Veer Savarkar International Airport, get transferred to your hotel. Later, visit the Corbyn Cove beach and witness beautiful views. Explore the Cellular Jail and enjoy a light and sound show in the evening. Return to your hotel for an overnight stay in Port Blair."
-    },
-    {
-      "day": "Day 2",
-      "day2Heading": "Port Blair to Havelock Island | Explore Radhanagar Beach",
-      "day2Overview": "After checking out from your hotel, proceed to Phoenix Bay Harbour for a ferry ride to Havelock Island. On arrival, check in to your hotel. Later, explore the stunning Radhanagar Beach and enjoy a leisurely walk along the coastline. Return to your hotel for an overnight stay in Havelock Island."
-    },
-    {
-      "day": "Day 3",
-      "day3Heading": "Havelock Island | Excursion to Elephant Beach",
-      "day3Overview": "Embark on a speed boat ride to Elephant Beach. Enjoy water activities like scuba diving, snorkelling (at an additional cost), or simply relax on the shore and soak in the scenic surroundings. Return to your hotel in Havelock Island for an overnight stay."
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": "Havelock Island to Port Blair | Visit Kalapathar Beach",
-      "day4Overview": "Check out from your hotel and proceed to Kalapathar Beach, known for its beautiful views of the Indian Ocean. Later, board a ferry back to Port Blair. Upon arrival, get transferred to your hotel for an overnight stay in Port Blair."
-    }
-  ]
-  ,
-  "packageOptions":[
+   "_id": {
+     "$oid": "65c7058607d56421ebcf6f08"
+   },
+   "heading": "Secret Splendors: Discover Kashmir's Enigmatic Charms",
+   "subHeading": "Katra in Jammu & Kahsmir",
+   "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13386.885203969881!2d74.93059875!3d32.984754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e78e6316b55cb%3A0xf3ea3335c5a9638!2sKatra%20182320!5e0!3m2!1sen!2sin!4v1707306500978!5m2!1sen!2sin",
+   "itinerary": [
      {
-        "package":"Standard",
-        "price":"₹13000",
-        "previousPrice":"₹17,000",
-        "hotelDestination":"Port Blair",
-        "hotelsName":[
-           "Sea Guli",
-           "Hotel King Safire",
-           "Radhakrishna Resort",
-           "Orient Legend Beach Resort ",
-           "Coral Garden Resort",
-           "Laxmi continental Resort"
-        ]
+       "day": "Day 1",
+       "day1Heading": " Arrival - Jammu – Katra",
+       "day1Overview": "Pick up from Jammu Airport/Railway Station and transfer to Katra (50 Kms/1.5 Hours). Spend rest of the day at leisure. Overnight stay at Katra."
      },
      {
-        "package":"3 Star Deluxe",
-        "price":"₹15,200",
-        "previousPrice":"20,4000",
-        "hotelsName":[
-           "White coral Beach Resort",
-           "Havelock Exotic Beach Resort",
-           "TSG Blue ",
-           "Tango Beach Resort ",
-           "CS Empire"
-        ],
-        "hotelDestination":[
-           "Port Blair"
-        ]
+       "day": "Day 2",
+       "day2Heading": "  Katra - Vaishno Devi Darshans ",
+       "day2Overview": "Early morning after breakfast, proceed for Mata Vaishno Devi Bhawan- one of the most popular pilgrimages of India situated in the lap of Trikuta mountains across Katra town at an altitude of  around 5200 feet. Yatra involves a trek of nearly 12 Kms from base camp at Katra known as Ban Ganga. Alternate way to perform darshans is by Ponies/Palkis/ Helicopter. If time permits, visit  Bhairo Temple & return back to Katra in the evening. Overnight stay at Katra"
      },
      {
-        "package":"4 Star Deluxe",
-        "price":"₹20,500",
-        "previousPrice":"₹23,500",
-        "hotelsName":[
-           "Mansha Regency",
-           "Haywizz Havelock",
-           "Symphany Palms ",
-           "Aquays Hotels ",
-           "Aquays Hotel & Resort ",
-           "Pearl Park Beach Resort",
-           "Symphony summer sand "
-        ],
-        "hotelDestination":[
-           "Port Blair"
-        ]
+       "day": "Day 3",
+       "day3Heading": " Katra - Shiv Khori – Katra",
+       "day3Overview": "Early morning after breakfast, proceed for Shiv Khori - the Holy Cave abode of Lord Shiva situated at a distance of 70 Kms from Katra. The cave is a real wonder to be seen and measures nearly half a kilometer in length with a 4 feet high naturally formed Shiv-lingam at the heart of the Sanctum Sanctorum. Have darshans of Lord Shiva and back to Katra in the evening. If time permits, en route, visit Siar Baba waterfalls, Baba Dhansal & Nau Devis. Overnight stay at Katra"
+     },
+     {
+       "day": "Day 4",
+       "day4Heading": "Katra - Jammu – Departure",
+       "day4Overview": "After breakfast, check out from the hotel & proceed for Jammu to drop at Airport/Railway Station for your onward journey with sweet memories of the tour."
      }
-  ],
-  "carouselImageUrl":[
+   ],
+   "packageOptions": [
+     {
+       "package": " Deluxe",
+       "price": "₹14,999",
+       "previousPrice": "₹16,999",
+       "hotelsName": [
+         "K2 Inn",
+         "Hotel Curio's",
+         "Royal Milad"
+       ]
+     },
+     {
+       "package": "Semi Deluxe",
+       "price": "₹17,499",
+       "previousPrice": "₹19,499",
+       "hotelsName": [
+         "Royal Heritage",
+         "Royal Arabia",
+         "Hotel Shefat"
+       ]
+     },
+     {
+       "package": "Super Deluxe",
+       "price": "₹23,199",
+       "previousPrice": "₹25,199",
+       "hotelsName": [
+         "Grand Kaisar",
+         "Pacific Hotel",
+         "Batra Hotel"
+       ]
+     },
+     {
+       "package": "Premium",
+       "price": "₹28,749",
+       "previousPrice": "₹30,749",
+       "hotelsName": [
+         "Apple Orchard",
+         "The Monteral"
+       ]
+     }
+   ],
+   "carouselImageUrl": [
      "/productKasauli1.jpg",
      "/productKasauli2.jpg",
      "/productKasauli3.jpg",
      "/productKasauli4.jpg",
      "/productKasauli2.jpg",
      "/productKasauli1.jpg"
-  ],
-  "exclusions":[
-     "Airfare / Ship's fare",
-     "Travel insurance ",
-     "All kinds of personal expenses such as tips, laundry, telephone bills and beverages",
-     "It does not include any meals unless and otherwise specifically mentioned.    ",
-     "Guide, Jolly ride & snorkelling charges.    ",
-     "Optional, suggested or unspecified activities",
-     "Guide at Cellular jail will cost extra.    ",
-     "Camera fee (still or movie)",
-     "Additional usage of vehicles.    ",
-     "Any dispute regarding the child age to be settled directly with the hotels.  "
-  ],
-  "inclusions":[
-     "Accommodation on double/triple sharing basis at above-mentioned hotels / similar in base category rooms.",
-     "Daily breakfast & Dinner ",
-     "Airport pick up and drop by a/c vehicle.    ",
-     "Makruzz / Green Ocean Cruise / Sea Link / Nautika / ITT Majestic (base category) for Neil & Havelock as per the availability.",
-     "All Toll, Parking, Driver Bata & Fuel Cost",
-     "Assistance at all arrival and departure points. ",
-     "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable "
-  ],
-  "overView":[
+   ],
+   "exclusions": [
+     "Any meals other than those specified in Inclusions",
+     "Chained vehicle from Tangmarg to Gulmarg",
+     "Expenses of personal nature such as tips",
+     "Any additional expenses incurred due to any train delay or cancellation",
+     "Guide & Entrance fees during sightseeing",
+     "Transfer from Banganga to Vaishno Devi Temple",
+     "Visit to Ganderbal and Thajiwas Glacier",
+     "Visit to Aru, Chandanwari, Baisaran, and Betab valleys",
+     "Expenses of watersports",
+     "Cable Car / Pony Ride in Gulmarg, Pahalgam, & Sonamarg\n"
+   ],
+   "inclusions": [
+     "Breakfast & Dinner",
+     "All accommodation as per Double Sharing ",
+     "Shikara Ride over Dal Lake",
+     "Pick up and drop from As per Itinerary",
+     "Toll Taxes & Service charges",
+     "All Transportation on private basis"
+   ],
+   "overView": [
      {
-        "heading":"Andaman Delight: Discovering Havelock and Port Blair",
-        "text":"Embark on a captivating journey through the enchanting islands of Andaman, where Havelock and Port Blair showcase the region's pristine beaches, vibrant marine life, and rich cultural heritage."
+       "heading": "Exploring the Enchantment of Kashmir: A Land of Beauty and Diversity",
+       "text": "Nestled in the northernmost region of India, Kashmir is a breathtaking paradise renowned for its stunning landscapes, rich cultural heritage, and serene tranquility. Often referred to as Heaven on Earth,this picturesque valley attracts travelers from all corners of the globe, seeking solace in its majestic mountains, lush green valleys, and serene lakes."
      },
      {
-        "heading":"Beachfront Bliss in Havelock",
-        "text":"Immerse yourself in the turquoise waters and white sandy beaches of Havelock. Experience the serene beauty of Radhanagar Beach, indulge in water activities, and unwind in this tropical paradise surrounded by the Andaman Sea."
+       "heading": "Natural Splendor",
+       "text": "Kashmir's natural beauty is unparalleled. The valley is embraced by the towering peaks of the Himalayas and Pir Panjal ranges, creating a spellbinding panorama of snow-capped mountains, verdant meadows, and crystal-clear streams. The Dal Lake, with its floating gardens and colorful Shikara boats, is a symbol of the region's ethereal charm. Visitors can also explore the enchanting Mughal Gardens, adorned with vibrant flowers and intricate water channels, offering a glimpse into the region's royal past."
      },
      {
-        "heading":"Historical Charm of Port Blair",
-        "text":"Explore the historical landmarks of Port Blair, the capital city of Andaman. Visit the Cellular Jail, witness the Sound and Light Show narrating the region's history, and stroll through the vibrant markets offering local crafts and delicacies."
+       "heading": "Cultural Richness",
+       "text": "Kashmir boasts a rich cultural tapestry woven from centuries of history and tradition. The valley has been a melting pot of diverse influences, including Hindu, Muslim, and Buddhist heritage. Visitors can immerse themselves in the vibrant bazaars of Srinagar, where artisans craft exquisite Pashmina shawls, intricate carpets, and ornate woodwork. The region's culinary delights, such as Wazwan—a traditional feast of aromatic Kashmiri cuisine—offer a tantalizing glimpse into its culinary heritage."
      },
      {
-        "heading":"Island Adventure: Beyond the Waves",
-        "text":"Delve into the underwater wonders surrounding Havelock and Port Blair. Snorkel or dive to discover vibrant coral reefs and diverse marine life. These islands offer a paradise for water enthusiasts, promising unforgettable aquatic experiences."
+       "heading": "Spiritual Sanctuaries",
+       "text": "Kashmir is home to a multitude of sacred sites and spiritual retreats, each imbued with a sense of serenity and devotion. The ancient Shankaracharya Temple, perched atop a hill overlooking Srinagar, offers panoramic views of the valley below and serves as a revered pilgrimage destination for Hindus. The revered Hazratbal Shrine, housing a relic believed to be a strand of Prophet Muhammad's hair, is a symbol of religious harmony and attracts devotees of all faiths."
      },
      {
-        "heading":"Cultural Encounters",
-        "text":"Engage in the cultural tapestry of Andaman. Discover the traditions of the indigenous tribes, explore local markets, and savor the unique Andamanese cuisine. The islands blend natural beauty with a rich cultural heritage."
+       "heading": "Adventure and Recreation",
+       "text": "For adventure enthusiasts, Kashmir offers a plethora of adrenaline-pumping activities amidst its breathtaking landscapes. From trekking in the picturesque Lidder Valley to skiing in the world-renowned slopes of Gulmarg, there's no shortage of outdoor adventures to embark upon. White-water rafting in the gushing rapids of the Lidder River and paragliding over the Sonamarg valley are also popular choices for those seeking an adrenaline rush."
      },
      {
-        "heading":"Preserving Marine Heritage",
-        "text":"Andaman is committed to preserving its marine ecosystems. From responsible tourism practices to coral conservation initiatives, the islands strive to protect their underwater treasures for future generations to marvel at."
+       "heading": "Preserving Paradise",
+       "text": "Despite its unparalleled beauty, Kashmir has faced its share of challenges, including political unrest and environmental degradation. However, concerted efforts are underway to preserve and protect this pristine paradise for future generations. Sustainable tourism initiatives, coupled with community-driven conservation efforts, aim to safeguard the region's natural and cultural heritage while empowering local communities."
      },
      {
-        "heading":"Plan Your Andaman Escape",
-        "text":"Whether seeking beachfront bliss, historical insights, or underwater adventures, Andaman promises an unforgettable journey. Plan your escape to this tropical haven, where every wave tells a story, and every moment is a celebration of Andaman's allure."
+       "heading": "Plan Your Visit",
+       "text": "Whether you seek adventure in the great outdoors, tranquility amidst serene landscapes, or immersion in vibrant culture and tradition, Kashmir offers an unforgettable experience like no other. Plan your journey to this enchanting valley and discover the timeless allure of Kashmir—a land where beauty knows no bounds and every moment is a cherished memory"
      }
-  ],
-  "imageUrl":"https://images.unsplash.com/photo-1497256654106-4a29efafb831?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuZGFtYW58ZW58MHx8MHx8fDA%3D"
-}
+   ],
+   "duration": "3 Night / 4 Days",
+   "imageUrl": "https://images.unsplash.com/photo-1642474620266-2b07139c3118?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2F0cmF8ZW58MHx8MHx8fDA%3D"
+ }

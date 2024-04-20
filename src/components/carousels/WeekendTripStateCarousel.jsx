@@ -7,7 +7,7 @@ import {
   ButtonBack,
   ButtonNext,
 } from "pure-react-carousel";
-import domesticDestinations from "@/data/domesticDestination";
+import weekendTripStateData from "@/data/weekendTripStateData";
 import Link from "next/link";
 
 const WeekendTripStateCarousel = () => {
@@ -19,10 +19,12 @@ const WeekendTripStateCarousel = () => {
           className="lg:block hidden"
           naturalSlideWidth={0}
           isIntrinsicHeight={true}
-          totalSlides={6}
+          totalSlides={11}
           visibleSlides={4}
           step={1}
           infinite={true}
+          isPlaying={true}
+          interval={3000}
         >
           <div className="w-full relative flex items-center justify-center">
             <ButtonBack
@@ -53,7 +55,7 @@ const WeekendTripStateCarousel = () => {
                   id="slider"
                   className="h-full flex lg:gap-4 md:gap-4 gap-8 items-center justify-start transition ease-out duration-700"
                 >
-                  {domesticDestinations.map((item, index) => (
+                  {weekendTripStateData.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
                         <div className="flex  flex-shrink-0  relative w-full sm:w-auto">
@@ -106,7 +108,7 @@ const WeekendTripStateCarousel = () => {
           className="lg:hidden md:block hidden"
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={6}
+          totalSlides={11}
           visibleSlides={2}
           step={1}
           infinite={true}
@@ -140,7 +142,7 @@ const WeekendTripStateCarousel = () => {
                   id="slider"
                   className="h-full flex lg:gap-6 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                 >
-                  {domesticDestinations.map((item, index) => (
+                  {weekendTripStateData.map((item, index) => (
                     <Slide index={index} key={index}>
                       <Link href={item.link}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
@@ -192,7 +194,7 @@ const WeekendTripStateCarousel = () => {
           className="block md:hidden "
           naturalSlideWidth={100}
           isIntrinsicHeight={true}
-          totalSlides={6}
+          totalSlides={11}
           visibleSlides={1}
           step={1}
           infinite={true}
@@ -226,7 +228,7 @@ const WeekendTripStateCarousel = () => {
                   id="slider"
                   className="h-full w-full flex lg:gap-8 md:gap-6 gap-2 items-center justify-start transition ease-out duration-700"
                 >
-                  {domesticDestinations.map((items, index) => (
+                  {weekendTripStateData.map((items, index) => (
                     <Slide index={index} key={index}>
                       <Link href={items.link}>
                         <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">

@@ -1,131 +1,73 @@
+
 {
-   "_id": {
-     "$oid": "65c7058607d56421ebcf6f08"
-   },
-   "heading": "Secret Splendors: Discover Kashmir's Enigmatic Charms",
-   "subHeading": "Katra in Jammu & Kahsmir",
-   "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13386.885203969881!2d74.93059875!3d32.984754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e78e6316b55cb%3A0xf3ea3335c5a9638!2sKatra%20182320!5e0!3m2!1sen!2sin!4v1707306500978!5m2!1sen!2sin",
-   "itinerary": [
-     {
-       "day": "Day 1",
-       "day1Heading": " Arrival - Jammu – Katra",
-       "day1Overview": "Pick up from Jammu Airport/Railway Station and transfer to Katra (50 Kms/1.5 Hours). Spend rest of the day at leisure. Overnight stay at Katra."
-     },
-     {
-       "day": "Day 2",
-       "day2Heading": "  Katra - Vaishno Devi Darshans ",
-       "day2Overview": "Early morning after breakfast, proceed for Mata Vaishno Devi Bhawan- one of the most popular pilgrimages of India situated in the lap of Trikuta mountains across Katra town at an altitude of  around 5200 feet. Yatra involves a trek of nearly 12 Kms from base camp at Katra known as Ban Ganga. Alternate way to perform darshans is by Ponies/Palkis/ Helicopter. If time permits, visit  Bhairo Temple & return back to Katra in the evening. Overnight stay at Katra"
-     },
-     {
-       "day": "Day 3",
-       "day3Heading": " Katra - Shiv Khori – Katra",
-       "day3Overview": "Early morning after breakfast, proceed for Shiv Khori - the Holy Cave abode of Lord Shiva situated at a distance of 70 Kms from Katra. The cave is a real wonder to be seen and measures nearly half a kilometer in length with a 4 feet high naturally formed Shiv-lingam at the heart of the Sanctum Sanctorum. Have darshans of Lord Shiva and back to Katra in the evening. If time permits, en route, visit Siar Baba waterfalls, Baba Dhansal & Nau Devis. Overnight stay at Katra"
-     },
-     {
-       "day": "Day 4",
-       "day4Heading": "Katra - Jammu – Departure",
-       "day4Overview": "After breakfast, check out from the hotel & proceed for Jammu to drop at Airport/Railway Station for your onward journey with sweet memories of the tour."
-     }
-   ],
-   "packageOptions": [
-     {
-       "package": " Deluxe",
-       "price": "₹14,999",
-       "previousPrice": "₹16,999",
-       "hotelsName": [
-         "K2 Inn",
-         "Hotel Curio's",
-         "Royal Milad"
-       ]
-     },
-     {
-       "package": "Semi Deluxe",
-       "price": "₹17,499",
-       "previousPrice": "₹19,499",
-       "hotelsName": [
-         "Royal Heritage",
-         "Royal Arabia",
-         "Hotel Shefat"
-       ]
-     },
-     {
-       "package": "Super Deluxe",
-       "price": "₹23,199",
-       "previousPrice": "₹25,199",
-       "hotelsName": [
-         "Grand Kaisar",
-         "Pacific Hotel",
-         "Batra Hotel"
-       ]
-     },
-     {
-       "package": "Premium",
-       "price": "₹28,749",
-       "previousPrice": "₹30,749",
-       "hotelsName": [
-         "Apple Orchard",
-         "The Monteral"
-       ]
-     }
-   ],
-   "carouselImageUrl": [
-     "/productKasauli1.jpg",
-     "/productKasauli2.jpg",
-     "/productKasauli3.jpg",
-     "/productKasauli4.jpg",
-     "/productKasauli2.jpg",
-     "/productKasauli1.jpg"
-   ],
-   "exclusions": [
-     "Any meals other than those specified in Inclusions",
-     "Chained vehicle from Tangmarg to Gulmarg",
-     "Expenses of personal nature such as tips",
-     "Any additional expenses incurred due to any train delay or cancellation",
-     "Guide & Entrance fees during sightseeing",
-     "Transfer from Banganga to Vaishno Devi Temple",
-     "Visit to Ganderbal and Thajiwas Glacier",
-     "Visit to Aru, Chandanwari, Baisaran, and Betab valleys",
-     "Expenses of watersports",
-     "Cable Car / Pony Ride in Gulmarg, Pahalgam, & Sonamarg\n"
-   ],
-   "inclusions": [
-     "Breakfast & Dinner",
-     "All accommodation as per Double Sharing ",
-     "Shikara Ride over Dal Lake",
-     "Pick up and drop from As per Itinerary",
-     "Toll Taxes & Service charges",
-     "All Transportation on private basis"
-   ],
-   "overView": [
-     {
-       "heading": "Exploring the Enchantment of Kashmir: A Land of Beauty and Diversity",
-       "text": "Nestled in the northernmost region of India, Kashmir is a breathtaking paradise renowned for its stunning landscapes, rich cultural heritage, and serene tranquility. Often referred to as Heaven on Earth,this picturesque valley attracts travelers from all corners of the globe, seeking solace in its majestic mountains, lush green valleys, and serene lakes."
-     },
-     {
-       "heading": "Natural Splendor",
-       "text": "Kashmir's natural beauty is unparalleled. The valley is embraced by the towering peaks of the Himalayas and Pir Panjal ranges, creating a spellbinding panorama of snow-capped mountains, verdant meadows, and crystal-clear streams. The Dal Lake, with its floating gardens and colorful Shikara boats, is a symbol of the region's ethereal charm. Visitors can also explore the enchanting Mughal Gardens, adorned with vibrant flowers and intricate water channels, offering a glimpse into the region's royal past."
-     },
-     {
-       "heading": "Cultural Richness",
-       "text": "Kashmir boasts a rich cultural tapestry woven from centuries of history and tradition. The valley has been a melting pot of diverse influences, including Hindu, Muslim, and Buddhist heritage. Visitors can immerse themselves in the vibrant bazaars of Srinagar, where artisans craft exquisite Pashmina shawls, intricate carpets, and ornate woodwork. The region's culinary delights, such as Wazwan—a traditional feast of aromatic Kashmiri cuisine—offer a tantalizing glimpse into its culinary heritage."
-     },
-     {
-       "heading": "Spiritual Sanctuaries",
-       "text": "Kashmir is home to a multitude of sacred sites and spiritual retreats, each imbued with a sense of serenity and devotion. The ancient Shankaracharya Temple, perched atop a hill overlooking Srinagar, offers panoramic views of the valley below and serves as a revered pilgrimage destination for Hindus. The revered Hazratbal Shrine, housing a relic believed to be a strand of Prophet Muhammad's hair, is a symbol of religious harmony and attracts devotees of all faiths."
-     },
-     {
-       "heading": "Adventure and Recreation",
-       "text": "For adventure enthusiasts, Kashmir offers a plethora of adrenaline-pumping activities amidst its breathtaking landscapes. From trekking in the picturesque Lidder Valley to skiing in the world-renowned slopes of Gulmarg, there's no shortage of outdoor adventures to embark upon. White-water rafting in the gushing rapids of the Lidder River and paragliding over the Sonamarg valley are also popular choices for those seeking an adrenaline rush."
-     },
-     {
-       "heading": "Preserving Paradise",
-       "text": "Despite its unparalleled beauty, Kashmir has faced its share of challenges, including political unrest and environmental degradation. However, concerted efforts are underway to preserve and protect this pristine paradise for future generations. Sustainable tourism initiatives, coupled with community-driven conservation efforts, aim to safeguard the region's natural and cultural heritage while empowering local communities."
-     },
-     {
-       "heading": "Plan Your Visit",
-       "text": "Whether you seek adventure in the great outdoors, tranquility amidst serene landscapes, or immersion in vibrant culture and tradition, Kashmir offers an unforgettable experience like no other. Plan your journey to this enchanting valley and discover the timeless allure of Kashmir—a land where beauty knows no bounds and every moment is a cherished memory"
-     }
-   ],
-   "duration": "3 Night / 4 Days",
-   "imageUrl": "https://images.unsplash.com/photo-1642474620266-2b07139c3118?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2F0cmF8ZW58MHx8MHx8fDA%3D"
- }
+  "_id": {
+    "$oid": "660e78530231e5b1ed9b8fe0"
+  },
+  "heading": "Sultanpur Weekend Tour",
+  "subHeading": "Weekend in Delhi ",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510282254!2d76.76356975916202!3d28.644287353977727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1713602284978!5m2!1sen!2sin",
+  "duration": "2 Night / 3 Days",
+  
+  
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "day1Heading": "Delhi - Sultanpur",
+        "day1Overview": "Morning after breakfast, drive to Sultanpur Bird Sanctuary located 48 km from Delhi and 15 km from Gurgaon on the Gurgaon - Farukh Nagar Road. It is an ideal place for birding and bird watchers, best visited in winters when a large number of migratory birds come here. On arrival, check in at the hotel. Rest of the day birding in the sanctuary. Overnight stay at the hotel."
+      },
+      {
+        "day": "Day 2",
+        "day2Heading": "Sultanpur",
+        "day2Overview": "Morning after breakfast, full day birding in the sanctuary. While birding, you can see Common Hoopoe, Paddyfield Pipit, Purple Sunbird, Little Cormorant, Eurasian Thick-knee, Gray Francolin, Black Francolin, Indian Roller, White-throated Kingfisher, Spot-billed Duck, Painted Stork, White Ibis, Black-headed Ibis, Little Egret, Great Egret, Cattle Egret, Indian Crested Lark, Red-vented Bulbul, Rose-ringed Parakeet, Red-wattled Lapwing, Shikra, Eurasian Collared Dove, Red-collared Dove, Laughing Dove, Spotted Owlet, Rock Pigeon, Magpie Robin, Greater Coucal, Weaver Bird, Bank Myna, Common Myna, and Green Bee-eater. Overnight stay at the hotel."
+      },
+      {
+        "day": "Day 3",
+        "day3Heading": "Sultanpur - Delhi",
+        "day3Overview": "Morning after breakfast, drive back to Delhi."
+      }
+    ]
+  
+  
+  
+  
+  ,
+  "overView": [
+    {
+      "heading": "Discovering Delhi: A Tapestry of History and Modernity",
+      "text": "Embark on an enchanting journey to Delhi, where ancient traditions blend seamlessly with contemporary cosmopolitan life. Explore the rich cultural heritage, captivating monuments, and vibrant energy, creating a captivating tapestry of past and present."
+    },
+    {
+      "heading": "Iconic Wonders of Old Delhi",
+      "text": "Unravel the historical marvels of Old Delhi. Wander through the winding lanes of Chandni Chowk, marvel at the grandeur of the Red Fort, and immerse yourself in the vibrant chaos of this ancient district, echoing tales of Mughal emperors and colonial legacies."
+    },
+    {
+      "heading": "Modern Marvels of New Delhi",
+      "text": "Experience the contemporary allure of New Delhi. Marvel at the impressive architecture of Lutyens' Delhi, indulge in world-class shopping and dining, and embrace the cosmopolitan vibe of the city, where modernity meets historical splendor."
+    },
+    {
+      "heading": "Nature's Oasis: Delhi's Lush Gardens",
+      "text": "Escape into nature's embrace in Delhi's lush gardens. Admire the vibrant floral displays, stroll through serene landscapes, and find tranquility in the stunning gardens like Lodhi Garden or Mughal Gardens, offering a serene respite amidst the bustling city."
+    },
+    {
+      "heading": "Culinary Delights of Delhi",
+      "text": "Embark on a gastronomic adventure in Delhi. Indulge in diverse cuisines from around the country, from rich Mughlai delicacies to tantalizing street food. Explore bustling food markets, savor exquisite flavors, and treat your taste buds to a culinary journey like no other."
+    },
+    {
+      "heading": "Preserving Cultural Legacy",
+      "text": "Delhi is a city that cherishes its cultural heritage. From ancient monuments to vibrant festivals, the city honors its roots while embracing modernity, offering a dynamic cultural experience for both residents and visitors alike."
+    },
+    {
+      "heading": "Plan Your Delhi Exploration",
+      "text": "Whether drawn to history, nature, or gastronomy, Delhi promises an unforgettable adventure. Plan your exploration of this captivating city, where every corner reveals a story, and every moment is a celebration of Delhi's boundless charm."
+    }
+  ],
+  "carouselImageUrl": [
+    "https://images.unsplash.com/photo-1583608562793-69ac7670dd1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGRlbGhpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1585483103289-39c79411fda9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRlbGhpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1571893652827-a3e071ab463b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGRlbGhpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1551594278-0162be5d00c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGRlbGhpfGVufDB8fDB8fHww"
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1555739217-05cf563a6437?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+}
+
+

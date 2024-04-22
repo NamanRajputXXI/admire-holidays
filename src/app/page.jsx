@@ -14,6 +14,7 @@ import TravelGuideline from "@/components/homePageComponents/TravelGuideline";
 import HeroSection from "@/components/homePageComponents/HeroSection";
 import Testimonial from "@/components/homePageComponents/Testimonial";
 import FeaturesSection from "@/components/homePageComponents/FeaturesSection";
+import TourismAlliance from "@/components/homePageComponents/TourismAlliance";
 const Home = () => {
   return (
     <>
@@ -29,6 +30,7 @@ const Home = () => {
       <LatestUpdatesSection />
       <FeaturesSection />
       <CompanyStatsSection />
+      <TourismAlliance />
       <Testimonial />
       <HomePageBlogSection />
       <SubscribeLetter />

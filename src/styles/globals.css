@@ -7,5 +7,17 @@
 html, body {
     scroll-behavior: smooth;
   }
-
+  @layer utilities {
+    .animate-scroll-infinite {
+      animation: scroll 40s linear infinite;
+    }
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-1750px); /* Calculated based on the number of slides and their width */
+      }
+    }
+  }
   

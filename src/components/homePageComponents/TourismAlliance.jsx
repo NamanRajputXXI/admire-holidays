@@ -1,7 +1,4 @@
 import React from "react";
-import { FaPlaceOfWorship } from "react-icons/fa";
-import { GrUserExpert } from "react-icons/gr";
-import { MdModeOfTravel, MdSentimentVerySatisfied } from "react-icons/md";
 
 const TourismAlliance = () => {
   return (
@@ -19,18 +16,21 @@ const TourismAlliance = () => {
           <div className="relative w-full  bg-white overflow-hidden">
             <div className="absolute z-10  w-48 left-0 top-0 bg-gradient-to-r from-white to-transparent"></div>
             <div className="absolute z-10  w-48 right-0 top-0 bg-gradient-to-l from-white to-transparent"></div>
-            <div className="flex animate-scroll-infinite">
+            <div className="flex gap-10 items-center animate-scroll-infinite">
               <div className="h-24 w-24 flex items-center justify-center"></div>
 
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
+              <img src="royalHeritageLogo.png" alt="" className="h-24 w-60" />
+              <img src="grandkLogo.png" alt="" className="h-24 w-60" />
+              <img src="pineViewLogo.png" alt="" className="h-24 w-60" />
+              <img src="pillicanLogo.png" alt="" className="h-8 w-60" />
+              <img src="reefValley.png" alt="" className="h-24 w-60" />
+              <img src="sangrilla.png" alt="" className="h-24 w-60" />
+              <img src="casaMontana.png" alt="" className="h-24 w-60" />
+              <img src="munnarCastle.png" alt="" className="h-24 w-60" />
+              <img src="bambooDale.png" alt="" className="h-24 w-60" />
+              <img src="periyarNest.png" alt="" className="h-24 w-60" />
+              <img src="grandThekaddy.png" alt="" className="h-24 w-60" />
+              <img src="swagathHolidays.png" alt="" className="h-24 w-60" />
               <img src="logo.jpg" alt="" className="h-24 w-60" />
             </div>
           </div>

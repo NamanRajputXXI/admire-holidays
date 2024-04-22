@@ -16,7 +16,7 @@ html, body {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(-1750px); /* Calculated based on the number of slides and their width */
+        transform: translateX(-1700px); /* Calculated based on the number of slides and their width */
       }
     }
   }

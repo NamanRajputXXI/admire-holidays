@@ -1,73 +1,63 @@
-
 {
   "_id": {
-    "$oid": "660e78530231e5b1ed9b8fe0"
+    "$oid": "662638fc47f65d957d80d99f"
   },
-  "heading": "Sultanpur Weekend Tour",
-  "subHeading": "Weekend in Delhi ",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510282254!2d76.76356975916202!3d28.644287353977727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1713602284978!5m2!1sen!2sin",
+  "heading": "Shirdi Weekend Tour",
+  "subHeading": "Weekend in Mumbai",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.6729268029!2d72.71637212844219!3d19.08250200566352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1713780956011!5m2!1sen!2sin",
   "duration": "2 Night / 3 Days",
-  
-  
-    "itinerary": [
-      {
-        "day": "Day 1",
-        "day1Heading": "Delhi - Sultanpur",
-        "day1Overview": "Morning after breakfast, drive to Sultanpur Bird Sanctuary located 48 km from Delhi and 15 km from Gurgaon on the Gurgaon - Farukh Nagar Road. It is an ideal place for birding and bird watchers, best visited in winters when a large number of migratory birds come here. On arrival, check in at the hotel. Rest of the day birding in the sanctuary. Overnight stay at the hotel."
-      },
-      {
-        "day": "Day 2",
-        "day2Heading": "Sultanpur",
-        "day2Overview": "Morning after breakfast, full day birding in the sanctuary. While birding, you can see Common Hoopoe, Paddyfield Pipit, Purple Sunbird, Little Cormorant, Eurasian Thick-knee, Gray Francolin, Black Francolin, Indian Roller, White-throated Kingfisher, Spot-billed Duck, Painted Stork, White Ibis, Black-headed Ibis, Little Egret, Great Egret, Cattle Egret, Indian Crested Lark, Red-vented Bulbul, Rose-ringed Parakeet, Red-wattled Lapwing, Shikra, Eurasian Collared Dove, Red-collared Dove, Laughing Dove, Spotted Owlet, Rock Pigeon, Magpie Robin, Greater Coucal, Weaver Bird, Bank Myna, Common Myna, and Green Bee-eater. Overnight stay at the hotel."
-      },
-      {
-        "day": "Day 3",
-        "day3Heading": "Sultanpur - Delhi",
-        "day3Overview": "Morning after breakfast, drive back to Delhi."
-      }
-    ]
-  
-  
-  
-  
-  ,
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "day1Heading": "Mumbai - Shirdi (240 Kms / 5 hrs)",
+      "day1Overview": "Meet on arrival at Mumbai Airport / Railway station and drive to Shirdi. Shirdi Sai temple is a beautiful shrine built over the Samadhi of Shri Sai Baba. Explore the famous Shri Sai Baba temple, established in 1922, dedicated to the revered saint who resided in Shirdi till his demise. Check-in at the hotel upon arrival. Enjoy leisure time in the evening. Overnight stay at the hotel."
+    },
+    {
+      "day": "Day 2",
+      "day2Heading": "Shirdi - Shani Shingnapur - Shirdi (75 Kms / 1.5 hrs)",
+      "day2Overview": "After breakfast, visit the renowned Shri Sai Baba temple for Darshan or optional Kakad Arti. Explore Shirdi's key attractions including Dwarkamai, Chavadi, and Shani Shingnapur. Dwarkamai, adjacent to the Sai Baba Samadhi Temple, is where Sai Baba spent 60 years of his life performing miracles. Chavadi is a significant place where Sai Baba stayed every alternate night. Proceed to Shani Shingnapur, known for its unique temple dedicated to Lord Shanidev. Return to Shirdi in the evening to attend the Arti at Shirdi Dham. Overnight stay at the hotel."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "Shirdi - Mumbai",
+      "day3Overview": "After breakfast, drive back to Mumbai. On arrival, transfer to Airport/Railway station for your onward destination."
+    }
+  ],
   "overView": [
     {
-      "heading": "Discovering Delhi: A Tapestry of History and Modernity",
-      "text": "Embark on an enchanting journey to Delhi, where ancient traditions blend seamlessly with contemporary cosmopolitan life. Explore the rich cultural heritage, captivating monuments, and vibrant energy, creating a captivating tapestry of past and present."
+      "heading": "Mumbai: A City of Dreams and Diversity",
+      "text": "Immerse yourself in the vibrant spirit of Mumbai, a bustling metropolis known for its cultural diversity and iconic landmarks. Explore the city's pulsating energy, scenic coastline, and rich heritage, creating an unforgettable tapestry of experiences."
     },
     {
-      "heading": "Iconic Wonders of Old Delhi",
-      "text": "Unravel the historical marvels of Old Delhi. Wander through the winding lanes of Chandni Chowk, marvel at the grandeur of the Red Fort, and immerse yourself in the vibrant chaos of this ancient district, echoing tales of Mughal emperors and colonial legacies."
+      "heading": "Journey to Lonavala: Nature's Retreat",
+      "text": "Embark on a scenic drive to Lonavala, a picturesque hill station nestled in the Sahyadri range. Discover tranquil landscapes, majestic waterfalls, and historic caves. Lonavala offers a perfect escape from city life amidst nature's embrace."
     },
     {
-      "heading": "Modern Marvels of New Delhi",
-      "text": "Experience the contemporary allure of New Delhi. Marvel at the impressive architecture of Lutyens' Delhi, indulge in world-class shopping and dining, and embrace the cosmopolitan vibe of the city, where modernity meets historical splendor."
+      "heading": "Exploring Lonavala's Natural Wonders",
+      "text": "Unveil Lonavala's natural wonders, from the pristine Lonavala Lake to the scenic Tungarli Lake. Explore the ancient Karla Caves, a treasure trove of Buddhist history, and ascend the historic Lohagad Fort for panoramic views of the lush surroundings."
     },
     {
-      "heading": "Nature's Oasis: Delhi's Lush Gardens",
-      "text": "Escape into nature's embrace in Delhi's lush gardens. Admire the vibrant floral displays, stroll through serene landscapes, and find tranquility in the stunning gardens like Lodhi Garden or Mughal Gardens, offering a serene respite amidst the bustling city."
+      "heading": "Culinary Delights of Mumbai and Lonavala",
+      "text": "Indulge in Mumbai's eclectic cuisine, from street food delights like vada pav and pav bhaji to coastal seafood specialties. In Lonavala, savor local delicacies like chikki and enjoy a blend of regional flavors amidst the serene hillside."
     },
     {
-      "heading": "Culinary Delights of Delhi",
-      "text": "Embark on a gastronomic adventure in Delhi. Indulge in diverse cuisines from around the country, from rich Mughlai delicacies to tantalizing street food. Explore bustling food markets, savor exquisite flavors, and treat your taste buds to a culinary journey like no other."
+      "heading": "Serene Retreat in Lonavala",
+      "text": "Experience tranquility in Lonavala's serene surroundings. Visit Ryewood Park and Shivaji Udyan, offering peaceful green spaces and historic temples. Relax by Valvan Dam and Bhushi Dam, surrounded by lush landscapes and cascading waterfalls."
     },
     {
-      "heading": "Preserving Cultural Legacy",
-      "text": "Delhi is a city that cherishes its cultural heritage. From ancient monuments to vibrant festivals, the city honors its roots while embracing modernity, offering a dynamic cultural experience for both residents and visitors alike."
+      "heading": "Rediscovering Mumbai's Iconic Landmarks",
+      "text": "Revel in Mumbai's iconic landmarks, from the Gateway of India to Marine Drive's seafront promenade. Dive into the city's rich history at Elephanta Caves and explore modern attractions like Bollywood studios, reflecting Mumbai's dynamic essence."
     },
     {
-      "heading": "Plan Your Delhi Exploration",
-      "text": "Whether drawn to history, nature, or gastronomy, Delhi promises an unforgettable adventure. Plan your exploration of this captivating city, where every corner reveals a story, and every moment is a celebration of Delhi's boundless charm."
+      "heading": "Plan Your Mumbai-Lonavala Journey",
+      "text": "Craft your Mumbai-Lonavala adventure, blending urban exploration with nature's allure. Delight in Mumbai's cosmopolitan charm and unwind in Lonavala's tranquil ambiance, creating cherished memories of this captivating journey."
     }
   ],
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1583608562793-69ac7670dd1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGRlbGhpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1585483103289-39c79411fda9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRlbGhpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1571893652827-a3e071ab463b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGRlbGhpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1551594278-0162be5d00c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGRlbGhpfGVufDB8fDB8fHww"
+    "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVtYmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1562979314-bee7453e911c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVtYmFpfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1595658658481-d53d3f999875?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG11bWJhaXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1594817060351-8f3de84b7e0e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fG11bWJhaXxlbnwwfHwwfHx8MA%3D%3D"
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1555739217-05cf563a6437?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1629640890590-7836d69c5237?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hpcmRpfGVufDB8fDB8fHww"
 }
-
-

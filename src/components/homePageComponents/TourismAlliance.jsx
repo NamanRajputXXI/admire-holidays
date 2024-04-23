@@ -5,12 +5,12 @@ const TourismAlliance = () => {
     <div className="">
       <section
         id="features"
-        className="relative block px-6 py-10 md:py-20 md:px-10 "
+        className="relative block px-6 py-10 md:pb-20 md:px-10 "
       >
-        <div className="relative mx-auto max-w-5xl text-center">
-          <h2 className="block w-full text-black bg-clip-text font-bold text-3xl sm:text-4xl">
-            Tourism Board Alliance
-          </h2>
+        <div className="relative mx-auto max-w-7xl text-center">
+          <h1 className="text-center font-Aboreto  md:text-5xl text-2xl  ">
+            Tourism Hotel Alliance
+          </h1>
         </div>
         <div className="flex items-center justify-center  pt-20 ">
           <div className="relative w-full  bg-white overflow-hidden">
@@ -31,7 +31,7 @@ const TourismAlliance = () => {
               <img src="periyarNest.png" alt="" className="h-24 w-60" />
               <img src="grandThekaddy.png" alt="" className="h-24 w-60" />
               <img src="swagathHolidays.png" alt="" className="h-24 w-60" />
-              <img src="logo.jpg" alt="" className="h-24 w-60" />
+              <img src="sangrilla.png" alt="" className="h-24 w-60" />
             </div>
           </div>
         </div>

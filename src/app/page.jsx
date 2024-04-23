@@ -22,6 +22,7 @@ const Home = () => {
       <HeroSection />
       <PopularDestinationCarousel />
       <DomesticDestinationCarousel />
+      <TourismAlliance />
       <InternationalDestinationCarousel />
       <QuestioningCardsLayout />
       <WeekendTrip />
@@ -30,7 +31,6 @@ const Home = () => {
       <LatestUpdatesSection />
       <FeaturesSection />
       <CompanyStatsSection />
-      <TourismAlliance />
       <Testimonial />
       <HomePageBlogSection />
       <SubscribeLetter />

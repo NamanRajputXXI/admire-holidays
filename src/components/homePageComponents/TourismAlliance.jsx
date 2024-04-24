@@ -8,7 +8,7 @@ const TourismAlliance = () => {
         className="relative block px-6 py-10 md:pb-20 md:px-10 "
       >
         <div className="relative mx-auto max-w-7xl text-center">
-          <h1 className="text-center font-Aboreto  md:text-5xl text-2xl  ">
+          <h1 className="text-center   md:text-5xl text-2xl  ">
             Tourism Hotel Alliance
           </h1>
         </div>

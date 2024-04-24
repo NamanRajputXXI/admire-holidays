@@ -5,7 +5,7 @@ import WeekendTripStateCarousel from "../carousels/WeekendTripStateCarousel";
 const WeekendTrip = () => {
   return (
     <section className="max-w-7xl mt-32 mx-auto ">
-      <h1 className="text-center md:text-5xl text-3xl  font-bold">
+      <h1 className="text-center font-Aboreto  md:text-5xl text-2xl  ">
         Weekend Trip
       </h1>
       <WeekendTripTrendingCarousel />

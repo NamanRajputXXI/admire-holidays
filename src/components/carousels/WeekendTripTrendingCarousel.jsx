@@ -7,7 +7,6 @@ import {
   ButtonBack,
   ButtonNext,
 } from "pure-react-carousel";
-import exclusivePackage from "@/data/exclusivePackage";
 import Link from "next/link";
 import { MdOutlineDiscount } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
@@ -34,7 +33,7 @@ const WeekendTripTrendingCarousel = () => {
   }, []);
   const divHeight = windowWidth && windowWidth < 500 ? "443px" : "420px";
   return (
-    <section className="container max-w-7xl my-10  mx-auto">
+    <section className="container max-w-7xl mb-10  mx-auto">
       <div className="flex items-center justify-center w-full   h-full lg:py-20 py-12 px-4">
         {/* Carousel for desktop and large size devices */}
         <CarouselProvider

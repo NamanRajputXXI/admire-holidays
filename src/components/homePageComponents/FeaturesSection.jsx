@@ -165,9 +165,9 @@ const FeaturesSection = () => {
         className="relative block px-6 py-10 md:py-20 md:px-10 "
       >
         <div className="relative mx-auto max-w-5xl text-center">
-          <h2 className="block w-full text-black bg-clip-text font-bold text-3xl sm:text-4xl">
+          <h1 className="text-center font-Aboreto  md:text-5xl text-2xl  ">
             Why Choose Admire Holidays?
-          </h2>
+          </h1>
         </div>
 
         {/* New Section: Why Choose Admire Holidays */}

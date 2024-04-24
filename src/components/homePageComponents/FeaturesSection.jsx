@@ -8,7 +8,7 @@ const FeaturesSection = () => {
     <div className="">
       <section
         id="features"
-        className="relative block px-6 py-20 sm:py-32 md:px-10 "
+        className="relative block px-6 py-20 sm:py-36 md:px-10 "
       >
         <div className="relative mx-auto max-w-5xl text-center">
           <h1 className="text-center   md:text-5xl text-2xl  ">

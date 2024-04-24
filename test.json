@@ -1,66 +1,64 @@
 {
   "_id": {
-    "$oid": "662753edcb61db237bb9947e"
+    "$oid": "6628aca0c2181787925cdc2d"
   },
-  "heading": "Chennai - Yercaud Hill Station Weekend Tour",
-  "subHeading": "Weekend in Chennai",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.79475984676!2d80.04419721602939!3d13.047807813886708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1713852747727!5m2!1sen!2sin",
+  "heading": "Horsley Hills Weekend Tour",
+  "subHeading": "Weekend from Bangalore",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.5665920656!2d77.46612495987436!3d12.95428023777386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1713939735960!5m2!1sen!2sin",
   "duration": "2 Night / 3 Days",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Chennai - Yercaud",
-      "day1Overview": "Morning pick-up from advised location/Airport in Chennai & drive to Yercaud. Check into the hotel. Evening free for leisure or relaxation. Overnight stay."
+      "day1Heading": "Bangalore - Horsley Hills",
+      "day1Overview": "Morning meet with our representative and leave for Horsley Hills, one of the popular tourist destinations in Andhra Pradesh. Located at an altitude of 4100 meters, Horsley Hills offers a refreshing break amidst beautiful natural settings and a soothing environment. Upon arrival at the hill station, check into the resort surrounded by exotic flora and rich fauna. Enjoy leisure time and explore the surroundings. Overnight stay at the resort."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Yercaud",
-      "day2Overview": "Morning at leisure. After breakfast, enjoy a full-day sightseeing tour of Yercaud. Visit Emerald Lake, Botanical Garden, Kiliyur Falls, Lady's Seat, Pagoda Point, Shevaroy Temple, Local Town, Anna Park, Arthur's Seat, Silk Farm, Rose Garden, Bear's Cave & Bear's Hill, etc. Don't miss the boat riding at Yercaud Boathouse to experience the scenic beauty of the hilly terrain. You can also try dirt biking close to Grange Resorts (around 4 kms from the lake). Return to the hotel in the evening for overnight stay."
+      "day2Heading": "Horsley Hills",
+      "day2Overview": "Today will be at leisure to roam freely around this beautiful hill station. Take pleasant walks and enjoy the serene environment. For adventure seekers, indulge in various adventurous activities like trekking, hiking, and rappelling, which are popular among tourists here. Overnight stay at the resort."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Yercaud - Chennai",
-      "day3Overview": "Morning at leisure. After breakfast, free time for relaxation. Afternoon drive back to Chennai. On arrival in Chennai, transfer to the advised location or Airport for your onward journey."
+      "day3Heading": "Horsley Hills - Bangalore",
+      "day3Overview": "After spending some morning hours at leisure, depart from Horsley Hills for Bangalore.\n\nTour & Services Ends."
     }
   ]
-  
-  ,
+,
   "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hlbm5haXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1629467007706-cefdec15a1a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ0fHxjaGVubmFpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1637080618498-b4a1cad84ae0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjIxfHxjaGVubmFpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1629913801617-bda1ee522560?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQxfHxjaGVubmFpfGVufDB8fDB8fHww"
+    "https://images.unsplash.com/photo-1631714712922-eaa39e4452fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8a2FybmF0YWthfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1588312159699-a24be4f1d0e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGthcm5hdGFrYXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1577551298142-61d4fd9d7167?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGthcm5hdGFrYXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1580294647332-8a399cd9ed45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGthcm5hdGFrYXxlbnwwfHwwfHx8MA%3D%3D"
   ],
-  
   "overView": [
     {
-      "heading": "Chennai: Gateway to South India",
-      "text": "Discover Chennai, a vibrant gateway to South India, renowned for its rich history, bustling markets, and ornate temples. Immerse yourself in the city's cultural tapestry, from traditional Carnatic music to savory South Indian cuisine."
+      "heading": "Scenic Ooty: Queen of Hill Stations",
+      "text": "Escape the city's hustle and bustle for a refreshing weekend in the picturesque hill station of Ooty. Nestled in the Nilgiri Hills, this charming town offers breathtaking vistas, lush tea plantations, and serene lakes. Explore the famous Botanical Gardens, take a toy train ride, and indulge in the region's flavorful cuisine."
     },
     {
-      "heading": "Exploring Kanchipuram's Temple Heritage",
-      "text": "Embark on a temple tour of Kanchipuram, the 'city of thousand temples'. Visit ancient marvels like Kailasanatha Temple and Vaikunta Perumal Temple, showcasing exquisite Dravidian architecture and intricate sculptures."
+      "heading": "Mysore: Regal History and Opulence",
+      "text": "Embark on a weekend getaway to Mysore, a city steeped in royal grandeur and cultural heritage. Marvel at the stunning Mysore Palace, a testament to Indo-Saracenic architecture, and explore the vibrant Devaraja Market for unique handicrafts and spices. Immerse yourself in the city's rich legacy and savor the famous Mysore Pak."
     },
     {
-      "heading": "Sightseeing in Kanchipuram",
-      "text": "Unveil Kanchipuram's rich heritage with visits to Varadaraja Temple, Kamakshi Amman Temple, and the hilltop Lord Subramanya Temple at Tiruttani. Delve into religious significance and architectural splendor amidst serene surroundings."
+      "heading": "Coorg: Nature's Enchanting Embrace",
+      "text": "Escape to the serene and lush landscapes of Coorg, also known as the 'Scotland of India.' This picturesque hill station offers a perfect blend of natural beauty, adventure, and cultural experiences. Indulge in coffee plantation tours, trek through misty hills, and witness the captivating Dubare Elephant Camp."
     },
     {
-      "heading": "Culinary Delights of South India",
-      "text": "Indulge in South India's culinary delights, from flavorful dosas and idlis to aromatic filter coffee. Experience the region's gastronomic diversity, blending spices and flavors that define Tamil Nadu's culinary heritage."
+      "heading": "Hampi: Timeless Marvel of Vijayanagara",
+      "text": "Delve into the rich historical tapestry of Hampi, an UNESCO World Heritage Site and the former capital of the mighty Vijayanagara Empire. Explore the awe-inspiring ruins, including the iconic Virupaksha Temple, Elephant Stables, and the mesmerizing Vijayanagara Ruins, showcasing the grandeur of a bygone era."
     },
     {
-      "heading": "Tranquil Retreat in Kanchipuram",
-      "text": "Experience tranquility in Kanchipuram's serene ambiance. Relax amid lush landscapes and historic temples, soaking in the spiritual essence of this sacred city. Kanchipuram offers a peaceful escape from urban life."
+      "heading": "Chikmagalur: Coffee Trails and Scenic Delights",
+      "text": "Discover the allure of Chikmagalur, a hill station renowned for its sprawling coffee plantations and breathtaking landscapes. Embark on a coffee plantation tour, witness the Mullayanagiri Peak, and unwind amidst the serene ambiance of this charming destination, famous for its aromatic coffee and natural beauty."
     },
     {
-      "heading": "Chennai-Kanchipuram Weekend Escape",
-      "text": "Plan your weekend escape from Chennai to Kanchipuram, combining cultural exploration with spiritual rejuvenation. Immerse yourself in South India's charm, from temple treasures to culinary delights, creating lasting memories of this enriching journey."
+      "heading": "Gokarna: Coastal Tranquility",
+      "text": "Escape to the serene coastal town of Gokarna, a hidden gem along the Arabian Sea. Explore its pristine beaches, ancient temples, and the iconic Kudle Beach, famous for its laid-back vibe and water sports. Immerse yourself in the town's spiritual essence and enjoy the tranquil surroundings."
     },
     {
-      "heading": "Adventures in Mamallapuram",
-      "text": "Extend your journey to Mamallapuram, a coastal town famous for its ancient rock-cut temples and shore temples. Explore architectural wonders like the Shore Temple and marvel at the intricately carved sculptures depicting tales of Hindu mythology."
+      "heading": "Nandi Hills: Serene Hilltop Retreat",
+      "text": "Experience the tranquility of Nandi Hills, a popular weekend getaway from Bangalore. Perched atop a picturesque hillock, this destination offers stunning panoramic views, ancient temples, and trekking trails. Enjoy the scenic beauty, explore the heritage sites, and savor the local delicacies amidst the serene surroundings."
     }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1713240079331-5301b650dc8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHllcmNhdWR8ZW58MHx8MHx8fDA%3D"
+  "imageUrl": "https://images.unsplash.com/photo-1632407100994-ac2105d63cc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9yc2xleSUyMGhpbGxzfGVufDB8fDB8fHww"
 }

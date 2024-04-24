@@ -5,7 +5,7 @@ const TourismAlliance = () => {
     <div className="">
       <section
         id="features"
-        className="relative block px-6 py-10 md:pb-20 md:px-10 "
+        className="relative block px-6 py-10  md:pt-32 md:px-10 "
       >
         <div className="relative mx-auto max-w-7xl text-center">
           <h1 className="text-center   md:text-5xl text-2xl  ">

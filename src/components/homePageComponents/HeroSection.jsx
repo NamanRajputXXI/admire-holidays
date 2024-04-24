@@ -5,7 +5,7 @@ import DestinationMaker from "./DestinationMaker";
 import Image from "next/image";
 const HeroSection = () => {
   return (
-    <section className="my-20  h-fit  bg-[#def5ff] bg-cover">
+    <section className="mt-20  h-fit  bg-[#def5ff] bg-cover">
       <div className="flex items-center lg:gap-4 gap-10 lg:flex-row flex-col justify-between  ">
         <div className="flex flex-col gap-10 py-10 lg:pl-32 px-5">
           <p className="text-[#00BB98] text-xl  font-LaBelle  ">

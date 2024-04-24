@@ -17,7 +17,7 @@ const QuestioningCardsLayout = () => {
   }, []);
   return (
     <section
-      className="max-w-7xl   mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-3  md:grid-cols-2 grid-cols-1"
+      className="max-w-7xl sm:pt-32  pt-20  mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-3  md:grid-cols-2 grid-cols-1"
       data-aos="fade-up"
     >
       <QuestioningCard

@@ -22,11 +22,11 @@ const Home = () => {
       <HeroSection />
       <PopularDestinationCarousel />
       <DomesticDestinationCarousel />
-      <TourismAlliance />
       <InternationalDestinationCarousel />
       <QuestioningCardsLayout />
       <WeekendTrip />
       <YoutubeBanner />
+      <TourismAlliance />
       <TravelGuideline />
       <LatestUpdatesSection />
       <FeaturesSection />

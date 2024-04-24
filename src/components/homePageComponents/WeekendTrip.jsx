@@ -4,7 +4,7 @@ import WeekendTripTrendingCarousel from "../carousels/WeekendTripTrendingCarouse
 import WeekendTripStateCarousel from "../carousels/WeekendTripStateCarousel";
 const WeekendTrip = () => {
   return (
-    <section className="max-w-7xl mt-32 mx-auto ">
+    <section className="max-w-7xl mx-auto ">
       <WeekendTripTrendingCarousel />
       <WeekendTripStateCarousel />
     </section>

@@ -18,28 +18,28 @@ const ExclusiveCarousel = () => {
         slides: {
           origin: "center",
           perView: 1, // Default to 1 review visible
-          spacing: 16,
+          spacing: 8,
         },
         breakpoints: {
           "(min-width: 288px)": {
             slides: {
               origin: "auto",
               perView: 1, // Show 2 reviews on screens >= 768px
-              spacing: 32,
+              spacing: 8,
             },
           },
           "(min-width: 768px)": {
             slides: {
               origin: "auto",
               perView: 2, // Show 2 reviews on screens >= 768px
-              spacing: 32,
+              spacing: 8,
             },
           },
           "(min-width: 1024px)": {
             slides: {
               origin: "auto",
-              perView: 4, // Show 3 reviews on screens >= 1024px
-              spacing: 32,
+              perView: 4, // Show 4 reviews on screens >= 1024px
+              spacing: 12,
             },
           },
         },

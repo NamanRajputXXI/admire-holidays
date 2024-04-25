@@ -180,15 +180,20 @@ const TestimonialSlider = () => {
         <div className=" sm:mt-16 mt-8 lg:col-span-2 sm:px-8  px-3 lg:mx-0">
           <div ref={sliderContainer} className="keen-slider">
             {testimonials.map((item, i) => (
-              <div className="keen-slider__slide" key={i}>
+              <div
+                className="keen-slider__slide flex flex-col  items-start "
+                key={i}
+              >
                 <img
-                  className="mx-auto mb-6 h-[75px] rounded-full shadow-lg dark:shadow-black/20 w-[75px]"
+                  className="mx-auto  mb-6 h-[75px] rounded-full shadow-lg dark:shadow-black/20 w-[75px]"
                   src={item.image}
                   alt="avatar"
                 />
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap w-full  justify-center">
                   <div className="w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
-                    <h5 className="mb-2 text-lg font-bold">{item.name}</h5>
+                    <h5 className="mb-2 w-full text-center text-lg font-bold">
+                      {item.name}
+                    </h5>
                   </div>
                 </div>
                 <p className=" sm:text-base px-3  text-sm">{item.quote}</p>

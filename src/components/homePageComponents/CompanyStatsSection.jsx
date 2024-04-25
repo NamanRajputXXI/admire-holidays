@@ -1,15 +1,30 @@
+"use client";
+import React, { useState, useEffect } from "react";
 import companyStatsData from "@/data/comapanyStatsData";
-import React from "react";
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 
 const CompanyStatsSection = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0.5, // Percentage of the element that needs to be visible for the animation to trigger
+    triggerOnce: true, // Trigger the animation only once
+  });
+
+  useEffect(() => {
+    setIsVisible(inView);
+  }, [inView]);
+
   return (
     <section
-      className="bg-[#00BB98] bg-cover  h-fit py-20"
+      className="bg-[#00BB98] bg-cover h-fit py-20"
       style={{
         backgroundImage: "url('background-testimonial-home-6.png')",
       }}
+      ref={ref} // Attach the ref to the section
     >
-      <div className="max-w-7xl  mx-auto grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center gap-10 px-5 ">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center gap-10 px-5 ">
         {companyStatsData.map((item, i) => (
           <div
             className="flex flex-col justify-center items-center gap-10 "
@@ -24,9 +39,12 @@ const CompanyStatsSection = () => {
             >
               {item.icon}
             </div>
-
             <div className="text-5xl text-white font-medium">
-              {item.numbers}
+              <CountUp
+                start={isVisible ? 0 : null}
+                end={item.numbers}
+                duration={2.5}
+              />
             </div>
             <div className="text-sm text-gray-200 -mt-8 font-medium">
               {item.title}

@@ -58,8 +58,8 @@ const WeekendTripStateCarousel = () => {
   };
   return (
     <section className="">
-      <div className="mx-auto max-w-[1340px] px-4 sm:pt-32 pt-20 sm:px-6    lg:ps-8 ">
-        <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
+      <div className="mx-auto max-w-[1340px] sm:pt-32 pt-20 sm:px-6 lg:ps-8 ">
+        <div className="max-w-7xl  items-end justify-between sm:flex sm:pe-6 lg:pe-8">
           <h1 className="text-center   md:text-5xl text-2xl  ">
             Weekend Trending
           </h1>
@@ -105,7 +105,7 @@ const WeekendTripStateCarousel = () => {
           </div>
         </div>
 
-        <div className=" sm:mt-16 mt-8 lg:col-span-2 sm:px-8  px-3 lg:mx-0">
+        <div className=" sm:mt-16 mt-8 lg:col-span-2 lg:mx-0">
           <div ref={sliderContainer} className="keen-slider">
             {weekendTripStateData.map((item, i) => (
               <Link href={item.link} key={i}>

@@ -104,7 +104,7 @@ const InternationalDestinationCarousel = () => {
           </div>
         </div>
         <div className="sm:mt-16 mt-8 lg:col-span-2 sm:px-8  px-3 lg:mx-0">
-          <div ref={sliderContainer} className="keen-slider  ">
+          <div ref={sliderContainer} className="keen-slider ">
             {domesticDestinations.map((item, i) => (
               <Link href={item.link} key={i}>
                 <div className="keen-slider__slide" key={i}>

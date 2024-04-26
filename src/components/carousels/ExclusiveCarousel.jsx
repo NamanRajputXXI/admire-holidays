@@ -119,7 +119,7 @@ const ExclusiveCarousel = () => {
                       className="object-cover rounded-xl object-center h-96 w-full md:w-96"
                     />
 
-                    <div className="bg-black rounded-xl bg-opacity-5 absolute w-full h-full py-6">
+                    <div className=" rounded-xl  absolute w-full h-full py-6">
                       <div className="flex h-fit items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-0  ">
                         <MdOutlineDiscount color="white" size={20} />
                         Save upto {item.discount}

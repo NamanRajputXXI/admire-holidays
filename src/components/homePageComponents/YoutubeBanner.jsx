@@ -99,19 +99,30 @@ const YoutubeBanner = () => {
     setIsVideoPlaying(true);
   };
 
+  const handlePause = () => {
+    setIsVideoPlaying(false);
+  };
+
+  const handlePlay = () => {
+    setIsVideoPlaying(true);
+  };
+
   return (
-    <section className="sm:h-[600px] h-[480px] max-w-full mx-auto flex flex-col gap-5  sm:py-20 py-5 ">
+    <section className="sm:h-[600px] h-[480px]  max-w-full mx-auto flex flex-col gap-5 sm:pt-32 py-5 ">
       <h1 className="text-center md:text-5xl text-2xl ">
         Our Youtube Testimonials
       </h1>
       <div className="flex sm:flex-row gap-4 flex-col-reverse items-center my-0 sm:my-10 justify-center w-full h-full">
-        <div className="flex px-3 sm:flex-col overflow-x-hidden sm:overflow-y-auto scollbar-hidden sm:w-[300px] w-full h-48 sm:h-full flex-row text-white gap-5">
+        <div className="flex px-3 sm:flex-col overflow-x-hidden sm:overflow-y-auto scollbar-hidden md:w-[250px] lg:w-[300px] w-full h-48 sm:h-full flex-row text-white gap-5">
           {youtubeBannerData.map((item, i) => (
-            <div className="relative w-[300px] h-48 sm:h-full" key={i}>
+            <div
+              className="relative lg:w-[300px] w-[250px] h-48 sm:h-full"
+              key={i}
+            >
               <img
                 src={item.imageUrl}
                 alt=""
-                className=" w-[300px] transition-all duration-300 hover:shadow-xl hover:opacity-75"
+                className=" lg:w-[300px] md:w-[250px] transition-all duration-300 hover:shadow-xl hover:opacity-75"
               />
               <div className="absolute rounded-xl inset-0 w-[300px] h-48 sm:h-full flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
                 <button
@@ -125,18 +136,32 @@ const YoutubeBanner = () => {
           ))}
         </div>
         <div className="sm:flex hidden relative">
-          {isVideoPlaying && (
+          {(isVideoPlaying || currentVideoUrl) && (
             <ReactPlayer
               url={currentVideoUrl}
               playing={isVideoPlaying}
               controls
-              width="900px"
+              width="700px"
               height="440px"
-              className="h-full rounded-xl w-[700px]"
+              className="h-full lg:flex rounded-xl w-[700px]"
+              onPause={handlePause}
+              onPlay={handlePlay}
             />
           )}
-          {!isVideoPlaying && (
-            <div className="relative w-[900px] h-48 sm:h-[440px]">
+          {(isVideoPlaying || currentVideoUrl) && (
+            <ReactPlayer
+              url={currentVideoUrl}
+              playing={isVideoPlaying}
+              controls
+              width="700px"
+              height="440px"
+              className="h-full lg:hidden md:flex sm:hidden rounded-xl w-[550px]"
+              onPause={handlePause}
+              onPlay={handlePlay}
+            />
+          )}
+          {!isVideoPlaying && !currentVideoUrl && (
+            <div className="relative md:w-[500px] lg:w-[700px] h-48 sm:h-[440px]">
               <img
                 src="https://i.ytimg.com/vi/R2J53ozZ2OY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgaAAuADigIMCAAQARhRIFsoZTAP&rs=AOn4CLBi0sE8cCRDKVYnDmKUyVxHXfWdrQ"
                 alt=""

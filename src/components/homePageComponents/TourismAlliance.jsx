@@ -110,15 +110,15 @@ const TourismAlliance = () => {
   };
 
   return (
-    <section className="bg-gray-50">
-      <div className="mx-auto max-w-7xl px-8 py-12 sm:px-6 lg:mt-32 lg:ps-8 xl:py-24">
+    <section>
+      <div className="mx-auto max-w-7xl px-8  sm:px-6 mt-32 lg:ps-8 py-24">
         <div className="max-w-7xl items-end justify-between sm:flex sm:pe-6 lg:pe-8">
           <h2 className="max-w-xl text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Hotel Alliances
           </h2>
         </div>
 
-        <div className="sm:mt-16 mt-8 lg:col-span-2 px-2 lg:mx-0">
+        <div className="sm:mt-16 mt-4 lg:col-span-2 px-2 lg:mx-0">
           <div ref={sliderRef} className="keen-slider">
             {hotelsData.map((item, i) => (
               <div

@@ -108,93 +108,167 @@ const YoutubeBanner = () => {
   };
 
   return (
-    <section className="sm:h-[600px] h-[480px]  max-w-full mx-auto  lg:flex flex-col gap-5 sm:pt-32 py-5 ">
+    <section className="sm:h-[600px] h-[480px]  max-w-full mx-auto  lg:flex flex-col gap-5 pt-16 sm:pt-32 py-5 ">
       <h1 className="text-center md:text-5xl text-2xl ">
         Our Youtube Testimonials
       </h1>
-      <div className="flex sm:flex-row gap-4 flex-col-reverse items-center my-0 sm:my-10 justify-center w-full sm:h-[400px] md:h-full">
-        <div className="flex px-3 sm:flex-col  overflow-x-auto sm:overflow-x-hidden sm:overflow-y-auto scollbar-hidden md:w-[250px] lg:w-[300px] w-[200px] h-48 sm:h-full flex-row text-white gap-5">
-          {youtubeBannerData.map((item, i) => (
-            <div
-              className="relative lg:w-[300px] md:w-[250px] sm:w-[200px] h-48 sm:h-full"
-              key={i}
-            >
-              <img
-                src={item.imageUrl}
-                alt=""
-                className=" lg:w-[300px] md:w-[250px] sm:w-[200px] transition-all duration-300 hover:shadow-xl hover:opacity-75"
-              />
-              <div className="absolute rounded-xl inset-0 lg:w-[300px] md:w-[250px] sm:w-[200px] h-48 sm:h-full flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
-                <button
-                  onClick={() => handlePlayVideo(item.link)}
-                  className="text-white font-bold flex items-center gap-2"
+      {
+        <>
+          <div className="sm:flex hidden sm:flex-row gap-4 flex-col-reverse items-center my-0 sm:my-10 justify-center w-full sm:h-[400px] md:h-full">
+            <div className="sm:flex px-3 sm:flex-col  overflow-x-auto sm:overflow-x-hidden sm:overflow-y-auto scollbar-hidden md:w-[250px] lg:w-[300px] sm:w-[200px] w-[300px] h-48 sm:h-full flex-row text-white gap-5">
+              {youtubeBannerData.map((item, i) => (
+                <div
+                  className="relative lg:w-[300px] md:w-[250px] sm:w-[200px] w-[300px] h-48 sm:h-full"
+                  key={i}
                 >
-                  <FaPlay /> See Review
-                </button>
-              </div>
+                  <img
+                    src={item.imageUrl}
+                    alt=""
+                    className=" lg:w-[300px] md:w-[250px] sm:w-[200px] w-[300px] transition-all duration-300 hover:shadow-xl hover:opacity-75"
+                  />
+                  <div className="absolute rounded-xl inset-0 lg:w-[300px] w-[300px] md:w-[250px] sm:w-[200px] h-48 sm:h-full flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
+                    <button
+                      onClick={() => handlePlayVideo(item.link)}
+                      className="text-white font-bold flex items-center gap-2"
+                    >
+                      <FaPlay /> See Review
+                    </button>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-        <div className="sm:flex hidden relative">
-          {(isVideoPlaying || currentVideoUrl) && (
-            <ReactPlayer
-              url={currentVideoUrl}
-              playing={isVideoPlaying}
-              controls
-              width="700px"
-              height="440px"
-              className="h-full lg:flex hidden rounded-xl w-[700px]"
-              onPause={handlePause}
-              onPlay={handlePlay}
-            />
-          )}
-          {(isVideoPlaying || currentVideoUrl) && (
-            <ReactPlayer
-              url={currentVideoUrl}
-              playing={isVideoPlaying}
-              controls
-              width="500px"
-              height="440px"
-              className="h-full lg:hidden md:flex  hidden  w-[550px]"
-              onPause={handlePause}
-              onPlay={handlePlay}
-            />
-          )}
-          {(isVideoPlaying || currentVideoUrl) && (
-            <ReactPlayer
-              url={currentVideoUrl}
-              playing={isVideoPlaying}
-              controls
-              width="400px"
-              height="400px"
-              className="h-full  md:hidden sm:flex hidden rounded-xl w-[400px]"
-              onPause={handlePause}
-              onPlay={handlePlay}
-            />
-          )}
-          {!isVideoPlaying && !currentVideoUrl && (
-            <div className="relative md:w-[500px] lg:w-[700px] sm:w-[400px] h-48 md:h-[460px] sm:h-[400px]">
-              <img
-                src="https://i.ytimg.com/vi/R2J53ozZ2OY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgaAAuADigIMCAAQARhRIFsoZTAP&rs=AOn4CLBi0sE8cCRDKVYnDmKUyVxHXfWdrQ"
-                alt=""
-                className="rounded-xl w-full h-full transition-all duration-300 hover:shadow-xl hover:opacity-75"
-              />
-              <div className="absolute rounded-xl inset-0 w-full h-full sm:h-full flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
-                <button
-                  onClick={() =>
-                    handlePlayVideo(
-                      "https://www.youtube.com/watch?v=R2J53ozZ2OY&t=1s"
-                    )
-                  }
-                  className="text-white font-bold flex items-center gap-2"
-                >
-                  <FaPlay /> See Review
-                </button>
-              </div>
+            <div className="sm:flex hidden relative">
+              {(isVideoPlaying || currentVideoUrl) && (
+                <ReactPlayer
+                  url={currentVideoUrl}
+                  playing={isVideoPlaying}
+                  controls
+                  width="700px"
+                  height="440px"
+                  className="h-full lg:flex hidden rounded-xl w-[700px]"
+                  onPause={handlePause}
+                  onPlay={handlePlay}
+                />
+              )}
+              {(isVideoPlaying || currentVideoUrl) && (
+                <ReactPlayer
+                  url={currentVideoUrl}
+                  playing={isVideoPlaying}
+                  controls
+                  width="500px"
+                  height="440px"
+                  className="h-full lg:hidden md:flex  hidden  w-[550px]"
+                  onPause={handlePause}
+                  onPlay={handlePlay}
+                />
+              )}
+              {(isVideoPlaying || currentVideoUrl) && (
+                <ReactPlayer
+                  url={currentVideoUrl}
+                  playing={isVideoPlaying}
+                  controls
+                  width="400px"
+                  height="400px"
+                  className="h-full  md:hidden sm:flex hidden rounded-xl w-[400px]"
+                  onPause={handlePause}
+                  onPlay={handlePlay}
+                />
+              )}
+              {(isVideoPlaying || currentVideoUrl) && (
+                <ReactPlayer
+                  url={currentVideoUrl}
+                  playing={isVideoPlaying}
+                  controls
+                  width="400px"
+                  height="400px"
+                  className="h-full  sm:hidden flex rounded-xl w-[400px]"
+                  onPause={handlePause}
+                  onPlay={handlePlay}
+                />
+              )}
+              {!isVideoPlaying && !currentVideoUrl && (
+                <div className="relative md:w-[500px] lg:w-[700px] sm:w-[400px] w-[300px] h-48 md:h-[460px] sm:h-[400px]">
+                  <img
+                    src="https://i.ytimg.com/vi/R2J53ozZ2OY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgaAAuADigIMCAAQARhRIFsoZTAP&rs=AOn4CLBi0sE8cCRDKVYnDmKUyVxHXfWdrQ"
+                    alt=""
+                    className="rounded-xl w-full h-full transition-all duration-300 hover:shadow-xl hover:opacity-75"
+                  />
+                  <div className="absolute rounded-xl inset-0 w-full h-full sm:h-full flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
+                    <button
+                      onClick={() =>
+                        handlePlayVideo(
+                          "https://www.youtube.com/watch?v=R2J53ozZ2OY&t=1s"
+                        )
+                      }
+                      className="text-white font-bold flex items-center gap-2"
+                    >
+                      <FaPlay /> See Review
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
-          )}
-        </div>
-      </div>
+          </div>
+
+          {/* for the small devices below to the sm */}
+          <div className="sm:hidden gap-5 flex flex-col-reverse px-5">
+            <div className="flex  overflow-x-auto w-full h-48 flex-col text-white gap-5">
+              {youtubeBannerData.map((item, i) => (
+                <div className="relative  w-full h-48" key={i}>
+                  <img
+                    src={item.imageUrl}
+                    alt=""
+                    className="w-full h-full transition-all duration-300 hover:shadow-xl hover:opacity-75"
+                  />
+                  <div className="absolute rounded-xl inset-0 w-full h-full flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
+                    <button
+                      onClick={() => handlePlayVideo(item.link)}
+                      className="text-white font-bold flex items-center gap-2"
+                    >
+                      <FaPlay /> See Review
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="sm:hidden pt-10 flex relative">
+              {(isVideoPlaying || currentVideoUrl) && (
+                <ReactPlayer
+                  url={currentVideoUrl}
+                  playing={isVideoPlaying}
+                  controls
+                  width="100%"
+                  height="300px"
+                  className="h-full sm:hidden flex rounded-xl w-full"
+                  onPause={handlePause}
+                  onPlay={handlePlay}
+                />
+              )}
+              {!isVideoPlaying && !currentVideoUrl && (
+                <div className="relative w-full h-full pt-10">
+                  <img
+                    src="https://i.ytimg.com/vi/R2J53ozZ2OY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgaAAuADigIMCAAQARhRIFsoZTAP&rs=AOn4CLBi0sE8cCRDKVYnDmKUyVxHXfWdrQ"
+                    alt=""
+                    className="rounded-xl w-full h-[300px] transition-all duration-300 hover:shadow-xl hover:opacity-75"
+                  />
+                  <div className="absolute rounded-xl inset-0 w-full h-[300px] top-10  flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
+                    <button
+                      onClick={() =>
+                        handlePlayVideo(
+                          "https://www.youtube.com/watch?v=R2J53ozZ2OY&t=1s"
+                        )
+                      }
+                      className="text-white font-bold flex items-center gap-2"
+                    >
+                      <FaPlay /> See Review
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </>
+      }
     </section>
   );
 };

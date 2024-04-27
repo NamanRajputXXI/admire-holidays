@@ -115,10 +115,10 @@ const YoutubeBanner = () => {
       {
         <>
           <div className="sm:flex hidden sm:flex-row gap-4 flex-col-reverse items-center my-0 sm:my-10 justify-center w-full sm:h-[400px] md:h-full">
-            <div className="sm:flex px-3 sm:flex-col  overflow-x-auto sm:overflow-x-hidden sm:overflow-y-auto scollbar-hidden md:w-[250px] lg:w-[300px] sm:w-[200px] w-[300px] h-48 sm:h-full flex-row text-white gap-5">
+            <div className="sm:flex px-3 sm:flex-col scrollbar-webkit scrollbar-thin   overflow-x-auto sm:overflow-x-hidden sm:overflow-y-auto scollbar-hidden md:w-[250px] lg:w-[300px] sm:w-[200px] w-[300px] h-48 sm:h-full flex-row text-white gap-5">
               {youtubeBannerData.map((item, i) => (
                 <div
-                  className="relative lg:w-[300px] md:w-[250px] sm:w-[200px] w-[300px] h-48 sm:h-full"
+                  className="relative lg:w-[300px] scrollbar-thin scrollbar-webkit md:w-[250px] sm:w-[200px] w-[300px] h-48 sm:h-full"
                   key={i}
                 >
                   <img

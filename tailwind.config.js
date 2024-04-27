@@ -19,5 +19,30 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".scrollbar-thin": {
+          scrollbarWidth: "thin",
+          scrollbarColor: "#ef4444 white",
+        },
+        ".scrollbar-webkit": {
+          "&::-website-scrollbar": {
+            width: "12px",
+            marginLeft: "4px",
+            marginRigth: "4px",
+          },
+          "&::-website-scrollbar-track": {
+            background: "white",
+          },
+          "&::-website-scrollbar-thumb": {
+            backgroundColor: "white",
+            borderRadius: "20px",
+            border: "1px solid white",
+          },
+        },
+      };
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };

@@ -2,62 +2,69 @@
   "_id": {
     "$oid": "6628aca0c2181787925cdc2d"
   },
-  "heading": "Wayanad Tour From Cochin",
-  "subHeading": "Weekend from Cochin",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251482.31471076817!2d76.13611914307859!3d9.982854194877069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1714132566850!5m2!1sen!2sin",
-  "duration": "2 Night / 3 Days",
+  "heading": "Jaipur - Delhi Weekend Tour",
+  "subHeading": "Weekend from Jaipur",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.93303956126!2d75.4787003149841!3d26.885174773492793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1714216491648!5m2!1sen!2sin", 
   "itinerary": [
     {
-      "day": "Day 1",
-      "day1Heading": "Cochin - Wayanad (300 km / 8hrs)",
-      "day1Overview": "In the morning our representative will pick you from your hotel / railway station / airport. Thereafter enjoy a drive to Wayanad via Thrissur, Calicut, Thamarassery, Lakkidi and Kalpetta.\n\nEn-route the onlookers can treat their eyes with the jaw-dropping sight of the high altitude mountains. Adding a charm to the picturesque view are the tea, coffee, pepper, cardamom and rubber plantations. This spectacular sight is further complemented with the mesmerizing aroma of these plantations. The saga doesn't end here, along with these cultivated areas, coexist the rich, dense, charismatic and serene sub-tropical forests. With all this and much more Wayanad is a tourist's paradise.\n\nCheck into a hotel on arrival and relax for the rest of the day. Later enjoy an overnight stay at the resort."
+    "day": "Day 1",
+    "day1Heading": "Arrive Jaipur - Delhi (260 Kms / 06 hours drive)",
+    "day1Overview": "Arrival In the morning, we will pick you up from your place and drive to Delhi. On arrival at Delhi, check-in at the hotel. Later, we will visit the Akshardham temple.\n\nAkshardham is a Hindu temple complex in Delhi representing centuries of traditional Indian and Hindu culture, spirituality and architecture. The building was inspired and moderated by Pramukh Swami Maharaj, the spiritual head of the Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha, whose 3,000 volunteers helped 7,000 artisans construct Akshardham.\n\nIn the evening transfer to the hotel for an overnight stay."
     },
     {
-      "day": "Day 2",
-      "day2Heading": "Wayanad",
-      "day2Overview": "Have a healthy breakfast and spend the entire day by basking in the picture perfect surroundings.\n\nWWS – 'Wildlife', 'Waterfall' and 'Spices', these three define Wayanad at its best. There are various wildlife sanctuaries in the place that offer a great trip to the visitors. In addition to this, tea and coffee plantations stand as a prime tourist attraction. One can also explore the thrill cuddled in the hilly areas; and thus, Wayanad is nothing less than a paradise for adventurists, especially trekkers.\n\n**Optional: -** Visitors can also take pleasure in exploring the nearby attractions like Edakkal Caves (28 Km) and Pookode Lake(12 Km).\n\nWelcoming the archaeologists, historians and general tourists, the Edakkal Caves are a delight to visit. These caves are bestowed with 5000 years old ancient rock engravings and drawings. The walls of the two main chambers of the cave are said to have etchings of various hunting scenes. These antique pictures on the walls allure travelers from different nooks and corners of the world.\n\nEnclosed by the wonderful evergreen forest, Pookot is a fresh water lake.\n\nMoreover, being located at an altitude of around 2000 meters above the sea level, the lake water offers an amazing reflection of greenery as well as mountains. Moreover the best way to experience the splendor of the place is via a boat ride. Thus, it is among the best places to unveil the true beauty of Mother Nature.\n\nFurther, while exploring the place, one can also visit the children's park, small emporium and aquarium.\n\nLater enjoy an overnight stay at the resort."
+    "day": "Day 2",
+    "day2Heading": "Delhi",
+    "day2Overview": "We will go out for a sightseeing tour of Delhi. We will visit Raj Ghat (the cremation sites of Mahatma Gandhi), Shanti Vana (the cremation sites of Jawaharlal Nehru) and Jama Masjid. We will also drive to Red Fort and Chandni Chowk.\n\nIn the afternoon, we will visit Qutub Minar (built by Qutub-ud-Din Aibek in 1199), Humayun's Tomb and India Gate (War Memorial Arch). Also, we will drive past President's House, Parliament House, Government Secretariat Buildings and of course, Connaught Place (shopping centre).\n\nAn overnight stay at the hotel."
     },
     {
-      "day": "Day 3",
-      "day3Heading": "Wayanad - Cochin",
-      "day3Overview": "In the morning leave for Cochin after the breakfast. On arrival, head towards the Airport/Railway Station."
+    "day": "Day 3",
+    "day3Heading": "Delhi - Jaipur Departure (260 Kms / 06 hours drive)",
+    "day3Overview": "In the morning after breakfast, we will drive back to Jaipur. On arrival at Jaipur, we will drop you at your desired place."
     }
+    ]
+,
+"carouselImageUrl": [
+  "https://images.unsplash.com/photo-1477586957327-847a0f3f4fe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amFpcHVyfGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amFpcHVyfGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1504705759706-c5ee7158f8bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGphaXB1cnxlbnwwfHwwfHx8MA%3D%3D",
+  "https://images.unsplash.com/photo-1595280769531-a25c4c76116a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGphaXB1cnxlbnwwfHwwfHx8MA%3D%3D"
+],
+"overView": [
+  {
+  "heading": "Sabarmati Ashram: Gandhi's Legacy",
+  "text": "Embark on a spiritual journey at the Sabarmati Ashram, once the residence of Mahatma Gandhi. Explore the tranquil ashram grounds, learn about Gandhi's life and philosophy, and pay homage to the Father of the Nation."
+  },
+  {
+  "heading": "Adalaj Stepwell: Architectural Wonder",
+  "text": "Marvel at the intricate and beautifully carved Adalaj Stepwell, a unique example of Indian architectural ingenuity. Descend into the cool depths of this ancient stepwell and admire the ornate carvings and intricate designs."
+  },
+  {
+  "heading": "Akshardham Temple: Spiritual Serenity",
+  "text": "Experience spiritual serenity at the magnificent Akshardham Temple, a stunning example of Hindu architectural brilliance. Explore the intricate carvings, serene gardens, and multimedia exhibitions showcasing Indian culture and traditions."
+  },
+  {
+  "heading": "Nal Sarovar Bird Sanctuary: Avian Paradise",
+  "text": "Immerse yourself in nature's beauty at the Nal Sarovar Bird Sanctuary, a wetland paradise teeming with diverse avian life. Embark on a bird-watching adventure and spot rare and migratory bird species in their natural habitat."
+  },
+  {
+  "heading": "Rani Ki Vav: Intricate Stepwell",
+  "text": "Uncover the architectural marvel of Rani Ki Vav, an exquisitely carved stepwell dating back to the 11th century. Descend into the intricate depths and admire the ornate carvings that adorn the walls and pillars."
+  },
+  {
+  "heading": "Kankaria Lake: Urban Oasis",
+  "text": "Escape the city's hustle and bustle at Kankaria Lake, a serene urban oasis. Take a leisurely stroll around the lake, enjoy a boat ride, or visit the charming amusement park and vibrant night markets."
+  },
+  {
+  "heading": "Calico Museum of Textiles: Textile Heritage",
+  "text": "Explore India's rich textile heritage at the Calico Museum of Textiles, which houses an impressive collection of textiles, fabrics, and garments from across the country. Admire the intricate designs and learn about the fascinating history of Indian textiles."
+  }
   ],
-  "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1625110110865-7aef948ac6b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fGtvY2hpfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1629631800396-48e28b337673?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvY2hpbnxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1629631501084-a099dca13aca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvY2hpbnxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1591413740659-2abf5686532a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGtvY2hpfGVufDB8fDB8fHww"
-  ],
-  "overView": [
-    {
-      "heading": "Golconda Fort: Architectural Marvel",
-      "text": "Discover the grandeur of the Golconda Fort, a magnificent fortified citadel that once served as the capital of the Qutb Shahi dynasty. Explore its intricate architectural marvels, including the famous acoustic phenomenon at the Fateh Rahben Gun, and immerse yourself in the rich history of this ancient fort."
-    },
-    {
-      "heading": "Charminar: Iconic Landmark",
-      "text": "Marvel at the iconic Charminar, a remarkable monument and one of Hyderabad's most recognizable landmarks. This architectural masterpiece, with its four graceful minarets and intricate carvings, stands as a symbol of the city's rich cultural heritage."
-    },
-    {
-      "heading": "Ramoji Film City: Cinematic Extravaganza",
-      "text": "Experience the magic of Indian cinema at Ramoji Film City, the world's largest integrated film studio complex. Explore the fascinating sets, witness live stunts, and gain insights into the captivating world of filmmaking."
-    },
-    {
-      "heading": "Salarjung Museum: Cultural Treasure Trove",
-      "text": "Immerse yourself in the cultural heritage of Hyderabad at the renowned Salarjung Museum, which houses an extensive collection of art, artifacts, and antiques spanning centuries. Marvel at the exquisite exhibits, including rare manuscripts, paintings, and intricately carved sculptures."
-    },
-    {
-      "heading": "Hussain Sagar Lake: Picturesque Oasis",
-      "text": "Unwind by the serene waters of Hussain Sagar Lake, a beautiful man-made lake that offers stunning views and a tranquil escape from the city's hustle and bustle. Take a boat ride to the iconic Buddha statue or simply enjoy the scenic surroundings."
-    },
-    {
-      "heading": "Shilparamam: Crafts Village",
-      "text": "Explore the vibrant Shilparamam Crafts Village, a cultural hub showcasing the rich heritage of Indian craftsmanship. Witness skilled artisans at work, participate in hands-on workshops, and shop for unique handmade products."
-    },
-    {
-      "heading": "Falaknuma Palace: Opulent Grandeur",
-      "text": "Step into the world of royalty at the magnificent Falaknuma Palace, a restored 19th-century palace that exudes opulence and grandeur. Marvel at its ornate architecture, lavish interiors, and stunning views of the city skyline."
-    }
-  ],
-  "imageUrl": "https://images.unsplash.com/photo-1558025638-565ae7710b3f?q=80&w=1858&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  "imageUrl": "https://images.unsplash.com/photo-1575566668200-7dcaa7b2cf28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRlbGhpfGVufDB8fDB8fHww"
 }
+
+
+
+
+
+

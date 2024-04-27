@@ -43,7 +43,7 @@ const weekendTripStateData = [
   {
     imageUrl: `https://images.unsplash.com/photo-1573457046516-b4e3b5dd50dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWhtZWRhYmFkfGVufDB8fDB8fHww`,
     title: "Ahmedabad",
-    link: "/products/ahmedabadWeekend",
+    link: "/products/ahmedabadweekend",
   },
   {
     imageUrl: `https://images.unsplash.com/photo-1618805714320-f8825019c1be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHVuZXxlbnwwfHwwfHx8MA%3D%3D`,

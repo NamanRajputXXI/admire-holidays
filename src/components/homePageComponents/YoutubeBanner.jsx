@@ -155,9 +155,9 @@ const YoutubeBanner = () => {
                   url={currentVideoUrl}
                   playing={isVideoPlaying}
                   controls
-                  width="500px"
+                  width="100%"
                   height="440px"
-                  className="h-full lg:hidden md:flex  hidden  w-[550px]"
+                  className="h-full lg:hidden md:flex  hidden  w-full"
                   onPause={handlePause}
                   onPlay={handlePlay}
                 />
@@ -187,7 +187,7 @@ const YoutubeBanner = () => {
                 />
               )}
               {!isVideoPlaying && !currentVideoUrl && (
-                <div className="relative md:w-[500px] lg:w-[700px] sm:w-[400px] w-[300px] h-48 md:h-[460px] sm:h-[400px]">
+                <div className="relative md:w-[500px] lg:w-full sm:w-[400px] w-[300px] h-48 md:h-[460px] sm:h-[400px]">
                   <img
                     src="https://i.ytimg.com/vi/R2J53ozZ2OY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgaAAuADigIMCAAQARhRIFsoZTAP&rs=AOn4CLBi0sE8cCRDKVYnDmKUyVxHXfWdrQ"
                     alt=""
@@ -211,7 +211,7 @@ const YoutubeBanner = () => {
           </div>
 
           {/* for the small devices below to the sm */}
-          <div className="sm:hidden gap-5 flex flex-col-reverse px-5">
+          <div className="sm:hidden gap-5 flex flex-col-reverse ">
             <div className="flex  overflow-x-auto w-full h-48 flex-col text-white gap-5">
               {youtubeBannerData.map((item, i) => (
                 <div className="relative  w-full h-48" key={i}>

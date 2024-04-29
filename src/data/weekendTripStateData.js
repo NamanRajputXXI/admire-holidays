@@ -27,8 +27,8 @@ const weekendTripStateData = [
   },
   {
     imageUrl: `https://images.unsplash.com/photo-1551161242-b5af797b7233?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHlkZXJhYmFkfGVufDB8fDB8fHww`,
-    title: "Hydrabad",
-    link: "/products/hydrabadWeekend",
+    title: "Hyderabad",
+    link: "/products/hyderabadWeekend",
   },
   {
     imageUrl: `https://images.unsplash.com/photo-1558026411-563830332bd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29jaGlufGVufDB8fDB8fHww`,
@@ -48,7 +48,7 @@ const weekendTripStateData = [
   {
     imageUrl: `https://images.unsplash.com/photo-1618805714320-f8825019c1be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHVuZXxlbnwwfHwwfHx8MA%3D%3D`,
     title: "Pune",
-    link: "/products/puneWeekend",
+    link: "/products/puneweekend",
   },
   {
     imageUrl: `https://images.unsplash.com/photo-1599661046289-e31897846e41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amFpcHVyfGVufDB8fDB8fHww`,

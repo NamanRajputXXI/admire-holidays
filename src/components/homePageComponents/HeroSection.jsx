@@ -2,37 +2,29 @@
 import React from "react";
 
 import DestinationMaker from "./DestinationMaker";
-import Image from "next/image";
 const HeroSection = () => {
   return (
-    <section className="mt-20  h-fit  bg-[#def5ff] bg-cover">
-      <div className="flex items-center lg:gap-4 gap-10 lg:flex-row flex-col justify-between  ">
+    <section
+      className="mt-20 py-12  h-fit  bg-[#def5ff]  bg-cover"
+      style={{
+        backgroundImage: "url('/heroSectionBanner5.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div className="flex items-center lg:gap-4 gap-10 lg:flex-row flex-col justify-start">
         <div className="flex flex-col gap-10 py-10 lg:pl-32 px-5">
-          <p className="text-[#00BB98] text-xl  font-LaBelle  ">
+          <p className="text-white white text-xl  font-LaBelle  ">
             Travel Around The World
           </p>
-          <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold">
+          <h1 className="lg:text-6xl text-white md:text-5xl text-4xl font-bold">
             Discover the <br /> most engaging <br /> places
           </h1>
-          <p className="text-xl font-normal">
+          <p className="text-xl text-white font-normal">
             Less planning 50,000 trips are ready for you.
           </p>
           <DestinationMaker />
-        </div>
-
-        <div className="sm:px-0 sm:flex hidden px-3">
-          <img
-            src={"/heroSectionBanner.jpg"}
-            className="lg:h-[700px] lg:w-[100%] w-full"
-            width={300}
-            height={300}
-            alt="Logo"
-            style={{
-              clipPath:
-                "polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0 48%, 25% 0%)",
-              borderRadius: "20px",
-            }}
-          />
         </div>
       </div>
     </section>

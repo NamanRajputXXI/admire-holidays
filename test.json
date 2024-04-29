@@ -2,66 +2,75 @@
   "_id": {
     "$oid": "6628aca0c2181787925cdc2d"
   },
-  "heading": "Jaipur - Delhi Weekend Tour",
-  "subHeading": "Weekend from Jaipur",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.93303956126!2d75.4787003149841!3d26.885174773492793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1714216491648!5m2!1sen!2sin", 
+  "heading": "Hyderabad - Vijaywada Weekend Tour",
+  "subHeading": "Weekend from Hyderabad",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.90509573004!2d78.2432313640975!3d17.412608642560837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1714374951792!5m2!1sen!2sin", 
+ 
   "itinerary": [
     {
-    "day": "Day 1",
-    "day1Heading": "Arrive Jaipur - Delhi (260 Kms / 06 hours drive)",
-    "day1Overview": "Arrival In the morning, we will pick you up from your place and drive to Delhi. On arrival at Delhi, check-in at the hotel. Later, we will visit the Akshardham temple.\n\nAkshardham is a Hindu temple complex in Delhi representing centuries of traditional Indian and Hindu culture, spirituality and architecture. The building was inspired and moderated by Pramukh Swami Maharaj, the spiritual head of the Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha, whose 3,000 volunteers helped 7,000 artisans construct Akshardham.\n\nIn the evening transfer to the hotel for an overnight stay."
+      "day": "Day 1",
+      "day1Heading": "Hyderabad to Vijayawada",
+      "day1Overview": "In the morning, drive to Vijayawada, situated on the banks of the Krishna River in the Krishna district of Andhra Pradesh. Vijayawada, also known as the 'City of Victory', is the starting point for travelers visiting the Buddhist center of Amaravathi. On arrival, transfer to the hotel for an overnight stay."
     },
     {
-    "day": "Day 2",
-    "day2Heading": "Delhi",
-    "day2Overview": "We will go out for a sightseeing tour of Delhi. We will visit Raj Ghat (the cremation sites of Mahatma Gandhi), Shanti Vana (the cremation sites of Jawaharlal Nehru) and Jama Masjid. We will also drive to Red Fort and Chandni Chowk.\n\nIn the afternoon, we will visit Qutub Minar (built by Qutub-ud-Din Aibek in 1199), Humayun's Tomb and India Gate (War Memorial Arch). Also, we will drive past President's House, Parliament House, Government Secretariat Buildings and of course, Connaught Place (shopping centre).\n\nAn overnight stay at the hotel."
+      "day": "Day 2",
+      "day2Heading": "Vijayawada City Tour",
+      "day2Overview": "After breakfast, embark on a city sightseeing tour of Vijayawada. Visit the Kanaka Durga Temple, situated on Indrakeeladri hill overlooking the city and the Krishna River. Explore Akana and Mandana Caves, dedicated to ministers of the 17th-century court of Abdul Hasan Tanashah, and visit the ancient Malleswaraswami Temple on Indrakiladri hill. Later, drive to Amravati to view the ruins of Buddhist Stupas and visit the Ashokan Pillar and Amravati Museum. Return to the hotel for an overnight stay."
     },
     {
-    "day": "Day 3",
-    "day3Heading": "Delhi - Jaipur Departure (260 Kms / 06 hours drive)",
-    "day3Overview": "In the morning after breakfast, we will drive back to Jaipur. On arrival at Jaipur, we will drop you at your desired place."
+      "day": "Day 3",
+      "day3Heading": "Vijayawada to Hyderabad",
+      "day3Overview": "After breakfast, depart from Vijayawada for Hyderabad. En-route, visit Kondapalli Village known for its artisans working on Puniki wood and enamel paintings. Continue the drive back to Hyderabad. On arrival in Hyderabad, drop-off at your preferred location."
     }
-    ]
-,
-"carouselImageUrl": [
-  "https://images.unsplash.com/photo-1477586957327-847a0f3f4fe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amFpcHVyfGVufDB8fDB8fHww",
-  "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amFpcHVyfGVufDB8fDB8fHww",
-  "https://images.unsplash.com/photo-1504705759706-c5ee7158f8bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGphaXB1cnxlbnwwfHwwfHx8MA%3D%3D",
-  "https://images.unsplash.com/photo-1595280769531-a25c4c76116a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGphaXB1cnxlbnwwfHwwfHx8MA%3D%3D"
-],
-"overView": [
-  {
-  "heading": "Sabarmati Ashram: Gandhi's Legacy",
-  "text": "Embark on a spiritual journey at the Sabarmati Ashram, once the residence of Mahatma Gandhi. Explore the tranquil ashram grounds, learn about Gandhi's life and philosophy, and pay homage to the Father of the Nation."
-  },
-  {
-  "heading": "Adalaj Stepwell: Architectural Wonder",
-  "text": "Marvel at the intricate and beautifully carved Adalaj Stepwell, a unique example of Indian architectural ingenuity. Descend into the cool depths of this ancient stepwell and admire the ornate carvings and intricate designs."
-  },
-  {
-  "heading": "Akshardham Temple: Spiritual Serenity",
-  "text": "Experience spiritual serenity at the magnificent Akshardham Temple, a stunning example of Hindu architectural brilliance. Explore the intricate carvings, serene gardens, and multimedia exhibitions showcasing Indian culture and traditions."
-  },
-  {
-  "heading": "Nal Sarovar Bird Sanctuary: Avian Paradise",
-  "text": "Immerse yourself in nature's beauty at the Nal Sarovar Bird Sanctuary, a wetland paradise teeming with diverse avian life. Embark on a bird-watching adventure and spot rare and migratory bird species in their natural habitat."
-  },
-  {
-  "heading": "Rani Ki Vav: Intricate Stepwell",
-  "text": "Uncover the architectural marvel of Rani Ki Vav, an exquisitely carved stepwell dating back to the 11th century. Descend into the intricate depths and admire the ornate carvings that adorn the walls and pillars."
-  },
-  {
-  "heading": "Kankaria Lake: Urban Oasis",
-  "text": "Escape the city's hustle and bustle at Kankaria Lake, a serene urban oasis. Take a leisurely stroll around the lake, enjoy a boat ride, or visit the charming amusement park and vibrant night markets."
-  },
-  {
-  "heading": "Calico Museum of Textiles: Textile Heritage",
-  "text": "Explore India's rich textile heritage at the Calico Museum of Textiles, which houses an impressive collection of textiles, fabrics, and garments from across the country. Admire the intricate designs and learn about the fascinating history of Indian textiles."
-  }
-  ],
+  ]
+  
 
-  "imageUrl": "https://images.unsplash.com/photo-1575566668200-7dcaa7b2cf28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRlbGhpfGVufDB8fDB8fHww"
+  
+  
+  ,
+"carouselImageUrl": [
+  "https://images.unsplash.com/photo-1601619933635-023753974a65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHlkZXJhYmFkfGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1596010932958-fba8f658a994?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGh5ZGVyYWJhZHxlbnwwfHwwfHx8MA%3D%3D",
+  "https://images.unsplash.com/photo-1470075446540-4391a96ec621?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aHlkZXJhYmFkfGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1624209358861-4b0e0cf90692?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGh5ZGVyYWJhZHxlbnwwfHwwfHx8MA%3D%3D"
+],
+"overView":
+[
+  {
+    "heading": "Ramoji Film City: Movie Magic",
+    "text": "Immerse yourself in the world of cinema at Ramoji Film City, the world's largest integrated film studio complex. Explore the intricate movie sets, watch live stunt shows, and experience the magic of Bollywood and other regional film industries."
+  },
+  {
+    "heading": "Golconda Fort: Architectural Grandeur",
+    "text": "Marvel at the architectural grandeur of the Golconda Fort, a magnificent medieval fortification that once served as the capital of the Qutb Shahi dynasty. Explore the stunning tombs, palaces, and intricate acoustic engineering marvels within the fort."
+  },
+  {
+    "heading": "Charminar: Iconic Monument",
+    "text": "Visit the iconic Charminar, the famous monument and mosque that has become the symbol of Hyderabad. Explore the bustling markets surrounding the monument, indulge in delectable Hyderabadi cuisine, and soak in the vibrant atmosphere."
+  },
+  {
+    "heading": "Hussain Sagar Lake: Urban Oasis",
+    "text": "Escape the city's hustle and bustle at Hussain Sagar Lake, a beautiful urban oasis in the heart of Hyderabad. Take a leisurely stroll along the lake's promenade, admire the iconic Buddha statue, and enjoy the serene ambiance."
+  },
+  {
+    "heading": "Salarjung Museum: Rich Heritage",
+    "text": "Delve into India's rich cultural heritage at the Salarjung Museum, one of the largest museums in the world. Marvel at the vast collection of antiques, artifacts, paintings, and sculptures that span centuries of history and diverse cultures."
+  },
+  {
+    "heading": "Shilparamam: Crafts Village",
+    "text": "Explore the vibrant Shilparamam, a crafts village that celebrates the rich handicrafts and traditions of India. Experience live demonstrations by skilled artisans, shop for unique souvenirs, and immerse yourself in the colorful cultural tapestry."
+  },
+  {
+    "heading": "Chowmahalla Palace: Royal Grandeur",
+    "text": "Step into the opulent world of the Nizams at the Chowmahalla Palace, a magnificent palace complex that served as the seat of the Asaf Jahi dynasty. Admire the intricate architectural details, lavish interiors, and gain insights into the royal lifestyle."
+  }
+],
+
+  "imageUrl": "https://images.unsplash.com/photo-1563702194173-a054ed36a5f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGh5ZGVyYWJhZHxlbnwwfHwwfHx8MA%3D%3D"
 }
+
+
+
 
 
 

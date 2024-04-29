@@ -236,7 +236,7 @@ const DestinationMaker = () => {
 
   return (
     <form action=" " onSubmit={requestQuote}>
-      <div className="p-4 bg-white md:gap-6 gap-10 w-full md:grid-cols-4 sm:grid-cols-2 grid-cols-1 rounded-2xl grid lg:grid-cols-4 xl:grid-cols-6 items-center justify-center">
+      <div className="p-4 bg-white md:gap-6 gap-10 md:w-[80%] w-full md:grid-cols-4 sm:grid-cols-2 grid-cols-1 rounded-2xl grid lg:grid-cols-4 xl:grid-cols-6 items-center justify-center">
         {/* New Name Field */}
         <div className="flex-col items-center justify-center w-full px-2 flex gap-4">
           <div className="flex items-center lg:gap-2 gap-4">

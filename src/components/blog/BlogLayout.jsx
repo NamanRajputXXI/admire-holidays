@@ -4,9 +4,16 @@ import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaRegFolderOpen } from "react-icons/fa";
 import BlogPageCard from "../cards/BlogPageCard";
-const BlogLayout = () => {
+const BlogLayout = ({ params }) => {
   const [result, setResult] = useState("Subscribe");
   const [formValid, setFormValid] = useState(true);
+
+  const post = blogPagedata.find((post) => post.slug === params.slug);
+
+  // If no matching post is found, you can handle it accordingly
+  if (!post) {
+    return <div>Blog post not found</div>;
+  }
 
   const submitForm = async (event) => {
     event.preventDefault();
@@ -39,19 +46,16 @@ const BlogLayout = () => {
   };
 
   return (
-    <section className="max-w-7xl flex items-center justify-center mx-auto px-5 my-20">
+    <section className="max-w-7xl pt-20 flex items-center justify-center mx-auto px-5 my-20">
       <div className="flex w-full md:flex-row flex-col justify-between gap-10 ">
         <div className=" md:w-[70%] w-full flex flex-col gap-20 ">
-          {blogPagedata.map((item, i) => (
-            <BlogPageCard
-              imageUrl={item.imageUrl}
-              key={i}
-              title={item.title}
-              detail={item.detail}
-              comment={item.comment}
-              date={item.date}
-            />
-          ))}
+          <BlogPageCard
+            imageUrl={post.imageUrl}
+            title={post.title}
+            detail={post.detail}
+            comment={post.comment}
+            date={post.date}
+          />
         </div>
         <div className="md:w-[30%] w-full flex flex-col gap-5">
           <div className="flex flex-col gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">

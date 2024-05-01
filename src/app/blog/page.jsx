@@ -1,23 +1,16 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import PageBanner from "@/components/PageBanner";
-import BlogLayout from "@/components/blog/BlogLayout";
+import AllBlogs from "@/components/blog/AllBlogs";
 import React from "react";
 
 const page = () => {
   return (
-    <main>
+    <>
       <Navbar />
-      <PageBanner heading={"Blog"} text={"Home - Blog"} />
-      <BlogLayout />
+      <AllBlogs />
       <Footer />
-    </main>
+    </>
   );
 };
 
 export default page;
-export function generateMetadata({ param }) {
-  return {
-    title: "Blog",
-  };
-}

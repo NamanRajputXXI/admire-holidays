@@ -1,79 +1,215 @@
 {
   "_id": {
-    "$oid": "6628aca0c2181787925cdc2d"
+    "$oid": "661e12bcfdee4bc7fb1c29d8"
   },
-  "heading": "Hyderabad - Vijaywada Weekend Tour",
-  "subHeading": "Weekend from Hyderabad",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.90509573004!2d78.2432313640975!3d17.412608642560837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1714374951792!5m2!1sen!2sin", 
- 
+  "heading": "Whispers of the Valley: Unveil Kashmir's Hidden Gems",
+  "subHeading": "Srinagar in Kashmir",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707200490990!5m2!1sen!2sin",
+  "packageOptions": [
+    {
+      "package": "Deluxe",
+      "price": "₹14,999",
+      "previousPrice": "₹17,999",
+      "hotelDestination": "Srinagar",
+      "hotelDetails": [
+        {
+          "destination": "Srinagar",
+          "hotels": [
+            "K2 inn /",
+            "Hotel Curios /",
+            "Royal Milad"
+          ]
+        },
+        {
+          "destination": "Pahalgam",
+          "hotels": [
+            "Freedom Palace /",
+            "Shabnam Resort /",
+            "Santoor Hotel /"
+          ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Poshwan hotel /",
+            "Florence Hotel /"
+          ]
+        }
+      ]
+    },
+    {
+      "package": "Semi Duluxe",
+      "price": "₹17,499",
+      "previousPrice": "₹20,499",
+      "hotelDestination": "Srinagar",
+      "hotelDetails": [
+        {
+          "destination": "Srinagar",
+          "hotels": [
+            "Royal Heritage /",
+            "Royal Arabia /",
+            "Hotel Shefaf"
+          ]
+        },
+        {
+          "destination": "Pahalgam",
+          "hotels": [
+            "AS Resort /",
+            "Raj Palace /",
+            "Blue Whale /"
+          ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Gulmarg House /",
+            "Signature /"
+          ]
+        }
+      ]
+    },
+    {
+      "package": "Super Duluxe",
+      "price": "₹23,499",
+      "previousPrice": "₹26,499",
+      "hotelDestination": "Srinagar",
+      "hotelDetails": [
+        {
+          "destination": "Srinagar",
+          "hotels": [
+            "Grand Kaisar /",
+            "Pacific /",
+            "Batra Hotel"
+          ]
+        },
+        {
+          "destination": "Pahalgam",
+          "hotels": [
+            "Baisaran /",
+            "The Villagio /",
+            "Abshar"
+          ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Khaleel Palace /",
+            "Alipne /",
+            "Zahgeer"
+          ]
+        }
+      ]
+    },
+    {
+      "package": "Premium",
+      "price": "₹28,749",
+      "previousPrice": "₹30,749",
+      "hotelDestination": "Srinagar",
+      "hotelDetails": [
+        {
+          "destination": "Srinagar",
+          "hotels": [
+            "Apple Orchard /",
+            "The Montreal /"
+          ]
+        },
+        {
+          "destination": "Pahalgam",
+          "hotels": [
+            "Fifth Season /",
+            "The Hermitage /"
+          ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Shaw inn /",
+            "Hill Top /"
+          ]
+        }
+      ]
+    }
+  ],
+  "carouselImageUrl": [
+    "/productKasauli1.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli3.jpg",
+    "/productKasauli4.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli1.jpg"
+  ],
+  "exclusions": [
+    "Any meals other than those specified in Inclusions",
+    "Chained vehicle from Tangmarg to Gulmarg",
+    "Expenses of personal nature such as tips",
+    "Any additional expenses incurred due to any train delay or cancellation",
+    "Guide & Entrance fees during sightseeing",
+    "Transfer from Banganga to Vaishno Devi Temple",
+    "Visit to Ganderbal and Thajiwas Glacier",
+    "Visit to Aru, Chandanwari, Baisaran, and Betab valleys",
+    "Expenses of watersports",
+    "Cable Car / Pony Ride in Gulmarg, Pahalgam, & Sonamarg\n"
+  ],
+  "inclusions": [
+    "Breakfast & Dinner",
+    "All accommodation as per Double Sharing ",
+    "Shikara Ride over Dal Lake",
+    "Pick up and drop from As per Itinerary",
+    "Toll Taxes & Service charges",
+    "All Transportation on private basis"
+  ],
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Hyderabad to Vijayawada",
-      "day1Overview": "In the morning, drive to Vijayawada, situated on the banks of the Krishna River in the Krishna district of Andhra Pradesh. Vijayawada, also known as the 'City of Victory', is the starting point for travelers visiting the Buddhist center of Amaravathi. On arrival, transfer to the hotel for an overnight stay."
+      "day1Heading": "Arrival in Srinagar",
+      "day1Overview": "Welcome to Srinagar the city of Lakes you will met over representative and get transferred to \nHotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi \novernight stay in hotel in Srinagar."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Vijayawada City Tour",
-      "day2Overview": "After breakfast, embark on a city sightseeing tour of Vijayawada. Visit the Kanaka Durga Temple, situated on Indrakeeladri hill overlooking the city and the Krishna River. Explore Akana and Mandana Caves, dedicated to ministers of the 17th-century court of Abdul Hasan Tanashah, and visit the ancient Malleswaraswami Temple on Indrakiladri hill. Later, drive to Amravati to view the ruins of Buddhist Stupas and visit the Ashokan Pillar and Amravati Museum. Return to the hotel for an overnight stay."
+      "day2Heading": "Drive from Srinagar- Sonamarg – Srinagar (100 km / 3 Hours)\n",
+      "day2Overview": "After all the exciting experiences and astounding views in Srinagar, you will be driven to Sonamarg \ntoday. The drive will begin after your breakfast in the hotel and will take around 3 hours to complete. \nFondly called the ‘Meadow of Gold’, Sonamarg is perched at a height of 9,000 ft. above the sea level \nand lies in the scenic Sindh Valley. Nestled amidst colourful and flowery meadows, your arrival in the \nhill station will be greeted by an exciting pony ride to the Thajiwas Glacier, which serves as one of \nthe best Sonamarg attractions. Returning from the glacier, you will be driven back to Srinagar, where \nyou can relish the day with a scrumptious dinner and overnight stay in the hotel"
     },
     {
       "day": "Day 3",
-      "day3Heading": "Vijayawada to Hyderabad",
-      "day3Overview": "After breakfast, depart from Vijayawada for Hyderabad. En-route, visit Kondapalli Village known for its artisans working on Puniki wood and enamel paintings. Continue the drive back to Hyderabad. On arrival in Hyderabad, drop-off at your preferred location."
+      "day3Heading": " Drive from Srinagar to Gulmarg (60 km / 2-3 Hours)",
+      "day3Overview": "Today’s breakfast will bring an end to your Srinagar stay, and will take you to Gulmarg! Post \nbreakfast in the hotel/houseboat, take an enthralling drive through the scenic trails of Srinagar and its \nhilly terrains to reach Gulmarg within 2-3 hours. Located at an altitude of 2,730m, Gulmarg or the \n‘Meadow of Gold’ is one of the most popular and highest visited skiing destinations in the entire \ncountry. It is also in this hill station, you can visit the highest golf course in the world! During your \ndrive, the panoramic views of the Nanga Parbat and Tangmarg will behold all your attentions for sure! \nArriving in Gulmarg, join a 3-4 hours trek to Khilangmarg and witness the magical beauty of the hill \nstation. Completing this trek, check-in into a hotel and enjoy your dinner with an overnight stay.\n"
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": " Srinagar Departure",
+      "day4Overview": "On the last day of your houseboat tour in Kashmir; after breakfast in the hotel, you will be driven \nback to Srinagar. Arriving in the capital city, the tour will come to an end with your drop either at the \nairport"
     }
-  ]
-  
-
-  
-  
-  ,
-"carouselImageUrl": [
-  "https://images.unsplash.com/photo-1601619933635-023753974a65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHlkZXJhYmFkfGVufDB8fDB8fHww",
-  "https://images.unsplash.com/photo-1596010932958-fba8f658a994?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGh5ZGVyYWJhZHxlbnwwfHwwfHx8MA%3D%3D",
-  "https://images.unsplash.com/photo-1470075446540-4391a96ec621?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aHlkZXJhYmFkfGVufDB8fDB8fHww",
-  "https://images.unsplash.com/photo-1624209358861-4b0e0cf90692?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGh5ZGVyYWJhZHxlbnwwfHwwfHx8MA%3D%3D"
-],
-"overView":
-[
-  {
-    "heading": "Ramoji Film City: Movie Magic",
-    "text": "Immerse yourself in the world of cinema at Ramoji Film City, the world's largest integrated film studio complex. Explore the intricate movie sets, watch live stunt shows, and experience the magic of Bollywood and other regional film industries."
-  },
-  {
-    "heading": "Golconda Fort: Architectural Grandeur",
-    "text": "Marvel at the architectural grandeur of the Golconda Fort, a magnificent medieval fortification that once served as the capital of the Qutb Shahi dynasty. Explore the stunning tombs, palaces, and intricate acoustic engineering marvels within the fort."
-  },
-  {
-    "heading": "Charminar: Iconic Monument",
-    "text": "Visit the iconic Charminar, the famous monument and mosque that has become the symbol of Hyderabad. Explore the bustling markets surrounding the monument, indulge in delectable Hyderabadi cuisine, and soak in the vibrant atmosphere."
-  },
-  {
-    "heading": "Hussain Sagar Lake: Urban Oasis",
-    "text": "Escape the city's hustle and bustle at Hussain Sagar Lake, a beautiful urban oasis in the heart of Hyderabad. Take a leisurely stroll along the lake's promenade, admire the iconic Buddha statue, and enjoy the serene ambiance."
-  },
-  {
-    "heading": "Salarjung Museum: Rich Heritage",
-    "text": "Delve into India's rich cultural heritage at the Salarjung Museum, one of the largest museums in the world. Marvel at the vast collection of antiques, artifacts, paintings, and sculptures that span centuries of history and diverse cultures."
-  },
-  {
-    "heading": "Shilparamam: Crafts Village",
-    "text": "Explore the vibrant Shilparamam, a crafts village that celebrates the rich handicrafts and traditions of India. Experience live demonstrations by skilled artisans, shop for unique souvenirs, and immerse yourself in the colorful cultural tapestry."
-  },
-  {
-    "heading": "Chowmahalla Palace: Royal Grandeur",
-    "text": "Step into the opulent world of the Nizams at the Chowmahalla Palace, a magnificent palace complex that served as the seat of the Asaf Jahi dynasty. Admire the intricate architectural details, lavish interiors, and gain insights into the royal lifestyle."
-  }
-],
-
-  "imageUrl": "https://images.unsplash.com/photo-1563702194173-a054ed36a5f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGh5ZGVyYWJhZHxlbnwwfHwwfHx8MA%3D%3D"
+  ],
+  "overView": [
+    {
+      "heading": "Exploring the Enchantment of Kashmir: A Land of Beauty and Diversity",
+      "text": "Nestled in the northernmost region of India, Kashmir is a breathtaking paradise renowned for its stunning landscapes, rich cultural heritage, and serene tranquility. Often referred to as Heaven on Earth,this picturesque valley attracts travelers from all corners of the globe, seeking solace in its majestic mountains, lush green valleys, and serene lakes."
+    },
+    {
+      "heading": "Natural Splendor",
+      "text": "Kashmir's natural beauty is unparalleled. The valley is embraced by the towering peaks of the Himalayas and Pir Panjal ranges, creating a spellbinding panorama of snow-capped mountains, verdant meadows, and crystal-clear streams. The Dal Lake, with its floating gardens and colorful Shikara boats, is a symbol of the region's ethereal charm. Visitors can also explore the enchanting Mughal Gardens, adorned with vibrant flowers and intricate water channels, offering a glimpse into the region's royal past."
+    },
+    {
+      "heading": "Cultural Richness",
+      "text": "Kashmir boasts a rich cultural tapestry woven from centuries of history and tradition. The valley has been a melting pot of diverse influences, including Hindu, Muslim, and Buddhist heritage. Visitors can immerse themselves in the vibrant bazaars of Srinagar, where artisans craft exquisite Pashmina shawls, intricate carpets, and ornate woodwork. The region's culinary delights, such as Wazwan—a traditional feast of aromatic Kashmiri cuisine—offer a tantalizing glimpse into its culinary heritage."
+    },
+    {
+      "heading": "Spiritual Sanctuaries",
+      "text": "Kashmir is home to a multitude of sacred sites and spiritual retreats, each imbued with a sense of serenity and devotion. The ancient Shankaracharya Temple, perched atop a hill overlooking Srinagar, offers panoramic views of the valley below and serves as a revered pilgrimage destination for Hindus. The revered Hazratbal Shrine, housing a relic believed to be a strand of Prophet Muhammad's hair, is a symbol of religious harmony and attracts devotees of all faiths."
+    },
+    {
+      "heading": "Adventure and Recreation",
+      "text": "For adventure enthusiasts, Kashmir offers a plethora of adrenaline-pumping activities amidst its breathtaking landscapes. From trekking in the picturesque Lidder Valley to skiing in the world-renowned slopes of Gulmarg, there's no shortage of outdoor adventures to embark upon. White-water rafting in the gushing rapids of the Lidder River and paragliding over the Sonamarg valley are also popular choices for those seeking an adrenaline rush."
+    },
+    {
+      "heading": "Preserving Paradise",
+      "text": "Despite its unparalleled beauty, Kashmir has faced its share of challenges, including political unrest and environmental degradation. However, concerted efforts are underway to preserve and protect this pristine paradise for future generations. Sustainable tourism initiatives, coupled with community-driven conservation efforts, aim to safeguard the region's natural and cultural heritage while empowering local communities."
+    },
+    {
+      "heading": "Plan Your Visit",
+      "text": "Whether you seek adventure in the great outdoors, tranquility amidst serene landscapes, or immersion in vibrant culture and tradition, Kashmir offers an unforgettable experience like no other. Plan your journey to this enchanting valley and discover the timeless allure of Kashmir—a land where beauty knows no bounds and every moment is a cherished memory"
+    }
+  ],
+  "duration": "3 Night / 4 Days",
+  "imageUrl": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbmFnYXJ8ZW58MHx8MHx8fDA%3D"
 }
-
-
-
-
-
-
-
-
-

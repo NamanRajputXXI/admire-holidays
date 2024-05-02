@@ -3,6 +3,7 @@ import blogPagedata from "@/data/blogPageData";
 import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaRegFolderOpen } from "react-icons/fa";
+import BlogPageCard2 from "../cards/BlogPageCard2";
 import BlogPageCard from "../cards/BlogPageCard";
 const BlogLayout = ({ params }) => {
   const [result, setResult] = useState("Subscribe");

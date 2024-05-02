@@ -52,7 +52,7 @@ const TourismAlliance = () => {
     },
   ];
 
-  const animation = { duration: 7000, easing: (t) => t };
+  const animation = { duration: 18000, easing: (t) => t };
 
   const [sliderRef] = useKeenSlider({
     loop: true,

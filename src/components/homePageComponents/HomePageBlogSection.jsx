@@ -11,7 +11,7 @@ const HomePageBlogSection = () => {
       <h1 className="text-center md:text-5xl text-3xl  font-bold">
         Travel Tips and Advice
       </h1>
-      <div className="grid max-w-7xl px-10 lg:grid-cols-3 gap-4 md:grid-cols-2 grid-cols-1 mx-auto my-20">
+      <div className="grid max-w-7xl px-10 lg:grid-cols-3 gap-2 md:grid-cols-2 grid-cols-1 mx-auto my-20">
         {homePageBlogData.map((item, i) => (
           <HomePageBlogCard
             link={item.link}

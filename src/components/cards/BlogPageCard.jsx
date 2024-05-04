@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { CiCalendarDate } from "react-icons/ci";
 import { FaRegCommentDots, FaRegFolderOpen } from "react-icons/fa";
-import "../../styles/custom.css"; // Import CSS file for custom styles
+import "../../styles/custom.css";
 
 const BlogPageCard = ({
   imageUrl,
@@ -32,15 +32,15 @@ const BlogPageCard = ({
         </div>
       </div>
       <div>
-        <p>{detail}</p>
+        <p className="sm:text-base text-sm">{detail}</p>
       </div>
       <div className="flex flex-col py-10 gap-5">
         <img src={imageUrl1} className="w-full h-full" alt="" />
-        <div className="pt-5">
+        <div className="sm:pt-5">
           {content.map((item, i) => (
             <div className="flex py-5 flex-col gap-1" key={i}>
               <h1 className="text-xl font-bold">{item.subheading}</h1>
-              <p>{item.text}</p>
+              <p className="md:text-base text-sm">{item.text}</p>
               <img src={item.imageUrl} className="w-full h-full" alt="" />
             </div>
           ))}

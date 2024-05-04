@@ -4,12 +4,32 @@ import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 
 import BlogPageCard from "../cards/BlogPageCard";
+import { FaFacebook, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { IoIosShareAlt } from "react-icons/io";
 const BlogLayout = ({ params }) => {
   const [result, setResult] = useState("Subscribe");
   const [formValid, setFormValid] = useState(true);
 
   const post = blogPagedata.find((post) => post.slug === params.slug);
+  const getShareUrl = (platform) => {
+    if (!params || !params.slug) {
+      return "";
+    }
 
+    const url = `https://admire-holidays-s5lv.vercel.app/blog/${params.slug}`;
+    const text = encodeURIComponent(post.title);
+
+    switch (platform) {
+      case "whatsapp":
+        return `https://wa.me/?text=${text}%20${url}`;
+      case "facebook":
+        return `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+      case "twitter":
+        return `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+      default:
+        return "";
+    }
+  };
   // If no matching post is found, you can handle it accordingly
   if (!post) {
     return <div>Blog post not found</div>;
@@ -154,6 +174,46 @@ const BlogLayout = ({ params }) => {
                     Travel
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="flex sm:gap-4 mt-5 gap-2 items-center lg:justify-center ">
+              <div className="flex gap-2 items-center sm:text-base text-sm justify-center">
+                Share Blog <IoIosShareAlt size={20} />
+              </div>
+              <div className="flex items-center justify-center sm:gap-4 gap-1 rounded-xl">
+                <a
+                  href={getShareUrl("whatsapp", post, params)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaWhatsapp
+                    size={30}
+                    className="cursor-pointer"
+                    color="#25D366"
+                  />
+                </a>
+                <a
+                  href={getShareUrl("facebook", post, params)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook
+                    color=" #1877F2"
+                    size={30}
+                    className="cursor-pointer"
+                  />
+                </a>
+                <a
+                  href={getShareUrl("twitter", post, params)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaTwitter
+                    size={30}
+                    color="#1DA1F2"
+                    className="cursor-pointer"
+                  />
+                </a>
               </div>
             </div>
           </div>

@@ -108,7 +108,7 @@ const YoutubeBanner = () => {
   };
 
   return (
-    <section className="sm:h-[600px] h-[480px]  max-w-full mx-auto  lg:flex flex-col gap-5 pt-16 sm:pt-32 py-5 ">
+    <section className="sm:h-[600px] h-[480px]  max-w-full mx-auto px-5  lg:flex flex-col gap-5 pt-16 sm:pt-32 py-5 ">
       <h1 className="text-center md:text-5xl text-2xl ">
         Our Youtube Testimonials
       </h1>

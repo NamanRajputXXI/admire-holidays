@@ -6,6 +6,8 @@ import PageBanner from "@/components/PageBanner";
 import BlogLayout from "@/components/blog/BlogLayout";
 import blogPagedata from "@/data/blogPageData";
 import { notFound } from "next/navigation";
+import { FaFacebook, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { IoIosShareAlt } from "react-icons/io";
 
 export default function BlogPost({ params }) {
   const post = blogPagedata.find((post) => post.slug === params.slug);

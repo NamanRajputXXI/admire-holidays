@@ -37,9 +37,6 @@ const ContactUsForm = () => {
     <div className="px-4">
       <section className="max-w-7xl  border-[1px] border-gray-200 py-10 shadow-xl rounded-2xl my-20 mx-auto flex-col  flex gap-10 px-4 md:px-10">
         <div className="flex flex-col justify-center items-center">
-          <p className="text-center text-xl font-medium text-[#00BB98] my-4 italic">
-            Contact us
-          </p>
           <h1 className="text-center md:text-5xl  text-3xl  font-bold">
             Get in touch
           </h1>
@@ -76,7 +73,7 @@ const ContactUsForm = () => {
               </div>
             </div>
 
-            <div className="p-10 border-[1px] gap-8 flex flex-col border-gray-300 rounded-xl">
+            {/* <div className="p-10 border-[1px] gap-8 flex flex-col border-gray-300 rounded-xl">
               <div className="flex gap-5 items-center ">
                 <div className="flex justify-center items-center  rounded-xl">
                   <img
@@ -94,7 +91,7 @@ const ContactUsForm = () => {
               <button className="border-red-500 flex gap-2 mx-auto items-center justify-center rounded-lg text-red-500 border-[1px] w-[100%] h-14">
                 <MdChat /> Chat with us
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-col gap-5 items-center justify-start">
             <h1 className="text-xl font-medium text-center">Leave a reply</h1>

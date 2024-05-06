@@ -21,7 +21,8 @@ const BlogPageCard = ({
   };
 
   return (
-    <div className="blog-page-card">
+    <div className="blog-page-card ">
+      <img src={imageUrl} className="w-full h-full" alt="" />
       <h1 className="card-title">{title}</h1>
       <div className="flex flex-col ">
         <div className="font-bold ">

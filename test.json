@@ -1,10 +1,47 @@
 {
   "_id": {
-    "$oid": "661e12bcfdee4bc7fb1c29d8"
+    "$oid": "65c737132e7e4a015da55caa"
   },
-  "heading": "Whispers of the Valley: Unveil Kashmir's Hidden Gems",
-  "subHeading": "Srinagar in Kashmir",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707200490990!5m2!1sen!2sin",
+  "heading": "Srinagar to Pahalgam: A Six-Night Kashmir Sojourn!",
+  "subHeading": "Srinagar,Pahalgram 7 Days Trip",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707369466024!5m2!1sen!2sin",
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "day1Heading": "Arrival in Srinagar",
+      "day1Overview": "Welcome to Srinagar, the city of Lakes! You will meet our representative and get transferred to the hotel. Enjoy local sightseeing of Srinagar visiting Nishat, Shalimar, and Cheshma Shahi. Stay overnight in a hotel in Srinagar."
+    },
+    {
+      "day": "Day 2",
+      "day2Heading": "Drive from Srinagar to Pahalgam (100 km / 3 Hours)",
+      "day2Overview": "After today’s breakfast in the houseboat or at the hotel, take an enthralling drive through the scenic trials that connect Srinagar and Pahalgam. En route, visit the magnificent Saffron fields. Pahalgam, known as the ‘Valley of the Shepherds,’ is one of the most scenic hill stations. The drive gets more exciting with visits to the historic Avantipura Ruins and the Anantnag Sulphur Springs. Upon arriving in Pahalgam, check-in at a hotel, have dinner, and spend the night."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "Pahalgam Exploration",
+      "day3Overview": "In the morning, after breakfast in the hotel, explore the scenic and rocky valleys of Chandanwadi and the astounding Snow Point located around 14km from Pahalgam. Enjoy a pony ride, though these activities are at an additional cost. After completing the visits and the ride, drive back to Pahalgam and spend the rest of the day at leisure. In the second half of the day, take a walk through the dense pine forest alongside the Lidder River. Extend your Pahalgam experience further, and the day will end with dinner and an overnight stay at the hotel."
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": "Pahalgam/Srinagar",
+      "day4Overview": "Morning after breakfast, drive back to Srinagar, check in at a Srinagar hotel, and enjoy local sightseeing in Srinagar. In the evening, enjoy a Shikara ride in Dal Lake, and then stay overnight in Srinagar."
+    },
+    {
+      "day": "Day 5",
+      "day5Heading": "Srinagar/ Sonmarg",
+      "day5Overview": "After breakfast, drive to Sonmarg, the Valley of Mountains, a distance of 90kms with a 3-hour drive. Sonmarg lies at the head of the Sindh valley, offering a spectacular facet of the countryside. Visit Zero Point and Thajwas Glacier (expenses on your own), then stay overnight in a hotel in Srinagar."
+    },
+    {
+      "day": "Day 6",
+      "day6Heading": "Srinagar/ Day trip to Gulmarg",
+      "day6Overview": "After breakfast, drive to Gulmarg, known as the meadows of flowers, a distance of 60kms with a 2-hour drive. In Gulmarg, you can visit local attractions, including the golf course, and have a gondola ride (expenses on your own). Stay overnight in a hotel in Srinagar."
+    },
+    {
+      "day": "Day 7",
+      "day7Heading": "Departure from Srinagar",
+      "day7Overview": "Today is the last day of this exotic tour to Srinagar! After breakfast in the hotel, you will be dropped at the railway station or the airport, marking the end of your tour."
+    }
+  ],
   "packageOptions": [
     {
       "package": "Deluxe",
@@ -26,13 +63,6 @@
             "Freedom Palace /",
             "Shabnam Resort /",
             "Santoor Hotel /"
-          ]
-        },
-        {
-          "destination": "Gulmarg",
-          "hotels": [
-            "Poshwan hotel /",
-            "Florence Hotel /"
           ]
         }
       ]
@@ -58,13 +88,6 @@
             "Raj Palace /",
             "Blue Whale /"
           ]
-        },
-        {
-          "destination": "Gulmarg",
-          "hotels": [
-            "Gulmarg House /",
-            "Signature /"
-          ]
         }
       ]
     },
@@ -89,14 +112,6 @@
             "The Villagio /",
             "Abshar"
           ]
-        },
-        {
-          "destination": "Gulmarg",
-          "hotels": [
-            "Khaleel Palace /",
-            "Alipne /",
-            "Zahgeer"
-          ]
         }
       ]
     },
@@ -118,13 +133,6 @@
           "hotels": [
             "Fifth Season /",
             "The Hermitage /"
-          ]
-        },
-        {
-          "destination": "Gulmarg",
-          "hotels": [
-            "Shaw inn /",
-            "Hill Top /"
           ]
         }
       ]
@@ -158,28 +166,6 @@
     "Toll Taxes & Service charges",
     "All Transportation on private basis"
   ],
-  "itinerary": [
-    {
-      "day": "Day 1",
-      "day1Heading": "Arrival in Srinagar",
-      "day1Overview": "Welcome to Srinagar the city of Lakes you will met over representative and get transferred to \nHotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi \novernight stay in hotel in Srinagar."
-    },
-    {
-      "day": "Day 2",
-      "day2Heading": "Drive from Srinagar- Sonamarg – Srinagar (100 km / 3 Hours)\n",
-      "day2Overview": "After all the exciting experiences and astounding views in Srinagar, you will be driven to Sonamarg \ntoday. The drive will begin after your breakfast in the hotel and will take around 3 hours to complete. \nFondly called the ‘Meadow of Gold’, Sonamarg is perched at a height of 9,000 ft. above the sea level \nand lies in the scenic Sindh Valley. Nestled amidst colourful and flowery meadows, your arrival in the \nhill station will be greeted by an exciting pony ride to the Thajiwas Glacier, which serves as one of \nthe best Sonamarg attractions. Returning from the glacier, you will be driven back to Srinagar, where \nyou can relish the day with a scrumptious dinner and overnight stay in the hotel"
-    },
-    {
-      "day": "Day 3",
-      "day3Heading": " Drive from Srinagar to Gulmarg (60 km / 2-3 Hours)",
-      "day3Overview": "Today’s breakfast will bring an end to your Srinagar stay, and will take you to Gulmarg! Post \nbreakfast in the hotel/houseboat, take an enthralling drive through the scenic trails of Srinagar and its \nhilly terrains to reach Gulmarg within 2-3 hours. Located at an altitude of 2,730m, Gulmarg or the \n‘Meadow of Gold’ is one of the most popular and highest visited skiing destinations in the entire \ncountry. It is also in this hill station, you can visit the highest golf course in the world! During your \ndrive, the panoramic views of the Nanga Parbat and Tangmarg will behold all your attentions for sure! \nArriving in Gulmarg, join a 3-4 hours trek to Khilangmarg and witness the magical beauty of the hill \nstation. Completing this trek, check-in into a hotel and enjoy your dinner with an overnight stay.\n"
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": " Srinagar Departure",
-      "day4Overview": "On the last day of your houseboat tour in Kashmir; after breakfast in the hotel, you will be driven \nback to Srinagar. Arriving in the capital city, the tour will come to an end with your drop either at the \nairport"
-    }
-  ],
   "overView": [
     {
       "heading": "Exploring the Enchantment of Kashmir: A Land of Beauty and Diversity",
@@ -210,6 +196,11 @@
       "text": "Whether you seek adventure in the great outdoors, tranquility amidst serene landscapes, or immersion in vibrant culture and tradition, Kashmir offers an unforgettable experience like no other. Plan your journey to this enchanting valley and discover the timeless allure of Kashmir—a land where beauty knows no bounds and every moment is a cherished memory"
     }
   ],
-  "duration": "3 Night / 4 Days",
-  "imageUrl": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbmFnYXJ8ZW58MHx8MHx8fDA%3D"
+  "duration": "6 Night / 7 Days",
+  "imageUrl": "https://images.unsplash.com/photo-1564328421539-ef6ea1f8b964?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 }
+
+
+
+
+

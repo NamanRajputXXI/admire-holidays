@@ -32,7 +32,7 @@ const Footer = () => {
             <Link href="/privacy-policy" className="">
               Privacy Policy
             </Link>
-            <li>Terms</li>
+            <Link href="/credit">Credit</Link>
           </ul>
         </div>
         <div className="flex flex-col    gap-5 items-center ">

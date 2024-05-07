@@ -1,45 +1,60 @@
 {
   "_id": {
-    "$oid": "65c737132e7e4a015da55caa"
+    "$oid": "65c73d7a2e7e4a015da55cb0"
   },
-  "heading": "Srinagar to Pahalgam: A Six-Night Kashmir Sojourn!",
-  "subHeading": "Srinagar,Pahalgram 7 Days Trip",
+  "heading": "Harmony: Srinagar, Houseboat, Gulmarg, Pahalgam, Katra.",
+  "subHeading": "Srinagar, Jammu & Kashmir Tour",
   "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105713.535298228!2d74.80675514999999!3d34.1067185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1707369466024!5m2!1sen!2sin",
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Srinagar",
-      "day1Overview": "Welcome to Srinagar, the city of Lakes! You will meet our representative and get transferred to the hotel. Enjoy local sightseeing of Srinagar visiting Nishat, Shalimar, and Cheshma Shahi. Stay overnight in a hotel in Srinagar."
+      "day1Heading": "Arrival Srinagar/ Airport",
+      "day1Overview": "Welcome to Srinagar, the city of Lakes. You will meet our representative and get transferred to the hotel. Then local sightseeing of Srinagar, visiting Nishat, Shalimar, Chesham Shahi. Overnight stay in a hotel in Srinagar."
     },
     {
       "day": "Day 2",
-      "day2Heading": "Drive from Srinagar to Pahalgam (100 km / 3 Hours)",
-      "day2Overview": "After today’s breakfast in the houseboat or at the hotel, take an enthralling drive through the scenic trials that connect Srinagar and Pahalgam. En route, visit the magnificent Saffron fields. Pahalgam, known as the ‘Valley of the Shepherds,’ is one of the most scenic hill stations. The drive gets more exciting with visits to the historic Avantipura Ruins and the Anantnag Sulphur Springs. Upon arriving in Pahalgam, check-in at a hotel, have dinner, and spend the night."
+      "day2Heading": "Srinagar/ Sonmarg",
+      "day2Overview": "After breakfast, drive to Sonmarg, the Valley of mountains. The distance is 90kms, and it's a 3-hour drive. Sonmarg lies at the head of Sindh valley. Today you can visit the zero point and Thajwas glacier (by your own expenses). Overnight stay in a hotel in Srinagar."
     },
     {
       "day": "Day 3",
-      "day3Heading": "Pahalgam Exploration",
-      "day3Overview": "In the morning, after breakfast in the hotel, explore the scenic and rocky valleys of Chandanwadi and the astounding Snow Point located around 14km from Pahalgam. Enjoy a pony ride, though these activities are at an additional cost. After completing the visits and the ride, drive back to Pahalgam and spend the rest of the day at leisure. In the second half of the day, take a walk through the dense pine forest alongside the Lidder River. Extend your Pahalgam experience further, and the day will end with dinner and an overnight stay at the hotel."
+      "day3Heading": "Srinagar to Doadhpathri",
+      "day3Overview": "After breakfast, take a day trip to Doadhpathri, the 'valley of milk' located in the Budgam district. It lies in a bowl-shaped valley in the Pir Panjal Range. It's an alpine valley covered with snow-clad mountains. You can explore Doadhpathri through a pony (by your own expenses) or by walk. After some quiet and peaceful time at Doodhpathri, return to Srinagar for an overnight stay."
     },
     {
       "day": "Day 4",
-      "day4Heading": "Pahalgam/Srinagar",
-      "day4Overview": "Morning after breakfast, drive back to Srinagar, check in at a Srinagar hotel, and enjoy local sightseeing in Srinagar. In the evening, enjoy a Shikara ride in Dal Lake, and then stay overnight in Srinagar."
+      "day4Heading": "Srinagar Sightseeing",
+      "day4Overview": "Today after breakfast, enjoy Srinagar sightseeing. Nishat Garden, located on the bank of Dal Lake, offers magnificent views. Shalimar Garden, the celebrated royal garden of Kashmir, and Cheshma Shahi, one of the Mughal gardens built around a spring by Ali Mardan. Night stay at the hotel."
     },
     {
       "day": "Day 5",
-      "day5Heading": "Srinagar/ Sonmarg",
-      "day5Overview": "After breakfast, drive to Sonmarg, the Valley of Mountains, a distance of 90kms with a 3-hour drive. Sonmarg lies at the head of the Sindh valley, offering a spectacular facet of the countryside. Visit Zero Point and Thajwas Glacier (expenses on your own), then stay overnight in a hotel in Srinagar."
+      "day5Heading": "Srinagar - Gulmarg",
+      "day5Overview": "After breakfast, proceed towards Gulmarg. Enroute, enjoy the beautiful Tangmarg town and drive ahead on a scenic 14 kilometers drive to Gulmarg. Arrive in Gulmarg, check-in at the hotel, and later, board the Gondola cable car system. Descend back to Gulmarg after an hour and indulge in some horse-riding. Overnight stay at the hotel."
     },
     {
       "day": "Day 6",
-      "day6Heading": "Srinagar/ Day trip to Gulmarg",
-      "day6Overview": "After breakfast, drive to Gulmarg, known as the meadows of flowers, a distance of 60kms with a 2-hour drive. In Gulmarg, you can visit local attractions, including the golf course, and have a gondola ride (expenses on your own). Stay overnight in a hotel in Srinagar."
+      "day6Overview": "After breakfast, drive to Pahalgam via Pampore, Avantipura, and the village of Bijbehara. Switch from the national highway 1A at Khanabal and drive through the second-largest city of Anantnag. In Pahalgam, check-in at the hotel and spend the rest of the day at leisure. Overnight stay at the hotel.",
+      "day6Heading": "Gulmarg – Pahalgam"
     },
     {
       "day": "Day 7",
-      "day7Heading": "Departure from Srinagar",
-      "day7Overview": "Today is the last day of this exotic tour to Srinagar! After breakfast in the hotel, you will be dropped at the railway station or the airport, marking the end of your tour."
+      "day7Heading": "Pahalgam Exploration",
+      "day7Overview": "In the morning, after having breakfast, visit the scenic and rocky valleys of Chandanwadi and the astounding Snow Point, located around 14km from Pahalgam. Enjoy a pony ride and explore the dense pine forest alongside the Lidder River. Spend the rest of the day at leisure. Dinner and overnight stay at the hotel."
+    },
+    {
+      "day": "Day 8",
+      "day8Heading": "Pahalgam- Katra",
+      "day8Overview": "After breakfast, head towards Katra, a 240km journey taking approximately 6 hours. Night stay at Katra hotel."
+    },
+    {
+      "day": "Day 9",
+      "day9Heading": "Katra - Vaishno Devi darshans",
+      "day9Overview": "Early morning after breakfast, proceed for Mata Vaishno Devi Bhawan, one of the most popular pilgrimages in India. The yatra involves a trek of nearly 12 Kms from the base camp at Katra known as Ban Ganga. If time permits, visit Bhairo Temple and return back to Katra in the evening. Overnight stay at Katra."
+    },
+    {
+      "day": "Day 10",
+      "day10Heading": "Katra - Jammu – Departure",
+      "day10Overview": "After breakfast, check out from the hotel and proceed to Katra/Jammu to drop at Airport/Railway Station for your onward journey with sweet memories of the tour."
     }
   ],
   "packageOptions": [
@@ -63,6 +78,13 @@
             "Freedom Palace /",
             "Shabnam Resort /",
             "Santoor Hotel /"
+          ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Poshwan hotel /",
+            "Florence Hotel /"
           ]
         }
       ]
@@ -88,6 +110,13 @@
             "Raj Palace /",
             "Blue Whale /"
           ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Gulmarg House /",
+            "Signature /"
+          ]
         }
       ]
     },
@@ -112,6 +141,14 @@
             "The Villagio /",
             "Abshar"
           ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Khaleel Palace /",
+            "Alipne /",
+            "Zahgeer"
+          ]
         }
       ]
     },
@@ -133,6 +170,13 @@
           "hotels": [
             "Fifth Season /",
             "The Hermitage /"
+          ]
+        },
+        {
+          "destination": "Gulmarg",
+          "hotels": [
+            "Shaw inn /",
+            "Hill Top /"
           ]
         }
       ]
@@ -196,11 +240,136 @@
       "text": "Whether you seek adventure in the great outdoors, tranquility amidst serene landscapes, or immersion in vibrant culture and tradition, Kashmir offers an unforgettable experience like no other. Plan your journey to this enchanting valley and discover the timeless allure of Kashmir—a land where beauty knows no bounds and every moment is a cherished memory"
     }
   ],
-  "duration": "6 Night / 7 Days",
-  "imageUrl": "https://images.unsplash.com/photo-1564328421539-ef6ea1f8b964?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  "duration": "9 Night / 10 Days",
+  "imageUrl": "https://images.unsplash.com/photo-1580100586938-02822d99c4a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHNyaW5hZ2FyfGVufDB8fDB8fHww"
 }
 
 
 
 
 
+"packageOptions": [
+  {
+    "package": "Deluxe",
+    "price": "₹14,999",
+    "previousPrice": "₹17,999",
+    "hotelDestination": "Srinagar",
+    "hotelDetails": [
+      {
+        "destination": "Srinagar",
+        "hotels": [
+          "K2 inn /",
+          "Hotel Curios /",
+          "Royal Milad"
+        ]
+      },
+      {
+        "destination": "Pahalgam",
+        "hotels": [
+          "Freedom Palace /",
+          "Shabnam Resort /",
+          "Santoor Hotel /"
+        ]
+      },
+      {
+        "destination": "Gulmarg",
+        "hotels": [
+          "Poshwan hotel /",
+          "Florence Hotel /"
+        ]
+      }
+    ]
+  },
+  {
+    "package": "Semi Duluxe",
+    "price": "₹17,499",
+    "previousPrice": "₹20,499",
+    "hotelDestination": "Srinagar",
+    "hotelDetails": [
+      {
+        "destination": "Srinagar",
+        "hotels": [
+          "Royal Heritage /",
+          "Royal Arabia /",
+          "Hotel Shefaf"
+        ]
+      },
+      {
+        "destination": "Pahalgam",
+        "hotels": [
+          "AS Resort /",
+          "Raj Palace /",
+          "Blue Whale /"
+        ]
+      },
+      {
+        "destination": "Gulmarg",
+        "hotels": [
+          "Gulmarg House /",
+          "Signature /"
+        ]
+      }
+    ]
+  },
+  {
+    "package": "Super Duluxe",
+    "price": "₹23,499",
+    "previousPrice": "₹26,499",
+    "hotelDestination": "Srinagar",
+    "hotelDetails": [
+      {
+        "destination": "Srinagar",
+        "hotels": [
+          "Grand Kaisar /",
+          "Pacific /",
+          "Batra Hotel"
+        ]
+      },
+      {
+        "destination": "Pahalgam",
+        "hotels": [
+          "Baisaran /",
+          "The Villagio /",
+          "Abshar"
+        ]
+      },
+      {
+        "destination": "Gulmarg",
+        "hotels": [
+          "Khaleel Palace /",
+          "Alipne /",
+          "Zahgeer"
+        ]
+      }
+    ]
+  },
+  {
+    "package": "Premium",
+    "price": "₹28,749",
+    "previousPrice": "₹30,749",
+    "hotelDestination": "Srinagar",
+    "hotelDetails": [
+      {
+        "destination": "Srinagar",
+        "hotels": [
+          "Apple Orchard /",
+          "The Montreal /"
+        ]
+      },
+      {
+        "destination": "Pahalgam",
+        "hotels": [
+          "Fifth Season /",
+          "The Hermitage /"
+        ]
+      },
+      {
+        "destination": "Gulmarg",
+        "hotels": [
+          "Shaw inn /",
+          "Hill Top /"
+        ]
+      }
+    ]
+  }
+],

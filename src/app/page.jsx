@@ -15,11 +15,14 @@ import HeroSection from "@/components/homePageComponents/HeroSection";
 import Testimonial from "@/components/homePageComponents/Testimonial";
 import FeaturesSection from "@/components/homePageComponents/FeaturesSection";
 import TourismAlliance from "@/components/homePageComponents/TourismAlliance";
+import Query from "@/components/homePageComponents/QueryButton";
 const Home = () => {
   return (
     <>
+      <Query />
       <Navbar />
       <HeroSection />
+
       <PopularDestinationCarousel />
       <DomesticDestinationCarousel />
       <InternationalDestinationCarousel />

@@ -22,7 +22,6 @@ const Home = () => {
       <Query />
       <Navbar />
       <HeroSection />
-
       <PopularDestinationCarousel />
       <DomesticDestinationCarousel />
       <InternationalDestinationCarousel />

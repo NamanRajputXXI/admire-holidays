@@ -5,7 +5,7 @@ import DestinationMaker from "./DestinationMaker";
 const HeroSection = () => {
   return (
     <section
-      className="mt-20 py-12  h-fit  bg-[#def5ff]  bg-cover"
+      className=" relative top-0 pb-12 w-full  h-fit  bg-[#def5ff]  bg-cover"
       style={{
         backgroundImage: "url('/heroSectionBanner5.jpg')",
         backgroundSize: "cover",
@@ -13,7 +13,7 @@ const HeroSection = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="flex items-center lg:gap-4 gap-10 lg:flex-row flex-col justify-start">
+      <div className="flex pt-32 items-center lg:gap-4 gap-10 lg:flex-row flex-col justify-start">
         <div className="flex flex-col gap-10 py-10 lg:pl-32 px-5">
           <p className="text-white white text-xl  font-LaBelle  ">
             Travel Around The World

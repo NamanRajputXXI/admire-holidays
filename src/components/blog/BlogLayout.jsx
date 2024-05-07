@@ -95,97 +95,6 @@ const BlogLayout = ({ params }) => {
             />
           </div>
           <div className="md:w-[30%] w-full flex flex-col gap-5">
-            <div className="flex flex-col  gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">
-              <h5 className="text-lg font-medium"> See Our Recent Post</h5>
-              <hr />
-              <div className="flex flex-col gap-5 transition-all duration-300">
-                {blogPagedata
-                  .slice(0, showAll ? blogPagedata.length : 4)
-                  .map((item, i) => (
-                    <Link
-                      key={i}
-                      href={item.slug}
-                      className="font-light text-blue-800 underline text-base"
-                    >
-                      {item.title}
-                    </Link>
-                  ))}
-              </div>
-              {blogPagedata.length > 4 && (
-                <button
-                  className=" bg-[#3b2d5a] text-white  py-2 px-4 rounded"
-                  onClick={toggleShowAll}
-                >
-                  {showAll ? "Show Less" : "Show More"}
-                </button>
-              )}
-            </div>
-            <div className="flex items-center relative min-w-[100%] ">
-              <input
-                type="text"
-                placeholder="search..."
-                className="min-w-[100%] rounded-xl  p-3 border-[1px] border-gray-300"
-              />
-              <CiSearch
-                size={40}
-                className="absolute cursor-pointer right-2"
-                color="gray"
-              />
-            </div>
-
-            <div className="flex flex-col gap-5 h-fit  text-white bg-[#1A1A3D;] justify-center items-center  px-4  py-6 rounded-xl ">
-              <img
-                src="https://admireholidays.com/wp-content/uploads/2022/07/subscribe-mail.png"
-                alt=""
-              />
-              <h5 className="text-[#ef4444]  text-center">
-                SUBSCRIBE TO OUR NEWS LETTER
-              </h5>
-              <h1 className="font-semibold">
-                GET THE LATEST NEWS, UPDATES AND LATEST OFFERS
-              </h1>
-              <form
-                onSubmit={submitForm}
-                className="flex flex-col gap-5 items-center justify-center"
-              >
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  name="mail"
-                  className={`min-w-[100%] rounded-xl text-black p-3 border-[1px] bg-white ${
-                    !formValid && "border-red-500"
-                  }`}
-                />
-                {!formValid && (
-                  <p className="text-red-500">Please enter a valid email</p>
-                )}
-                <button className="w-full h-12 rounded-xl bg-[#ef4444]">
-                  {result}
-                </button>
-              </form>
-            </div>
-            <div className="flex flex-col gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">
-              <h5 className="text-lg font-medium">Popular Tags</h5>
-              <hr />
-              <div className="flex flex-col  gap-5">
-                <div className="flex  gap-2">
-                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
-                    Backpacking Clothes
-                  </div>
-                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
-                    Place
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
-                    Story
-                  </div>
-                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
-                    Travel
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="flex sm:gap-4 mt-5 gap-2 items-center lg:justify-center ">
               <div className="flex gap-2 items-center sm:text-base text-sm justify-center">
                 Share Blog <IoIosShareAlt size={20} />
@@ -225,6 +134,91 @@ const BlogLayout = ({ params }) => {
                   />
                 </a>
               </div>
+            </div>
+            {/* <div className="flex items-center relative min-w-[100%] ">
+              <input
+                type="text"
+                placeholder="search..."
+                className="min-w-[100%] rounded-xl  p-3 border-[1px] border-gray-300"
+              />
+              <CiSearch
+                size={40}
+                className="absolute cursor-pointer right-2"
+                color="gray"
+              />
+            </div> */}
+
+            <div className="flex flex-col gap-5 h-fit  text-white bg-[#1A1A3D;] justify-center items-center  px-4  py-6 rounded-xl ">
+              <h1 className="font-semibold text-xl">
+                GET THE LATEST NEWS, UPDATES AND LATEST OFFERS
+              </h1>
+              <form
+                onSubmit={submitForm}
+                className="flex flex-col gap-5 items-center w-full justify-center"
+              >
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  name="mail"
+                  className={`min-w-[100%] rounded-xl text-black p-3 border-[1px] bg-white ${
+                    !formValid && "border-red-500"
+                  }`}
+                />
+                {!formValid && (
+                  <p className="text-red-500">Please enter a valid email</p>
+                )}
+                <button className="w-full h-12 rounded-xl bg-[#ef4444]">
+                  {result}
+                </button>
+              </form>
+            </div>
+            <div className="flex flex-col gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">
+              <h5 className="text-lg font-medium">Popular Tags</h5>
+              <hr />
+              <div className="flex flex-col  gap-5">
+                <div className="flex  gap-2">
+                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                    Backpacking Clothes
+                  </div>
+                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                    Place
+                  </div>
+                </div>
+                <div className="flex gap-2">
+                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                    Story
+                  </div>
+                  <div className="px-4 py-3 font-light cursor-pointer w-fit flex bg-gray-300 rounded-xl items-center justify-center">
+                    Travel
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col  gap-5 h-fit border-[1px] border-gray-300 px-4  py-6 rounded-xl ">
+              <h5 className="text-lg font-medium"> See Our Recent Post</h5>
+              <hr />
+              <div className="flex flex-col gap-5 transition-all duration-300">
+                {blogPagedata
+                  .slice(0, showAll ? blogPagedata.length : 4)
+                  .map((item, i) => (
+                    <Link
+                      key={i}
+                      href={item.slug}
+                      className="font-light text-blue-800 underline text-base"
+                    >
+                      {item.title}
+                    </Link>
+                  ))}
+              </div>
+              {blogPagedata.length > 4 && (
+                <button
+                  className=" bg-[#3b2d5a] text-white  py-2 px-4 rounded"
+                  onClick={toggleShowAll}
+                >
+                  {showAll ? "Show Less" : "Show More"}
+                </button>
+              )}
             </div>
           </div>
         </div>

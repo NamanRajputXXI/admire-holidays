@@ -119,7 +119,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed z-[100] px-1 top-0 w-screen">
-        <div className="py-4 max-w-7xl mx-auto backdrop-blur-lg mt-1 rounded-xl bg-black/30 px-4">
+        <div className="py-2 max-w-7xl mx-auto backdrop-blur-lg mt-1 rounded-xl bg-black/30 px-4">
           <div className="flex text-white items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">

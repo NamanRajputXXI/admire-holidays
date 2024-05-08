@@ -10,18 +10,18 @@ const QueryForm = () => {
   };
 
   return (
-    <div className="flex md:flex-row flex-col items-center justify-center h-fit mt-32 max-w-7xl px-3 mx-auto overflow-hidden">
-      <div className="md:w-1/2 w-full h-fit">
+    <div className="flex md:flex-row flex-col items-center justify-center  mt-32 max-w-7xl px-3 mx-auto overflow-hidden">
+      <div className="w-1/2  ">
         <img
           src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNlcnZpY2VzfGVufDB8fDB8fHww"
           alt=""
-          className="w-full h-full"
+          className="w-full "
         />
       </div>
-      <div className="md:w-1/2 w-full">
+      <div className="md:w-1/2  w-full">
         <div className="flex">
           <div
-            className={`w-1/2 py-4 text-center font-bold cursor-pointer ${
+            className={`w-1/2 py-2 text-center font-bold cursor-pointer ${
               isQuery ? "bg-red-500 text-white" : "bg-gray-200 text-gray-700"
             }`}
             onClick={handleToggle}

@@ -6,6 +6,7 @@ const QueryForm = () => {
 
   const handleToggle = () => {
     setIsQuery(!isQuery);
+    // hello
   };
 
   return (

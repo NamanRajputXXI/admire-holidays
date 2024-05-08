@@ -81,7 +81,7 @@ import React from "react";
 
 const QueryForm = () => {
   const handleContactLinkClick = () => {
-    window.location.href = "mailto:info@gmail.com";
+    window.location.href = "mailto:info@admireholidays.com";
   };
 
   return (

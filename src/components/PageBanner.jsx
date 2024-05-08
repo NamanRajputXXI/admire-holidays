@@ -3,7 +3,7 @@ import React from "react";
 const PageBanner = ({ heading, text }) => {
   return (
     <section
-      className="h-96 mt-20 relative bg-cover bg-center"
+      className="h-96  relative bg-cover bg-center"
       style={{
         backgroundImage: `url(
           "/productCategoryBanner.jpg"

@@ -74,12 +74,7 @@ const BlogLayout = ({ params }) => {
 
   return (
     <section>
-      <img
-        src={post.imageUrl}
-        className="w-full h-full px-5 lg:px-16  md:px-8 sm:pt-32 pt-[116px] lg:pt-44"
-        alt=""
-      />
-      <div className="max-w-7xl  flex items-center justify-center mx-auto px-5 my-20">
+      <div className="max-w-7xl pt-20  flex items-center justify-center mx-auto px-5 my-20">
         <div className="flex w-full md:flex-row flex-col justify-between gap-10 ">
           <div className=" md:w-[70%] w-full flex flex-col gap-20 ">
             <BlogPageCard

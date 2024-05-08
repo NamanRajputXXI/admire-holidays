@@ -38,7 +38,7 @@ const Page = async ({ params }) => {
     <>
       <Navbar />
       <PageBanner
-        heading={`Category : ${params.category}`}
+        heading={`Destination: ${params.category}`}
         text={`Home > India > ${params.category}`}
       />
 

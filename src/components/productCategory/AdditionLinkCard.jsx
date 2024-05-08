@@ -4,8 +4,8 @@ import Link from "next/link";
 const AdditionLinkCard = ({ state1, state2, imageUrl1, imageUrl2 }) => {
   return (
     <div className="flex items-center sm:mt-20 mt-10 flex-col gap-10 w-full justify-center">
-      <h1 className="text-center font-Aboreto md:text-5xl text-2xl text-gray-800">
-        Explore some more places
+      <h1 className="text-center md:text-5xl text-2xl text-gray-800">
+        Explore other places
       </h1>
       <div className="flex sm:flex-row flex-col mx-auto gap-8 my-6">
         <Link href={`/products/${state1}`}>

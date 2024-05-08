@@ -189,7 +189,7 @@ const DropDown = () => {
   return (
     <>
       <div
-        className="font-medium cursor-pointer text-white items-center md:text-lg flex rounded-md transition-colors duration-300 p-2 relative"
+        className="font-medium cursor-pointer text-black items-center md:text-lg flex rounded-md transition-colors duration-300 p-2 relative"
         onMouseEnter={handleDomesticHover}
         onMouseLeave={handleMouseLeave}
       >
@@ -198,7 +198,7 @@ const DropDown = () => {
         {isDomesticHovered && renderDropdown(travelData)}
       </div>
       <div
-        className="font-medium cursor-pointer text-white items-center md:text-lg flex rounded-md transition-colors duration-300 p-2 relative"
+        className="font-medium cursor-pointer text-black items-center md:text-lg flex rounded-md transition-colors duration-300 p-2 relative"
         onMouseEnter={handleInternationalHover}
         onMouseLeave={handleMouseLeave}
       >

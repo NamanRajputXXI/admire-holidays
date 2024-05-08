@@ -226,61 +226,55 @@ const blogPagedata = [
     slug: "mcleodganj",
     author: "Antra",
     imageUrl: "/mcleodGanj.webp",
-    title: "McLeod Ganj : A Himalayan Santuary of Spiritual and Tranqulity",
+    title: "McLeod Ganj: A Himalayan Sanctuary of Spiritual Tranquility",
     date: "June 2, 2023",
     content: [
       {
-        subheading:
-          "Nestled amidst lush green forests and surrounded by breathtaking landscapes",
-        text: "Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,",
-        imageUrl: "/tigerFall.jpg",
+        subheading: "Discover the Tranquil Beauty of McLeod Ganj",
+        text: "Welcome to McLeod Ganj, a serene hill station nestled in the majestic Dhauladhar Range of the Himalayas. Located in the state of Himachal Pradesh, McLeod Ganj is renowned as the residence of the exiled Tibetan spiritual leader, the Dalai Lama. This picturesque town offers a unique blend of Tibetan culture, breathtaking landscapes, and a spiritual ambiance that attracts travelers from around the world.",
+        imageUrl: "/mcleodGanj1.jpg",
       },
       {
-        subheading:
-          "Nestled amidst lush green forests and surrounded by breathtaking landscapes",
-        text: "Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,",
-        imageUrl: "/tigerFall.jpg",
+        subheading: "Explore the Spiritual Sites",
+        text: "In this comprehensive guide, we will embark on a virtual journey to McLeod Ganj, exploring its spiritual sites, natural beauty, Tibetan heritage, and the tranquil experiences it has to offer. McLeod Ganj is not just a destination; it's a sanctuary for those seeking solace and enlightenment.",
+        imageUrl: "/mcleodGanj2.jpg",
       },
       {
-        subheading:
-          "Nestled amidst lush green forests and surrounded by breathtaking landscapes",
-        text: "Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,",
-        imageUrl: "/tigerFall.jpg",
+        subheading: "Immerse Yourself in Tibetan Culture",
+        text: "The town's main attraction, Tsuglagkhang Complex, houses the Dalai Lama's residence, along with temples, a museum, and a library. Visitors can attend teachings and meditate in the serene surroundings. Immerse yourself in Tibetan cuisine at local eateries and browse handicraft markets for unique souvenirs.",
+        imageUrl: "/mcleodGanj3.jpg",
       },
     ],
     detail:
-      "Welcome to McLeod Ganj, a serene hill station nestled in the majestic Dhauladhar Range of the Himalayas. Located in the state of Himachal Pradesh, McLeod Ganj is renowned as the residence of the exiled Tibetan spiritual leader, the Dalai Lama. This picturesque town offers a unique blend of Tibetan culture, breathtaking landscapes, and a spiritual ambiance that attracts travelers from around the world. In this blog, we will embark on a virtual journey to McLeod Ganj, exploring its spiritual sites, natural beauty, Tibetan heritage, and the tranquil experiences it has to offer.  McLeod Ganj is not just a destination; it's a sanctuary for those seeking solace and enlightenment. The town's main attraction, Tsuglagkhang Complex, houses the Dalai Lama's residence, along with temples, a museum, and a library. Visitors can attend teachings and meditate in the serene surroundings. Venture into the nearby cedar forests for peaceful hikes or trek to Triund for stunning views of the snow-capped peaks. Immerse yourself in Tibetan cuisine at local eateries and browse handicraft markets for unique souvenirs. McLeod Ganj's atmosphere, infused with spirituality and natural beauty, invites introspection and rejuvenation, making it a haven for mindful travelers.",
+      "McLeod Ganj is a haven for mindful travelers. Venture into the nearby cedar forests for peaceful hikes or trek to Triund for stunning views of the snow-capped peaks. McLeod Ganj's atmosphere, infused with spirituality and natural beauty, invites introspection and rejuvenation.",
   },
   {
     link: "/blog/pithoragarh",
     slug: "pithoragarh",
     author: "Anshu",
-    imageUrl: "/kasol.jpg",
+    imageUrl: "/pithoragarh.jpg",
     title:
-      "Exploring the Enchanting Charms of Kasol: A Paradise in Parvati Valley",
+      "Discovering the Enchanting Charms of Pithoragarh: Gateway to the Himalayas",
     date: "June 2, 2023",
     content: [
       {
-        subheading:
-          "Nestled amidst lush green forests and surrounded by breathtaking landscapes",
-        text: "Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,",
-        imageUrl: "/tigerFall.jpg",
+        subheading: "Gateway to the Majestic Himalayas",
+        text: "Welcome to Pithoragarh, a picturesque town and the gateway to the majestic Himalayas in Uttarakhand, India. Surrounded by lush green forests and awe-inspiring landscapes, Pithoragarh is a hidden gem waiting to be explored. This comprehensive guide invites you to embark on a virtual journey to discover the enchanting charms of Pithoragarh.",
+        imageUrl: "/pithoragarh1.jpg",
       },
       {
-        subheading:
-          "Nestled amidst lush green forests and surrounded by breathtaking landscapes",
-        text: "Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,",
-        imageUrl: "/tigerFall.jpg",
+        subheading: "Natural Beauty and Serenity",
+        text: "Explore the serene beauty of Pithoragarh, nestled amidst the breathtaking landscapes of the Himalayas. Marvel at the panoramic views of snow-capped peaks, verdant valleys, and pristine rivers. Pithoragarh offers a tranquil escape for nature lovers and adventurers alike.",
+        imageUrl: "/pithoragarh2.jpg",
       },
       {
-        subheading:
-          "Nestled amidst lush green forests and surrounded by breathtaking landscapes",
-        text: "Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,Nestled amidst lush green forests and surrounded by breathtaking landscapes, Tiger Waterfalls is a hidden gem that promises a truly awe-inspiring experience. Located in the heart of Uttarakhand, this majestic waterfall is a testament to the raw beauty and power of nature. In this comprehensive guide, we invite you to embark on a virtual journey to Tiger Waterfalls,",
-        imageUrl: "/tigerFall.jpg",
+        subheading: "Rich Culture and Heritage",
+        text: "Immerse yourself in the rich culture and heritage of Pithoragarh. Discover ancient temples, traditional villages, and vibrant local markets. Experience the warmth of the local community and learn about their customs and traditions.",
+        imageUrl: "/pithoragarh3.jpg",
       },
     ],
     detail:
-      "Kasol, a quaint village in Himachal Pradesh, nestled along the banks of the Parvati River, is often referred to as the ‘Amsterdam of India’ due to its laid-back vibe and international community. This scenic destination is a haven for trekkers, backpackers, and nature lovers seeking respite amidst the stunning Himalayan landscape. Located 23 kilometers from Bhuntar and adjacent to the pilgrimage site of Manikaran, Kasol offers panoramic views of snow-capped mountains, dense pine forests, and the soothing Parvati River. The village's unique charm lies in its fusion of cultures, with a noticeable Israeli influence reflected in the cuisine, street art, and vibrant community. Explore the streets lined with cozy cafes serving Israeli delicacies amidst picturesque surroundings. Take time to unwind and absorb the tranquil ambiance, whether relaxing by the riverside or exploring nearby trails. Kasol's lively flea market is a treasure trove of handicrafts, jewelry, and souvenirs, making it a delightful stop before heading home. Experience the allure of Kasol's natural beauty and cultural diversity, making it an unforgettable destination in the Himalayas.",
+      "Pithoragarh is a haven for travelers seeking natural beauty, adventure, and cultural experiences. Whether you're trekking in the Himalayas, exploring ancient temples, or simply soaking in the serenity of the surroundings, Pithoragarh promises an unforgettable journey. Discover the charm of this Himalayan town and let its enchanting landscapes captivate your heart.",
   },
   {
     link: "/blog/chardham",

@@ -212,15 +212,15 @@ const YoutubeBanner = () => {
 
           {/* for the small devices below to the sm */}
           <div className="sm:hidden gap-5 flex flex-col-reverse ">
-            <div className="flex  overflow-x-auto w-full h-48 flex-col text-white gap-5">
+            <div className="flex  overflow-y-hidden overflow-x-auto w-full max-h-48 flex-row text-white gap-5">
               {youtubeBannerData.map((item, i) => (
-                <div className="relative  w-full h-48" key={i}>
+                <div className="relative  min-w-72 h-64" key={i}>
                   <img
                     src={item.imageUrl}
                     alt=""
-                    className="w-full h-full transition-all duration-300 hover:shadow-xl hover:opacity-75"
+                    className="min-w-64 min-h-48 transition-all duration-300 hover:shadow-xl hover:opacity-75"
                   />
-                  <div className="absolute rounded-xl inset-0 w-full h-full flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
+                  <div className="absolute rounded-xl inset-0 w-full max-h-48 flex items-center bg-black gap-3 justify-center opacity-0 hover:opacity-100 bg-opacity-50 transition-opacity duration-300">
                     <button
                       onClick={() => handlePlayVideo(item.link)}
                       className="text-white font-bold flex items-center gap-2"

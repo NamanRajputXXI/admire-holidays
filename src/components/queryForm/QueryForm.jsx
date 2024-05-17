@@ -10,18 +10,18 @@ const QueryForm = () => {
   };
 
   return (
-    <div className="flex md:flex-row flex-col items-center justify-center  mt-32 max-w-7xl px-3 mx-auto overflow-hidden">
-      <div className="w-1/2  ">
+    <div className="flex md:flex-row flex-col   mt-32 max-w-7xl px-3 mx-auto overflow-hidden">
+      <div className="md:w-1/2 h-fit  w-full ">
         <img
-          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNlcnZpY2VzfGVufDB8fDB8fHww"
+          src="https://images.unsplash.com/photo-1560264418-c4445382edbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGN1c3RvbWVyJTIwc3VwcG9ydHxlbnwwfHwwfHx8MA%3D%3D"
           alt=""
-          className="w-full "
+          className="w-full h-full "
         />
       </div>
-      <div className="md:w-1/2  w-full">
-        <div className="flex">
+      <div className="md:w-1/2 flex flex-col   w-full">
+        <div className="flex ">
           <div
-            className={`w-1/2 py-2 text-center font-bold cursor-pointer ${
+            className={`w-1/2 py-2 text-center sm:text-base text-sm flex justify-center items-center  cursor-pointer ${
               isQuery ? "bg-red-500 text-white" : "bg-gray-200 text-gray-700"
             }`}
             onClick={handleToggle}
@@ -29,8 +29,8 @@ const QueryForm = () => {
             Suggestions or Complaints
           </div>
           <div
-            className={`w-1/2 py-4 text-center font-bold cursor-pointer ${
-              isQuery ? "bg-gray-200 text-gray-700" : "bg-red-500 text-white"
+            className={`w-1/2 py-4 text-center  cursor-pointer sm:text-base text-sm ${
+              isQuery ? "bg-gray-200 text-gray-700 " : "bg-red-500 text-white"
             }`}
             onClick={handleToggle}
           >
@@ -90,11 +90,8 @@ const QueryForm = () => {
               <p className="text-gray-700  mb-4">
                 If you are not getting any response, please mail us at
               </p>
-              <a
-                href="mailto:info@gmail.com"
-                className="bg-red-500 text-white  py-2 px-4 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600"
-              >
-                Send Mail
+              <a href="mailto:info@gmail.com" className=" text-black underline">
+                mailto:info@gmail.com
               </a>
             </div>
           )}

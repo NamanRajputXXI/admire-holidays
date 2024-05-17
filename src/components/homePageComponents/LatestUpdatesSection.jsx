@@ -8,10 +8,10 @@ const LatestUpdatesSection = () => {
         backgroundImage: "url('background-testimonial-home-6.png')",
       }}
     >
-      <p class="text-[#00BB98] my-3 ml-[30%] text-xl  font-LaBelle  ">
+      <p class="text-[#00BB98] my-3 sm:ml-[30%] px-5 text-xl  font-LaBelle  ">
         Trending Travel Stories
       </p>
-      <h1 className="ml-[30%] md:text-4xl text-3xl text-white font-bold">
+      <h1 className="sm:ml-[30%] px-5 md:text-4xl text-3xl text-white font-bold">
         Latest Updates For You
       </h1>
 

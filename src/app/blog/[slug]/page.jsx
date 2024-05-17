@@ -3,6 +3,8 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import BlogLayout from "@/components/blog/BlogLayout";
+import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
+import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
 import blogPagedata from "@/data/blogPageData";
 import { notFound } from "next/navigation";
 
@@ -18,6 +20,8 @@ export default function BlogPost({ params }) {
       <div>
         <Navbar />
         <BlogLayout params={params} />
+        <HomePageBlogSection />
+        <SubscribeLetter />
         <Footer />
       </div>
     </div>

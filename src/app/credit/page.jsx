@@ -1,5 +1,8 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import HomePageBlogCard from "@/components/cards/HomePageBlogCard";
+import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
+import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
 import React from "react";
 
 const page = () => {
@@ -118,6 +121,8 @@ const page = () => {
           </p>
         </section>
       </div>
+      <HomePageBlogSection />
+      <SubscribeLetter />
       <Footer />
     </>
   );

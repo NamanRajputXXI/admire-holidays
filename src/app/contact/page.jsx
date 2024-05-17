@@ -6,6 +6,8 @@ import ContactUsBanner from "@/components/PageBanner";
 import ContactUsForm from "@/components/contactUs/ContactUsForm";
 import React from "react";
 import PageBanner from "@/components/PageBanner";
+import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
+import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
 
 const page = () => {
   return (
@@ -15,6 +17,8 @@ const page = () => {
       <ContactUsForm />
       <CompanyStatsSection />
       <Testimonial />
+      <HomePageBlogSection />
+      <SubscribeLetter />
       <Footer />
     </main>
   );

@@ -5,6 +5,8 @@ import Testimonial from "@/components/homePageComponents/Testimonial";
 import PageBanner from "@/components/PageBanner";
 import React from "react";
 import AboutUs from "@/components/aboutUs/AboutUs";
+import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
+import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
 
 export default function page() {
   return (
@@ -14,6 +16,8 @@ export default function page() {
       <AboutUs />
       <CompanyStatsSection />
       <Testimonial />
+      <HomePageBlogSection />
+      <SubscribeLetter />
       <Footer />
     </main>
   );

@@ -1,6 +1,8 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import AllBlogs from "@/components/blog/AllBlogs";
+import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
+import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
 import React from "react";
 
 const page = () => {
@@ -8,6 +10,8 @@ const page = () => {
     <>
       <Navbar />
       <AllBlogs />
+      <HomePageBlogSection />
+      <SubscribeLetter />
       <Footer />
     </>
   );

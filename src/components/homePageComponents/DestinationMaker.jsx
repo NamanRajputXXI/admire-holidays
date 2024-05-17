@@ -238,7 +238,7 @@ const DestinationMaker = () => {
     <form action=" " onSubmit={requestQuote}>
       <div className="p-4 bg-white md:gap-6 gap-10 md:w-[80%] w-full md:grid-cols-4 sm:grid-cols-2 grid-cols-1 rounded-2xl grid lg:grid-cols-4 xl:grid-cols-6 items-center justify-center">
         {/* New Name Field */}
-        <div className="flex-col items-center justify-center w-full px-2 flex gap-4">
+        <div className="flex-col  justiy-center w-full px-2 flex gap-4">
           <div className="flex items-center lg:gap-2 gap-4">
             <CiUser color="#FD4A4C" size={30} />
             <label className="text-sm" htmlFor="name">
@@ -261,7 +261,7 @@ const DestinationMaker = () => {
         </div>
 
         {/* New Mobile Field */}
-        <div className="flex-col items-center justify-center w-full px-2 flex gap-4">
+        <div className="flex-col  justify-center w-full px-2 flex gap-4">
           <div className="flex items-center lg:gap-2 gap-4">
             <CiPhone color="#FD4A4C" size={30} />
             <label className="text-sm" htmlFor="mobile">
@@ -285,7 +285,7 @@ const DestinationMaker = () => {
           )}
         </div>
         {/* ... (existing fields remain the same) */}
-        <div className="flex-col items-center justify-center w-full px-2 flex gap-4">
+        <div className="flex-col  justify-center w-full px-2 flex gap-4">
           <div className="flex items-center lg:gap-2 gap-4">
             <CiLocationOn color="#FD4A4C" size={30} />
             <label className="text-sm" htmlFor="destination">
@@ -308,7 +308,7 @@ const DestinationMaker = () => {
             <p className="text-red-500 text-sm">{errors.destination}</p>
           )}
         </div>
-        <div className="flex-col items-center justify-center flex gap-5">
+        <div className="flex-col  justify-center flex gap-5">
           <div className="flex items-center mt-1 lg:gap-2 gap-4">
             <CiCalendarDate color="#FD4A4C" size={30} />
             <label className="text-sm" htmlFor="dates">
@@ -331,7 +331,7 @@ const DestinationMaker = () => {
             <p className="text-red-500 text-sm">{errors.dates}</p>
           )}
         </div>
-        <div className="flex-col items-center justify-center flex gap-5">
+        <div className="flex-col  justify-center flex gap-5">
           <div className="flex items-center lg:gap-2 mt-1 gap-4">
             <CiUser color="#FD4A4C" size={30} />
             <label className="text-sm" htmlFor="guests">
@@ -356,10 +356,10 @@ const DestinationMaker = () => {
         </div>
 
         {/* Submit Button */}
-        <div className="flex-col items-center justify-center flex gap-5">
+        <div className="flex-col  justify-center flex gap-5">
           <button
             type="submit"
-            className="w-20 flex items-center text-sm rounded-lg justify-center p-4 h-16 bg-red-500 text-white"
+            className=" flex items-center text-sm rounded-lg justify-center p-4 h-16 bg-red-500 text-white"
           >
             {result}
           </button>

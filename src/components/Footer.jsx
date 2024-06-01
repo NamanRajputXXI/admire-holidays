@@ -74,14 +74,22 @@ const Footer = () => {
             </li>
 
             <li className="flex items-center mt-10  gap-4">
-              <a href="https://m.facebook.com/p/Admire-Holidays-100090809996697/">
+              <a
+                href="https://m.facebook.com/p/Admire-Holidays-100090809996697/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebook
                   color="	#1877F2"
                   size={40}
                   className="cursor-pointer"
                 />
               </a>
-              <a href="https://twitter.com/HolidaysAd53932">
+              <a
+                href="https://twitter.com/HolidaysAd53932"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaSquareXTwitter
                   size={40}
                   color="#14171A"
@@ -89,14 +97,22 @@ const Footer = () => {
                 />
               </a>
 
-              <a href="https://www.linkedin.com/in/admire-holidays-272a06272/?originalSubdomain=in">
+              <a
+                href="https://www.linkedin.com/in/admire-holidays-272a06272/?originalSubdomain=in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin
                   size={40}
                   color=" #0077b5 "
                   className="cursor-pointer"
                 />
               </a>
-              <a href="https://www.instagram.com/admireholidays_official?igsh=MTBhNnU4MWI5Njdjeg==">
+              <a
+                href="https://www.instagram.com/admireholidays_official?igsh=MTBhNnU4MWI5Njdjeg=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaSquareInstagram
                   size={40}
                   color="#4c68d7"
@@ -104,7 +120,11 @@ const Footer = () => {
                 />
               </a>
 
-              <a href="https://www.youtube.com/@AdmireHolidays_official">
+              <a
+                href="https://www.youtube.com/@AdmireHolidays_official"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaYoutube
                   size={40}
                   color="#FF0000"

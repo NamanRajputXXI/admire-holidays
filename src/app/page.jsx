@@ -1,45 +1,110 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import QuestioningCardsLayout from "@/components/homePageComponents/QuestioningCardsLayout";
-import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
-import YoutubeBanner from "@/components/homePageComponents/YoutubeBanner";
-import DomesticDestinationCarousel from "@/components/carousels/DomesticDestinationCarousel";
-import InternationalDestinationCarousel from "@/components/carousels/InternationalDestinationCarousel";
-import PopularDestinationCarousel from "@/components/carousels/ExclusiveCarousel";
-import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
-import WeekendTrip from "@/components/homePageComponents/WeekendTrip";
-import CompanyStatsSection from "@/components/homePageComponents/CompanyStatsSection";
-import LatestUpdatesSection from "@/components/homePageComponents/LatestUpdatesSection";
-import TravelGuideline from "@/components/homePageComponents/TravelGuideline";
+import React, { lazy, Suspense } from "react";
+import { InView } from "react-intersection-observer";
 import HeroSection from "@/components/homePageComponents/HeroSection";
-import Testimonial from "@/components/homePageComponents/Testimonial";
-import FeaturesSection from "@/components/homePageComponents/FeaturesSection";
-import TourismAlliance from "@/components/homePageComponents/TourismAlliance";
 import Query from "@/components/homePageComponents/QueryButton";
+import Navbar from "@/components/Navbar";
+import InViewComponent from "@/components/LazyLoading/InViewComponent";
+
+// Lazy Loaded Components
+const QuestioningCardsLayout = lazy(() =>
+  import("@/components/homePageComponents/QuestioningCardsLayout")
+);
+const SubscribeLetter = lazy(() =>
+  import("@/components/homePageComponents/SubscribeLetter")
+);
+const YoutubeBanner = lazy(() =>
+  import("@/components/homePageComponents/YoutubeBanner")
+);
+const DomesticDestinationCarousel = lazy(() =>
+  import("@/components/carousels/DomesticDestinationCarousel")
+);
+const InternationalDestinationCarousel = lazy(() =>
+  import("@/components/carousels/InternationalDestinationCarousel")
+);
+const PopularDestinationCarousel = lazy(() =>
+  import("@/components/carousels/ExclusiveCarousel")
+);
+const HomePageBlogSection = lazy(() =>
+  import("@/components/homePageComponents/HomePageBlogSection")
+);
+const WeekendTrip = lazy(() =>
+  import("@/components/homePageComponents/WeekendTrip")
+);
+const CompanyStatsSection = lazy(() =>
+  import("@/components/homePageComponents/CompanyStatsSection")
+);
+const LatestUpdatesSection = lazy(() =>
+  import("@/components/homePageComponents/LatestUpdatesSection")
+);
+const TravelGuideline = lazy(() =>
+  import("@/components/homePageComponents/TravelGuideline")
+);
+const Testimonial = lazy(() =>
+  import("@/components/homePageComponents/Testimonial")
+);
+const FeaturesSection = lazy(() =>
+  import("@/components/homePageComponents/FeaturesSection")
+);
+const TourismAlliance = lazy(() =>
+  import("@/components/homePageComponents/TourismAlliance")
+);
+const Footer = lazy(() => import("@/components/Footer"));
+
 const Home = () => {
   return (
     <>
       <Query />
       <Navbar />
       <HeroSection />
-      <PopularDestinationCarousel />
-      <DomesticDestinationCarousel />
-      <InternationalDestinationCarousel />
-      <QuestioningCardsLayout />
-      <WeekendTrip />
-      <YoutubeBanner />
-      <TourismAlliance />
-      <TravelGuideline />
-      <LatestUpdatesSection />
-      <FeaturesSection />
-      <CompanyStatsSection />
-      <Testimonial />
-      <HomePageBlogSection />
-      <SubscribeLetter />
-      <Footer />
+      <InViewComponent>
+        <PopularDestinationCarousel />
+      </InViewComponent>
+      <InViewComponent>
+        <DomesticDestinationCarousel />
+      </InViewComponent>
+      <InViewComponent>
+        <InternationalDestinationCarousel />
+      </InViewComponent>
+      <InViewComponent>
+        <QuestioningCardsLayout />
+      </InViewComponent>
+      <InViewComponent>
+        <WeekendTrip />
+      </InViewComponent>
+      <InViewComponent>
+        <YoutubeBanner />
+      </InViewComponent>
+      <InViewComponent>
+        <TourismAlliance />
+      </InViewComponent>
+      <InViewComponent>
+        <TravelGuideline />
+      </InViewComponent>
+      <InViewComponent>
+        <LatestUpdatesSection />
+      </InViewComponent>
+      <InViewComponent>
+        <FeaturesSection />
+      </InViewComponent>
+      <InViewComponent>
+        <CompanyStatsSection />
+      </InViewComponent>
+      <InViewComponent>
+        <Testimonial />
+      </InViewComponent>
+      <InViewComponent>
+        <HomePageBlogSection />
+      </InViewComponent>
+      <InViewComponent>
+        <SubscribeLetter />
+      </InViewComponent>
+      <InViewComponent>
+        <Footer />
+      </InViewComponent>
     </>
   );
 };
+
 export default Home;
 
 export function generateMetadata() {

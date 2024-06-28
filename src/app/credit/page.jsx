@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import HomePageBlogCard from "@/components/cards/HomePageBlogCard";
 import HomePageBlogSection from "@/components/homePageComponents/HomePageBlogSection";
 import SubscribeLetter from "@/components/homePageComponents/SubscribeLetter";
 import React from "react";
@@ -9,7 +8,7 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto pt-36">
+      <div className="max-w-7xl mx-auto pt-36">
         <h1 className="text-7xl text-center pb-10 font-bold mb-4">Credits</h1>
 
         {/* Image Credits */}

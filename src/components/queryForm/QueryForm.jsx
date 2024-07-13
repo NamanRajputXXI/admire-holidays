@@ -90,8 +90,11 @@ const QueryForm = () => {
               <p className="text-gray-700  mb-4">
                 If you are not getting any response, please mail us at
               </p>
-              <a href="mailto:info@gmail.com" className=" text-black underline">
-                mailto:info@gmail.com
+              <a
+                href="mailto:info@admireholidays.com"
+                className=" text-black underline"
+              >
+                mailto:info@admireholidays.com
               </a>
             </div>
           )}

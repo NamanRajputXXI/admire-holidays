@@ -78,7 +78,7 @@ const page = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">GIF Credits</h2>
           <p className=" mb-2">
-            Certain GIFs used on this website are sourced from{" "}
+            Certain GIFs used on this website are sourced from
             <a
               href="https://unsplash.com/"
               className="text-blue-600 hover:underline"

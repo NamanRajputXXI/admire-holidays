@@ -39,19 +39,19 @@ const Footer = () => {
           <h5 className="font-semibold">Trending</h5>
           <ul className=" font-light sm:items-start items-center flex flex-col gap-4">
             <li>
-              <Link href={"/products/dubai"}>Dubai</Link>
+              <Link href={"/packages/dubai"}>Dubai</Link>
             </li>
             <li>
-              <Link href={"/products/bali"}>Bali</Link>
+              <Link href={"/packages/bali"}>Bali</Link>
             </li>
             <li>
-              <Link href={"/products/kerala"}>Kerala</Link>
+              <Link href={"/packages/kerala"}>Kerala</Link>
             </li>
             <li>
-              <Link href={"/products/ladakh"}>Ladakh</Link>
+              <Link href={"/packages/ladakh"}>Ladakh</Link>
             </li>
             <li>
-              <Link href={"/products/thailand"}>Thailand</Link>
+              <Link href={"/packages/thailand"}>Thailand</Link>
             </li>
           </ul>
         </div>

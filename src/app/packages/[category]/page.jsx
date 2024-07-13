@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import ProductCategoryCard from "@/components/ProductCategoryCard";
@@ -50,13 +51,14 @@ const Page = async ({ params }) => {
                 url={destination.imageUrl}
                 days={destination.duration}
                 destination={destination.heading}
-                productLink={`/products/${params.category}/${index}`}
+                productLink={`/packages/${params.category}/${index}`}
               />
             </div>
           ))}
         </div>
         <AdditionalLinks category={params.category} />
         {/* {additionalLinks} */}
+        <Footer />
       </div>
     </>
   );

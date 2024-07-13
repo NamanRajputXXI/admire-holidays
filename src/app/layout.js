@@ -31,8 +31,6 @@ export default function RootLayout({ children }) {
           speed={200}
         />
         {children}
-
-        {/* Google Search Console Link */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-MHF749Q34E"
           strategy="afterInteractive"

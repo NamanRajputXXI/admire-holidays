@@ -8,7 +8,7 @@ const SocialMediaShare = ({ singleProductData, params }) => {
       return ""; // Return an empty string if params is undefined or missing category/id
     }
 
-    const url = `https://admireholidays.com/products/${params.category}/${params.id}`;
+    const url = `https://admireholidays.com/packages/${params.category}/${params.id}`;
     const text = encodeURIComponent(singleProductData.heading);
 
     switch (platform) {

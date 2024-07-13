@@ -28,26 +28,6 @@ export const getProductData = async ({ params }) => {
   return productsData.data;
 };
 
-// const getShareUrl = (platform, singleProductData, params) => {
-//   if (!params || !params.category || !params.id) {
-//     return ""; // Return an empty string if params is undefined or missing category/id
-//   }
-
-//   const url = `https://admireholidays.com/products/${params.category}/${params.id}`;
-//   const text = encodeURIComponent(singleProductData.heading);
-
-//   switch (platform) {
-//     case "whatsapp":
-//       return `https://wa.me/?text=${text}%20${url}`;
-//     case "facebook":
-//       return `https://www.facebook.com/sharer/sharer.php?u=${url}`;
-//     case "twitter":
-//       return `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
-//     default:
-//       return "";
-//   }
-// };
-
 const Page = async ({ params }) => {
   const singleProductData = await getProductData({ params });
 

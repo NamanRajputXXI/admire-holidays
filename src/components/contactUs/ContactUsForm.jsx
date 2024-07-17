@@ -35,7 +35,7 @@ const ContactUsForm = () => {
 
   return (
     <div className="px-4">
-      <section className="max-w-7xl  border-[1px] border-gray-200 py-10 shadow-xl rounded-2xl my-20 mx-auto flex-col  flex gap-10 px-4 md:px-10">
+      <section className="max-w-7xl  border-[1px] border-gray-200 py-10 rounded-2xl my-20 mx-auto flex-col  flex gap-10 px-4 md:px-10">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-center md:text-5xl  text-3xl  font-bold">
             Get in touch

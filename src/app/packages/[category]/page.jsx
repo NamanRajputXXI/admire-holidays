@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import ProductCategoryCard from "@/components/ProductCategoryCard";
+import ContactUsForm from "@/components/contactUs/ContactUsForm";
 import AdditionalLinks from "@/components/productCategory/AdditionalLinks";
 import Link from "next/link";
 export const getProductsData = async ({ params }) => {
@@ -58,6 +59,7 @@ const Page = async ({ params }) => {
         </div>
         <AdditionalLinks category={params.category} />
         {/* {additionalLinks} */}
+        <ContactUsForm />
         <Footer />
       </div>
     </>

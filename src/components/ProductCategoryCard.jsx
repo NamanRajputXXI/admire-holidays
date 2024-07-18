@@ -5,7 +5,11 @@ const ProductCategoryCard = ({ url, days, destination, productLink }) => {
   return (
     <Link href={productLink} className="cursor-pointer">
       <div className="flex flex-col ">
-        <img src={url} alt="" className="w-[400px] rounded-lg h-[320px]" />
+        <img
+          src={url}
+          alt=""
+          className="w-[400px] bg-cover rounded-lg h-[320px]"
+        />
 
         <div className="flex flex-col w-full gap-3 py-5 px-1 ">
           <p className="text-gray-500 text-sm">{days}</p>

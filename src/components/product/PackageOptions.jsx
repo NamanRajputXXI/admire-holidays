@@ -33,7 +33,7 @@ const PackageOptions = ({ packageOptions }) => {
             key={index}
             className="sm:p-5 p-3 border-[1px] rounded-lg border-gray-300"
           >
-            <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-0 gap-5 justify-between">
+            <div className="flex items-center gap-5 justify-between">
               <div className="flex flex-col gap-3">
                 <h2 className="font-semibold text-xl">{item.package}</h2>
                 <p
@@ -43,7 +43,7 @@ const PackageOptions = ({ packageOptions }) => {
                   {openPackage === index ? "Hide Details" : "Show Details"}
                 </p>
               </div>
-              <div className="flex items-center flex-col">
+              {/* <div className="flex items-center flex-col">
                 <p
                   className="text-[#00BB98] sm:text-2xl text-xl font-bold"
                   id="packageOption"
@@ -53,7 +53,7 @@ const PackageOptions = ({ packageOptions }) => {
                 <p className="text-gray-500 line-through">
                   {item.previousPrice}
                 </p>
-              </div>
+              </div> */}
               <div>
                 <button
                   className="sm:px-4 px-1 py-3 cursor-pointer sm:text-base text-xs border-[#FD4A4C] border-[1px] text-[#FD4A4C] rounded-lg"
